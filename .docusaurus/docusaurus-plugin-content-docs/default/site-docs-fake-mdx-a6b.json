@@ -1,0 +1,19 @@
+{
+  "unversionedId": "fake",
+  "id": "fake",
+  "title": "Fake Documentation",
+  "description": "Profiling your flows",
+  "source": "@site/docs/fake.mdx",
+  "sourceDirName": ".",
+  "slug": "/fake",
+  "permalink": "/docs/fake",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fake.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Why Metaflow",
+    "permalink": "/docs/why"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/",
+  "source": "@site/src/pages/index.md",
+  "title": "Markdown page example",
+  "description": "Documentation",
+  "frontMatter": {
+    "title": "Markdown page example"
+  }
+}

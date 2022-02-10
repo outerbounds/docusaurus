@@ -1,0 +1,107 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/brendan/dev/docusaurus/sidebars.js",
+          "contentPath": "/Users/brendan/dev/docusaurus/docs",
+          "contentPathLocalized": "/Users/brendan/dev/docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "fake",
+              "id": "fake",
+              "title": "Fake Documentation",
+              "description": "Profiling your flows",
+              "source": "@site/docs/fake.mdx",
+              "sourceDirName": ".",
+              "slug": "/fake",
+              "permalink": "/docs/fake",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fake.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/why"
+              }
+            },
+            {
+              "unversionedId": "why",
+              "id": "why",
+              "title": "Why Metaflow",
+              "description": "Here is a data scientist.",
+              "source": "@site/docs/why.mdx",
+              "sourceDirName": ".",
+              "slug": "/why",
+              "permalink": "/docs/why",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/why.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Fake Documentation",
+                "permalink": "/docs/fake"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "fake"
+              },
+              {
+                "type": "doc",
+                "id": "why"
+              }
+            ]
+          },
+          "mainDocId": "fake",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.md",
+        "title": "Markdown page example",
+        "description": "Documentation",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

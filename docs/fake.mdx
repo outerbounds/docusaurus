@@ -1,0 +1,234 @@
+# Fake Documentation
+
+## Profiling your flows
+
+Tracking system metrics such as runtime is a great way to not only debug issues, but also get an early warning on things that may be amiss in your workflow. Below, we walk through some ways to profile your flows:
+
+### The `profile` context manager
+
+The `profile` context manager helps you to measure the runtime of arbitrary blocks of your code and emit easy to understand logs.
+
+For example, consider the `KmeansFlow` flow we introduced earlier. If we wanted to measure the time it takes to train the model, we could add a the profile context manager to this flow:
+
+:::tip
+
+K means k
+
+:::
+
+```python
+from metaflow import FlowSpec, step, Parameter, resources, conda_base, profile
+
+@conda_base(python='3.8.3', libraries={'scikit-learn': '0.24.1'})
+class KmeansFlow(FlowSpec):
+
+    num_docs = Parameter('num-docs', help='Number of documents', default=1000000)
+
+    @resources(memory=4000)
+    @step
+    def start(self):
+        import scale_data
+        docs = scale_data.load_yelp_reviews(self.num_docs)
+        self.mtx, self.cols = scale_data.make_matrix(docs)
+        print("matrix size: %dx%d" % self.mtx.shape)
+        self.next(self.train_kmeans)
+
+    @resources(cpu=16, memory=4000)
+    @step
+    # highlight-start
+    def train_kmeans(self):
+        from sklearn.cluster import KMeans
+        with profile('k-means'):
+            kmeans = KMeans(n_clusters=10,
+                            verbose=1,
+                            n_init=1)
+            kmeans.fit(self.mtx)
+        #label This line is not important
+        self.clusters = kmeans.labels_
+        self.next(self.end)
+    #highlight-end
+    @step
+    def end(self):
+        pass
+
+if __name__ == '__main__':
+    KmeansFlow()
+```
+
+When we execute the flow, we can see the output logs the run time of the code within the context manager:
+
+```bash
+2022-02-03 15:37:25.008 [6224/start/131587 (pid 15566)] Task is starting.
+2022-02-03 15:38:34.733 [6224/start/131587 (pid 15566)] matrix size: 650000x48177
+2022-02-03 15:38:44.653 [6224/start/131587 (pid 15566)] Task finished successfully.
+2022-02-03 15:38:45.296 [6224/train_kmeans/131588 (pid 15589)] Task is starting.
+2022-02-03 15:38:50.202 [6224/train_kmeans/131588 (pid 15589)] PROFILE: k-means starting
+...
+2022-02-03 15:39:30.140 [6224/train_kmeans/131588 (pid 15589)] PROFILE: k-means completed in 39939ms
+...
+```
+
+You will notice the prefix `k-means` that you supplied as an argument to `profile` is included in the output. This helps you identify which block of code the measurement relates to.
+
+### Saving Metrics
+
+Another feature of the `profile` context manager is the ability to save the runtime to a dictionary for later use. Consider the below flow that benchmarks the load time of different data structures with `profile`
+
+```python
+import os
+from metaflow import FlowSpec, step, conda_base, resources, S3, profile
+
+URL = 's3://ursa-labs-taxi-data/2014/12/data.parquet'
+
+@conda_base(python='3.8.10',
+        libraries={'pyarrow': '5.0.0', 'pandas': '1.3.2'})
+class ParquetBenchmarkFlow(FlowSpec):
+
+    @step
+    def start(self):
+        import pyarrow.parquet as pq
+        with S3() as s3:
+            res = s3.get(URL)
+            table = pq.read_table(res.path)
+            os.rename(res.path, 'taxi.parquet')
+        table.to_pandas().to_csv('taxi.csv')
+        self.stats = {}
+        self.next(self.load_csv, self.load_parquet, self.load_pandas)
+
+    @step
+    def load_csv(self):
+        # highlight-start
+        with profile('load_csv', stats_dict=self.stats):
+            import csv
+            with open('taxi.csv') as csvfile:
+                for row in csv.reader(csvfile):
+                    pass
+        # highlight-end
+
+        self.next(self.join)
+
+    @step
+    def load_parquet(self):
+        # highlight-start
+        with profile('load_parquet', stats_dict=self.stats):
+            import pyarrow.parquet as pq
+            table = pq.read_table('taxi.parquet')
+        # highlight-end
+        self.next(self.join)
+
+    @step
+    def load_pandas(self):
+        # highlight-start
+        with profile('load_pandas', stats_dict=self.stats):
+            import pandas as pd
+            df = pd.read_parquet('taxi.parquet')
+        # highlight-end
+        self.next(self.join)
+
+    @step
+    def join(self, inputs):
+        for inp in inputs:
+            print(list(inp.stats.items())[0])
+        self.next(self.end)
+
+    @step
+    def end(self):
+        pass
+
+if __name__ == '__main__':
+    ParquetBenchmarkFlow()
+```
+
+The output of this flow is as follows:
+
+```bash
+...
+2022-02-03 23:04:00.640 [6228/join/131602 (pid 19420)] ('load_csv', 25535)
+2022-02-03 23:04:00.677 [6228/join/131602 (pid 19420)] ('load_pandas', 1912)
+2022-02-03 23:04:00.710 [6228/join/131602 (pid 19420)] ('load_parquet', 1177)
+...
+```
+
+## The `--package-suffixes` argument
+
+Suppose your project structure looks like this, and `[flow.py](http://flow.py)` depends on `data/.config` and `data/vocabulary.txt` :
+
+```bash
+flow.py
+|_data/
+	|_ .config
+	|_ vocabulary.txt
+```
+
+In order for these files to be included in the `code package` , you must use the `--package-suffixes` argument. If we look at the help we can see what this argument does:
+
+```bash focus=11:13
+> python nbflow.py --help
+
+Options:
+  --quiet / --not-quiet           Suppress unnecessary messages  [default:
+                                  False]
+
+  --metadata [local|service]      Metadata service type  [default: service]
+  --environment [local|conda]     Execution environment type  [default: local]
+  --datastore [local|s3]          Data backend type  [default: s3]
+  --datastore-root TEXT           Root path for datastore
+  --package-suffixes TEXT         A comma-separated list of file suffixes to
+                                  include in the code package.  [default:
+                                  .py,.R,.RDS]
+
+  --with TEXT                     Add a decorator to all steps. You can
+                                  specify this option multiple times to attach
+                                  multiple decorators in steps.
+
+  --pylint / --no-pylint          Run Pylint on the flow if pylint is
+                                  installed.  [default: True]
+
+  --coverage                      Measure code coverage using coverage.py.
+                                  [default: False]
+
+  --event-logger [debugLogger|nullSidecarLogger]
+                                  type of event logger used  [default:
+                                  nullSidecarLogger]
+
+  --monitor [debugMonitor|nullSidecarMonitor]
+                                  Monitoring backend type  [default:
+                                  nullSidecarMonitor]
+
+  --help                          Show this message and exit.
+
+Commands:
+  batch           Commands related to AWS Batch.
+  card            Commands related to @card decorator.
+  check           Check that the flow is valid (default).
+  dump            Get data artifacts of a task or all tasks in a step.
+  help            Show all available commands.
+  init            Internal command to initialize a run.
+  kubernetes      Commands related to Kubernetes on Amazon EKS.
+  logs            Show stdout/stderr produced by a task or all tasks in a...
+  output-dot      Visualize the flow with Graphviz.
+  output-raw      Output internal state of the flow graph.
+  package         Commands related to code packages.
+  resume          Resume execution of a previous run of this flow.
+  run             Run the workflow locally.
+  show            Show structure of the flow.
+  step            Internal command to execute a single task.
+  step-functions  Commands related to AWS Step Functions.
+  version         Print the Metaflow version
+```
+
+**For example**
+
+`python flow.py --package-suffixes=".txt" run` will instruct Metaflow to upload `vocabulary.txt` as part of the code package.
+
+`package-suffixes` allows you to specify more than one file extension to include. For example:
+
+```bash
+Some cli command
+```
+
+results in this
+
+```bash
+Some output
+```

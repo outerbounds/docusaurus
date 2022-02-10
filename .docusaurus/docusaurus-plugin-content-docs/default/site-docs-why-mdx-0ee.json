@@ -1,0 +1,19 @@
+{
+  "unversionedId": "why",
+  "id": "why",
+  "title": "Why Metaflow",
+  "description": "Here is a data scientist.",
+  "source": "@site/docs/why.mdx",
+  "sourceDirName": ".",
+  "slug": "/why",
+  "permalink": "/docs/why",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/why.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fake Documentation",
+    "permalink": "/docs/fake"
+  }
+}
