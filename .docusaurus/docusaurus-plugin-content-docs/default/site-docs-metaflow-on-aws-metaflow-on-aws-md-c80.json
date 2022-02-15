@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scheduling Metaflow Flows",
-    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+    "title": "Why Metaflow",
+    "permalink": "/docs/introduction/why-metaflow"
   },
   "next": {
     "title": "Deploying to AWS",

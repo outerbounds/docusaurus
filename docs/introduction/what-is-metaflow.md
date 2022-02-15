@@ -32,20 +32,20 @@ At the very top of the stack there's the question of how you produce **features*
 
 Metaflow provides a unified, human-friendly approach to navigating the stack. Metaflow is more prescriptive about the lower levels of the stack but it is less opinionated about the actual data science at the top of the stack. You can use Metaflow with your favorite machine learning or data science libraries, such as [PyTorch](https://pytorch.org), [Tensorflow](https://tensorflow.org), or [SciKit Learn](https://scikit-learn.org/stable/). Metaflow allows you to write your models and business logic as idiomatic Python code with not much new to learn.
 
-Internally, Metaflow leverages existing infrastructure when feasible. In particular, it is [tightly integrated with Amazon Web Services](../metaflow-on-aws/metaflow-on-aws.md). The core value proposition of Metaflow is its integrated full-stack, human-centric API, rather than reinvention of the stack itself.
+Internally, Metaflow leverages existing infrastructure when feasible. In particular, it is [tightly integrated with Amazon Web Services](/docs/metaflow-on-aws). The core value proposition of Metaflow is its integrated full-stack, human-centric API, rather than reinvention of the stack itself.
 
 You can find more details about Metaflow's approach to various parts of the stack across the documentation:
 
-|                         |                                                                                                                                                                                         |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Model Development**   | ****[Managing External Libraries](../metaflow/dependencies.md)                                                                                                                          |
-| **Feature Engineering** | ****[Loading and Storing Data](../metaflow/data.md)                                                                                                                                     |
-| **Model Operations**    | <p><a href="../metaflow/debugging.md">Debugging with Metaflow</a> and <a href="../metaflow/failures.md">Dealing with Failures</a></p><p>(also see <a href="roadmap.md">Roadmap</a>)</p> |
-| **Versioning**          | [Inspecting Flow and Results](../metaflow/client.md) and [Organizing Results](../metaflow/tagging.md)                                                                                   |
-| **Architecture**        | [Basics of Metaflow](../metaflow/basics.md)                                                                                                                                             |
-| **Job Scheduler**       | coming soon, see [Roadmap](roadmap.md)                                                                                                                                                  |
-| **Compute Resources**   | [Scaling Out and Up](../metaflow/scaling.md)                                                                                                                                            |
-| **Data Warehouse**      | [Basics of Metaflow](../metaflow/basics.md) and [Loading and Storing Data](../metaflow/data.md)                                                                                         |
+|                         |                                                                                                                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Model Development**   | \*\*\*\*[Managing External Libraries](../metaflow/dependencies)                                                                                                                |
+| **Feature Engineering** | \*\*\*\*[Loading and Storing Data](../metaflow/data)                                                                                                                           |
+| **Model Operations**    | <p><a href="../metaflow/debugging">Debugging with Metaflow</a> and <a href="../metaflow/failures">Dealing with Failures</a></p><p>(also see <a href="roadmap">Roadmap</a>)</p> |
+| **Versioning**          | [Inspecting Flow and Results](../metaflow/client) and [Organizing Results](../metaflow/tagging)                                                                                |
+| **Architecture**        | [Basics of Metaflow](../metaflow/basics)                                                                                                                                       |
+| **Job Scheduler**       | coming soon, see [Roadmap](roadmap)                                                                                                                                            |
+| **Compute Resources**   | [Scaling Out and Up](../metaflow/scaling)                                                                                                                                      |
+| **Data Warehouse**      | [Basics of Metaflow](../metaflow/basics) and [Loading and Storing Data](../metaflow/data)                                                                                      |
 
 If you are an infrastructure person who wants to know how to deploy and operate Metaflow, take a look at [Administrator's Guide to Metaflow](https://admin-docs.metaflow.org).
 
@@ -57,7 +57,7 @@ For starters, this presentation gives a comprehensive overview of Metaflow:
 
 {% embed url="https://www.youtube.com/watch?v=XV5VGddmP24" %}
 
-For other general overviews of Metaflow, see the [Overviews of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02Xbg0oTf7OwZ\_Kk86Zx96mAOb) playlist. For more technical details, see presentations about the [Internals of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02XbhC-5Eqy7ERHxpuwiJHes4j).
+For other general overviews of Metaflow, see the [Overviews of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02Xbg0oTf7OwZ_Kk86Zx96mAOb) playlist. For more technical details, see presentations about the [Internals of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02XbhC-5Eqy7ERHxpuwiJHes4j).
 
 ## The Philosophy of Metaflow
 

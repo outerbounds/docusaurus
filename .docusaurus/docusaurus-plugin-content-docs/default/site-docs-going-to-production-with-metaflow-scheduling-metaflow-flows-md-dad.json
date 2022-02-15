@@ -17,7 +17,7 @@
     "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
   },
   "next": {
-    "title": "Metaflow on AWS",
-    "permalink": "/docs/metaflow-on-aws/"
+    "title": "Contributing to Metaflow",
+    "permalink": "/docs/introduction/contributing-to-metaflow"
   }
 }

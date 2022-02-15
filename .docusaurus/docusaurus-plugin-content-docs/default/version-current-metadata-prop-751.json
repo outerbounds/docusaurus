@@ -117,6 +117,46 @@
       },
       {
         "type": "category",
+        "label": "internals-of-metaflow",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Technical Overview",
+            "href": "/docs/internals-of-metaflow/technical-overview",
+            "docId": "internals-of-metaflow/technical-overview"
+          },
+          {
+            "type": "link",
+            "label": "Testing Philosophy",
+            "href": "/docs/internals-of-metaflow/testing-philosophy",
+            "docId": "internals-of-metaflow/testing-philosophy"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "going-to-production-with-metaflow",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Coordinating Larger Metaflow Projects",
+            "href": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+            "docId": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+          },
+          {
+            "type": "link",
+            "label": "Scheduling Metaflow Flows",
+            "href": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows",
+            "docId": "going-to-production-with-metaflow/scheduling-metaflow-flows"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "introduction",
         "collapsible": true,
         "collapsed": true,
@@ -156,46 +196,6 @@
             "label": "Why Metaflow",
             "href": "/docs/introduction/why-metaflow",
             "docId": "introduction/why-metaflow"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "internals-of-metaflow",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Technical Overview",
-            "href": "/docs/internals-of-metaflow/technical-overview",
-            "docId": "internals-of-metaflow/technical-overview"
-          },
-          {
-            "type": "link",
-            "label": "Testing Philosophy",
-            "href": "/docs/internals-of-metaflow/testing-philosophy",
-            "docId": "internals-of-metaflow/testing-philosophy"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "going-to-production-with-metaflow",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Coordinating Larger Metaflow Projects",
-            "href": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
-            "docId": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
-          },
-          {
-            "type": "link",
-            "label": "Scheduling Metaflow Flows",
-            "href": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows",
-            "docId": "going-to-production-with-metaflow/scheduling-metaflow-flows"
           }
         ]
       },

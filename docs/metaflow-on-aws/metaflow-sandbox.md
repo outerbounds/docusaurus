@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 
 # Metaflow Sandbox
 
-As described in [Metaflow on AWS](metaflow-on-aws), Metaflow comes with built-in integrations to various services on AWS. The seamless integration to the cloud is a key benefit of Metaflow.
+As described in [Metaflow on AWS](/docs/metaflow-on-aws), Metaflow comes with built-in integrations to various services on AWS. The seamless integration to the cloud is a key benefit of Metaflow.
 
 We know that [setting up all the required components in AWS](deploy-to-aws) is not trivial. To make it easier to evaluate Metaflow on AWS, we provide a hosted sandbox environment at no cost where you can test Metaflow with your own code and data.
 

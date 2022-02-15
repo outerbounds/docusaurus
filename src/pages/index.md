@@ -9,4 +9,3 @@ title: Markdown page example
 ## Pages
 
 - [Why Metaflow?](/docs/why)
-- [Fake Documentation](/docs/fake)

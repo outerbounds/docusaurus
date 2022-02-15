@@ -17,7 +17,7 @@
     "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
   },
   "next": {
-    "title": "Contributing to Metaflow",
-    "permalink": "/docs/introduction/contributing-to-metaflow"
+    "title": "Technical Overview",
+    "permalink": "/docs/internals-of-metaflow/technical-overview"
   }
 }
