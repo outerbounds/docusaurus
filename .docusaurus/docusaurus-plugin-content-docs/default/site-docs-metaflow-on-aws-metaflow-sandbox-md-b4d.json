@@ -15,9 +15,5 @@
   "previous": {
     "title": "Deploying to AWS",
     "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
-  },
-  "next": {
-    "title": "Basics of Metaflow",
-    "permalink": "/docs/metaflow/basics"
   }
 }

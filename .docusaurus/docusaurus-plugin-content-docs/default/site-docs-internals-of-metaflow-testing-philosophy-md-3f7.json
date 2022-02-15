@@ -17,7 +17,7 @@
     "permalink": "/docs/internals-of-metaflow/technical-overview"
   },
   "next": {
-    "title": "Coordinating Larger Metaflow Projects",
-    "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+    "title": "Contributing to Metaflow",
+    "permalink": "/docs/introduction/contributing-to-metaflow"
   }
 }

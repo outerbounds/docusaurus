@@ -17,7 +17,7 @@
     "permalink": "/docs/introduction/what-is-metaflow"
   },
   "next": {
-    "title": "Metaflow on AWS",
-    "permalink": "/docs/metaflow-on-aws/"
+    "title": "Basics of Metaflow",
+    "permalink": "/docs/metaflow/basics"
   }
 }

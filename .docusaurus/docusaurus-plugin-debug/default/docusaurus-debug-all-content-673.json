@@ -359,8 +359,8 @@
                 "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
               },
               "next": {
-                "title": "Contributing to Metaflow",
-                "permalink": "/docs/introduction/contributing-to-metaflow"
+                "title": "Technical Overview",
+                "permalink": "/docs/internals-of-metaflow/technical-overview"
               }
             },
             {
@@ -378,8 +378,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Metaflow Sandbox",
-                "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
+                "title": "Scheduling Metaflow Flows",
+                "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
               },
               "next": {
                 "title": "Testing Philosophy",
@@ -405,8 +405,8 @@
                 "permalink": "/docs/internals-of-metaflow/technical-overview"
               },
               "next": {
-                "title": "Basics of Metaflow",
-                "permalink": "/docs/metaflow/basics"
+                "title": "Contributing to Metaflow",
+                "permalink": "/docs/introduction/contributing-to-metaflow"
               }
             },
             {
@@ -424,8 +424,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Scheduling Metaflow Flows",
-                "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+                "title": "Testing Philosophy",
+                "permalink": "/docs/internals-of-metaflow/testing-philosophy"
               },
               "next": {
                 "title": "Get in Touch",
@@ -543,8 +543,8 @@
                 "permalink": "/docs/introduction/what-is-metaflow"
               },
               "next": {
-                "title": "Metaflow on AWS",
-                "permalink": "/docs/metaflow-on-aws/"
+                "title": "Basics of Metaflow",
+                "permalink": "/docs/metaflow/basics"
               }
             },
             {
@@ -585,8 +585,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Why Metaflow",
-                "permalink": "/docs/introduction/why-metaflow"
+                "title": "Effortless Task Inspection with Default Cards",
+                "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
               },
               "next": {
                 "title": "Deploying to AWS",
@@ -610,10 +610,6 @@
               "previous": {
                 "title": "Deploying to AWS",
                 "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
-              },
-              "next": {
-                "title": "Technical Overview",
-                "permalink": "/docs/internals-of-metaflow/technical-overview"
               }
             },
             {
@@ -631,8 +627,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Testing Philosophy",
-                "permalink": "/docs/internals-of-metaflow/testing-philosophy"
+                "title": "Why Metaflow",
+                "permalink": "/docs/introduction/why-metaflow"
               },
               "next": {
                 "title": "Inspecting Flows and Results",
@@ -863,6 +859,10 @@
               "previous": {
                 "title": "Easy Custom Reports with Card Components",
                 "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              },
+              "next": {
+                "title": "Metaflow on AWS",
+                "permalink": "/docs/metaflow-on-aws/"
               }
             },
             {
@@ -1045,6 +1045,22 @@
               },
               {
                 "type": "category",
+                "label": "internals-of-metaflow",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "internals-of-metaflow/technical-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "internals-of-metaflow/testing-philosophy"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "introduction",
                 "collapsible": true,
                 "collapsed": true,
@@ -1072,42 +1088,6 @@
                   {
                     "type": "doc",
                     "id": "introduction/why-metaflow"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "metaflow-on-aws",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "metaflow-on-aws/deploy-to-aws"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "metaflow-on-aws/metaflow-sandbox"
-                  }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "metaflow-on-aws/metaflow-on-aws"
-                }
-              },
-              {
-                "type": "category",
-                "label": "internals-of-metaflow",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "internals-of-metaflow/technical-overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "internals-of-metaflow/testing-philosophy"
                   }
                 ]
               },
@@ -1174,6 +1154,26 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "metaflow-on-aws",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "metaflow-on-aws/deploy-to-aws"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow-on-aws/metaflow-sandbox"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "metaflow-on-aws/metaflow-on-aws"
+                }
               }
             ]
           },

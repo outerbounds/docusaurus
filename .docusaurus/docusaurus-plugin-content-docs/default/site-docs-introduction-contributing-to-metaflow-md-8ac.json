@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scheduling Metaflow Flows",
-    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+    "title": "Testing Philosophy",
+    "permalink": "/docs/internals-of-metaflow/testing-philosophy"
   },
   "next": {
     "title": "Get in Touch",

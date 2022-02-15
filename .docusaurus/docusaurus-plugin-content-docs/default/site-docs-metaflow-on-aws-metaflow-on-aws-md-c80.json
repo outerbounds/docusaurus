@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Why Metaflow",
-    "permalink": "/docs/introduction/why-metaflow"
+    "title": "Effortless Task Inspection with Default Cards",
+    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
   },
   "next": {
     "title": "Deploying to AWS",

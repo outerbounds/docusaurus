@@ -15,5 +15,9 @@
   "previous": {
     "title": "Easy Custom Reports with Card Components",
     "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+  },
+  "next": {
+    "title": "Metaflow on AWS",
+    "permalink": "/docs/metaflow-on-aws/"
   }
 }

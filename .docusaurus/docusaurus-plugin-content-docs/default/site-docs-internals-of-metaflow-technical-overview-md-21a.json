@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Episode 7: Worldview",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+    "title": "Scheduling Metaflow Flows",
+    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
   },
   "next": {
     "title": "Testing Philosophy",

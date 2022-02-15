@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Testing Philosophy",
-    "permalink": "/docs/internals-of-metaflow/testing-philosophy"
+    "title": "Metaflow Sandbox",
+    "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
   },
   "next": {
     "title": "Scheduling Metaflow Flows",
