@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/release-notes",
+  "id": "introduction/release-notes",
+  "title": "Release Notes",
+  "description": "Read below how Metaflow has improved over time.",
+  "source": "@site/docs/introduction/release-notes.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/release-notes",
+  "permalink": "/docs/introduction/release-notes",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/release-notes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get in Touch",
+    "permalink": "/docs/introduction/getting-in-touch"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/docs/introduction/roadmap"
+  }
+}

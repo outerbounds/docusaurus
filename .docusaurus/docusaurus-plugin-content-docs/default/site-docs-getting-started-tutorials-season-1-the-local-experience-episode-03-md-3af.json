@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode03",
+  "id": "getting-started/tutorials/season-1-the-local-experience/episode03",
+  "title": "Episode 3: Playlist Redux",
+  "description": "Follow the Money.",
+  "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode03.md",
+  "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+  "slug": "/getting-started/tutorials/season-1-the-local-experience/episode03",
+  "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode03.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Episode 2: Statistics",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+  },
+  "next": {
+    "title": "Episode 4: Playlist Plus",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+  }
+}

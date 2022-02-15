@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/client",
+  "id": "metaflow/client",
+  "title": "Inspecting Flows and Results",
+  "description": "Metaflow provides a client API that is used to inspect results of past runs. It is particularly well suited to being used in notebooks.",
+  "source": "@site/docs/metaflow/client.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/client",
+  "permalink": "/docs/metaflow/client",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/client.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basics of Metaflow",
+    "permalink": "/docs/metaflow/basics"
+  },
+  "next": {
+    "title": "Loading and Storing Data",
+    "permalink": "/docs/metaflow/data"
+  }
+}

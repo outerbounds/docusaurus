@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/why-metaflow",
+  "id": "introduction/why-metaflow",
+  "title": "Why Metaflow",
+  "description": "Here is a data scientist.",
+  "source": "@site/docs/introduction/why-metaflow.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/why-metaflow",
+  "permalink": "/docs/introduction/why-metaflow",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/why-metaflow.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What is Metaflow",
+    "permalink": "/docs/introduction/what-is-metaflow"
+  },
+  "next": {
+    "title": "Technical Overview",
+    "permalink": "/docs/internals-of-metaflow/technical-overview"
+  }
+}

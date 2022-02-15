@@ -1,0 +1,23 @@
+{
+  "unversionedId": "SUMMARY",
+  "id": "SUMMARY",
+  "title": "Table of contents",
+  "description": "* Welcome to Metaflow for Python",
+  "source": "@site/docs/SUMMARY.md",
+  "sourceDirName": ".",
+  "slug": "/SUMMARY",
+  "permalink": "/docs/SUMMARY",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/SUMMARY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to Metaflow for Python",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Fake Documentation",
+    "permalink": "/docs/fake"
+  }
+}

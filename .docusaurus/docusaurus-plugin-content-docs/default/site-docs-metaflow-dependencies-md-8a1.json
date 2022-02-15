@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/dependencies",
+  "id": "metaflow/dependencies",
+  "title": "Managing External Libraries",
+  "description": "What if your step code wants to import an external library? When you run Metaflow code locally, it behaves as any other Python code, so all libraries available to your Python interpreter can be imported in steps.",
+  "source": "@site/docs/metaflow/dependencies.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/dependencies",
+  "permalink": "/docs/metaflow/dependencies",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/dependencies.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debugging with Metaflow",
+    "permalink": "/docs/metaflow/debugging"
+  },
+  "next": {
+    "title": "Dealing with Failures",
+    "permalink": "/docs/metaflow/failures"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/install",
+  "id": "getting-started/install",
+  "title": "Installing Metaflow",
+  "description": "Metaflow is available as a Python package for MacOS and Linux. You can visit our GitHub repository or get the latest version from PyPI:",
+  "source": "@site/docs/getting-started/install.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/install",
+  "permalink": "/docs/getting-started/install",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why Metaflow",
+    "permalink": "/docs/why"
+  },
+  "next": {
+    "title": "Tutorials",
+    "permalink": "/docs/getting-started/tutorials/"
+  }
+}

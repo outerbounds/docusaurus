@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/failures",
+  "id": "metaflow/failures",
+  "title": "Dealing with Failures",
+  "description": "Failures are a natural, expected part of data science workflows. Here are some typical reasons why you can expect your workflow to fail:",
+  "source": "@site/docs/metaflow/failures.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/failures",
+  "permalink": "/docs/metaflow/failures",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/failures.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing External Libraries",
+    "permalink": "/docs/metaflow/dependencies"
+  },
+  "next": {
+    "title": "Scaling Out and Up",
+    "permalink": "/docs/metaflow/scaling"
+  }
+}

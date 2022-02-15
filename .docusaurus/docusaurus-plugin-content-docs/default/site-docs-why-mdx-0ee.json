@@ -13,7 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Fake Documentation",
-    "permalink": "/docs/fake"
+    "title": "Welcome to Metaflow for Python",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Installing Metaflow",
+    "permalink": "/docs/getting-started/install"
   }
 }

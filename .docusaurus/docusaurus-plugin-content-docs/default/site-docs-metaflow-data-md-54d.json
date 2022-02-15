@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/data",
+  "id": "metaflow/data",
+  "title": "Loading and Storing Data",
+  "description": "This chapter describes tools and patterns for moving data in and out of your Metaflow flows.",
+  "source": "@site/docs/metaflow/data.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/data",
+  "permalink": "/docs/metaflow/data",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/data.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Inspecting Flows and Results",
+    "permalink": "/docs/metaflow/client"
+  },
+  "next": {
+    "title": "Debugging with Metaflow",
+    "permalink": "/docs/metaflow/debugging"
+  }
+}

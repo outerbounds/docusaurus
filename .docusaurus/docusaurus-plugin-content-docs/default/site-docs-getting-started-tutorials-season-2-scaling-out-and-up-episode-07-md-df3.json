@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+  "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+  "title": "Episode 7: Worldview",
+  "description": "Way up here.",
+  "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
+  "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+  "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+  "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Episode 6: Statistics Redux",
+    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+  },
+  "next": {
+    "title": "Contributing to Metaflow",
+    "permalink": "/docs/introduction/contributing-to-metaflow"
+  }
+}

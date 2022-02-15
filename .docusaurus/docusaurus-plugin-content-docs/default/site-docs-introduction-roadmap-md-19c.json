@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/roadmap",
+  "id": "introduction/roadmap",
+  "title": "Roadmap",
+  "description": "Metaflow has been used in production at Netflix since early 2018. The core Metaflow was open-sourced in December 2019. Some features of Metaflow are not available in open-source yet but we may open-source them later if there is sufficient external interest. These features are listed below.",
+  "source": "@site/docs/introduction/roadmap.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/roadmap",
+  "permalink": "/docs/introduction/roadmap",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Release Notes",
+    "permalink": "/docs/introduction/release-notes"
+  },
+  "next": {
+    "title": "What is Metaflow",
+    "permalink": "/docs/introduction/what-is-metaflow"
+  }
+}

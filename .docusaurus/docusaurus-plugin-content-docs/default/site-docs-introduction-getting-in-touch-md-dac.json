@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/getting-in-touch",
+  "id": "introduction/getting-in-touch",
+  "title": "Get in Touch",
+  "description": "Thank you for your interest in Metaflow. We are here to help.",
+  "source": "@site/docs/introduction/getting-in-touch.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/getting-in-touch",
+  "permalink": "/docs/introduction/getting-in-touch",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/getting-in-touch.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Contributing to Metaflow",
+    "permalink": "/docs/introduction/contributing-to-metaflow"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/docs/introduction/release-notes"
+  }
+}

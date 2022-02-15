@@ -1,0 +1,23 @@
+{
+  "unversionedId": "internals-of-metaflow/technical-overview",
+  "id": "internals-of-metaflow/technical-overview",
+  "title": "Technical Overview",
+  "description": "Make sure you have read Basics of Metaflow before diving into technical details below. You can find more technical details at the infrastructure level in Administrator's Guide to Metaflow. This document focuses on the Metaflow codebase.",
+  "source": "@site/docs/internals-of-metaflow/technical-overview.md",
+  "sourceDirName": "internals-of-metaflow",
+  "slug": "/internals-of-metaflow/technical-overview",
+  "permalink": "/docs/internals-of-metaflow/technical-overview",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/internals-of-metaflow/technical-overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why Metaflow",
+    "permalink": "/docs/introduction/why-metaflow"
+  },
+  "next": {
+    "title": "Testing Philosophy",
+    "permalink": "/docs/internals-of-metaflow/testing-philosophy"
+  }
+}

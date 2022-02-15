@@ -12,6 +12,10 @@
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to Metaflow for Python",
+    "permalink": "/docs/"
+  },
   "next": {
     "title": "Why Metaflow",
     "permalink": "/docs/why"

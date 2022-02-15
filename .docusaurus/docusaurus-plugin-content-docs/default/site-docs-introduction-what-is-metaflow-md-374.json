@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/what-is-metaflow",
+  "id": "introduction/what-is-metaflow",
+  "title": "What is Metaflow",
+  "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.",
+  "source": "@site/docs/introduction/what-is-metaflow.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/what-is-metaflow",
+  "permalink": "/docs/introduction/what-is-metaflow",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/what-is-metaflow.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/docs/introduction/roadmap"
+  },
+  "next": {
+    "title": "Why Metaflow",
+    "permalink": "/docs/introduction/why-metaflow"
+  }
+}

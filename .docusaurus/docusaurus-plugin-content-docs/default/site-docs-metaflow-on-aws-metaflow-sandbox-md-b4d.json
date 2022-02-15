@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow-on-aws/metaflow-sandbox",
+  "id": "metaflow-on-aws/metaflow-sandbox",
+  "title": "Metaflow Sandbox",
+  "description": "As described in Metaflow on AWS, Metaflow comes with built-in integrations to various services on AWS. The seamless integration to the cloud is a key benefit of Metaflow.",
+  "source": "@site/docs/metaflow-on-aws/metaflow-sandbox.md",
+  "sourceDirName": "metaflow-on-aws",
+  "slug": "/metaflow-on-aws/metaflow-sandbox",
+  "permalink": "/docs/metaflow-on-aws/metaflow-sandbox",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/metaflow-sandbox.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploying to AWS",
+    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+  },
+  "next": {
+    "title": "Basics of Metaflow",
+    "permalink": "/docs/metaflow/basics"
+  }
+}

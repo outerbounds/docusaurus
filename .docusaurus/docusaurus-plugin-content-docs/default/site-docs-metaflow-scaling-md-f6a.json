@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/scaling",
+  "id": "metaflow/scaling",
+  "title": "Scaling Out and Up",
+  "description": "From a usability point of view, it is hard to beat the convenience of writing and running a straightforward script in the comfort of your favorite IDE and a local terminal. Since one of the core values of Metaflow is usability, we encourage you to start with this easy approach and not worry about scalability until it becomes an issue.",
+  "source": "@site/docs/metaflow/scaling.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/scaling",
+  "permalink": "/docs/metaflow/scaling",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/scaling.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dealing with Failures",
+    "permalink": "/docs/metaflow/failures"
+  },
+  "next": {
+    "title": "Organizing Results",
+    "permalink": "/docs/metaflow/tagging"
+  }
+}

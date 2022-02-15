@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow-on-aws/metaflow-on-aws",
+  "id": "metaflow-on-aws/metaflow-on-aws",
+  "title": "Metaflow on AWS",
+  "description": "Traditionally, there has been a tension between local \\(e.g. on a laptop\\) and remote \\(e.g. on a cluster or a cloud\\) development and execution: Developing on a laptop is fast, whereas iterating with a remote cluster is slower. A laptop is a severely resource-constrained environment whereas a cluster can have virtually unlimited resources. Worse, simple local scripts may need to be translated to a new paradigm that is understood by a cluster.",
+  "source": "@site/docs/metaflow-on-aws/metaflow-on-aws.md",
+  "sourceDirName": "metaflow-on-aws",
+  "slug": "/metaflow-on-aws/",
+  "permalink": "/docs/metaflow-on-aws/",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/metaflow-on-aws.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scheduling Metaflow Flows",
+    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+  },
+  "next": {
+    "title": "Deploying to AWS",
+    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+  }
+}

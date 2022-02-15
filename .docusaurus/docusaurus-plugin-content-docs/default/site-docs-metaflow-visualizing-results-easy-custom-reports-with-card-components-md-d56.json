@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+  "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+  "title": "Easy Custom Reports with Card Components",
+  "description": "Default Cards are useful during development when you need to quickly inspect artifacts produced by a task or visualize the overall structure of the flow. As your project progresses, you may want to create a custom card that highlights information specific to your project.",
+  "source": "@site/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
+  "sourceDirName": "metaflow/visualizing-results",
+  "slug": "/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+  "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced, Shareable Cards with Card Templates",
+    "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+  },
+  "next": {
+    "title": "Effortless Task Inspection with Default Cards",
+    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+  }
+}

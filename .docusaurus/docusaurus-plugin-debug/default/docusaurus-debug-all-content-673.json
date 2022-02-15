@@ -19,18 +19,890 @@
           "contentPathLocalized": "/Users/brendan/dev/docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "fake",
-              "id": "fake",
-              "title": "Fake Documentation",
-              "description": "Profiling your flows",
-              "source": "@site/docs/fake.mdx",
-              "sourceDirName": ".",
-              "slug": "/fake",
-              "permalink": "/docs/fake",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fake.mdx",
+              "unversionedId": "getting-started/install",
+              "id": "getting-started/install",
+              "title": "Installing Metaflow",
+              "description": "Metaflow is available as a Python package for MacOS and Linux. You can visit our GitHub repository or get the latest version from PyPI:",
+              "source": "@site/docs/getting-started/install.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/install",
+              "permalink": "/docs/getting-started/install",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/install.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/why"
+              },
+              "next": {
+                "title": "Tutorials",
+                "permalink": "/docs/getting-started/tutorials/"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/README",
+              "id": "getting-started/tutorials/README",
+              "title": "Tutorials",
+              "description": "This set of tutorials provides a hands-on introduction to Metaflow. The basic concepts are introduced in practice, and you can find out more details about the functionality showcased in these tutorials in Basics of Metaflow and the following sections.",
+              "source": "@site/docs/getting-started/tutorials/README.md",
+              "sourceDirName": "getting-started/tutorials",
+              "slug": "/getting-started/tutorials/",
+              "permalink": "/docs/getting-started/tutorials/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installing Metaflow",
+                "permalink": "/docs/getting-started/install"
+              },
+              "next": {
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode00",
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode00",
+              "title": "Episode 0: Hello World",
+              "description": "Metaflow says Hi!",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode00.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode00.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+              },
+              "next": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode01",
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode01",
+              "title": "Episode 1: Playlist",
+              "description": "Let's build you a movie playlist.",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode01.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode01.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+              },
+              "next": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode02",
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode02",
+              "title": "Episode 2: Statistics",
+              "description": "Is this Data Science?",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode02.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode02.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+              },
+              "next": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode03",
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode03",
+              "title": "Episode 3: Playlist Redux",
+              "description": "Follow the Money.",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode03.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode03.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+              },
+              "next": {
+                "title": "Episode 4: Playlist Plus",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode04",
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode04",
+              "title": "Episode 4: Playlist Plus",
+              "description": "The Final Showdown.",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode04.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode04.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+              },
+              "next": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-1-the-local-experience/README",
+              "id": "getting-started/tutorials/season-1-the-local-experience/README",
+              "title": "Season 1: The Local Experience",
+              "description": "This season focus on introducing the basics of Metaflow. You can run all these tutorials on your local machine.",
+              "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/README.md",
+              "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+              "slug": "/getting-started/tutorials/season-1-the-local-experience/",
+              "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorials",
+                "permalink": "/docs/getting-started/tutorials/"
+              },
+              "next": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "title": "Episode 8: Autopilot",
+              "description": "Scheduling Compute in the Cloud.",
+              "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
+              "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+              "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              },
+              "next": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "title": "Episode 5: Hello AWS",
+              "description": "Look Mom, We're in the Cloud.",
+              "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
+              "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+              "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 8: Autopilot",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+              },
+              "next": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "title": "Episode 6: Statistics Redux",
+              "description": "Computing in the Cloud.",
+              "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
+              "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+              "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              },
+              "next": {
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "title": "Episode 7: Worldview",
+              "description": "Way up here.",
+              "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
+              "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+              "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              },
+              "next": {
+                "title": "Contributing to Metaflow",
+                "permalink": "/docs/introduction/contributing-to-metaflow"
+              }
+            },
+            {
+              "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/README",
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/README",
+              "title": "Season 2: Scaling Out and Up",
+              "description": "This season introduces how to use Metaflow on AWS. To run through these tutorials, you will either need to setup Metaflow on AWS or use the Metaflow Sandbox.",
+              "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
+              "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
+              "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 4: Playlist Plus",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+              },
+              "next": {
+                "title": "Episode 8: Autopilot",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+              }
+            },
+            {
+              "unversionedId": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "id": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "title": "Coordinating Larger Metaflow Projects",
+              "description": "Most Metaflow projects start as a simple Python script that is developed by a single data scientist. Metaflow takes care of keeping results organized automatically, so you can focus on developing models and the business logic around them.",
+              "source": "@site/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
+              "sourceDirName": "going-to-production-with-metaflow",
+              "slug": "/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Testing Philosophy",
+                "permalink": "/docs/internals-of-metaflow/testing-philosophy"
+              },
+              "next": {
+                "title": "Scheduling Metaflow Flows",
+                "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+              }
+            },
+            {
+              "unversionedId": "going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "id": "going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "title": "Scheduling Metaflow Flows",
+              "description": "A key feature of Metaflow is to make it easy to take machine learning pipelines from prototyping to production. This sentence and a number of other Metaflow documents use the word production casually. What do we actually mean by it?",
+              "source": "@site/docs/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
+              "sourceDirName": "going-to-production-with-metaflow",
+              "slug": "/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Coordinating Larger Metaflow Projects",
+                "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+              },
+              "next": {
+                "title": "Metaflow on AWS",
+                "permalink": "/docs/metaflow-on-aws/"
+              }
+            },
+            {
+              "unversionedId": "internals-of-metaflow/technical-overview",
+              "id": "internals-of-metaflow/technical-overview",
+              "title": "Technical Overview",
+              "description": "Make sure you have read Basics of Metaflow before diving into technical details below. You can find more technical details at the infrastructure level in Administrator's Guide to Metaflow. This document focuses on the Metaflow codebase.",
+              "source": "@site/docs/internals-of-metaflow/technical-overview.md",
+              "sourceDirName": "internals-of-metaflow",
+              "slug": "/internals-of-metaflow/technical-overview",
+              "permalink": "/docs/internals-of-metaflow/technical-overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/internals-of-metaflow/technical-overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/introduction/why-metaflow"
+              },
+              "next": {
+                "title": "Testing Philosophy",
+                "permalink": "/docs/internals-of-metaflow/testing-philosophy"
+              }
+            },
+            {
+              "unversionedId": "internals-of-metaflow/testing-philosophy",
+              "id": "internals-of-metaflow/testing-philosophy",
+              "title": "Testing Philosophy",
+              "description": "Watch this talk for motivation: Autonomous Testing and the Future of Software Development by Will Wilson.",
+              "source": "@site/docs/internals-of-metaflow/testing-philosophy.md",
+              "sourceDirName": "internals-of-metaflow",
+              "slug": "/internals-of-metaflow/testing-philosophy",
+              "permalink": "/docs/internals-of-metaflow/testing-philosophy",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/internals-of-metaflow/testing-philosophy.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Technical Overview",
+                "permalink": "/docs/internals-of-metaflow/technical-overview"
+              },
+              "next": {
+                "title": "Coordinating Larger Metaflow Projects",
+                "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+              }
+            },
+            {
+              "unversionedId": "introduction/contributing-to-metaflow",
+              "id": "introduction/contributing-to-metaflow",
+              "title": "Contributing to Metaflow",
+              "description": "First off, thanks for taking the time!",
+              "source": "@site/docs/introduction/contributing-to-metaflow.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/contributing-to-metaflow",
+              "permalink": "/docs/introduction/contributing-to-metaflow",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/contributing-to-metaflow.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              },
+              "next": {
+                "title": "Get in Touch",
+                "permalink": "/docs/introduction/getting-in-touch"
+              }
+            },
+            {
+              "unversionedId": "introduction/getting-in-touch",
+              "id": "introduction/getting-in-touch",
+              "title": "Get in Touch",
+              "description": "Thank you for your interest in Metaflow. We are here to help.",
+              "source": "@site/docs/introduction/getting-in-touch.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/getting-in-touch",
+              "permalink": "/docs/introduction/getting-in-touch",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/getting-in-touch.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contributing to Metaflow",
+                "permalink": "/docs/introduction/contributing-to-metaflow"
+              },
+              "next": {
+                "title": "Release Notes",
+                "permalink": "/docs/introduction/release-notes"
+              }
+            },
+            {
+              "unversionedId": "introduction/release-notes",
+              "id": "introduction/release-notes",
+              "title": "Release Notes",
+              "description": "Read below how Metaflow has improved over time.",
+              "source": "@site/docs/introduction/release-notes.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/release-notes",
+              "permalink": "/docs/introduction/release-notes",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/release-notes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get in Touch",
+                "permalink": "/docs/introduction/getting-in-touch"
+              },
+              "next": {
+                "title": "Roadmap",
+                "permalink": "/docs/introduction/roadmap"
+              }
+            },
+            {
+              "unversionedId": "introduction/roadmap",
+              "id": "introduction/roadmap",
+              "title": "Roadmap",
+              "description": "Metaflow has been used in production at Netflix since early 2018. The core Metaflow was open-sourced in December 2019. Some features of Metaflow are not available in open-source yet but we may open-source them later if there is sufficient external interest. These features are listed below.",
+              "source": "@site/docs/introduction/roadmap.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/roadmap",
+              "permalink": "/docs/introduction/roadmap",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/roadmap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Release Notes",
+                "permalink": "/docs/introduction/release-notes"
+              },
+              "next": {
+                "title": "What is Metaflow",
+                "permalink": "/docs/introduction/what-is-metaflow"
+              }
+            },
+            {
+              "unversionedId": "introduction/what-is-metaflow",
+              "id": "introduction/what-is-metaflow",
+              "title": "What is Metaflow",
+              "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.",
+              "source": "@site/docs/introduction/what-is-metaflow.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/what-is-metaflow",
+              "permalink": "/docs/introduction/what-is-metaflow",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/what-is-metaflow.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Roadmap",
+                "permalink": "/docs/introduction/roadmap"
+              },
+              "next": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/introduction/why-metaflow"
+              }
+            },
+            {
+              "unversionedId": "introduction/why-metaflow",
+              "id": "introduction/why-metaflow",
+              "title": "Why Metaflow",
+              "description": "Here is a data scientist.",
+              "source": "@site/docs/introduction/why-metaflow.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/why-metaflow",
+              "permalink": "/docs/introduction/why-metaflow",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/why-metaflow.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "What is Metaflow",
+                "permalink": "/docs/introduction/what-is-metaflow"
+              },
+              "next": {
+                "title": "Technical Overview",
+                "permalink": "/docs/internals-of-metaflow/technical-overview"
+              }
+            },
+            {
+              "unversionedId": "metaflow-on-aws/deploy-to-aws",
+              "id": "metaflow-on-aws/deploy-to-aws",
+              "title": "Deploying to AWS",
+              "description": "See the Administrator's Guide to Metaflow",
+              "source": "@site/docs/metaflow-on-aws/deploy-to-aws.md",
+              "sourceDirName": "metaflow-on-aws",
+              "slug": "/metaflow-on-aws/deploy-to-aws",
+              "permalink": "/docs/metaflow-on-aws/deploy-to-aws",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/deploy-to-aws.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Metaflow on AWS",
+                "permalink": "/docs/metaflow-on-aws/"
+              },
+              "next": {
+                "title": "Metaflow Sandbox",
+                "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
+              }
+            },
+            {
+              "unversionedId": "metaflow-on-aws/metaflow-on-aws",
+              "id": "metaflow-on-aws/metaflow-on-aws",
+              "title": "Metaflow on AWS",
+              "description": "Traditionally, there has been a tension between local \\(e.g. on a laptop\\) and remote \\(e.g. on a cluster or a cloud\\) development and execution: Developing on a laptop is fast, whereas iterating with a remote cluster is slower. A laptop is a severely resource-constrained environment whereas a cluster can have virtually unlimited resources. Worse, simple local scripts may need to be translated to a new paradigm that is understood by a cluster.",
+              "source": "@site/docs/metaflow-on-aws/metaflow-on-aws.md",
+              "sourceDirName": "metaflow-on-aws",
+              "slug": "/metaflow-on-aws/",
+              "permalink": "/docs/metaflow-on-aws/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/metaflow-on-aws.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scheduling Metaflow Flows",
+                "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+              },
+              "next": {
+                "title": "Deploying to AWS",
+                "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+              }
+            },
+            {
+              "unversionedId": "metaflow-on-aws/metaflow-sandbox",
+              "id": "metaflow-on-aws/metaflow-sandbox",
+              "title": "Metaflow Sandbox",
+              "description": "As described in Metaflow on AWS, Metaflow comes with built-in integrations to various services on AWS. The seamless integration to the cloud is a key benefit of Metaflow.",
+              "source": "@site/docs/metaflow-on-aws/metaflow-sandbox.md",
+              "sourceDirName": "metaflow-on-aws",
+              "slug": "/metaflow-on-aws/metaflow-sandbox",
+              "permalink": "/docs/metaflow-on-aws/metaflow-sandbox",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/metaflow-sandbox.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploying to AWS",
+                "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+              },
+              "next": {
+                "title": "Basics of Metaflow",
+                "permalink": "/docs/metaflow/basics"
+              }
+            },
+            {
+              "unversionedId": "metaflow/basics",
+              "id": "metaflow/basics",
+              "title": "Basics of Metaflow",
+              "description": "This document introduces the basic concepts of Metaflow. If you are eager to try out Metaflow in practice, you can start with the tutorial. After the tutorial, you can return to this document to learn more about how Metaflow works.",
+              "source": "@site/docs/metaflow/basics.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/basics",
+              "permalink": "/docs/metaflow/basics",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/basics.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Metaflow Sandbox",
+                "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
+              },
+              "next": {
+                "title": "Inspecting Flows and Results",
+                "permalink": "/docs/metaflow/client"
+              }
+            },
+            {
+              "unversionedId": "metaflow/client",
+              "id": "metaflow/client",
+              "title": "Inspecting Flows and Results",
+              "description": "Metaflow provides a client API that is used to inspect results of past runs. It is particularly well suited to being used in notebooks.",
+              "source": "@site/docs/metaflow/client.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/client",
+              "permalink": "/docs/metaflow/client",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/client.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basics of Metaflow",
+                "permalink": "/docs/metaflow/basics"
+              },
+              "next": {
+                "title": "Loading and Storing Data",
+                "permalink": "/docs/metaflow/data"
+              }
+            },
+            {
+              "unversionedId": "metaflow/data",
+              "id": "metaflow/data",
+              "title": "Loading and Storing Data",
+              "description": "This chapter describes tools and patterns for moving data in and out of your Metaflow flows.",
+              "source": "@site/docs/metaflow/data.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/data",
+              "permalink": "/docs/metaflow/data",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/data.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Inspecting Flows and Results",
+                "permalink": "/docs/metaflow/client"
+              },
+              "next": {
+                "title": "Debugging with Metaflow",
+                "permalink": "/docs/metaflow/debugging"
+              }
+            },
+            {
+              "unversionedId": "metaflow/debugging",
+              "id": "metaflow/debugging",
+              "title": "Debugging with Metaflow",
+              "description": "Metaflow wants to make debugging failed flows as painless as possible.",
+              "source": "@site/docs/metaflow/debugging.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/debugging",
+              "permalink": "/docs/metaflow/debugging",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/debugging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Loading and Storing Data",
+                "permalink": "/docs/metaflow/data"
+              },
+              "next": {
+                "title": "Managing External Libraries",
+                "permalink": "/docs/metaflow/dependencies"
+              }
+            },
+            {
+              "unversionedId": "metaflow/dependencies",
+              "id": "metaflow/dependencies",
+              "title": "Managing External Libraries",
+              "description": "What if your step code wants to import an external library? When you run Metaflow code locally, it behaves as any other Python code, so all libraries available to your Python interpreter can be imported in steps.",
+              "source": "@site/docs/metaflow/dependencies.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/dependencies",
+              "permalink": "/docs/metaflow/dependencies",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/dependencies.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Debugging with Metaflow",
+                "permalink": "/docs/metaflow/debugging"
+              },
+              "next": {
+                "title": "Dealing with Failures",
+                "permalink": "/docs/metaflow/failures"
+              }
+            },
+            {
+              "unversionedId": "metaflow/failures",
+              "id": "metaflow/failures",
+              "title": "Dealing with Failures",
+              "description": "Failures are a natural, expected part of data science workflows. Here are some typical reasons why you can expect your workflow to fail:",
+              "source": "@site/docs/metaflow/failures.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/failures",
+              "permalink": "/docs/metaflow/failures",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/failures.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Managing External Libraries",
+                "permalink": "/docs/metaflow/dependencies"
+              },
+              "next": {
+                "title": "Scaling Out and Up",
+                "permalink": "/docs/metaflow/scaling"
+              }
+            },
+            {
+              "unversionedId": "metaflow/scaling",
+              "id": "metaflow/scaling",
+              "title": "Scaling Out and Up",
+              "description": "From a usability point of view, it is hard to beat the convenience of writing and running a straightforward script in the comfort of your favorite IDE and a local terminal. Since one of the core values of Metaflow is usability, we encourage you to start with this easy approach and not worry about scalability until it becomes an issue.",
+              "source": "@site/docs/metaflow/scaling.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/scaling",
+              "permalink": "/docs/metaflow/scaling",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/scaling.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dealing with Failures",
+                "permalink": "/docs/metaflow/failures"
+              },
+              "next": {
+                "title": "Organizing Results",
+                "permalink": "/docs/metaflow/tagging"
+              }
+            },
+            {
+              "unversionedId": "metaflow/tagging",
+              "id": "metaflow/tagging",
+              "title": "Organizing Results",
+              "description": "A boring, under-appreciated part of high-quality science (or any project work in general), is keeping results organized. This is the key to effective collaboration, versioning of parallel lines of work, and reproducibility.",
+              "source": "@site/docs/metaflow/tagging.md",
+              "sourceDirName": "metaflow",
+              "slug": "/metaflow/tagging",
+              "permalink": "/docs/metaflow/tagging",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/tagging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scaling Out and Up",
+                "permalink": "/docs/metaflow/scaling"
+              },
+              "next": {
+                "title": "Visualizing Results",
+                "permalink": "/docs/metaflow/visualizing-results/"
+              }
+            },
+            {
+              "unversionedId": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "title": "Advanced, Shareable Cards with Card Templates",
+              "description": "The built-in Card Components allow you to create a visual report with a few lines of Python code. This is by far the easiest way to output visualizations using Metaflow’s default visual style and layout.",
+              "source": "@site/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
+              "sourceDirName": "metaflow/visualizing-results",
+              "slug": "/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Visualizing Results",
+                "permalink": "/docs/metaflow/visualizing-results/"
+              },
+              "next": {
+                "title": "Easy Custom Reports with Card Components",
+                "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              }
+            },
+            {
+              "unversionedId": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "title": "Easy Custom Reports with Card Components",
+              "description": "Default Cards are useful during development when you need to quickly inspect artifacts produced by a task or visualize the overall structure of the flow. As your project progresses, you may want to create a custom card that highlights information specific to your project.",
+              "source": "@site/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
+              "sourceDirName": "metaflow/visualizing-results",
+              "slug": "/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Advanced, Shareable Cards with Card Templates",
+                "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+              },
+              "next": {
+                "title": "Effortless Task Inspection with Default Cards",
+                "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+              }
+            },
+            {
+              "unversionedId": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "title": "Effortless Task Inspection with Default Cards",
+              "description": "Metaflow comes with a built-in Default Card that shows all artifacts produced by a task. Let’s create a simple flow to test it.",
+              "source": "@site/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
+              "sourceDirName": "metaflow/visualizing-results",
+              "slug": "/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Easy Custom Reports with Card Components",
+                "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              }
+            },
+            {
+              "unversionedId": "metaflow/visualizing-results/README",
+              "id": "metaflow/visualizing-results/README",
+              "title": "Visualizing Results",
+              "description": "What if you want to share results of flows with human beings or inspect results by yourself? One option is to use Jupyter notebooks and Metaflow Client API, which is a good combination for ad-hoc analysis and exploration.",
+              "source": "@site/docs/metaflow/visualizing-results/README.md",
+              "sourceDirName": "metaflow/visualizing-results",
+              "slug": "/metaflow/visualizing-results/",
+              "permalink": "/docs/metaflow/visualizing-results/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Organizing Results",
+                "permalink": "/docs/metaflow/tagging"
+              },
+              "next": {
+                "title": "Advanced, Shareable Cards with Card Templates",
+                "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+              }
+            },
+            {
+              "unversionedId": "README",
+              "id": "README",
+              "title": "Welcome to Metaflow for Python",
+              "description": "Build and manage real-life data science projects with ease.",
+              "source": "@site/docs/README.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "description": "Build and manage real-life data science projects with ease."
+              },
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Why Metaflow",
@@ -52,8 +924,12 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Fake Documentation",
-                "permalink": "/docs/fake"
+                "title": "Welcome to Metaflow for Python",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Installing Metaflow",
+                "permalink": "/docs/getting-started/install"
               }
             }
           ],
@@ -61,15 +937,247 @@
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "fake"
+                "id": "README"
               },
               {
                 "type": "doc",
                 "id": "why"
+              },
+              {
+                "type": "category",
+                "label": "getting-started",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/install"
+                  },
+                  {
+                    "type": "category",
+                    "label": "tutorials",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "season-1-the-local-experience",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode00"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode01"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode02"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode03"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode04"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "getting-started/tutorials/season-1-the-local-experience/README"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "season-2-scaling-out-and-up",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                          }
+                        ],
+                        "link": {
+                          "type": "doc",
+                          "id": "getting-started/tutorials/season-2-scaling-out-and-up/README"
+                        }
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "getting-started/tutorials/README"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "introduction",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction/contributing-to-metaflow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/getting-in-touch"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/release-notes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/what-is-metaflow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/why-metaflow"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "internals-of-metaflow",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "internals-of-metaflow/technical-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "internals-of-metaflow/testing-philosophy"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "going-to-production-with-metaflow",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "going-to-production-with-metaflow/scheduling-metaflow-flows"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "metaflow-on-aws",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "metaflow-on-aws/deploy-to-aws"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow-on-aws/metaflow-sandbox"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "metaflow-on-aws/metaflow-on-aws"
+                }
+              },
+              {
+                "type": "category",
+                "label": "metaflow",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "metaflow/basics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/client"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/data"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/debugging"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/dependencies"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/failures"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/scaling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "metaflow/tagging"
+                  },
+                  {
+                    "type": "category",
+                    "label": "visualizing-results",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "metaflow/visualizing-results/README"
+                    }
+                  }
+                ]
               }
             ]
           },
-          "mainDocId": "fake",
+          "mainDocId": "README",
           "categoryGeneratedIndices": []
         }
       ]

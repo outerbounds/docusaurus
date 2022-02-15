@@ -8,11 +8,201 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "fake",
+          "mainDocId": "README",
           "docs": [
             {
-              "id": "fake",
-              "path": "/docs/fake",
+              "id": "getting-started/install",
+              "path": "/docs/getting-started/install",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/README",
+              "path": "/docs/getting-started/tutorials/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode00",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode01",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode02",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode03",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/episode04",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-1-the-local-experience/README",
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/tutorials/season-2-scaling-out-and-up/README",
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "path": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "path": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "internals-of-metaflow/technical-overview",
+              "path": "/docs/internals-of-metaflow/technical-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "internals-of-metaflow/testing-philosophy",
+              "path": "/docs/internals-of-metaflow/testing-philosophy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/contributing-to-metaflow",
+              "path": "/docs/introduction/contributing-to-metaflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/getting-in-touch",
+              "path": "/docs/introduction/getting-in-touch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/release-notes",
+              "path": "/docs/introduction/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/roadmap",
+              "path": "/docs/introduction/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/what-is-metaflow",
+              "path": "/docs/introduction/what-is-metaflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/why-metaflow",
+              "path": "/docs/introduction/why-metaflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow-on-aws/deploy-to-aws",
+              "path": "/docs/metaflow-on-aws/deploy-to-aws",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow-on-aws/metaflow-on-aws",
+              "path": "/docs/metaflow-on-aws/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow-on-aws/metaflow-sandbox",
+              "path": "/docs/metaflow-on-aws/metaflow-sandbox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/basics",
+              "path": "/docs/metaflow/basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/client",
+              "path": "/docs/metaflow/client",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/data",
+              "path": "/docs/metaflow/data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/debugging",
+              "path": "/docs/metaflow/debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/dependencies",
+              "path": "/docs/metaflow/dependencies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/failures",
+              "path": "/docs/metaflow/failures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/scaling",
+              "path": "/docs/metaflow/scaling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/tagging",
+              "path": "/docs/metaflow/tagging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "path": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "path": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "path": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "metaflow/visualizing-results/README",
+              "path": "/docs/metaflow/visualizing-results/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -24,8 +214,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/fake",
-                "label": "fake"
+                "path": "/docs/",
+                "label": "README"
               }
             }
           }

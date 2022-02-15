@@ -1,0 +1,23 @@
+{
+  "unversionedId": "internals-of-metaflow/testing-philosophy",
+  "id": "internals-of-metaflow/testing-philosophy",
+  "title": "Testing Philosophy",
+  "description": "Watch this talk for motivation: Autonomous Testing and the Future of Software Development by Will Wilson.",
+  "source": "@site/docs/internals-of-metaflow/testing-philosophy.md",
+  "sourceDirName": "internals-of-metaflow",
+  "slug": "/internals-of-metaflow/testing-philosophy",
+  "permalink": "/docs/internals-of-metaflow/testing-philosophy",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/internals-of-metaflow/testing-philosophy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technical Overview",
+    "permalink": "/docs/internals-of-metaflow/technical-overview"
+  },
+  "next": {
+    "title": "Coordinating Larger Metaflow Projects",
+    "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+  }
+}

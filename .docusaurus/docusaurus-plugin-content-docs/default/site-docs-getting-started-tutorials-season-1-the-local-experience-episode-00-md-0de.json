@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode00",
+  "id": "getting-started/tutorials/season-1-the-local-experience/episode00",
+  "title": "Episode 0: Hello World",
+  "description": "Metaflow says Hi!",
+  "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode00.md",
+  "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
+  "slug": "/getting-started/tutorials/season-1-the-local-experience/episode00",
+  "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode00.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Season 1: The Local Experience",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+  },
+  "next": {
+    "title": "Episode 1: Playlist",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+  }
+}

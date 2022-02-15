@@ -1,0 +1,23 @@
+{
+  "unversionedId": "metaflow/basics",
+  "id": "metaflow/basics",
+  "title": "Basics of Metaflow",
+  "description": "This document introduces the basic concepts of Metaflow. If you are eager to try out Metaflow in practice, you can start with the tutorial. After the tutorial, you can return to this document to learn more about how Metaflow works.",
+  "source": "@site/docs/metaflow/basics.md",
+  "sourceDirName": "metaflow",
+  "slug": "/metaflow/basics",
+  "permalink": "/docs/metaflow/basics",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/basics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Metaflow Sandbox",
+    "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
+  },
+  "next": {
+    "title": "Inspecting Flows and Results",
+    "permalink": "/docs/metaflow/client"
+  }
+}
