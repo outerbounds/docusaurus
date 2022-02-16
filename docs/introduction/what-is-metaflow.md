@@ -1,3 +1,5 @@
+import ReactPlayer from 'react-player'
+
 # What is Metaflow
 
 Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
@@ -55,7 +57,7 @@ If you want to learn more, the Machine Learning Infrastructure team at Netflix h
 
 For starters, this presentation gives a comprehensive overview of Metaflow:
 
-{% embed url="https://www.youtube.com/watch?v=XV5VGddmP24" %}
+<ReactPlayer playing controls url="https://www.youtube.com/watch?v=XV5VGddmP24" />
 
 For other general overviews of Metaflow, see the [Overviews of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02Xbg0oTf7OwZ_Kk86Zx96mAOb) playlist. For more technical details, see presentations about the [Internals of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02XbhC-5Eqy7ERHxpuwiJHes4j).
 

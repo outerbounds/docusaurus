@@ -14,14 +14,13 @@ Retrying a failed task is the simplest way to try to handle errors. It is a part
 
 You can enable retries for a step simply by adding `retry` decorator in the step, like here:
 
-{% code title="retryflow.R" %}
-```r
+```r title="retryflow.R"
 library(metaflow)
 
 start <- function(self){
     n <- rbinom(n=1, size=1, prob=0.5)
     if (n==0){
-        stop("Bad Luck!") 
+        stop("Bad Luck!")
     } else{
         print("Lucky you!")
     }
@@ -32,15 +31,14 @@ end <- function(self){
 }
 
 metaflow("RetryFlow") %>%
-    step(step="start", 
+    step(step="start",
          decorator("retry"),
-         r_function=start, 
+         r_function=start,
          next_step="end") %>%
-    step(step="end", 
-         r_function=end) %>% 
+    step(step="end",
+         r_function=end) %>%
     run()
 ```
-{% endcode %}
 
 When you run this flow, you will see that sometimes it succeeds without a hitch but sometimes the `start` step raises an exception and it needs to be retried. By default, `retry` retries the step three times. Thanks to `retry`, this workflow will almost always succeed.
 
@@ -58,21 +56,24 @@ When you run this flow, you will see that sometimes it succeeds without a hitch 
 
 It is highly recommended that you use `retry` every time you run your flow on the [cloud](../metaflow-on-aws/metaflow-on-aws.md). Instead of annotating every step with a retry decorator, you can also automatically add a retry decorator to all steps that do not have one as follows:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```r
 Rscript retryflow.R run --with retry
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in retryflow.R with
 # run(with = c("retry"))
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 ### How to Prevent Retries
 
@@ -80,47 +81,46 @@ If retries are such a good idea, why not enable them by default for all steps? F
 
 Imagine a hypothetical step like this:
 
-{% code title="moneyflow.R" %}
-```r
+```r title="moneyflow.R"
 withdraw_money_from_account <- function(self){
     library(httr)
-    r <- POST('bank.com/account/123/withdraw', 
+    r <- POST('bank.com/account/123/withdraw',
                 body=list(amount = 1000))
 }
 ```
-{% endcode %}
 
 If you run this code with:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```r
 Rscript moneyflow.R run --with retry
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in moneyflow.R with
 # run(with = c("retry"))
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 you may end up withdrawing up to $4000 instead of the intended $1000. To make sure no one will accidentally retry a step with _destructive side-effects_ like this, you should add `times=0` in the step code:
 
-{% code title="moneyflow.R" %}
-```r
+```r title="moneyflow.R"
 metaflow("MoneyFlow") %>%
     ...
-    step(step="withdraw", 
+    step(step="withdraw",
          decorator("retry", times=0),
-         r_function=withdraw_money_from_account, 
+         r_function=withdraw_money_from_account,
          next_step="end") %>%
     ...
 ```
-{% endcode %}
 
 Now the code can be safely rerun, even using `--with retry`. All other steps will be retried as usual.
 
@@ -169,7 +169,7 @@ Consider this example that is structured like a hyper-parameter search:
 library(metaflow)
 
 start <- function(self){
-    self$params <- c(-1, 2, 3) 
+    self$params <- c(-1, 2, 3)
 }
 
 sanity_check <- function(self){
@@ -194,12 +194,12 @@ metaflow("CatchFlow") %>%
          r_function = start,
          next_step = "sanity_check",
          foreach = "params") %>%
-    step(step = "sanity_check", 
+    step(step = "sanity_check",
          decorator("catch", var="compute_failed", print_exception=FALSE),
-         r_function = sanity_check, 
+         r_function = sanity_check,
          next_step = "join") %>%
-    step(step = "join", 
-         r_function = join, 
+    step(step = "join",
+         r_function = join,
          next_step = "end",
          join = TRUE) %>%
     step(step = "end") %>%
@@ -255,7 +255,6 @@ After all retries are exhausted, `catch` takes over and records an exception in 
 
 Here is a quick summary of failure handling in Metaflow:
 
-* Use `retry` to deal with transient platform issues. You can do this easily on the command line with the `--with retry` option.
-* Use `retry` **with** `catch` for extra robustness if you have modified your code to deal with faulty steps which are handled by `catch`.
-* Use `catch` **without** `retry` to handle steps [that can't be retried safely](failures.md#how-to-prevent-retries). It is a good idea to use `times=0` for `retry` in this case.
-
+- Use `retry` to deal with transient platform issues. You can do this easily on the command line with the `--with retry` option.
+- Use `retry` **with** `catch` for extra robustness if you have modified your code to deal with faulty steps which are handled by `catch`.
+- Use `catch` **without** `retry` to handle steps [that can't be retried safely](failures.md#how-to-prevent-retries). It is a good idea to use `times=0` for `retry` in this case.

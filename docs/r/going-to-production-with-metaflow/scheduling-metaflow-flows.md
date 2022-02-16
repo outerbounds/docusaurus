@@ -24,8 +24,8 @@ It is not easy to use cron as a production scheduler. What if the instance runni
 
 In the Metaflow's point of view, the main benefits of AWS Step Functions are the following:
 
-* AWS Step Functions orchestrates workflows expressed as state machines, which are a superset of directed graphs. This means that we can map Metaflow flows to corresponding AWS Step Functions state machines fully automatically. This gives you much more detail about what gets executed and how, in contrast to treating Metaflow scripts as black boxes.
-* AWS Step Functions comes with tooling that is required for running workflows in production. You can benefit from battle-hardened solutions provided by AWS for alerting, monitoring, and scheduling. By using AWS Step Functions your Metaflow flows can integrate seamlessly with the wider AWS offerings.
+- AWS Step Functions orchestrates workflows expressed as state machines, which are a superset of directed graphs. This means that we can map Metaflow flows to corresponding AWS Step Functions state machines fully automatically. This gives you much more detail about what gets executed and how, in contrast to treating Metaflow scripts as black boxes.
+- AWS Step Functions comes with tooling that is required for running workflows in production. You can benefit from battle-hardened solutions provided by AWS for alerting, monitoring, and scheduling. By using AWS Step Functions your Metaflow flows can integrate seamlessly with the wider AWS offerings.
 
 When running on AWS Step Functions, Metaflow code works exactly as it does locally: No changes are required in the code. All data artifacts produced by steps run on AWS Step Functions are available using the [Client API](../metaflow/client.md). All tasks are run on AWS Batch respecting the resources decorator, as explained in [Scaling Out and Up](../metaflow/scaling.md).
 
@@ -35,8 +35,9 @@ This document describes the basics of AWS Step Functions scheduling. If your pro
 
 Let's use [the flow from the section about parameters](../metaflow/basics.md#how-to-define-parameters-for-flows) as an example:
 
-{% tabs %}
-{% tab title="R" %}
+<Tabs>
+<TabItem label="R" value="R">
+
 ```python
 library(metaflow)
 
@@ -49,27 +50,29 @@ end <- function(self){
 }
 
 metaflow("ParameterFlow") %>%
-    parameter("alpha", 
-              help="learning rate", 
-              default = 0.1) %>%    
-    step(step="start", 
-         r_function=start, 
+    parameter("alpha",
+              help="learning rate",
+              default = 0.1) %>%
+    step(step="start",
+         r_function=start,
          next_step="end") %>%
-    step(step="end", 
-         r_function=end) %>% 
+    step(step="end",
+         r_function=end) %>%
     run()
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 ...
-   step(step="end", 
-         r_function=end) %>% 
+   step(step="end",
+         r_function=end) %>%
    run(step_functions = "create")
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 Save this script to a file `parameter_flow.R`. To deploy a version to AWS Step Functions, simply source the `RStudio` version of the code or in a terminal run
 
@@ -105,23 +108,26 @@ In this case, the run should succeed without problems. If there were errors, you
 
 **You can trigger the workflow through command line as well:**
 
-{% tabs %}
-{% tab title="Bash" %}
+<Tabs>
+<TabItem label="Bash" value="Bash">
+
 ```bash
 Rscript parameter_flow.R step-functions trigger --alpha 0.5
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 ...
-   step(step="end", 
-         r_function=end) %>% 
+   step(step="end",
+         r_function=end) %>%
    run(step-functions="trigger",
        alpha=0.5)
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 If you run `step-functions create` again, it will create a new version of your flow on AWS Step Functions. The newest version becomes the production version automatically \(due to the consistency guarantees provided by AWS Step Functions, it might be a couple of seconds before this happens\). If you want to test on AWS Step Functions without interfering with a production flow, you can change the name of your class, e.g. from ParameterFlow to ParameterFlowStaging, and `step-functions create` the flow under a new name.
 
@@ -155,19 +161,18 @@ end <- function(self){
 }
 
 metaflow("ScheduledFlow",
-    decorator("schedule", hourly=TRUE)) %>%   
-    step(step="start", 
-         r_function=start, 
+    decorator("schedule", hourly=TRUE)) %>%
+    step(step="start",
+         r_function=start,
          next_step="end") %>%
-    step(step="end", 
-         r_function=end) %>% 
+    step(step="end",
+         r_function=end) %>%
     run()
 ```
 
 You can define the schedule with `decorator` in one of the following ways:
 
-* `decorator("schedule", weekly=True)` runs the workflow on Sundays at midnight.
-* `decorator("schedule", daily=True)` runs the workflow every day at midnight.
-* `decorator("schedule", hourly=True)` runs the workflow every hour.
-* `decorator("schedule", cron='0 10 * * ? *')` runs the workflow at the given [Cron](http://en.wikipedia.org/wiki/cron) schedule, in this case at 10am UTC every day. You can use the rules defined [here](https://docs.aws.amazon.com/eventbridge/latest/userguide/scheduled-events.html) to define the schedule for the cron option.
-
+- `decorator("schedule", weekly=True)` runs the workflow on Sundays at midnight.
+- `decorator("schedule", daily=True)` runs the workflow every day at midnight.
+- `decorator("schedule", hourly=True)` runs the workflow every hour.
+- `decorator("schedule", cron='0 10 * * ? *')` runs the workflow at the given [Cron](http://en.wikipedia.org/wiki/cron) schedule, in this case at 10am UTC every day. You can use the rules defined [here](https://docs.aws.amazon.com/eventbridge/latest/userguide/scheduled-events.html) to define the schedule for the cron option.

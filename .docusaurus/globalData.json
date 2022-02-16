@@ -343,13 +343,13 @@
             "python": {
               "link": {
                 "path": "/docs/r/",
-                "label": "R Docs"
+                "label": "📚 R Docs"
               }
             },
             "r": {
               "link": {
                 "path": "/docs/",
-                "label": "Python Docs"
+                "label": "📚 Python Docs"
               }
             }
           }

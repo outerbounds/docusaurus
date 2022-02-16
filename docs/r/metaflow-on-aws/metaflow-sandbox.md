@@ -1,3 +1,5 @@
+import ReactPlayer from 'react-player'
+
 # Metaflow Sandbox
 
 As described in [Metaflow on AWS](metaflow-on-aws.md), Metaflow comes with built-in integrations to various services on AWS. The seamless integration to the cloud is a key benefit of Metaflow.
@@ -10,21 +12,21 @@ Only a limited number of sandboxes are available. When you sign up, you are adde
 
 Here are some ideas that you can try with the sandbox:
 
-* [The season 2 of tutorials](../getting-started/tutorials/season-2-scaling-out-and-up/) focuses on scaling out. This is a good way to get started. Note that the Season 1 tutorials work with the Sandbox too, when executed using [the `batch` decorator](../metaflow/scaling.md).
-* You have up to 64 CPU cores at your disposal using [the `batch` decorator](../metaflow/scaling.md). Test some number crunching! You can run everything in the cloud simply by or you can mix local and remote steps by adding `decorator("batch",...)` to select steps.
-* Test your favorite ML libraries in the cloud using [`batch`](../metaflow/scaling.md) decorator. For instance, try a basic hyper-parameter search using [a custom parameter grid and foreach](../metaflow/basics.md#foreach). 
-* Evaluate Metaflow's [experiment tracking and versioning](../metaflow/tagging.md) using local runs and the [Client API](../metaflow/client.md) in a local notebook. In contrast to the local mode, all runs are registered globally in the Metaflow Service regardless of the directory where you run them.
-* Test how you can [`resume` tasks locally](../metaflow/debugging.md#how-to-use-the-resume-command) which were originally run remotely using [the `batch` decorator](../metaflow/scaling.md).
+- [The season 2 of tutorials](../getting-started/tutorials/season-2-scaling-out-and-up/) focuses on scaling out. This is a good way to get started. Note that the Season 1 tutorials work with the Sandbox too, when executed using [the `batch` decorator](../metaflow/scaling.md).
+- You have up to 64 CPU cores at your disposal using [the `batch` decorator](../metaflow/scaling.md). Test some number crunching! You can run everything in the cloud simply by or you can mix local and remote steps by adding `decorator("batch",...)` to select steps.
+- Test your favorite ML libraries in the cloud using [`batch`](../metaflow/scaling.md) decorator. For instance, try a basic hyper-parameter search using [a custom parameter grid and foreach](../metaflow/basics.md#foreach).
+- Evaluate Metaflow's [experiment tracking and versioning](../metaflow/tagging.md) using local runs and the [Client API](../metaflow/client.md) in a local notebook. In contrast to the local mode, all runs are registered globally in the Metaflow Service regardless of the directory where you run them.
+- Test how you can [`resume` tasks locally](../metaflow/debugging.md#how-to-use-the-resume-command) which were originally run remotely using [the `batch` decorator](../metaflow/scaling.md).
 
 ## Sandbox Rules
 
 Sandbox is a limited test environment:
 
-* It is solely intended for testing and evaluating Metaflow for data science use cases. **It is not a production environment.** It is also not a general-purpose computation platform.
-* While you can test your code with your own datasets, **make sure you don’t use any data that contains confidential information, personal information, or any sensitive information.**
-* By default, **your access to the sandbox will expire in 7 days**, after which all data in the sandbox will be permanently deleted. You may contact us by email if you need more time for evaluation.
-* There is no internet connectivity in the Sandbox. We have pre-installed most common R libraries in the Sandbox.
-* You can use up to 8 concurrent instances with `cpu=8` \(8 cores\) and `memory=30000` \(30GB of RAM\) using [the `batch` decorator](../metaflow/scaling.md).
+- It is solely intended for testing and evaluating Metaflow for data science use cases. **It is not a production environment.** It is also not a general-purpose computation platform.
+- While you can test your code with your own datasets, **make sure you don’t use any data that contains confidential information, personal information, or any sensitive information.**
+- By default, **your access to the sandbox will expire in 7 days**, after which all data in the sandbox will be permanently deleted. You may contact us by email if you need more time for evaluation.
+- There is no internet connectivity in the Sandbox. We have pre-installed most common R libraries in the Sandbox.
+- You can use up to 8 concurrent instances with `cpu=8` \(8 cores\) and `memory=30000` \(30GB of RAM\) using [the `batch` decorator](../metaflow/scaling.md).
 
 It is important that you read and agree to the [Metaflow Sandbox terms of use](https://metaflow.org/sandbox-tos.html) and [privacy policy](https://metaflow.org/sandbox-privacy.html) before signing up.
 
@@ -34,7 +36,7 @@ You can sign up for a sandbox at [metaflow.org/sandbox](https://metaflow.org/san
 
 Here is a short screencast that walks you through the process \(no audio\). This screencast shows the sign up process for Metaflow Python package. It is the same process for R.
 
-{% embed url="https://www.youtube.com/watch?v=SMvgAINYGqU" caption="" %}
+<ReactPlayer playing controls url="https://www.youtube.com/watch?v=SMvgAINYGqU" />
 
 1. After agreeing to the Terms of Use and Privacy Policy, you will need to sign up with your GitHub account. This is required so we can verify your identify to prevent abuse.
 2. You will be added to a waitlist. You can log in to [metaflow.org/sandbox](https://metaflow.org/sandbox) to see the status of your process. You can expect that the status will remain at "Waiting for the next available sandbox" for many days.
@@ -45,7 +47,7 @@ Here is a short screencast that walks you through the process \(no audio\). This
 7. In the screencast, a test artifact called `models` is added to demonstrate how artifacts are stored in S3.
 8. Run your Metaflow workflow locally as usual. All Metaflow runs will now registered to the remote Metadata service by default. All artifacts are also written to S3 by default. You may notice that execution latency is slightly higher due to this.
 9. The Sandbox also includes a private [Sagemaker notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html). Log in to it by click "My Sagemaker notebook" at [metaflow.org/sandbox](https://metaflow.org/sandbox).
-10. The notebook includes the `metaflow` package by default. However, the notebook is not tied to a specific user, so you will need to [set the namespace explicitly](../metaflow/tagging.md#switching-namespaces) to match your username. 
+10. The notebook includes the `metaflow` package by default. However, the notebook is not tied to a specific user, so you will need to [set the namespace explicitly](../metaflow/tagging.md#switching-namespaces) to match your username.
 11. Since your local run was registered with the Metadata service and artifacts were automatically copied to S3, you can access the locally generated artifact, `models`, in a remote notebook! This demonstrates how Metaflow enables multiple people share results via S3 and the [Client API](../metaflow/client.md).
 
 ## After Sandbox Expires
@@ -53,4 +55,3 @@ Here is a short screencast that walks you through the process \(no audio\). This
 All good things come to an end. After your sandbox expires, all computation is stopped automatically and data is deleted permanently. Reset your Metaflow back to the local mode with `metaflow configure reset`.
 
 Hopefully the sandbox convinced you that you want to keep using Metaflow with AWS. If so, a good next step is to [set up Metaflow to your own AWS account](deploy-to-aws.md) which you can use without any limitations.
-

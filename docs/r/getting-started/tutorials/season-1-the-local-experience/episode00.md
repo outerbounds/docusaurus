@@ -21,9 +21,7 @@ If you haven't yet pulled the tutorials to your current working directory, you c
 
 The flow script below prints 'Hi' in Metaflow. Run this flow to validate that Metaflow is installed correctly.
 
-{% code title="helloworld.R" %}
-
-```r
+```r title="helloworld.R"
 library(metaflow)
 
 # This is the 'start' step. All flows must have a step named
@@ -54,5 +52,3 @@ metaflow("HelloFlow") %>%
          r_function = end) %>%
     run()
 ```
-
-{% endcode %}

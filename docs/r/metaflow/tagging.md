@@ -104,16 +104,15 @@ If another person wants to deploy a new version of the flow to production, they 
 
 After you have shared the production token with another person, they can deploy a new version with
 
-{% tabs %}
-{% tab title="Bash" %}
+<Tabs>
+<TabItem label="Bash" value="Bash">
 
 ```bash
 Rscript production_flow.R step-functions create --authorize TOKEN_YOU_SHARED_WITH_THEM
 ```
 
-{% endtab %}
-
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
 
 ```
   ...
@@ -124,8 +123,8 @@ Rscript production_flow.R step-functions create --authorize TOKEN_YOU_SHARED_WIT
     authorize = "TOKEN_YOU_SHARED_WITH_THEM")
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>
 
 They need to use the `--authorize` option only once. Metaflow stores the token for them after the first deployment, so they need to do this only once.
 
@@ -135,16 +134,15 @@ If you call `step-functions create` again, it will deploy an updated version of 
 
 Sometimes the code has changed so drastically that you want to recreate a fresh namespace for its results. You can do this as follows:
 
-{% tabs %}
-{% tab title="Bash" %}
+<Tabs>
+<TabItem label="Bash" value="Bash">
 
 ```bash
 Rscript production_flow.R step-functions create --generate-new-token
 ```
 
-{% endtab %}
-
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
 
 ```
   ...
@@ -155,8 +153,8 @@ Rscript production_flow.R step-functions create --generate-new-token
       generate_new_token = TRUE)
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>
 
 This will deploy a new version in production using a fresh, empty namespace
 
@@ -166,16 +164,15 @@ The `user:` tag is assigned by Metaflow automatically. In addition to automatica
 
 An easy way to add tags is the `--tag` command line option. You can add multiple tags with multiple `--tag` options. For instance, this will annotate a `HelloFlow` run with a tag `crazy_test`.
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
 
 ```bash
 Rscript helloworld.R run --tag crazy_test
 ```
 
-{% endtab %}
-
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
 
 ```
 # Replace run() in helloworld.R with
@@ -183,8 +180,8 @@ Rscript helloworld.R run --tag crazy_test
 # and execute in RStudio
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>
 
 The `--tag` option assigns the specified tag to all objects produced by the run: the run itself, its steps, tasks, and data artifacts.
 
@@ -234,9 +231,7 @@ However, in some cases you may need to deal with IDs explicitly. For instance, i
 
 For this purpose, Metaflow provides a singleton object `current` that represents the identity of the currently running task. Use it in your `FlowSpec` to retrieve current IDs of interest:
 
-{% code title="current\_flow.R" %}
-
-```r
+```r title="current_flow.R"
 library(metaflow)
 
 start <- function(self){
@@ -257,8 +252,6 @@ metaflow("CurrentFlow") %>%
     run()
 ```
 
-{% endcode %}
-
 You can see the output
 
 ```r
@@ -278,16 +271,15 @@ For regular `run` invocations, the value of `current("origin_run_id")` is `NULL`
 
 If a user explicitly overrides the CLI option `--origin-run-id`, the `current` singleton would reflect that value. Suppose we invoked `resume` for the above script to re-run everything from `start` without explicitly overriding the CLI option `origin-run-id`, we can see the value chosen by Metaflow using the `current` singleton:
 
-{% tabs %}
-{% tab title="Bash" %}
+<Tabs>
+<TabItem label="Bash" value="Bash">
 
 ```r
 Rscript current_flow.R resume start
 ```
 
-{% endtab %}
-
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
 
 ```
 # Replace run() in current_flow.R with
@@ -295,8 +287,8 @@ Rscript current_flow.R resume start
 # and execute in RStudio
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>
 
 You should see the `origin_run_id` used by the `resume` in the output \(the exact value for you might be different\):
 

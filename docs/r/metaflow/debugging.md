@@ -6,8 +6,8 @@ Debugging issues during development is a normal part of the development process.
 
 Debugging a failure can either happen **after** a failed execution or **during** execution. In the first case, Metaflow provides two mechanisms:
 
-* the [ability to resume a flow](debugging.md#how-to-use-the-resume-command), re-executing all successful steps and only re-executing from the failed step. This allows you to fix the problem in the failed step, resume the flow and make progress.
-* the [ability to inspect the data](client.md) produced by each step in a flow to be able to determine what went wrong.
+- the [ability to resume a flow](debugging.md#how-to-use-the-resume-command), re-executing all successful steps and only re-executing from the failed step. This allows you to fix the problem in the failed step, resume the flow and make progress.
+- the [ability to inspect the data](client.md) produced by each step in a flow to be able to determine what went wrong.
 
 ## How to debug failed flows
 
@@ -26,8 +26,7 @@ The `resume` command allows you to resume execution of a past run at a failed st
 
 Here is how it works. First, save the snippet below :
 
-{% code title="debugflow.R" %}
-```r
+```r title="debugflow.R"
 library(metaflow)
 
 a <- function(self){
@@ -35,7 +34,7 @@ a <- function(self){
 }
 
 b <- function(self){
-    self$var <- tofail("cannot find function tofail") 
+    self$var <- tofail("cannot find function tofail")
 }
 
 join <- function(self, inputs){
@@ -46,36 +45,38 @@ join <- function(self, inputs){
 metaflow("DebugFlow") %>%
     step(step = "start",
          next_step = c("a", "b")) %>%
-    step(step = "a", 
-         r_function=a, 
+    step(step = "a",
+         r_function=a,
          next_step="join") %>%
-    step(step="b", 
-         r_function=b, 
+    step(step="b",
+         r_function=b,
          next_step="join") %>%
-    step(step="join", 
-         r_function=join, 
+    step(step="join",
+         r_function=join,
          next_step="end",
          join=TRUE) %>%
     step(step="end") %>%
     run()
 ```
-{% endcode %}
 
 Run the script with:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript debugflow.R run
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Execute in RStudio as is
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 The run should fail. The output should look like:
 
@@ -95,41 +96,47 @@ The `resume` command runs the flow similar to `run`. However, in contrast to `ru
 
 Try it with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript debugflow.R resume
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in debugflow.R with
 # run(resume = TRUE)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 Metaflow remembers the run number of the last local run, which in this case is `153`, so you should see `resume` reusing results of the run above. Since we have not changed anything yet, you should see the above error again but with an incremented run number.
 
 You can also resume a specific run using the CLI option `--origin-run-id` if you don't like the default value selected by Metaflow. To get the same behavior as above, you can also do:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript debugflow.R resume --origin-run-id 153
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in debugflow.R with
 # run(resume = TRUE, origin_run_id = "153")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 If you'd like programmatic access to the `origin-run-id` selected for the `resume` \(either implicitly selected by Metaflow as last `run` invocation, or explicitly declared by the user via the CLI\), you can use the `current` object. Read more [here](tagging.md#accessing-current-ids-in-a-flow).
 
@@ -159,21 +166,24 @@ By default, `resume` resumes from the step that failed, like `b` above. Sometime
 
 You can choose the step to resume from by specifying the step name on the command line:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript debugflow.R resume start
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in debugflow.R with
 # run(resume = "start")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 This would resume execution from the step `start`. If you specify a step that comes after the step that failed, execution resumes from the failed step - you can't skip over steps.
 
@@ -185,35 +195,38 @@ The `resume` command reuses the parameter values that you set with `run` origina
 
 ## Reproducing Production Issues Locally
 
-This section shows you how to reproduce a failed Metaflow run on AWS Step Functions locally. This is how a failed run on AWS Step Functions UI looks like - 
+This section shows you how to reproduce a failed Metaflow run on AWS Step Functions locally. This is how a failed run on AWS Step Functions UI looks like -
 
 ![](https://lh4.googleusercontent.com/7a7yW4JMApMn8_X4DZsnoT2EOIK_RR0YTwkhJrEDq9jUJDHuVZv6BLgRJ-XtHrkP9MAM28ofrYMVK7W-f9pIRXTbuay3VWvR73FuDvW_OI4BprDheWViGd3XLD-ArMUgwu-Flok_)
 
 ![](https://lh4.googleusercontent.com/SxMRHj9suoBFMQwx4FJP-zywTzCUrePSRMAYhxVOreXxwEJe-eL3WciP3TxVyNkNrrSEmKo1bbBkS762rEtJ4SVJj8MaJubTdmnBsjkONi5NT4BUSXcnqwL47KXQaQaEwSpzroeT)
 
-Notice the execution ID of `5ca85f96-8508-409d-a5f5-b567db1040c5`. When running on AWS Step Functions, Metaflow uses the AWS Step Functions execution ID \(prefixed with `sfn-`\) as the run id. 
+Notice the execution ID of `5ca85f96-8508-409d-a5f5-b567db1040c5`. When running on AWS Step Functions, Metaflow uses the AWS Step Functions execution ID \(prefixed with `sfn-`\) as the run id.
 
 The graph visualization shows that step `b` failed, as expected. First, you should inspect the logs of the failed step to get an idea of why it failed. You can access AWS Batch step logs in the AWS Step Functions UI by looking for the `JobId` in the `Error` blob that can be accessed by clicking on the `Exception` pane on the right side of the UI. You can use this `JobId` in the AWS Batch console to check the job logs. This `JobId` is also the metaflow task ID for the step.
 
 Next, we want to reproduce the above error locally. We do this by resuming the specific AWS Step Functions run that failed:
 
-{% tabs %}
-{% tab title="Bash" %}
+<Tabs>
+<TabItem label="Bash" value="Bash">
+
 ```bash
 Rscript debug.R resume --origin-run-id sfn-5ca85f96-8508-409d-a5f5-b567db1040c5
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
    ...
-   step(step="end", 
+   step(step="end",
         ...)
    run(resume=TRUE,
        origin_run_id="sfn-5ca85f96-8508-409d-a5f5-b567db1040c5")
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 This will reuse the results of the `start` and `a` step from the AWS Step Functions run. It will try to rerun the step `b` locally, which fails with the same error as it does in production.
 
@@ -246,4 +259,3 @@ The above example demonstrates a trivial error. In the real life, errors can be 
 Being able to inspect data produced by every step is a powerful feature of Metaflow which can help in situations like this.
 
 You can use the [Metaflow client](client.md) in an RStudio IDE or a Jupyter Notebook to fetch artifacts produced each step, and run sanity checks or further debug the issue.
-

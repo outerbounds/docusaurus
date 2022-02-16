@@ -32,46 +32,39 @@ export default {
     ]
   ],
   "themeConfig": {
+    "image": "img/Metaflow_Logo_Vertical_FullColor_Ribbon_Dark_RGB.png",
     "navbar": {
-      "title": "My Site",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Metaflow Logo",
+        "src": "img/Metaflow_Logo_Horizontal_OneColor_Black_RGB.png",
+        "srcDark": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
+        "href": "/docs",
+        "height": "64px"
       },
-      "items": [],
-      "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
+      "items": [
         {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
+          "type": "doc",
+          "position": "left",
+          "docId": "index",
+          "label": "Python Docs"
         },
         {
-          "title": "More",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
+          "type": "doc",
+          "position": "left",
+          "docId": "r/README",
+          "label": "R Docs"
+        },
+        {
+          "href": "https://admin-docs.metaflow.org/",
+          "position": "left",
+          "label": "Admin Docs"
+        },
+        {
+          "type": "search",
+          "position": "right"
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "hideOnScroll": true
     },
     "prism": {
       "theme": {

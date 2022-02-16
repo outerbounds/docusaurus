@@ -22,8 +22,7 @@ This section presents the tools available in Metaflow for scaling up and out.
 
 Consider the following example:
 
-{% code title="bigsumflow.R" %}
-```r
+```r title="bigsumflow.R"
 library(metaflow)
 
 start <- function(self) {
@@ -50,9 +49,8 @@ metaflow("BigSumFlowR") %>%
   ) %>%
   run()
 ```
-{% endcode %}
 
-This example creates a huge 80000x80000 random matrix, `big_matrix`. The matrix requires about 80000^2 \* 8 bytes = 48GB of memory. 
+This example creates a huge 80000x80000 random matrix, `big_matrix`. The matrix requires about 80000^2 \* 8 bytes = 48GB of memory.
 
 If you attempt to run this on your local machine, it is likely that the following will happen:
 
@@ -60,7 +58,7 @@ If you attempt to run this on your local machine, it is likely that the followin
 Evaluation error: vector memory exhausted (limit reached?).
 ```
 
-This fails quickly due to a `MemoryError` on most laptops as we are unable to allocate 48GB of memory. 
+This fails quickly due to a `MemoryError` on most laptops as we are unable to allocate 48GB of memory.
 
 The `resources` decorator suggests resource requirements for a step. The `memory` argument specifies the amount of RAM in megabytes and `cpu` the number of CPU cores requested. It does not produce the resources magically, which is why the run above failed.
 
@@ -70,21 +68,24 @@ The `resources` decorator gains all its power in collaboration with Batch execut
 
 With the following command, you instruct Metaflow to run all your steps on AWS Batch:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript bigsumflow.R run --with batch
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in bigsumflow.R with
 # run(batch = TRUE)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 The `--with batch` option instructs Metaflow to run all tasks as separate AWS Batch jobs, instead of using a local process for each task. It has the same effect as adding `@batch` decorator to all steps in the code.
 
@@ -108,8 +109,8 @@ Here are some useful tips and tricks related to running Metaflow on AWS Batch.
 
 Here are the current defaults for different resource types:
 
-* `cpu`: 1
-* `memory`: 4000 \(4GB\)
+- `cpu`: 1
+- `memory`: 4000 \(4GB\)
 
 When setting `resources`, keep in mind the configuration of your AWS Batch Compute Environment. Your job will be stuck in a `RUNNABLE` state if AWS is unable to provision the requested resources. Additionally, as a good measure, don't request more resources than what your workflow actually needs. On the other hand, never optimize resources prematurely.
 
@@ -127,111 +128,129 @@ If you want to make sure you have no AWS Batch tasks running, or you want to man
 
 You can easily see what AWS Batch tasks were launched by your latest run with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch list
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(batch = "list")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 You can kill the tasks started by the latest run with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch kill
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(batch = "kill")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 If you have started multiple runs, you can make sure there are no orphaned tasks still running with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch list --my-runs
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(batch = "list", my_runs = TRUE)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 You can kill the tasks started by the latest run with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch kill --my-runs
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(batch = "kill", my_runs = TRUE)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 If you see multiple runs running, you can cherry-pick a specific job, e.g. 456, to be killed as follows
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch kill --run-id 456
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(batch = "kill", run_id = "456")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 If you are working with another person, you can see and kill their tasks related to this flow with
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R batch kill --user savin
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 Replace run() in myflow.R with
 # run(batch = "kill", user = "savin")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 Note that all the above commands only affect the flow defined in your script. You can work on many flows in parallel and be confident that `kill` kills tasks only related to the flow you called `kill` with.
 
@@ -239,8 +258,7 @@ Note that all the above commands only affect the flow defined in your script. Yo
 
 It is almost too easy to launch AWS Batch jobs with Metaflow. A foreach branch with `1000` parameters would launch 1000 parallel Batch instances which may turn out to be quite expensive.
 
-{% code title="myflow.R" %}
-```bash
+```bash title="myflow.R"
 a <- function(self) {
   ...
   self$params <- range(1,1000)
@@ -253,63 +271,71 @@ a <- function(self) {
     ...
   )
 ```
-{% endcode %}
 
 To safeguard against inadvertent launching of many parallel Batch jobs, the `run` and `resume` commands have a flag `--max-num-splits` which fails the task if it attempts to launch more than 100 splits by default. Use the flag to increase the limit if you actually need more tasks.
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R run --max-num-splits 200
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem value="RStudio" label="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(max_num_splits = 200)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 Another flag, `--max-workers`, limits the number of tasks run in parallel. Even if a foreach launched 100 splits, `--max-workers` would make only 16 \(by default\) of them run in parallel at any point in time. If you want more parallelism, increase the value of `--max-workers`.
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript myflow.R run --max-workers 32
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem value="RStudio" label="RStudio">
+
 ```
 # Replace run() in myflow.R with
 # run(max_workers = 32)
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 #### **Accessing AWS Batch logs**
 
 As a convenience feature, you can also see the logs of any past step as follows:
 
-{% tabs %}
-{% tab title="Terminal" %}
+<Tabs>
+<TabItem label="Terminal" value="Terminal">
+
 ```bash
 Rscript bigsumflow.R logs 15/end
 ```
-{% endtab %}
 
-{% tab title="RStudio" %}
+</TabItem>
+<TabItem label="RStudio" value="RStudio">
+
 ```
 # Replace run() in bigsumflow.R with
 # run(logs = "15/end")
 # and execute in RStudio
 ```
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 ### Disk space
 
@@ -320,4 +346,3 @@ You can request higher disk space on AWS Batch instances by using an unmanaged C
 Metaflow uses Python's default object serialization format, [Pickle](https://docs.python.org/3/library/pickle.html), to persist data artifacts.
 
 Unfortunately Python was not able to pickle objects larger than 2GB prior to Python 3.5. If you need to store large data artifacts, such as a large data frame, using a recent version of Python 3 is highly recommended.
-

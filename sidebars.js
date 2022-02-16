@@ -18,7 +18,7 @@ const sidebars = {
     {
       type: "doc",
       id: "r/README",
-      label: "R Docs",
+      label: "📚 R Docs",
     },
     {
       type: "category",
@@ -89,7 +89,7 @@ const sidebars = {
     {
       type: "doc",
       id: "index",
-      label: "Python Docs",
+      label: "📚 Python Docs",
     },
     {
       type: "category",

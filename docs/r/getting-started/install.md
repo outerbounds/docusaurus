@@ -20,9 +20,11 @@ Behind the scenes, Metaflow relies on the Python Metaflow package, which gets in
 install_metaflow(method='virtualenv')
 ```
 
-{% hint style="info" %}
+:::info
+
 Metaflow requires **Python 3** since Python 3 has fewer bugs and is better supported than [the deprecated Python 2.7](http://pythonclock.org).
-{% endhint %}
+
+:::
 
 You can test your installation by running:
 

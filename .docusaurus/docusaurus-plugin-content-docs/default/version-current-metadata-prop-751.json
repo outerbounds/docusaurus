@@ -10,7 +10,7 @@
     "python": [
       {
         "type": "link",
-        "label": "R Docs",
+        "label": "📚 R Docs",
         "href": "/docs/r/",
         "docId": "r/README"
       },
@@ -210,7 +210,7 @@
     "r": [
       {
         "type": "link",
-        "label": "Python Docs",
+        "label": "📚 Python Docs",
         "href": "/docs/",
         "docId": "index"
       },
