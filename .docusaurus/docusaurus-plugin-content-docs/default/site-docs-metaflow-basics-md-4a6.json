@@ -11,10 +11,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Why Metaflow",
-    "permalink": "/docs/introduction/why-metaflow"
+    "title": "Deploying to AWS",
+    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
   },
   "next": {
     "title": "Inspecting Flows and Results",

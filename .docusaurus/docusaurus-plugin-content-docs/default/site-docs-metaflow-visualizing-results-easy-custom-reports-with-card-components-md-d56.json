@@ -10,14 +10,5 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Advanced, Shareable Cards with Card Templates",
-    "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
-  },
-  "next": {
-    "title": "Effortless Task Inspection with Default Cards",
-    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
-  }
+  "frontMatter": {}
 }

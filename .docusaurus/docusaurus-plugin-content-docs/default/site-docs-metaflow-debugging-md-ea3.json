@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Loading and Storing Data",
-    "permalink": "/docs/metaflow/data"
+    "title": "Visualizing Results",
+    "permalink": "/docs/metaflow/visualizing-results/"
   },
   "next": {
-    "title": "Managing External Libraries",
-    "permalink": "/docs/metaflow/dependencies"
+    "title": "Scaling Out and Up",
+    "permalink": "/docs/metaflow/scaling"
   }
 }

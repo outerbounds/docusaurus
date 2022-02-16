@@ -11,10 +11,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Scheduling Metaflow Flows",
-    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+    "title": "Coordinating Larger Metaflow Projects",
+    "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
   },
   "next": {
     "title": "Testing Philosophy",

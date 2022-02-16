@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Roadmap",
-    "permalink": "/docs/introduction/roadmap"
-  },
-  "next": {
     "title": "Why Metaflow",
     "permalink": "/docs/introduction/why-metaflow"
+  },
+  "next": {
+    "title": "Release Notes",
+    "permalink": "/docs/introduction/release-notes"
   }
 }

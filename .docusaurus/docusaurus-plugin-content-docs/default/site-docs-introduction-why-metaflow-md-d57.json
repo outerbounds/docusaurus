@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "What is Metaflow",
-    "permalink": "/docs/introduction/what-is-metaflow"
+    "title": "Welcome to Metaflow for R",
+    "permalink": "/docs/r/"
   },
   "next": {
-    "title": "Basics of Metaflow",
-    "permalink": "/docs/metaflow/basics"
+    "title": "What is Metaflow",
+    "permalink": "/docs/introduction/what-is-metaflow"
   }
 }

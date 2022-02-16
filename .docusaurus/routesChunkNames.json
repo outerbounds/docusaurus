@@ -3,169 +3,293 @@
     "component": "9e4087bc",
     "archive": "b2f554cd"
   },
-  "/docs-63b": {
+  "/docs-3c9": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/-6ce": {
+  "/docs/-e9a": {
     "component": "17896441",
-    "content": "23374ca6"
+    "content": "c377a04b"
   },
-  "/docs/getting-started/install-a24": {
+  "/docs/getting-started/install-6c9": {
     "component": "17896441",
     "content": "2a2a0c40"
   },
-  "/docs/getting-started/tutorials/-bf2": {
+  "/docs/getting-started/tutorials/-d36": {
     "component": "17896441",
     "content": "4bccbb93"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/-a20": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/-0c5": {
     "component": "17896441",
     "content": "a87034d4"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/episode00-07b": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/episode00-bf0": {
     "component": "17896441",
     "content": "0dec07e6"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/episode01-81a": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/episode01-993": {
     "component": "17896441",
     "content": "90ed76ce"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/episode02-75f": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/episode02-d37": {
     "component": "17896441",
     "content": "0284d790"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/episode03-f91": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/episode03-6f8": {
     "component": "17896441",
     "content": "3afd6a86"
   },
-  "/docs/getting-started/tutorials/season-1-the-local-experience/episode04-861": {
+  "/docs/getting-started/tutorials/season-1-the-local-experience/episode04-b37": {
     "component": "17896441",
     "content": "ccf78cca"
   },
-  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/-46d": {
+  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/-f44": {
     "component": "17896441",
     "content": "c7b8879f"
   },
-  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot-4e5": {
+  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot-c50": {
     "component": "17896441",
     "content": "52a9fde9"
   },
-  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05-873": {
+  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05-341": {
     "component": "17896441",
     "content": "bd77eca7"
   },
-  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06-e32": {
+  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06-62d": {
     "component": "17896441",
     "content": "878e0c34"
   },
-  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07-7c9": {
+  "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07-158": {
     "component": "17896441",
     "content": "df36033e"
   },
-  "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects-d8a": {
+  "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects-881": {
     "component": "17896441",
     "content": "4c404b35"
   },
-  "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows-67c": {
+  "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows-ef7": {
     "component": "17896441",
     "content": "dad8eb33"
   },
-  "/docs/internals-of-metaflow/technical-overview-627": {
+  "/docs/internals-of-metaflow/technical-overview-452": {
     "component": "17896441",
     "content": "21afae4a"
   },
-  "/docs/internals-of-metaflow/testing-philosophy-2af": {
+  "/docs/internals-of-metaflow/testing-philosophy-b5e": {
     "component": "17896441",
     "content": "3f78fd1f"
   },
-  "/docs/introduction/contributing-to-metaflow-ecc": {
+  "/docs/introduction/contributing-to-metaflow-8bf": {
     "component": "17896441",
     "content": "8aca0c77"
   },
-  "/docs/introduction/getting-in-touch-608": {
+  "/docs/introduction/getting-in-touch-26e": {
     "component": "17896441",
     "content": "dac2aa19"
   },
-  "/docs/introduction/release-notes-c00": {
+  "/docs/introduction/release-notes-31c": {
     "component": "17896441",
     "content": "dcce50e1"
   },
-  "/docs/introduction/roadmap-c40": {
+  "/docs/introduction/roadmap-f8a": {
     "component": "17896441",
     "content": "19ca43e5"
   },
-  "/docs/introduction/what-is-metaflow-223": {
+  "/docs/introduction/what-is-metaflow-0ad": {
     "component": "17896441",
     "content": "37468db2"
   },
-  "/docs/introduction/why-metaflow-686": {
+  "/docs/introduction/why-metaflow-1db": {
     "component": "17896441",
     "content": "d577e4ac"
   },
-  "/docs/metaflow-on-aws/-791": {
+  "/docs/metaflow-on-aws/-e76": {
     "component": "17896441",
     "content": "c8094cdf"
   },
-  "/docs/metaflow-on-aws/deploy-to-aws-9da": {
+  "/docs/metaflow-on-aws/deploy-to-aws-d91": {
     "component": "17896441",
     "content": "d1fd23d5"
   },
-  "/docs/metaflow-on-aws/metaflow-sandbox-e6f": {
+  "/docs/metaflow-on-aws/metaflow-sandbox-53f": {
     "component": "17896441",
     "content": "b4d8af2f"
   },
-  "/docs/metaflow/basics-5c4": {
+  "/docs/metaflow/basics-c15": {
     "component": "17896441",
     "content": "4a6cd698"
   },
-  "/docs/metaflow/client-b3d": {
+  "/docs/metaflow/client-c78": {
     "component": "17896441",
     "content": "49d71418"
   },
-  "/docs/metaflow/data-70b": {
+  "/docs/metaflow/data-cbb": {
     "component": "17896441",
     "content": "54d503f9"
   },
-  "/docs/metaflow/debugging-ba2": {
+  "/docs/metaflow/debugging-dba": {
     "component": "17896441",
     "content": "ea32c124"
   },
-  "/docs/metaflow/dependencies-6be": {
+  "/docs/metaflow/dependencies-17b": {
     "component": "17896441",
     "content": "8a16f8b8"
   },
-  "/docs/metaflow/failures-975": {
+  "/docs/metaflow/failures-8bb": {
     "component": "17896441",
     "content": "33e57c4c"
   },
-  "/docs/metaflow/scaling-445": {
+  "/docs/metaflow/scaling-cfa": {
     "component": "17896441",
     "content": "f6adb146"
   },
-  "/docs/metaflow/tagging-642": {
+  "/docs/metaflow/tagging-307": {
     "component": "17896441",
     "content": "b3d68fd2"
   },
-  "/docs/metaflow/visualizing-results/-74e": {
+  "/docs/metaflow/visualizing-results/-62a": {
     "component": "17896441",
     "content": "77d9b574"
   },
-  "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates-dba": {
+  "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates-9e1": {
     "component": "17896441",
     "content": "87e9f581"
   },
-  "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components-237": {
+  "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components-4a9": {
     "component": "17896441",
     "content": "d565fa7d"
   },
-  "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards-b5a": {
+  "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards-a6d": {
     "component": "17896441",
     "content": "f947de15"
   },
-  "/docs/why-de4": {
+  "/docs/r/-19b": {
     "component": "17896441",
-    "content": "0ee03d4e"
+    "content": "86ccb04f"
+  },
+  "/docs/r/getting-started/development-environment-2ee": {
+    "component": "17896441",
+    "content": "c2dc933c"
+  },
+  "/docs/r/getting-started/install-526": {
+    "component": "17896441",
+    "content": "f7f8e4b3"
+  },
+  "/docs/r/getting-started/tutorials/-3b4": {
+    "component": "17896441",
+    "content": "7eaf1f55"
+  },
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/-aca": {
+    "component": "17896441",
+    "content": "32a4f2fb"
+  },
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00-256": {
+    "component": "17896441",
+    "content": "179418ee"
+  },
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01-e3f": {
+    "component": "17896441",
+    "content": "03ebc4bb"
+  },
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02-297": {
+    "component": "17896441",
+    "content": "c81d9bb3"
+  },
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03-1b9": {
+    "component": "17896441",
+    "content": "f03943ab"
+  },
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/-9b2": {
+    "component": "17896441",
+    "content": "2182fb77"
+  },
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04-30a": {
+    "component": "17896441",
+    "content": "d12453bf"
+  },
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05-9cf": {
+    "component": "17896441",
+    "content": "5961d3ca"
+  },
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06-65d": {
+    "component": "17896441",
+    "content": "fc3ec4c9"
+  },
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07-e0c": {
+    "component": "17896441",
+    "content": "6d45029f"
+  },
+  "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows-039": {
+    "component": "17896441",
+    "content": "e9395b35"
+  },
+  "/docs/r/introduction/contributing-to-metaflow-74d": {
+    "component": "17896441",
+    "content": "5671b92e"
+  },
+  "/docs/r/introduction/getting-in-touch-905": {
+    "component": "17896441",
+    "content": "d601ac8c"
+  },
+  "/docs/r/introduction/release-notes-93e": {
+    "component": "17896441",
+    "content": "dace3776"
+  },
+  "/docs/r/introduction/roadmap-370": {
+    "component": "17896441",
+    "content": "6e345a27"
+  },
+  "/docs/r/introduction/what-is-metaflow-1a7": {
+    "component": "17896441",
+    "content": "31cb7b58"
+  },
+  "/docs/r/introduction/why-metaflow-5e0": {
+    "component": "17896441",
+    "content": "276dba62"
+  },
+  "/docs/r/introduction/wip-contributing-to-metaflow-20b": {
+    "component": "17896441",
+    "content": "6ee4af45"
+  },
+  "/docs/r/metaflow-on-aws/-035": {
+    "component": "17896441",
+    "content": "0aaa5ca2"
+  },
+  "/docs/r/metaflow-on-aws/deploy-to-aws-d81": {
+    "component": "17896441",
+    "content": "cdcbdc88"
+  },
+  "/docs/r/metaflow-on-aws/metaflow-sandbox-212": {
+    "component": "17896441",
+    "content": "49447078"
+  },
+  "/docs/r/metaflow/basics-294": {
+    "component": "17896441",
+    "content": "8de00be2"
+  },
+  "/docs/r/metaflow/client-eb3": {
+    "component": "17896441",
+    "content": "3a44415f"
+  },
+  "/docs/r/metaflow/debugging-30d": {
+    "component": "17896441",
+    "content": "0ff9f67e"
+  },
+  "/docs/r/metaflow/failures-155": {
+    "component": "17896441",
+    "content": "fad65391"
+  },
+  "/docs/r/metaflow/scaling-6dd": {
+    "component": "17896441",
+    "content": "0309a75e"
+  },
+  "/docs/r/metaflow/tagging-38a": {
+    "component": "17896441",
+    "content": "688e7627"
+  },
+  "/docs/r/SUMMARY-a98": {
+    "component": "17896441",
+    "content": "01a1795c"
   },
   "/-5f1": {
     "component": "1f391b9e",

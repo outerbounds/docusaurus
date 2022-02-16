@@ -10,14 +10,5 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Episode 5: Hello AWS",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
-  },
-  "next": {
-    "title": "Episode 7: Worldview",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
-  }
+  "frontMatter": {}
 }

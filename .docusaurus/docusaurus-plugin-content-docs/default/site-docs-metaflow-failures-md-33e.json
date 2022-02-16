@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
     "title": "Managing External Libraries",
     "permalink": "/docs/metaflow/dependencies"
   },
   "next": {
-    "title": "Scaling Out and Up",
-    "permalink": "/docs/metaflow/scaling"
+    "title": "Organizing Results",
+    "permalink": "/docs/metaflow/tagging"
   }
 }

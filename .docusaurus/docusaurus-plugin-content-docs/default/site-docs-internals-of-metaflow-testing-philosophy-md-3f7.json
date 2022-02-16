@@ -11,13 +11,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
     "title": "Technical Overview",
     "permalink": "/docs/internals-of-metaflow/technical-overview"
-  },
-  "next": {
-    "title": "Contributing to Metaflow",
-    "permalink": "/docs/introduction/contributing-to-metaflow"
   }
 }

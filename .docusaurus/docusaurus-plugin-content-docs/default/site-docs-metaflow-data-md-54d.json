@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Inspecting Flows and Results",
-    "permalink": "/docs/metaflow/client"
+    "title": "Scaling Out and Up",
+    "permalink": "/docs/metaflow/scaling"
   },
   "next": {
-    "title": "Debugging with Metaflow",
-    "permalink": "/docs/metaflow/debugging"
+    "title": "Managing External Libraries",
+    "permalink": "/docs/metaflow/dependencies"
   }
 }

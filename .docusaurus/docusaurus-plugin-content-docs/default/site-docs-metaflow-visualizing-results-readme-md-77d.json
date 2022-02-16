@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Organizing Results",
-    "permalink": "/docs/metaflow/tagging"
+    "title": "Inspecting Flows and Results",
+    "permalink": "/docs/metaflow/client"
   },
   "next": {
-    "title": "Advanced, Shareable Cards with Card Templates",
-    "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+    "title": "Debugging with Metaflow",
+    "permalink": "/docs/metaflow/debugging"
   }
 }

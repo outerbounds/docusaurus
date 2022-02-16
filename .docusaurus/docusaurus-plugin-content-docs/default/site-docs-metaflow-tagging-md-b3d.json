@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Scaling Out and Up",
-    "permalink": "/docs/metaflow/scaling"
+    "title": "Dealing with Failures",
+    "permalink": "/docs/metaflow/failures"
   },
   "next": {
-    "title": "Visualizing Results",
-    "permalink": "/docs/metaflow/visualizing-results/"
+    "title": "Scheduling Metaflow Flows",
+    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
   }
 }

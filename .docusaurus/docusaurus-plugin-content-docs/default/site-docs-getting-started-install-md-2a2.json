@@ -11,10 +11,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Why Metaflow",
-    "permalink": "/docs/why"
+    "title": "Get in Touch",
+    "permalink": "/docs/introduction/getting-in-touch"
   },
   "next": {
     "title": "Tutorials",

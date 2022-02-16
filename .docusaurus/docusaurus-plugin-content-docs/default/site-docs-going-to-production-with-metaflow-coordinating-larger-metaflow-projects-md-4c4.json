@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Metaflow Sandbox",
-    "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
-  },
-  "next": {
     "title": "Scheduling Metaflow Flows",
     "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+  },
+  "next": {
+    "title": "Technical Overview",
+    "permalink": "/docs/internals-of-metaflow/technical-overview"
   }
 }

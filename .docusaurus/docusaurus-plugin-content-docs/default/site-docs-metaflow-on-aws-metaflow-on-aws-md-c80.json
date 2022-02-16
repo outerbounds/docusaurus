@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Effortless Task Inspection with Default Cards",
-    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+    "title": "Tutorials",
+    "permalink": "/docs/getting-started/tutorials/"
   },
   "next": {
-    "title": "Deploying to AWS",
-    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+    "title": "Metaflow Sandbox",
+    "permalink": "/docs/metaflow-on-aws/metaflow-sandbox"
   }
 }

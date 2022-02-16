@@ -11,10 +11,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Debugging with Metaflow",
-    "permalink": "/docs/metaflow/debugging"
+    "title": "Loading and Storing Data",
+    "permalink": "/docs/metaflow/data"
   },
   "next": {
     "title": "Dealing with Failures",

@@ -10,14 +10,5 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Episode 4: Playlist Plus",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
-  },
-  "next": {
-    "title": "Episode 8: Autopilot",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
-  }
+  "frontMatter": {}
 }

@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
-    "title": "Coordinating Larger Metaflow Projects",
-    "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+    "title": "Organizing Results",
+    "permalink": "/docs/metaflow/tagging"
   },
   "next": {
-    "title": "Technical Overview",
-    "permalink": "/docs/internals-of-metaflow/technical-overview"
+    "title": "Coordinating Larger Metaflow Projects",
+    "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
   }
 }

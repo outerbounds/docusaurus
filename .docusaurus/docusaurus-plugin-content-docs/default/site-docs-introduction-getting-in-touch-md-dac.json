@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "python",
   "previous": {
     "title": "Contributing to Metaflow",
     "permalink": "/docs/introduction/contributing-to-metaflow"
   },
   "next": {
-    "title": "Release Notes",
-    "permalink": "/docs/introduction/release-notes"
+    "title": "Installing Metaflow",
+    "permalink": "/docs/getting-started/install"
   }
 }
