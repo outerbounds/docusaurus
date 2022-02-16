@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Organizing Results
 
 A boring, under-appreciated part of high-quality science \(or any project work in general\), is keeping results organized. This is the key to effective collaboration, versioning of parallel lines of work, and reproducibility.

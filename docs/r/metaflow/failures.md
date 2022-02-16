@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Dealing with Failures
 
 Failures are a natural, expected part of data science workflows. Here are some typical reasons why you can expect your workflow to fail:

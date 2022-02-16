@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Debugging with Metaflow
 
 Metaflow wants to make debugging failed flows as painless as possible.
