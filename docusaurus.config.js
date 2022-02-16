@@ -18,6 +18,8 @@ const config = {
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
   presets: [
     [
       "classic",
@@ -50,8 +52,8 @@ const config = {
       navbar: {
         logo: {
           alt: "Metaflow Logo",
-          src: "img/Metaflow_Logo_Horizontal_OneColor_Black_RGB.png",
           srcDark: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
+          src: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
           href: "/docs",
           height: "64px",
         },

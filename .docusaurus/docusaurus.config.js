@@ -13,6 +13,9 @@ export default {
   "favicon": "img/favicon.ico",
   "organizationName": "facebook",
   "projectName": "docusaurus",
+  "plugins": [
+    "/Users/brendan/dev/docusaurus/node_modules/@cmfcmf/docusaurus-search-local/lib/server/index.js"
+  ],
   "presets": [
     [
       "classic",
@@ -36,8 +39,8 @@ export default {
     "navbar": {
       "logo": {
         "alt": "Metaflow Logo",
-        "src": "img/Metaflow_Logo_Horizontal_OneColor_Black_RGB.png",
         "srcDark": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
+        "src": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
         "href": "/docs",
         "height": "64px"
       },
@@ -295,7 +298,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

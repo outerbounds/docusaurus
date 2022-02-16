@@ -1,4 +1,12 @@
 {
+  "@cmfcmf/docusaurus-search-local": {
+    "default": {
+      "titleBoost": 5,
+      "contentBoost": 1,
+      "parentCategoriesBoost": 2,
+      "indexDocSidebarParentCategories": 0
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",

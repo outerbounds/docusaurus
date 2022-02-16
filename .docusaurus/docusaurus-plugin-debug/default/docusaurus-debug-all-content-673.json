@@ -1694,5 +1694,8 @@
   },
   "docusaurus-theme-classic": {
     "default": null
+  },
+  "@cmfcmf/docusaurus-search-local": {
+    "default": null
   }
 }
