@@ -15,7 +15,7 @@ This document gives an overview of how the core functionality is implemented.
 
 Here is a high-level architecture diagram of Metaflow:
 
-![](/assets/Untitled presentation.png)
+![](/assets/Untitled_presentation.png)
 
 Below, we will describe the components in detail. To highlight the time-dimension which is missing from the diagram, we group the descriptions by the following phases in the development lifecycle:
 

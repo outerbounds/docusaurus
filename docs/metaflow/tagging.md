@@ -85,7 +85,7 @@ Moreover, it is critical that you, and all other people, can keep experimenting 
 
 As a solution, by default the production namespace is made separate from the user namespace:
 
-![](/assets/namespace4 (3).png)
+![](</assets/namespace4_(3).png>)
 
 Isolated production namespaces have three main benefits:
 

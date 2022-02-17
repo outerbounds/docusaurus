@@ -56,7 +56,7 @@ and view the card
 
 You should see a blank page with a blue “Hello World!” text.
 
-![](/assets/card-docs-html (2).png)
+![](</assets/card-docs-html_(2).png>)
 
 A particularly useful feature of card templates is that they work in any compute environment, such as [AWS Batch](../scaling). For instance, if you have AWS Batch set up, you can run the flow as follows:
 
@@ -72,7 +72,7 @@ Now, every time a production run executes, cards will get produced exactly as du
 
 If you want to develop a card template of your own, it is useful to have a mental model of how cards work under the hood:
 
-![](/assets/card-docs-template (1).png)
+![](</assets/card-docs-template_(1).png>)
 
 The blue box is a Metaflow task executing a step from the user’s flow. It is decorated with a `@card` decorator that has a `type` attribute referring to your custom template, e.g. `mycard`. The task executes before the card template. After the task has finished, a new subprocess is started that executes a card template. This ensures that even if the template fails for any reason, it won’t crash the task.
 

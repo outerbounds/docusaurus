@@ -133,7 +133,7 @@ This section shows you how to reproduce a failed Metaflow run on AWS Step Functi
 
 ![](/assets/image1.png)
 
-![](/assets/image3 (1).png)
+![](</assets/image3_(1).png>)
 
 Notice the execution ID of `5ca85f96-8508-409d-a5f5-b567db1040c5`. When running on AWS Step Functions, Metaflow uses the AWS Step Functions execution ID (prefixed with `sfn-`) as the run id.&#x20;
 

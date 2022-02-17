@@ -21,7 +21,7 @@ The most basic type of transition is **a linear** transition. It moves from one 
 
 Here is a graph with two linear transitions:
 
-![](/assets/assets*metaflow*-lpjn0yp7r49jrnxca*5*-lpjrytxto2crix9qi6y_graph_linear %281%29 %282%29.png)
+![](/assets/assets*-lpjn0yp7r49jrnxca*5*-lpjrytxto2crix9qi6y_graph_linear*%281%29 %282%29.png)
 
 The corresponding Metaflow script looks like this:
 
