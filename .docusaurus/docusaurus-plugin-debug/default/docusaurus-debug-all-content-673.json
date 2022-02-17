@@ -19,6 +19,20 @@
           "contentPathLocalized": "/Users/brendan/dev/docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "flow_datastore",
+              "id": "flow_datastore",
+              "title": "flow_datastore",
+              "description": "FlowDataStore Objects",
+              "source": "@site/docs/flow_datastore.md",
+              "sourceDirName": ".",
+              "slug": "/flow_datastore",
+              "permalink": "/docs/flow_datastore",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flow_datastore.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
               "unversionedId": "getting-started/install",
               "id": "getting-started/install",
               "title": "Installing Metaflow",

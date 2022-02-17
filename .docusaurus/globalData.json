@@ -19,6 +19,10 @@
           "mainDocId": "index",
           "docs": [
             {
+              "id": "flow_datastore",
+              "path": "/docs/flow_datastore"
+            },
+            {
               "id": "getting-started/install",
               "path": "/docs/getting-started/install",
               "sidebar": "python"

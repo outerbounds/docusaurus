@@ -4,19 +4,59 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','771'),
+    component: ComponentCreator('/docs','4bb'),
     routes: [
       {
         path: '/docs/',
         component: ComponentCreator('/docs/','e9a'),
         exact: true,
         'sidebar': "python"
+      },
+      {
+        path: '/docs/flow_datastore',
+        component: ComponentCreator('/docs/flow_datastore','db2'),
+        exact: true
       },
       {
         path: '/docs/getting-started/install',
