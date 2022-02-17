@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4bb'),
+    component: ComponentCreator('/docs','06e'),
     routes: [
       {
         path: '/docs/',
@@ -56,6 +56,11 @@ export default [
       {
         path: '/docs/flow_datastore',
         component: ComponentCreator('/docs/flow_datastore','db2'),
+        exact: true
+      },
+      {
+        path: '/docs/flow_datastore2',
+        component: ComponentCreator('/docs/flow_datastore2','714'),
         exact: true
       },
       {

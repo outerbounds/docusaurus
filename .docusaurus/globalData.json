@@ -23,6 +23,10 @@
               "path": "/docs/flow_datastore"
             },
             {
+              "id": "flow_datastore2",
+              "path": "/docs/flow_datastore2"
+            },
+            {
               "id": "getting-started/install",
               "path": "/docs/getting-started/install",
               "sidebar": "python"

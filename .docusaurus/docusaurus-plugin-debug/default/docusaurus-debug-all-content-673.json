@@ -33,6 +33,23 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "flow_datastore2",
+              "id": "flow_datastore2",
+              "title": "flow_datastore",
+              "description": "FlowDataStore Objects",
+              "source": "@site/docs/flow_datastore2.md",
+              "sourceDirName": ".",
+              "slug": "/flow_datastore2",
+              "permalink": "/docs/flow_datastore2",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flow_datastore2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "flow_datastore",
+                "title": "flow_datastore"
+              }
+            },
+            {
               "unversionedId": "getting-started/install",
               "id": "getting-started/install",
               "title": "Installing Metaflow",

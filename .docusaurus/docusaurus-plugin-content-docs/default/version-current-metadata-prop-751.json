@@ -466,6 +466,11 @@
       "title": "flow_datastore",
       "description": "FlowDataStore Objects"
     },
+    "flow_datastore2": {
+      "id": "flow_datastore2",
+      "title": "flow_datastore",
+      "description": "FlowDataStore Objects"
+    },
     "getting-started/install": {
       "id": "getting-started/install",
       "title": "Installing Metaflow",
