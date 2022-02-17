@@ -27,6 +27,10 @@
               "path": "/docs/flow_datastore2"
             },
             {
+              "id": "flow_datastory_mdx",
+              "path": "/docs/flow_datastory_mdx"
+            },
+            {
               "id": "getting-started/install",
               "path": "/docs/getting-started/install",
               "sidebar": "python"

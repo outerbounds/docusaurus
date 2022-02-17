@@ -50,6 +50,23 @@
               }
             },
             {
+              "unversionedId": "flow_datastory_mdx",
+              "id": "flow_datastory_mdx",
+              "title": "flow_datastore_bg",
+              "description": "console.log('children: ', children);",
+              "source": "@site/docs/flow_datastory_mdx.mdx",
+              "sourceDirName": ".",
+              "slug": "/flow_datastory_mdx",
+              "permalink": "/docs/flow_datastory_mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/flow_datastory_mdx.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "flow_datastore_bg",
+                "title": "flow_datastore_bg"
+              }
+            },
+            {
               "unversionedId": "getting-started/install",
               "id": "getting-started/install",
               "title": "Installing Metaflow",
