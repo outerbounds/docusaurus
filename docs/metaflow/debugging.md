@@ -177,7 +177,7 @@ Being able to inspect data produced by every step is a powerful feature of Metaf
 
 This clip (no audio) demonstrates inspecting values in a flow:
 
-<ReactPlayer playing controls url="https://share.getcloudapp.com/X6uDx9KB" />
+<ReactPlayer controls url="https://share.getcloudapp.com/X6uDx9KB" />
 
 In the above clip, you will see:
 
@@ -212,7 +212,7 @@ You can enable debugging of a Flow in VSCode by adjusting your project's configu
 
 Here is a recording of the end-to-end setup proccess:
 
-<ReactPlayer playing controls url="https://www.youtube.com/watch?v=xWGxDeojqeM" />
+<ReactPlayer controls url="https://www.youtube.com/watch?v=xWGxDeojqeM" />
 
 The configuration file as illustrated in the recording is provided below. Make sure you are extra careful to update the json structure appropriately if you already have existing settings.
 

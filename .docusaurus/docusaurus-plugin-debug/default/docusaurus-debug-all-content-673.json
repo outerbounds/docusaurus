@@ -53,15 +53,17 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/README.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "pagination_next": "getting-started/tutorials/season-1-the-local-experience/README"
+              },
               "sidebar": "python",
               "previous": {
                 "title": "Installing Metaflow",
                 "permalink": "/docs/getting-started/install"
               },
               "next": {
-                "title": "Metaflow on AWS",
-                "permalink": "/docs/metaflow-on-aws/"
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
               }
             },
             {
@@ -76,7 +78,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+              },
+              "next": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode01",
@@ -90,7 +101,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+              },
+              "next": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode02",
@@ -104,7 +124,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+              },
+              "next": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode03",
@@ -118,7 +147,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+              },
+              "next": {
+                "title": "Episode 4: Playlist Plus",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-1-the-local-experience/episode04",
@@ -132,7 +170,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode04.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+              },
+              "next": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-1-the-local-experience/README",
@@ -146,7 +193,19 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/README.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {
+                "pagination_prev": "getting-started/tutorials/README",
+                "pagination_next": "getting-started/tutorials/season-1-the-local-experience/episode00"
+              },
+              "sidebar": "python",
+              "previous": {
+                "title": "Tutorials",
+                "permalink": "/docs/getting-started/tutorials/"
+              },
+              "next": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
@@ -160,7 +219,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              },
+              "next": {
+                "title": "Metaflow on AWS",
+                "permalink": "/docs/metaflow-on-aws/"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
@@ -174,7 +242,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              },
+              "next": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
@@ -188,7 +265,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              },
+              "next": {
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
@@ -202,7 +288,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              },
+              "next": {
+                "title": "Episode 8: Autopilot",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+              }
             },
             {
               "unversionedId": "getting-started/tutorials/season-2-scaling-out-and-up/README",
@@ -216,7 +311,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Episode 4: Playlist Plus",
+                "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+              },
+              "next": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              }
             },
             {
               "unversionedId": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
@@ -278,9 +382,14 @@
               "version": "current",
               "frontMatter": {
                 "description": "Build and manage real-life data science projects with ease.",
-                "displayed_sidebar": "python"
+                "displayed_sidebar": "python",
+                "pagination_next": "introduction/why-metaflow"
               },
-              "sidebar": "python"
+              "sidebar": "python",
+              "next": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/introduction/why-metaflow"
+              }
             },
             {
               "unversionedId": "internals-of-metaflow/technical-overview",
@@ -451,11 +560,13 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/why-metaflow.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "pagination_prev": "index"
+              },
               "sidebar": "python",
               "previous": {
-                "title": "Welcome to Metaflow for R",
-                "permalink": "/docs/r/"
+                "title": "Welcome to Metaflow for Python",
+                "permalink": "/docs/"
               },
               "next": {
                 "title": "What is Metaflow",
@@ -500,8 +611,8 @@
               "frontMatter": {},
               "sidebar": "python",
               "previous": {
-                "title": "Tutorials",
-                "permalink": "/docs/getting-started/tutorials/"
+                "title": "Episode 8: Autopilot",
+                "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
               },
               "next": {
                 "title": "Metaflow Sandbox",
@@ -615,8 +726,8 @@
               "frontMatter": {},
               "sidebar": "python",
               "previous": {
-                "title": "Visualizing Results",
-                "permalink": "/docs/metaflow/visualizing-results/"
+                "title": "Advanced, Shareable Cards with Card Templates",
+                "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
               },
               "next": {
                 "title": "Scaling Out and Up",
@@ -727,7 +838,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Easy Custom Reports with Card Components",
+                "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              },
+              "next": {
+                "title": "Debugging with Metaflow",
+                "permalink": "/docs/metaflow/debugging"
+              }
             },
             {
               "unversionedId": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
@@ -741,7 +861,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Effortless Task Inspection with Default Cards",
+                "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+              },
+              "next": {
+                "title": "Advanced, Shareable Cards with Card Templates",
+                "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+              }
             },
             {
               "unversionedId": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
@@ -755,7 +884,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "python",
+              "previous": {
+                "title": "Visualizing Results",
+                "permalink": "/docs/metaflow/visualizing-results/"
+              },
+              "next": {
+                "title": "Easy Custom Reports with Card Components",
+                "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              }
             },
             {
               "unversionedId": "metaflow/visualizing-results/README",
@@ -776,8 +914,8 @@
                 "permalink": "/docs/metaflow/client"
               },
               "next": {
-                "title": "Debugging with Metaflow",
-                "permalink": "/docs/metaflow/debugging"
+                "title": "Effortless Task Inspection with Default Cards",
+                "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
               }
             },
             {
@@ -1440,8 +1578,76 @@
                     "id": "getting-started/install"
                   },
                   {
-                    "type": "doc",
-                    "id": "getting-started/tutorials/README"
+                    "type": "category",
+                    "label": "Tutorials",
+                    "collapsed": false,
+                    "link": {
+                      "type": "doc",
+                      "id": "getting-started/tutorials/README"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Season 1: The Local Experience",
+                        "link": {
+                          "type": "doc",
+                          "id": "getting-started/tutorials/season-1-the-local-experience/README"
+                        },
+                        "collapsed": false,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode00"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode01"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode02"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode03"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-1-the-local-experience/episode04"
+                          }
+                        ],
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Season 2: Scaling Out and Up",
+                        "link": {
+                          "type": "doc",
+                          "id": "getting-started/tutorials/season-2-scaling-out-and-up/README"
+                        },
+                        "collapsed": false,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+                          }
+                        ],
+                        "collapsible": true
+                      }
+                    ],
+                    "collapsible": true
                   }
                 ],
                 "collapsible": true
@@ -1480,8 +1686,28 @@
                     "id": "metaflow/client"
                   },
                   {
-                    "type": "doc",
-                    "id": "metaflow/visualizing-results/README"
+                    "type": "category",
+                    "label": "Visualizing Results",
+                    "link": {
+                      "type": "doc",
+                      "id": "metaflow/visualizing-results/README"
+                    },
+                    "collapsed": false,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+                      }
+                    ],
+                    "collapsible": true
                   },
                   {
                     "type": "doc",

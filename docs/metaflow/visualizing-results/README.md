@@ -6,7 +6,7 @@ What if you want to share results of flows with human beings or inspect results 
 
 If you have a good idea what information you want observe in every execution, it is more convenient to produce a relevant report automatically. Metaflow comes with a built-in mechanism to create and view such reports with a few lines of code, called _cards_. These cards can contain any images, text, and tables which help you observe the flow. To get an idea of how cards works in practice, take a look at the following short video (no sound):
 
-<ReactPlayer playing controls url="https://www.youtube.com/watch?v=YSJXn6KLzXg" />
+<ReactPlayer controls url="https://www.youtube.com/watch?v=YSJXn6KLzXg" />
 
 ## What are cards?
 
@@ -21,7 +21,7 @@ In contrast, cards are not meant for building interactive dashboards, monitoring
 
 You can attach cards in any Metaflow step. When a task corresponding to the step finishes, an additional piece of code is executed which creates an HTML file visualizing the results of the task. In the illustration below, the train step trains three models in parallel by using [foreach](../basics#foreach). The step is decorated with the `@card` decorator, so it produces a human-readable report alongside its usual programmatic results.
 
-![](/assets/Visualizing Results (1).png)
+![](/assets/Visualizing_Results.png)
 
 Each model could be accompanied by a card showing model validation metrics. For instance, you can easily customize the cards to look something like this:
 

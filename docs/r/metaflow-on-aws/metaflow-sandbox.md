@@ -36,7 +36,7 @@ You can sign up for a sandbox at [metaflow.org/sandbox](https://metaflow.org/san
 
 Here is a short screencast that walks you through the process \(no audio\). This screencast shows the sign up process for Metaflow Python package. It is the same process for R.
 
-<ReactPlayer playing controls url="https://www.youtube.com/watch?v=SMvgAINYGqU" />
+<ReactPlayer  controls url="https://www.youtube.com/watch?v=SMvgAINYGqU" />
 
 1. After agreeing to the Terms of Use and Privacy Policy, you will need to sign up with your GitHub account. This is required so we can verify your identify to prevent abuse.
 2. You will be added to a waitlist. You can log in to [metaflow.org/sandbox](https://metaflow.org/sandbox) to see the status of your process. You can expect that the status will remain at "Waiting for the next available sandbox" for many days.

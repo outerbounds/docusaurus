@@ -30,47 +30,58 @@
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/episode00",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/episode01",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/episode02",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/episode03",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/episode04",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-1-the-local-experience/README",
-              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+              "path": "/docs/getting-started/tutorials/season-1-the-local-experience/",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
-              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "sidebar": "python"
             },
             {
               "id": "getting-started/tutorials/season-2-scaling-out-and-up/README",
-              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              "path": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "sidebar": "python"
             },
             {
               "id": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
@@ -184,15 +195,18 @@
             },
             {
               "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
-              "path": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+              "path": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "sidebar": "python"
             },
             {
               "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
-              "path": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              "path": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "sidebar": "python"
             },
             {
               "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
-              "path": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+              "path": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "sidebar": "python"
             },
             {
               "id": "metaflow/visualizing-results/README",

@@ -10,11 +10,13 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/why-metaflow.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "pagination_prev": "index"
+  },
   "sidebar": "python",
   "previous": {
-    "title": "Welcome to Metaflow for R",
-    "permalink": "/docs/r/"
+    "title": "Welcome to Metaflow for Python",
+    "permalink": "/docs/"
   },
   "next": {
     "title": "What is Metaflow",

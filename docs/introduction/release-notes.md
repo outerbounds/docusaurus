@@ -8,20 +8,20 @@ We take backwards compatibility very seriously. In the vast majority of cases, y
 
 The Metaflow 2.4.8 release is a patch release.
 
-* Improvements
-  * Improved validation logic to capture reserved keywords ([#830](https://github.com/Netflix/metaflow/pull/830), fixes [#589](https://github.com/Netflix/metaflow/issues/589))
-  * Remove default use of repo.anaconda.com ([#832](https://github.com/Netflix/metaflow/pull/832))
-* Bug Fixes
-  * `aws_retry`'s `S3_RETRY_COUNT` now has to be >=1 ([#876](https://github.com/Netflix/metaflow/pull/876))
-  * Fix argument type handling for host\_volumes when used with --with and Step Functions ([#884](https://github.com/Netflix/metaflow/pull/884))
+- Improvements
+  - Improved validation logic to capture reserved keywords ([#830](https://github.com/Netflix/metaflow/pull/830), fixes [#589](https://github.com/Netflix/metaflow/issues/589))
+  - Remove default use of repo.anaconda.com ([#832](https://github.com/Netflix/metaflow/pull/832))
+- Bug Fixes
+  - `aws_retry`'s `S3_RETRY_COUNT` now has to be >=1 ([#876](https://github.com/Netflix/metaflow/pull/876))
+  - Fix argument type handling for host_volumes when used with --with and Step Functions ([#884](https://github.com/Netflix/metaflow/pull/884))
 
 ## [2.4.7 (Dec 16, 2021)](https://github.com/Netflix/metaflow/releases/tag/2.4.7)
 
 The Metaflow 2.4.7 release is a patch release.
 
-* Improvements
-  * Added plumbing for `@card` decorator
-  * Added plumbing to support distributed training on GPUs
+- Improvements
+  - Added plumbing for `@card` decorator
+  - Added plumbing to support distributed training on GPUs
 
 ## [2.4.6 (Dec 16, 2021)](https://github.com/Netflix/metaflow/releases/tag/2.4.6)
 
@@ -31,24 +31,24 @@ This version was skipped due to technical reasons
 
 The Metaflow 2.4.5 release is a patch release.
 
-* Bug Fixes
-  * Address an issue with load\_artifacts ([#833](https://github.com/Netflix/metaflow/pull/833), fixes [#819](https://github.com/Netflix/metaflow/issues/819))
-  * Fixed mflog stream redirection in Step Functions ([#851](https://github.com/Netflix/metaflow/pull/851))
+- Bug Fixes
+  - Address an issue with load_artifacts ([#833](https://github.com/Netflix/metaflow/pull/833), fixes [#819](https://github.com/Netflix/metaflow/issues/819))
+  - Fixed mflog stream redirection in Step Functions ([#851](https://github.com/Netflix/metaflow/pull/851))
 
 ## [2.4.4 (Nov 29, 2021)](https://github.com/Netflix/metaflow/releases/2.4.4)
 
 The Metaflow 2.4.4 release is a patch release.
 
-* [Improvements](release-notes.md#user-content-v2.4.4\_improvements)
-  * Add default image config option as described in [#489](https://github.com/Netflix/metaflow/issues/489) ([#813](https://github.com/Netflix/metaflow/pull/813))
-  * Read default k8s namespace from config ([#823](https://github.com/Netflix/metaflow/pull/823))
-* Bug Fixes
-  * Fixed a couple of issues in S3 error handling ([#821](https://github.com/Netflix/metaflow/pull/821))
-  * Fixed an issue with load\_artifacts when several artifacts have the same name ([#817](https://github.com/Netflix/metaflow/pull/817))
-* Misc internal improvements
-  * Pipe logs to $cwd/.logs instead of /logs for `@batch` & `@kubernetes` ([#807](https://github.com/Netflix/metaflow/pull/807))
-  * mflog changes for supporting AWS Lambda ([#801](https://github.com/Netflix/metaflow/pull/801))
-  * Add 'last modified' to S3 object ([#778](https://github.com/Netflix/metaflow/pull/778))
+- [Improvements](release-notes.md#user-content-v2.4.4_improvements)
+  - Add default image config option as described in [#489](https://github.com/Netflix/metaflow/issues/489) ([#813](https://github.com/Netflix/metaflow/pull/813))
+  - Read default k8s namespace from config ([#823](https://github.com/Netflix/metaflow/pull/823))
+- Bug Fixes
+  - Fixed a couple of issues in S3 error handling ([#821](https://github.com/Netflix/metaflow/pull/821))
+  - Fixed an issue with load_artifacts when several artifacts have the same name ([#817](https://github.com/Netflix/metaflow/pull/817))
+- Misc internal improvements
+  - Pipe logs to $cwd/.logs instead of /logs for `@batch` & `@kubernetes` ([#807](https://github.com/Netflix/metaflow/pull/807))
+  - mflog changes for supporting AWS Lambda ([#801](https://github.com/Netflix/metaflow/pull/801))
+  - Add 'last modified' to S3 object ([#778](https://github.com/Netflix/metaflow/pull/778))
 
 ### Improvements <a href="#user-content-v2.4.4_improvements" id="user-content-v2.4.4_improvements"></a>
 
@@ -64,12 +64,12 @@ This adds a new configuration option to set the default namespace for the Kubern
 
 The Metaflow 2.4.3 release is a patch release
 
-* [Bug Fixes](https://github.com/Netflix/metaflow/releases#v2.4.2\_bugs)
-  * Fix a race condition when accessing artifacts of a running task
-  * Fix an issue when using a combination of `@catch` and `@retry` decorators
-  * Upgrade Pandas in tutorials
-* Miscellaneous
-  * The code base has now been formatted with Black. PRs will automatically be formatted when submitted. If submitting PRs, you can also format your PRs using black (default options) to avoid a reformatting PR.
+- [Bug Fixes](https://github.com/Netflix/metaflow/releases#v2.4.2_bugs)
+  - Fix a race condition when accessing artifacts of a running task
+  - Fix an issue when using a combination of `@catch` and `@retry` decorators
+  - Upgrade Pandas in tutorials
+- Miscellaneous
+  - The code base has now been formatted with Black. PRs will automatically be formatted when submitted. If submitting PRs, you can also format your PRs using black (default options) to avoid a reformatting PR.
 
 ### Bug Fixes <a href="#user-content-v2.4.3_bugs" id="user-content-v2.4.3_bugs"></a>
 
@@ -99,9 +99,9 @@ On MacOS Big Sur, certain tutorials were broken due to using an older version of
 
 The Metaflow 2.4.2 release is a patch release
 
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Fix a bug with accessing legacy logs through `metaflow.client`
-  * Fix a bug with task datastore access when no task attempt has been recorded
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Fix a bug with accessing legacy logs through `metaflow.client`
+  - Fix a bug with task datastore access when no task attempt has been recorded
 
 ### Bug Fixes
 
@@ -123,12 +123,12 @@ A subtle bug was introduced in Metaflow `2.4.0` where the task datastore access 
 
 The Metaflow 2.4.1 release is a patch release
 
-* [Bug Fixes](release-notes.md#bug-fixes-1)
-  * Expose non-pythonic dependencies inside the conda environment on AWS Batch
-* [New Features](release-notes.md#new-features)
-  * Introduce size properties for artifacts and logs in metaflow.client
-  * Expose attempt level task properties
-  * Introduce @kubernetes decorator for launching Metaflow tasks on Kubernetes
+- [Bug Fixes](release-notes.md#bug-fixes-1)
+  - Expose non-pythonic dependencies inside the conda environment on AWS Batch
+- [New Features](release-notes.md#new-features)
+  - Introduce size properties for artifacts and logs in metaflow.client
+  - Expose attempt level task properties
+  - Introduce @kubernetes decorator for launching Metaflow tasks on Kubernetes
 
 ### Bug Fixes
 
@@ -213,25 +213,25 @@ python big_sum.py run --with kubernetes
 
 will run all steps of this workflow on your existing EKS cluster (which can be configured with `metaflow configure eks`) and provides all the goodness of Metaflow!
 
-To get started follow [this guide](https://docs.google.com/document/d/1L\_4Fws1KoGg\_dtSTaRlAcREX1F8FPS4ZaYk7eJyu\_jA/edit)! We would appreciate your early feedback at [http://slack.outerbounds.co](htps://slack.outerbounds.co).
+To get started follow [this guide](https://docs.google.com/document/d/1L_4Fws1KoGg_dtSTaRlAcREX1F8FPS4ZaYk7eJyu_jA/edit)! We would appreciate your early feedback at [http://slack.outerbounds.co](htps://slack.outerbounds.co).
 
 ## [2.4.0 (Oct 4th, 2021)](https://github.com/Netflix/metaflow/releases/tag/2.4.0)
 
 The Metaflow 2.4.0 release is a minor release and includes a _breaking change_
 
-* [Breaking Changes](release-notes.md#breaking-changes)
-  * Change return type of created\_at/finished\_at in the client
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Better error messages in case of a Conda issue
-  * Fix error message in Metadata service
-* [New Features](release-notes.md#new-features)
-  * S3 retry counts are now configurable
-  * New datastore implementation resulting in improved performance
-  * S3 datatools performance improvements
+- [Breaking Changes](release-notes.md#breaking-changes)
+  - Change return type of created_at/finished_at in the client
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Better error messages in case of a Conda issue
+  - Fix error message in Metadata service
+- [New Features](release-notes.md#new-features)
+  - S3 retry counts are now configurable
+  - New datastore implementation resulting in improved performance
+  - S3 datatools performance improvements
 
 ### Breaking Changes
 
-#### Change return type of created\_at/finished\_at in the client ([#692](https://github.com/Netflix/metaflow/pull/692))
+#### Change return type of created_at/finished_at in the client ([#692](https://github.com/Netflix/metaflow/pull/692))
 
 Prior to this release, the return type for `created_at` and `finished_at` properties in the Client API was a timestamp string. This release changes this to a `datetime` object, as the old behavior is considered an unintentional mis-feature (see below for details).
 
@@ -277,9 +277,9 @@ The S3 datatools better handles small versus large files by using the `download_
 
 The Metaflow 2.3.6 release is a patch release.
 
-* [Bug Fixes](https://github.com/Netflix/metaflow/releases#2.3.6\_bugs)
-  * [Fix recursion error when `METAFLOW_DEFAULT_ENVIRONMENT` is set to `conda`](https://github.com/Netflix/metaflow/releases#673)
-  * [Allow dots in `host_volumes` attribute for `@batch` decorator](https://github.com/Netflix/metaflow/releases#676)
+- [Bug Fixes](https://github.com/Netflix/metaflow/releases#2.3.6_bugs)
+  - [Fix recursion error when `METAFLOW_DEFAULT_ENVIRONMENT` is set to `conda`](https://github.com/Netflix/metaflow/releases#673)
+  - [Allow dots in `host_volumes` attribute for `@batch` decorator](https://github.com/Netflix/metaflow/releases#676)
 
 ### Bug Fixes
 
@@ -316,10 +316,10 @@ Dots in volume names - `@batch(host_volumes='/path/with/.dot')` weren't being sa
 
 The Metaflow 2.3.5 release is a patch release.
 
-* [Features](release-notes.md#features)
-  * [Enable mounting host volumes in AWS Batch](https://github.com/Netflix/metaflow/issues/441)
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * [Fix input values for Parameters of type `list` within a Metaflow Foreach task](https://github.com/Netflix/metaflow/issues/651)
+- [Features](release-notes.md#features)
+  - [Enable mounting host volumes in AWS Batch](https://github.com/Netflix/metaflow/issues/441)
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - [Fix input values for Parameters of type `list` within a Metaflow Foreach task](https://github.com/Netflix/metaflow/issues/651)
 
 ### Features
 
@@ -378,8 +378,8 @@ if __name__ == '__main__':
 
 The Metaflow 2.3.4 release is a patch release.
 
-* [Bug Fixes](release-notes.md#bug-fixes-1)
-  * [Fix execution of `step-functions create` when using an `IncludeFile` parameter](https://github.com/Netflix/metaflow/releases#637)
+- [Bug Fixes](release-notes.md#bug-fixes-1)
+  - [Fix execution of `step-functions create` when using an `IncludeFile` parameter](https://github.com/Netflix/metaflow/releases#637)
 
 ### Bug Fixes
 
@@ -391,11 +391,11 @@ PR [#607](https://github.com/Netflix/metaflow/pull/607) in `Metaflow 2.3.3` intr
 
 The Metaflow 2.3.3 release is a patch release.
 
-* [Features](release-notes.md#features)
-  * [Support resource tags for Metaflow's integration with AWS Batch](https://github.com/Netflix/metaflow/releases#632)
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * [Properly handle `None` as defaults for parameters for AWS Step Functions execution](https://github.com/Netflix/metaflow/releases#630)
-  * [Fix return value of `IncludeFile` artifacts](https://github.com/Netflix/metaflow/releases#607)
+- [Features](release-notes.md#features)
+  - [Support resource tags for Metaflow's integration with AWS Batch](https://github.com/Netflix/metaflow/releases#632)
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - [Properly handle `None` as defaults for parameters for AWS Step Functions execution](https://github.com/Netflix/metaflow/releases#630)
+  - [Fix return value of `IncludeFile` artifacts](https://github.com/Netflix/metaflow/releases#607)
 
 ### Features
 
@@ -403,12 +403,12 @@ The Metaflow 2.3.3 release is a patch release.
 
 Metaflow now supports setting [resource tags for AWS Batch jobs](https://docs.aws.amazon.com/batch/latest/userguide/using-tags.html) and propagating them to the underlying ECS tasks. The following tags are attached to the AWS Batch jobs now -
 
-* `metaflow.flow_name`
-* `metaflow.run_id`
-* `metaflow.step_name`
-* `metaflow.user` / `metaflow.owner`
-* `metaflow.version`
-* `metaflow.production_token`
+- `metaflow.flow_name`
+- `metaflow.run_id`
+- `metaflow.step_name`
+- `metaflow.user` / `metaflow.owner`
+- `metaflow.version`
+- `metaflow.production_token`
 
 To enable this feature, set the environment variable (or alternatively in the `metaflow config`) `METAFLOW_BATCH_EMIT_TAGS` to `True`. Keep in mind that the IAM role (`MetaflowUserRole`, `StepFunctionsRole`) submitting the jobs to AWS Batch will need to have the `Batch:TagResource` permission.
 
@@ -439,8 +439,8 @@ The `IncludeFile` parameter would return JSONified metadata about the file rathe
 
 The Metaflow 2.3.2 release is a minor release.
 
-* Features
-  * `step-functions trigger` command now supports `--run-id-file` option
+- Features
+  - `step-functions trigger` command now supports `--run-id-file` option
 
 ### Features
 
@@ -452,12 +452,12 @@ Similar to `run` , you can now pass `--run-id-file` option to `step-function tri
 
 The Metaflow 2.3.1 release is a minor release.
 
-* Features
-  * [Performance optimizations for `merge_artifacts`](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)
+- Features
+  - [Performance optimizations for `merge_artifacts`](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)
 
 ### **Features**
 
-****[**Performance optimizations for `merge_artifacts`**](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)****
+[**Performance optimizations for `merge_artifacts`**](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)
 
 Prior to this release, `FlowSpec.merge_artifacts` was loading all of the merged artifacts into memory after doing all of the consistency checks with hashes. This release now avoids the memory and compute costs of decompressing, de-pickling, re-pickling, and recompressing each merged artifact - resulting in improved performance of `merge_artifacts`.
 
@@ -465,10 +465,10 @@ Prior to this release, `FlowSpec.merge_artifacts` was loading all of the merged 
 
 The Metaflow 2.3.0 release is a minor release.
 
-* Features
-  * [Coordinate larger Metaflow projects with `@project`](https://docs.metaflow.org/going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
-  * [Hyphenated-parameters support in AWS Step Functions](release-notes.md#hyphenated-parameters-support-in-aws-step-functions)
-  * [State Machine execution history logging for AWS Step Functions in AWS CloudWatch Logs](release-notes.md#state-machine-execution-history-logging-for-aws-step-functions)
+- Features
+  - [Coordinate larger Metaflow projects with `@project`](https://docs.metaflow.org/going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
+  - [Hyphenated-parameters support in AWS Step Functions](release-notes.md#hyphenated-parameters-support-in-aws-step-functions)
+  - [State Machine execution history logging for AWS Step Functions in AWS CloudWatch Logs](release-notes.md#state-machine-execution-history-logging-for-aws-step-functions)
 
 ### Features
 
@@ -517,7 +517,7 @@ To deploy a production version, you can deploy with `--production` flag (or pair
 python project_flow.py --production step-functions create
 ```
 
-Note that the isolated namespaces offered by `@project` work best when your code is designed to respect these boundaries. For instance, when writing results to a table, you can use current.branch\_name to choose the table to write to or you can disable writes outside production by checking current.is\_production.
+Note that the isolated namespaces offered by `@project` work best when your code is designed to respect these boundaries. For instance, when writing results to a table, you can use current.branch_name to choose the table to write to or you can disable writes outside production by checking current.is_production.
 
 #### Hyphenated-parameters support in AWS Step Functions
 
@@ -564,8 +564,8 @@ Note that you would need to set the environment variable (or alternatively in yo
 
 The Metaflow 2.2.13 release is a minor patch release.
 
-* Bug Fixes
-  * [Handle regression with `@batch` execution on certain docker images](https://github.com/Netflix/metaflow/releases/tag/2.2.13#534)
+- Bug Fixes
+  - [Handle regression with `@batch` execution on certain docker images](https://github.com/Netflix/metaflow/releases/tag/2.2.13#534)
 
 ### Bug Fixes
 
@@ -577,11 +577,11 @@ Certain [docker images](https://docs.aws.amazon.com/sagemaker/latest/dg/pre-buil
 
 The Metaflow 2.2.12 release is a minor patch release.
 
-* Features
-  * [Add capability to override AWS Step Functions state machine name while deploying flows to AWS Step Functions](https://github.com/Netflix/metaflow/releases/tag/2.2.12#532)
-  * [Introduce heartbeats for Metaflow flows](https://github.com/Netflix/metaflow/releases/tag/2.2.12#333)
-* Bug Fixes
-  * [Handle regression with `Click >=8.0.x`](https://github.com/Netflix/metaflow/releases/tag/2.2.12#526)
+- Features
+  - [Add capability to override AWS Step Functions state machine name while deploying flows to AWS Step Functions](https://github.com/Netflix/metaflow/releases/tag/2.2.12#532)
+  - [Introduce heartbeats for Metaflow flows](https://github.com/Netflix/metaflow/releases/tag/2.2.12#333)
+- Bug Fixes
+  - [Handle regression with `Click >=8.0.x`](https://github.com/Netflix/metaflow/releases/tag/2.2.12#526)
 
 ### Features
 
@@ -603,8 +603,8 @@ The latest release of Click (8.0.0) broke certain idempotency assumptions in Met
 
 The Metaflow 2.2.11 release is a minor patch release.
 
-* Bug Fixes
-  * Fix regression that broke compatibility with Python 2.7
+- Bug Fixes
+  - Fix regression that broke compatibility with Python 2.7
 
 ### Bug Fixes
 
@@ -616,12 +616,12 @@ The Metaflow 2.2.11 release is a minor patch release.
 
 The Metaflow 2.2.10 release is a minor patch release.
 
-* Features
-  * AWS Logs Group, Region and Stream are now available in metadata for tasks executed on AWS Batch
-  * Execution logs are now available for all tasks in Metaflow universe
-* Bug Fixes
-  * Fix regression with `ping/` endpoint for Metadata service
-  * [Fix the behaviour of `--namespace=` CLI args when executing a flow](https://gitter.im/metaflow\_org/community?at=605decca68921b62f48a4190)
+- Features
+  - AWS Logs Group, Region and Stream are now available in metadata for tasks executed on AWS Batch
+  - Execution logs are now available for all tasks in Metaflow universe
+- Bug Fixes
+  - Fix regression with `ping/` endpoint for Metadata service
+  - [Fix the behaviour of `--namespace=` CLI args when executing a flow](https://gitter.im/metaflow_org/community?at=605decca68921b62f48a4190)
 
 ### Features
 
@@ -639,8 +639,8 @@ Step('Flow/42/a').task.metadata_dict['aws-batch-awslogs-stream']
 
 All Metaflow runtime/task logs are now published via a sidecar process to the datastore. The user-visible logs on the console are streamed directly from the datastore. For Metaflow's integrations with the cloud (AWS at the moment), the compute tasks logs (AWS Batch) are directly written by Metaflow into the datastore (Amazon S3) independent of where the flow is launched from (User's laptop or AWS Step Functions). This has multiple benefits
 
-* Metaflow no longer relies on AWS Cloud Watch for fetching the AWS Batch execution logs to the console - AWS Cloud Watch has rather low global API limits which have caused multiple issues in the past for our users
-* Logs for AWS Step Functions executions are now also available in Amazon S3 and can be easily fetched by simply doing `python flow.py logs 42/start` or `Step('Flow/42/start').task.stdout`.&#x20;
+- Metaflow no longer relies on AWS Cloud Watch for fetching the AWS Batch execution logs to the console - AWS Cloud Watch has rather low global API limits which have caused multiple issues in the past for our users
+- Logs for AWS Step Functions executions are now also available in Amazon S3 and can be easily fetched by simply doing `python flow.py logs 42/start` or `Step('Flow/42/start').task.stdout`.&#x20;
 
 ### Bug Fixes
 
@@ -648,7 +648,7 @@ All Metaflow runtime/task logs are now published via a sidecar process to the da
 
 Fix a regression introduced in `v2.2.9` where the endpoint responsible for ascertaining the version of the deployed Metadata service was erroneously moved to `ping/` from `ping`&#x20;
 
-#### [Fix the behaviour of `--namespace=` CLI args when executing a flow](https://gitter.im/metaflow\_org/community?at=605decca68921b62f48a4190)
+#### [Fix the behaviour of `--namespace=` CLI args when executing a flow](https://gitter.im/metaflow_org/community?at=605decca68921b62f48a4190)
 
 `python flow.py run --namespace=` now correctly makes the global namespace visible within the flow execution.&#x20;
 
@@ -656,18 +656,18 @@ Fix a regression introduced in `v2.2.9` where the endpoint responsible for ascer
 
 The Metaflow 2.2.9 release is a minor patch release.
 
-* Bug Fixes
-  * [Remove pinned pylint dependency](https://gitter.im/metaflow\_org/community?at=60622af8940f1d555e277c12)
-  * [Improve handling of `/` in image parameter for batch](https://gitter.im/metaflow\_org/community?at=5f80e21d02e81701b0106c6d)
-  * List custom FlowSpec parameters in the intended order
+- Bug Fixes
+  - [Remove pinned pylint dependency](https://gitter.im/metaflow_org/community?at=60622af8940f1d555e277c12)
+  - [Improve handling of `/` in image parameter for batch](https://gitter.im/metaflow_org/community?at=5f80e21d02e81701b0106c6d)
+  - List custom FlowSpec parameters in the intended order
 
 ### Bugs
 
-#### [Remove pinned pylint dependency](https://gitter.im/metaflow\_org/community?at=60622af8940f1d555e277c12)
+#### [Remove pinned pylint dependency](https://gitter.im/metaflow_org/community?at=60622af8940f1d555e277c12)
 
 Pylint dependency was unpinned and made floating. See PR [#462](https://github.com/Netflix/metaflow/pull/462).
 
-#### [Improve handling of `/` in image parameter for batch](https://gitter.im/metaflow\_org/community?at=5f80e21d02e81701b0106c6d)
+#### [Improve handling of `/` in image parameter for batch](https://gitter.im/metaflow_org/community?at=5f80e21d02e81701b0106c6d)
 
 You are now able to specify docker images of the form `foo/bar/baz:tag` in the batch decorator. See PR [#466](https://github.com/Netflix/metaflow/pull/466).
 
@@ -679,13 +679,13 @@ The order in which parameters are specified by the user in the FlowSpec is now p
 
 The Metaflow 2.2.8 release is a minor patch release.
 
-* Bug Fixes
-  * [Fix `@environment` behavior for conflicting attribute values](https://gitter.im/metaflow\_org/community?at=604a2bfb44f5a454a46cc7f8)
-  * [Fix `environment is not callable` error when using `@environment`](https://gitter.im/metaflow\_org/community?at=6048a07d823b6654d296d62d)
+- Bug Fixes
+  - [Fix `@environment` behavior for conflicting attribute values](https://gitter.im/metaflow_org/community?at=604a2bfb44f5a454a46cc7f8)
+  - [Fix `environment is not callable` error when using `@environment`](https://gitter.im/metaflow_org/community?at=6048a07d823b6654d296d62d)
 
 ### Bugs
 
-#### [Fix `@environment` behavior for conflicting attribute values](https://gitter.im/metaflow\_org/community?at=604a2bfb44f5a454a46cc7f8)
+#### [Fix `@environment` behavior for conflicting attribute values](https://gitter.im/metaflow_org/community?at=604a2bfb44f5a454a46cc7f8)
 
 Metaflow was incorrectly handling environment variables passed through the `@environment` decorator in some specific instances. When `@environment` decorator is specified over multiple steps, the actual environment that's available to any step is the union of attributes of all the `@environment` decorators; which is incorrect behavior. For example, in the following workflow -
 
@@ -736,7 +736,7 @@ Running pylint...
 
 Note the output for the step `a` which should have been `bar`. PR [#452](https://github.com/Netflix/metaflow/pull/452) fixes the issue.
 
-#### [Fix `environment is not callable` error when using `@environment`](https://gitter.im/metaflow\_org/community?at=6048a07d823b6654d296d62d)
+#### [Fix `environment is not callable` error when using `@environment`](https://gitter.im/metaflow_org/community?at=6048a07d823b6654d296d62d)
 
 Using `@environment` would often result in an error from `pylint` - `E1102: environment is not callable (not-callable)`. Users were getting around this issue by launching their flows with `--no-pylint`. PR [#451](https://github.com/Netflix/metaflow/pull/451) fixes this issue.
 
@@ -744,12 +744,12 @@ Using `@environment` would often result in an error from `pylint` - `E1102: envi
 
 The Metaflow 2.2.7 release is a minor patch release.
 
-* [Bug Fixes](https://github.com/Netflix/metaflow/releases#2.2.7\_bugs)
-  * [Handle for-eaches properly for AWS Step Functions workflows running on AWS Fargate](https://gitter.im/metaflow\_org/community?at=601f56d955359c58bf28ef1a)
+- [Bug Fixes](https://github.com/Netflix/metaflow/releases#2.2.7_bugs)
+  - [Handle for-eaches properly for AWS Step Functions workflows running on AWS Fargate](https://gitter.im/metaflow_org/community?at=601f56d955359c58bf28ef1a)
 
 ### Bugs
 
-#### [Handle for-eaches properly for AWS Step Functions workflows running on AWS Fargate](https://gitter.im/metaflow\_org/community?at=601f56d955359c58bf28ef1a)
+#### [Handle for-eaches properly for AWS Step Functions workflows running on AWS Fargate](https://gitter.im/metaflow_org/community?at=601f56d955359c58bf28ef1a)
 
 Workflows orchestrated by AWS Step Functions were failing to properly execute `for-each` steps on AWS Fargate. The culprit was lack of access to instance metadata for ECS. Metaflow instantiates a connection to Amazon DynamoDB to keep track of `for-each` cardinality. This connection requires knowledge of the region that the job executes in and is made available via [instance metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) on EC2; which unfortunately is not available on ECS (for AWS Fargate). This fix introduces the necessary checks for inferring the region correctly for tasks executing on AWS Fargate. Note that after the recent changes to [Amazon S3's consistency model](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/), the Amazon DynamoDB dependency is no longer needed and will be done away in a subsequent release. PR: [#436](https://github.com/Netflix/metaflow/pull/436)
 
@@ -757,14 +757,14 @@ Workflows orchestrated by AWS Step Functions were failing to properly execute `f
 
 The Metaflow 2.2.6 release is a minor patch release.
 
-* Features
-  * Support AWS Fargate as compute backend for Metaflow tasks launched on AWS Batch
-  * Support `shared_memory`, `max_swap`, `swappiness` attributes for Metaflow tasks launched on AWS Batch
-  * Support wider very-wide workflows on top of AWS Step Functions
-* Bug Fixes
-  * Assign tags to `Run` objects generated through AWS Step Functions executions
-  * Pipe all workflow set-up logs to `stderr`
-  * Handle null assignment to `IncludeFile` properly
+- Features
+  - Support AWS Fargate as compute backend for Metaflow tasks launched on AWS Batch
+  - Support `shared_memory`, `max_swap`, `swappiness` attributes for Metaflow tasks launched on AWS Batch
+  - Support wider very-wide workflows on top of AWS Step Functions
+- Bug Fixes
+  - Assign tags to `Run` objects generated through AWS Step Functions executions
+  - Pipe all workflow set-up logs to `stderr`
+  - Handle null assignment to `IncludeFile` properly
 
 ### Features
 
@@ -798,10 +798,10 @@ A workflow executed without a required `IncludeFile` parameter would fail when t
 
 The Metaflow 2.2.5 release is a minor patch release.
 
-* Features
-  * Log `metaflow_version:` and `runtime:` tag for all executions
-* Bug Fixes
-  * Handle inconsistently cased file system issue when creating @conda environments on macOS for linux-64
+- Features
+  - Log `metaflow_version:` and `runtime:` tag for all executions
+- Bug Fixes
+  - Handle inconsistently cased file system issue when creating @conda environments on macOS for linux-64
 
 ### Features
 
@@ -819,11 +819,11 @@ Conda fails to correctly set up environments for linux-64 packages on macOS at t
 
 The Metaflow 2.2.4 release is a minor patch release.
 
-* Features
-  * Metaflow is now compliant with AWS GovCloud & AWS CN regions
-* Bug Fixes
-  * Address a bug with overriding the default value for [IncludeFile](https://docs.metaflow.org/metaflow/data#data-in-local-files)
-  * Port AWS region check for AWS DynamoDb from `curl` to `requests`
+- Features
+  - Metaflow is now compliant with AWS GovCloud & AWS CN regions
+- Bug Fixes
+  - Address a bug with overriding the default value for [IncludeFile](https://docs.metaflow.org/metaflow/data#data-in-local-files)
+  - Port AWS region check for AWS DynamoDb from `curl` to `requests`
 
 ### Features
 
@@ -845,11 +845,11 @@ Metaflow's AWS Step Functions' integration relies on AWS DynamoDb to manage [for
 
 The Metaflow 2.2.3 release is a minor patch release.
 
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Fix issue [#305](https://github.com/Netflix/metaflow/issues/305) : Default 'help' for parameters was not handled properly.
-  * Pin the conda library versions for Metaflow default dependencies based on the Python version.
-  * Add conda bin path to the PATH environment variable during Metaflow step execution.
-  * Fix a typo in metaflow/debug.py
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Fix issue [#305](https://github.com/Netflix/metaflow/issues/305) : Default 'help' for parameters was not handled properly.
+  - Pin the conda library versions for Metaflow default dependencies based on the Python version.
+  - Add conda bin path to the PATH environment variable during Metaflow step execution.
+  - Fix a typo in metaflow/debug.py
 
 ### Bug Fixes
 
@@ -865,16 +865,16 @@ The previously pinned library version does not work with python 3.8. Now we have
 
 Previously the executable installed in conda environment was not visible inside Metaflow steps. Fixing this issue by appending conda bin path to the PATH environment variable. PR: [#307](https://github.com/Netflix/metaflow/pull/307)
 
-PRs:  [#307](https://github.com/Netflix/metaflow/pull/307), [#308](https://github.com/Netflix/metaflow/pull/308), [#310](https://github.com/Netflix/metaflow/pull/310), [#314](https://github.com/Netflix/metaflow/pull/314), [#317](https://github.com/Netflix/metaflow/pull/317), [#318](https://github.com/Netflix/metaflow/pull/318)
+PRs: [#307](https://github.com/Netflix/metaflow/pull/307), [#308](https://github.com/Netflix/metaflow/pull/308), [#310](https://github.com/Netflix/metaflow/pull/310), [#314](https://github.com/Netflix/metaflow/pull/314), [#317](https://github.com/Netflix/metaflow/pull/317), [#318](https://github.com/Netflix/metaflow/pull/318)
 
 ## 2.2.2 (Aug 20th, 2020)
 
 The Metaflow 2.2.2 release is a minor patch release.
 
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Fix a regression introduced in 2.2.1 related to Conda environments
-  * Clarify Pandas requirements for Tutorial Episode 04
-  * Fix an issue with the metadata service
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Fix a regression introduced in 2.2.1 related to Conda environments
+  - Clarify Pandas requirements for Tutorial Episode 04
+  - Fix an issue with the metadata service
 
 ### Bug Fixes
 
@@ -896,12 +896,12 @@ PRs [#296](https://github.com/Netflix/metaflow/pull/296), [#297](https://github.
 
 The Metaflow 2.2.1 release is a minor patch release.
 
-* [Features](release-notes.md#features)
-  * Add `include` parameter to `merge_artifacts`.
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Fix a regression introduced in 2.1 related to S3 datatools
-  * Fix an issue where Conda execution would fail if the Conda environment was not writeable
-  * Fix the behavior of uploading artifacts to the S3 datastore in case of retries
+- [Features](release-notes.md#features)
+  - Add `include` parameter to `merge_artifacts`.
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Fix a regression introduced in 2.1 related to S3 datatools
+  - Fix an issue where Conda execution would fail if the Conda environment was not writeable
+  - Fix the behavior of uploading artifacts to the S3 datastore in case of retries
 
 ### Features
 
@@ -929,8 +929,8 @@ PRs [#282](https://github.com/Netflix/metaflow/pull/282), [#286](https://github.
 
 The Metaflow 2.2.0 release is a minor release and introduces [Metaflow's support for R lang](https://docs.metaflow.org/v/r/).
 
-* [Features](release-notes.md#features-1)
-  * Support for R lang.
+- [Features](release-notes.md#features-1)
+  - Support for R lang.
 
 ### Features
 
@@ -944,8 +944,8 @@ PR [#263](https://github.com/Netflix/metaflow/pull/263) and PR [#214](https://gi
 
 The Metaflow 2.1.1 release is a minor patch release.
 
-* [Bug Fixes](release-notes.md#bug-fixes)
-  * Handle race condition for `/step` endpoint of metadata service.
+- [Bug Fixes](release-notes.md#bug-fixes)
+  - Handle race condition for `/step` endpoint of metadata service.
 
 ### Bug Fixes
 
@@ -959,13 +959,13 @@ PR [#258](https://github.com/Netflix/metaflow/pull/258) & PR [#260](https://gith
 
 The Metaflow 2.1.0 release is a minor release and introduces [Metaflow's integration with AWS Step Functions](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows).
 
-* [Features](release-notes.md#features)
-  * Add capability to schedule Metaflow flows with AWS Step Functions.
-* [Improvements](release-notes.md#improvements)
-  * Fix log indenting in Metaflow.
-  * Throw exception properly if fetching code package from Amazon S3 on AWS Batch fails.
-  * Remove millisecond information from timestamps returned by Metaflow client.
-  * Handle CloudWatchLogs resource creation delay gracefully.
+- [Features](release-notes.md#features)
+  - Add capability to schedule Metaflow flows with AWS Step Functions.
+- [Improvements](release-notes.md#improvements)
+  - Fix log indenting in Metaflow.
+  - Throw exception properly if fetching code package from Amazon S3 on AWS Batch fails.
+  - Remove millisecond information from timestamps returned by Metaflow client.
+  - Handle CloudWatchLogs resource creation delay gracefully.
 
 ### Features
 
@@ -1018,16 +1018,16 @@ PR [#209](https://github.com/Netflix/metaflow/pull/209).
 
 The Metaflow 2.0.5 release is a minor patch release.
 
-* ****[**Improvements**](release-notes.md#2-0-5-improvements)****
-  * Fix logging of prefixes in `datatools.S3._read_many_files`.&#x20;
-  * Increase retry count for AWS Batch logs streaming.&#x20;
-  * Upper-bound `pylint` version to `< 2.5.0` for compatibility issues.
+- \***\*[**Improvements**](release-notes.md#2-0-5-improvements)\*\***
+  - Fix logging of prefixes in `datatools.S3._read_many_files`.&#x20;
+  - Increase retry count for AWS Batch logs streaming.&#x20;
+  - Upper-bound `pylint` version to `< 2.5.0` for compatibility issues.
 
 The Metaflow 2.0.5 release is a minor patch release.
 
 ### Improvements <a href="#2-0-5-improvements" id="2-0-5-improvements"></a>
 
-#### Fix logging of prefixes in datatools.S3.\_read\_many\_files
+#### Fix logging of prefixes in datatools.S3.\_read_many_files
 
 Avoid a cryptic error message when `datatools.S3._read_many_files` is unsuccessful by converting `prefixes` from a generator to a list.
 
@@ -1045,13 +1045,13 @@ Additionally, fail the Metaflow task when we fail to stream the task logs back t
 
 The Metaflow 2.0.4 release is a minor patch release.
 
-* ****[**Improvements**](https://docs.metaflow.org/introduction/release-notes#2-0-4-improvements)****
-  * Expose `retry_count` in [`Current`](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow)
-  * Mute superfluous `ThrottleExceptions` in AWS Batch job logs
-* ****[**Bug Fixes**](https://docs.metaflow.org/introduction/release-notes#2-0-4-bug-fixes)
-  * Set proper thresholds for retrying `DescribeJobs` API for AWS Batch
-  * Explicitly override `PYTHONNOUSERSITE` for `conda` environments
-  * Preempt AWS Batch job log collection when the job fails to get into a `RUNNING` state
+- \***\*[**Improvements**](https://docs.metaflow.org/introduction/release-notes#2-0-4-improvements)\*\***
+  - Expose `retry_count` in [`Current`](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow)
+  - Mute superfluous `ThrottleExceptions` in AWS Batch job logs
+- \***\*[**Bug Fixes\*\*](https://docs.metaflow.org/introduction/release-notes#2-0-4-bug-fixes)
+  - Set proper thresholds for retrying `DescribeJobs` API for AWS Batch
+  - Explicitly override `PYTHONNOUSERSITE` for `conda` environments
+  - Preempt AWS Batch job log collection when the job fails to get into a `RUNNING` state
 
 ### Improvements <a href="#2-0-4-improvements" id="2-0-4-improvements"></a>
 
@@ -1090,14 +1090,14 @@ Fixes a bug where if the AWS Batch job crashes before entering the `RUNNING` sta
 
 The Metaflow 2.0.3 release is a minor patch release.
 
-* ****[**Improvements**](release-notes.md#improvements)****
-  * Parameter listing
-  * Ability to specify S3 endpoint
-  * Usability improvements
-* ****[**Performance**](release-notes.md#performance)****
-  * Conda
-* [**Bug Fixes**](release-notes.md#bug-fixes)****
-  * Executing on AWS Batch
+- \***\*[**Improvements**](release-notes.md#improvements)\*\***
+  - Parameter listing
+  - Ability to specify S3 endpoint
+  - Usability improvements
+- \***\*[**Performance**](release-notes.md#performance)\*\***
+  - Conda
+- [**Bug Fixes**](release-notes.md#bug-fixes)\*\*\*\*
+  - Executing on AWS Batch
 
 ### Improvements
 
@@ -1132,30 +1132,27 @@ We now check for the command line `--datastore-root` prior to using the environm
 
 Bug Fixes
 
-* [Pin](https://github.com/Netflix/metaflow/pull/107) click to v7.0 or greater
-* [Add](https://github.com/Netflix/metaflow/pull/118) checks to conda-package metadata to guard against .conda packages
+- [Pin](https://github.com/Netflix/metaflow/pull/107) click to v7.0 or greater
+- [Add](https://github.com/Netflix/metaflow/pull/118) checks to conda-package metadata to guard against .conda packages
 
 ## 2.0.1 (Dec 16th, 2019)
 
 Enhancements
 
-* [Introduce](https://github.com/Netflix/metaflow/pull/53) `metaflow configure [import|export]` for importing/exporting Metaflow configurations.
-* [Revamp](https://github.com/Netflix/metaflow/pull/59) `metaflow configure aws` command to address usability [concerns](https://github.com/Netflix/metaflow/issues/44).
-* [Handle](https://github.com/Netflix/metaflow/pull/56) keyboard interrupts for Batch jobs [more gracefully for large fan-outs](https://github.com/Netflix/metaflow/issues/54).
+- [Introduce](https://github.com/Netflix/metaflow/pull/53) `metaflow configure [import|export]` for importing/exporting Metaflow configurations.
+- [Revamp](https://github.com/Netflix/metaflow/pull/59) `metaflow configure aws` command to address usability [concerns](https://github.com/Netflix/metaflow/issues/44).
+- [Handle](https://github.com/Netflix/metaflow/pull/56) keyboard interrupts for Batch jobs [more gracefully for large fan-outs](https://github.com/Netflix/metaflow/issues/54).
 
 Bug Fixes
 
-* [Fix](https://github.com/Netflix/metaflow/pull/62) a docker registry parsing bug in AWS Batch.
-* Fix various typos in Metaflow tutorials.
+- [Fix](https://github.com/Netflix/metaflow/pull/62) a docker registry parsing bug in AWS Batch.
+- Fix various typos in Metaflow tutorials.
 
 ## 2.0.0 (Dec 3rd, 2019)
 
 #### **Hello World!**&#x20;
 
-* First Open Source Release.
-* Read the [blogpost](https://medium.com/@NetflixTechBlog/open-sourcing-metaflow-a-human-centric-framework-for-data-science-fa72e04a5d9) announcing the release
+- First Open Source Release.
+- Read the [blogpost](https://medium.com/@NetflixTechBlog/open-sourcing-metaflow-a-human-centric-framework-for-data-science-fa72e04a5d9) announcing the release
 
-Releases pre-2.0.0 were internal to Netflix\
-
-
-
+## Releases pre-2.0.0 were internal to Netflix

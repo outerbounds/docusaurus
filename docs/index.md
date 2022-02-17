@@ -1,6 +1,7 @@
 ---
 description: Build and manage real-life data science projects with ease.
 displayed_sidebar: python
+pagination_next: introduction/why-metaflow
 ---
 
 # Welcome to Metaflow for Python

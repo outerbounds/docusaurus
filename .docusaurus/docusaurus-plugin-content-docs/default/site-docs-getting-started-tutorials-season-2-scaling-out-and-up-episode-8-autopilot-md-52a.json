@@ -10,5 +10,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "Episode 7: Worldview",
+    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+  },
+  "next": {
+    "title": "Metaflow on AWS",
+    "permalink": "/docs/metaflow-on-aws/"
+  }
 }

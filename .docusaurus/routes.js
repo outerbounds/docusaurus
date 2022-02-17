@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','3c9'),
+    component: ComponentCreator('/docs','771'),
     routes: [
       {
         path: '/docs/',
@@ -67,58 +67,69 @@ export default [
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/','0c5'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/','fc7'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/episode00',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode00','bf0'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode00','781'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/episode01',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode01','993'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode01','eab'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/episode02',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode02','d37'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode02','995'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/episode03',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode03','6f8'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode03','f84'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-1-the-local-experience/episode04',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode04','b37'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-1-the-local-experience/episode04','ab0'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-2-scaling-out-and-up/',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/','f44'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/','d8e'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot','c50'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot','925'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05','341'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05','800'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06','62d'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06','6f6'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07',
-        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07','158'),
-        exact: true
+        component: ComponentCreator('/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07','39d'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects',
@@ -254,18 +265,21 @@ export default [
       },
       {
         path: '/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates',
-        component: ComponentCreator('/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates','9e1'),
-        exact: true
+        component: ComponentCreator('/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates','a26'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components',
-        component: ComponentCreator('/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components','4a9'),
-        exact: true
+        component: ComponentCreator('/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components','63d'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards',
-        component: ComponentCreator('/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards','a6d'),
-        exact: true
+        component: ComponentCreator('/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards','f97'),
+        exact: true,
+        'sidebar': "python"
       },
       {
         path: '/docs/r/',

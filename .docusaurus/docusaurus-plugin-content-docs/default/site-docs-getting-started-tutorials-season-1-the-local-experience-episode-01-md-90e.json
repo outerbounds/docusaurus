@@ -10,5 +10,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/season-1-the-local-experience/episode01.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "Episode 0: Hello World",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+  },
+  "next": {
+    "title": "Episode 2: Statistics",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02"
+  }
 }

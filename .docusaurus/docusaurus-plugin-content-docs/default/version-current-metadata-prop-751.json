@@ -70,10 +70,85 @@
             "docId": "getting-started/install"
           },
           {
-            "type": "link",
+            "type": "category",
             "label": "Tutorials",
-            "href": "/docs/getting-started/tutorials/",
-            "docId": "getting-started/tutorials/README"
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "Season 1: The Local Experience",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Episode 0: Hello World",
+                    "href": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00",
+                    "docId": "getting-started/tutorials/season-1-the-local-experience/episode00"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 1: Playlist",
+                    "href": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01",
+                    "docId": "getting-started/tutorials/season-1-the-local-experience/episode01"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 2: Statistics",
+                    "href": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
+                    "docId": "getting-started/tutorials/season-1-the-local-experience/episode02"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 3: Playlist Redux",
+                    "href": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03",
+                    "docId": "getting-started/tutorials/season-1-the-local-experience/episode03"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 4: Playlist Plus",
+                    "href": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04",
+                    "docId": "getting-started/tutorials/season-1-the-local-experience/episode04"
+                  }
+                ],
+                "collapsible": true,
+                "href": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+              },
+              {
+                "type": "category",
+                "label": "Season 2: Scaling Out and Up",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Episode 5: Hello AWS",
+                    "href": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                    "docId": "getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 6: Statistics Redux",
+                    "href": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                    "docId": "getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 7: Worldview",
+                    "href": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+                    "docId": "getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 8: Autopilot",
+                    "href": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+                    "docId": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+                  }
+                ],
+                "collapsible": true,
+                "href": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/"
+              }
+            ],
+            "collapsible": true,
+            "href": "/docs/getting-started/tutorials/"
           }
         ],
         "collapsible": true
@@ -122,10 +197,31 @@
             "docId": "metaflow/client"
           },
           {
-            "type": "link",
+            "type": "category",
             "label": "Visualizing Results",
-            "href": "/docs/metaflow/visualizing-results/",
-            "docId": "metaflow/visualizing-results/README"
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Effortless Task Inspection with Default Cards",
+                "href": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+                "docId": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+              },
+              {
+                "type": "link",
+                "label": "Easy Custom Reports with Card Components",
+                "href": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+                "docId": "metaflow/visualizing-results/easy-custom-reports-with-card-components"
+              },
+              {
+                "type": "link",
+                "label": "Advanced, Shareable Cards with Card Templates",
+                "href": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+                "docId": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+              }
+            ],
+            "collapsible": true,
+            "href": "/docs/metaflow/visualizing-results/"
           },
           {
             "type": "link",
@@ -380,57 +476,68 @@
     "getting-started/tutorials/season-1-the-local-experience/episode00": {
       "id": "getting-started/tutorials/season-1-the-local-experience/episode00",
       "title": "Episode 0: Hello World",
-      "description": "Metaflow says Hi!"
+      "description": "Metaflow says Hi!",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-1-the-local-experience/episode01": {
       "id": "getting-started/tutorials/season-1-the-local-experience/episode01",
       "title": "Episode 1: Playlist",
-      "description": "Let's build you a movie playlist."
+      "description": "Let's build you a movie playlist.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-1-the-local-experience/episode02": {
       "id": "getting-started/tutorials/season-1-the-local-experience/episode02",
       "title": "Episode 2: Statistics",
-      "description": "Is this Data Science?"
+      "description": "Is this Data Science?",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-1-the-local-experience/episode03": {
       "id": "getting-started/tutorials/season-1-the-local-experience/episode03",
       "title": "Episode 3: Playlist Redux",
-      "description": "Follow the Money."
+      "description": "Follow the Money.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-1-the-local-experience/episode04": {
       "id": "getting-started/tutorials/season-1-the-local-experience/episode04",
       "title": "Episode 4: Playlist Plus",
-      "description": "The Final Showdown."
+      "description": "The Final Showdown.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-1-the-local-experience/README": {
       "id": "getting-started/tutorials/season-1-the-local-experience/README",
       "title": "Season 1: The Local Experience",
-      "description": "This season focus on introducing the basics of Metaflow. You can run all these tutorials on your local machine."
+      "description": "This season focus on introducing the basics of Metaflow. You can run all these tutorials on your local machine.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot": {
       "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
       "title": "Episode 8: Autopilot",
-      "description": "Scheduling Compute in the Cloud."
+      "description": "Scheduling Compute in the Cloud.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-2-scaling-out-and-up/episode05": {
       "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
       "title": "Episode 5: Hello AWS",
-      "description": "Look Mom, We're in the Cloud."
+      "description": "Look Mom, We're in the Cloud.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-2-scaling-out-and-up/episode06": {
       "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
       "title": "Episode 6: Statistics Redux",
-      "description": "Computing in the Cloud."
+      "description": "Computing in the Cloud.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-2-scaling-out-and-up/episode07": {
       "id": "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
       "title": "Episode 7: Worldview",
-      "description": "Way up here."
+      "description": "Way up here.",
+      "sidebar": "python"
     },
     "getting-started/tutorials/season-2-scaling-out-and-up/README": {
       "id": "getting-started/tutorials/season-2-scaling-out-and-up/README",
       "title": "Season 2: Scaling Out and Up",
-      "description": "This season introduces how to use Metaflow on AWS. To run through these tutorials, you will either need to setup Metaflow on AWS or use the Metaflow Sandbox."
+      "description": "This season introduces how to use Metaflow on AWS. To run through these tutorials, you will either need to setup Metaflow on AWS or use the Metaflow Sandbox.",
+      "sidebar": "python"
     },
     "going-to-production-with-metaflow/coordinating-larger-metaflow-projects": {
       "id": "going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
@@ -567,17 +674,20 @@
     "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates": {
       "id": "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
       "title": "Advanced, Shareable Cards with Card Templates",
-      "description": "The built-in Card Components allow you to create a visual report with a few lines of Python code. This is by far the easiest way to output visualizations using Metaflow’s default visual style and layout."
+      "description": "The built-in Card Components allow you to create a visual report with a few lines of Python code. This is by far the easiest way to output visualizations using Metaflow’s default visual style and layout.",
+      "sidebar": "python"
     },
     "metaflow/visualizing-results/easy-custom-reports-with-card-components": {
       "id": "metaflow/visualizing-results/easy-custom-reports-with-card-components",
       "title": "Easy Custom Reports with Card Components",
-      "description": "Default Cards are useful during development when you need to quickly inspect artifacts produced by a task or visualize the overall structure of the flow. As your project progresses, you may want to create a custom card that highlights information specific to your project."
+      "description": "Default Cards are useful during development when you need to quickly inspect artifacts produced by a task or visualize the overall structure of the flow. As your project progresses, you may want to create a custom card that highlights information specific to your project.",
+      "sidebar": "python"
     },
     "metaflow/visualizing-results/effortless-task-inspection-with-default-cards": {
       "id": "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
       "title": "Effortless Task Inspection with Default Cards",
-      "description": "Metaflow comes with a built-in Default Card that shows all artifacts produced by a task. Let’s create a simple flow to test it."
+      "description": "Metaflow comes with a built-in Default Card that shows all artifacts produced by a task. Let’s create a simple flow to test it.",
+      "sidebar": "python"
     },
     "metaflow/visualizing-results/README": {
       "id": "metaflow/visualizing-results/README",

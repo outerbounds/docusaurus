@@ -10,14 +10,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/tutorials/README.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "pagination_next": "getting-started/tutorials/season-1-the-local-experience/README"
+  },
   "sidebar": "python",
   "previous": {
     "title": "Installing Metaflow",
     "permalink": "/docs/getting-started/install"
   },
   "next": {
-    "title": "Metaflow on AWS",
-    "permalink": "/docs/metaflow-on-aws/"
+    "title": "Season 1: The Local Experience",
+    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
   }
 }

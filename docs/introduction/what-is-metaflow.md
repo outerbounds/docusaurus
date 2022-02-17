@@ -57,7 +57,7 @@ If you want to learn more, the Machine Learning Infrastructure team at Netflix h
 
 For starters, this presentation gives a comprehensive overview of Metaflow:
 
-<ReactPlayer playing controls url="https://www.youtube.com/watch?v=XV5VGddmP24" />
+<ReactPlayer controls url="https://www.youtube.com/watch?v=XV5VGddmP24" />
 
 For other general overviews of Metaflow, see the [Overviews of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02Xbg0oTf7OwZ_Kk86Zx96mAOb) playlist. For more technical details, see presentations about the [Internals of Metaflow](https://www.youtube.com/playlist?list=PLGEBSHR02XbhC-5Eqy7ERHxpuwiJHes4j).
 

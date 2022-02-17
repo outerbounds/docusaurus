@@ -37,7 +37,48 @@ const sidebars = {
       type: "category",
       label: "Getting Started",
       collapsed: false,
-      items: ["getting-started/install", "getting-started/tutorials/README"],
+      items: [
+        "getting-started/install",
+        {
+          type: "category",
+          label: "Tutorials",
+          collapsed: false,
+          link: { type: "doc", id: "getting-started/tutorials/README" },
+          items: [
+            {
+              type: "category",
+              label: "Season 1: The Local Experience",
+              link: {
+                type: "doc",
+                id: "getting-started/tutorials/season-1-the-local-experience/README",
+              },
+              collapsed: false,
+              items: [
+                "getting-started/tutorials/season-1-the-local-experience/episode00",
+                "getting-started/tutorials/season-1-the-local-experience/episode01",
+                "getting-started/tutorials/season-1-the-local-experience/episode02",
+                "getting-started/tutorials/season-1-the-local-experience/episode03",
+                "getting-started/tutorials/season-1-the-local-experience/episode04",
+              ],
+            },
+            {
+              type: "category",
+              label: "Season 2: Scaling Out and Up",
+              link: {
+                type: "doc",
+                id: "getting-started/tutorials/season-2-scaling-out-and-up/README",
+              },
+              collapsed: false,
+              items: [
+                "getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                "getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                "getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+                "getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       type: "category",
@@ -56,7 +97,17 @@ const sidebars = {
       items: [
         "metaflow/basics",
         "metaflow/client",
-        "metaflow/visualizing-results/README",
+        {
+          type: "category",
+          label: "Visualizing Results",
+          link: { type: "doc", id: "metaflow/visualizing-results/README" },
+          collapsed: false,
+          items: [
+            "metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+            "metaflow/visualizing-results/easy-custom-reports-with-card-components",
+            "metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+          ],
+        },
         "metaflow/debugging",
         "metaflow/scaling",
         "metaflow/data",
