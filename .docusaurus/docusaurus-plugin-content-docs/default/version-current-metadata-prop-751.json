@@ -458,9 +458,805 @@
         ],
         "collapsible": true
       }
+    ],
+    "apiMetaflow": [
+      {
+        "items": [
+          {
+            "items": [
+              {
+                "type": "link",
+                "label": "core",
+                "href": "/docs/api/metaflow/client/core",
+                "docId": "api/metaflow/client/core"
+              },
+              {
+                "type": "link",
+                "label": "filecache",
+                "href": "/docs/api/metaflow/client/filecache",
+                "docId": "api/metaflow/client/filecache"
+              }
+            ],
+            "label": "client",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": true
+          },
+          {
+            "items": [
+              {
+                "type": "link",
+                "label": "content_addressed_store",
+                "href": "/docs/api/metaflow/datastore/content_addressed_store",
+                "docId": "api/metaflow/datastore/content_addressed_store"
+              },
+              {
+                "type": "link",
+                "label": "datastore_storage",
+                "href": "/docs/api/metaflow/datastore/datastore_storage",
+                "docId": "api/metaflow/datastore/datastore_storage"
+              },
+              {
+                "type": "link",
+                "label": "flow_datastore",
+                "href": "/docs/api/metaflow/datastore/flow_datastore",
+                "docId": "api/metaflow/datastore/flow_datastore"
+              },
+              {
+                "type": "link",
+                "label": "inputs",
+                "href": "/docs/api/metaflow/datastore/inputs",
+                "docId": "api/metaflow/datastore/inputs"
+              },
+              {
+                "type": "link",
+                "label": "task_datastore",
+                "href": "/docs/api/metaflow/datastore/task_datastore",
+                "docId": "api/metaflow/datastore/task_datastore"
+              }
+            ],
+            "label": "datastore",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": true
+          },
+          {
+            "items": [
+              {
+                "type": "link",
+                "label": "s3",
+                "href": "/docs/api/metaflow/datatools/s3",
+                "docId": "api/metaflow/datatools/s3"
+              },
+              {
+                "type": "link",
+                "label": "s3util",
+                "href": "/docs/api/metaflow/datatools/s3util",
+                "docId": "api/metaflow/datatools/s3util"
+              }
+            ],
+            "label": "datatools",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": true
+          },
+          {
+            "items": [
+              {
+                "type": "link",
+                "label": "metadata",
+                "href": "/docs/api/metaflow/metadata/",
+                "docId": "api/metaflow/metadata/metadata"
+              }
+            ],
+            "label": "metadata",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": true
+          },
+          {
+            "items": [
+              {
+                "items": [
+                  {
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "batch_decorator",
+                        "href": "/docs/api/metaflow/plugins/aws/batch/batch_decorator",
+                        "docId": "api/metaflow/plugins/aws/batch/batch_decorator"
+                      }
+                    ],
+                    "label": "plugins.aws.batch",
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": true
+                  },
+                  {
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "kubernetes",
+                        "href": "/docs/api/metaflow/plugins/aws/eks/kubernetes",
+                        "docId": "api/metaflow/plugins/aws/eks/kubernetes"
+                      },
+                      {
+                        "type": "link",
+                        "label": "kubernetes_decorator",
+                        "href": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
+                        "docId": "api/metaflow/plugins/aws/eks/kubernetes_decorator"
+                      }
+                    ],
+                    "label": "plugins.aws.eks",
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": true
+                  },
+                  {
+                    "type": "link",
+                    "label": "aws_utils",
+                    "href": "/docs/api/metaflow/plugins/aws/aws_utils",
+                    "docId": "api/metaflow/plugins/aws/aws_utils"
+                  }
+                ],
+                "label": "plugins.aws",
+                "type": "category",
+                "collapsible": true,
+                "collapsed": true
+              },
+              {
+                "items": [
+                  {
+                    "items": [
+                      {
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "main",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
+                            "docId": "api/metaflow/plugins/cards/card_modules/chevron/main"
+                          },
+                          {
+                            "type": "link",
+                            "label": "renderer",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
+                            "docId": "api/metaflow/plugins/cards/card_modules/chevron/renderer"
+                          },
+                          {
+                            "type": "link",
+                            "label": "tokenizer",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+                            "docId": "api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
+                          }
+                        ],
+                        "label": "plugins.cards.card_modules.chevron",
+                        "type": "category",
+                        "collapsible": true,
+                        "collapsed": true
+                      },
+                      {
+                        "type": "link",
+                        "label": "basic",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/basic",
+                        "docId": "api/metaflow/plugins/cards/card_modules/basic"
+                      },
+                      {
+                        "type": "link",
+                        "label": "card",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/card",
+                        "docId": "api/metaflow/plugins/cards/card_modules/card"
+                      },
+                      {
+                        "type": "link",
+                        "label": "components",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/components",
+                        "docId": "api/metaflow/plugins/cards/card_modules/components"
+                      },
+                      {
+                        "type": "link",
+                        "label": "renderer_tools",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
+                        "docId": "api/metaflow/plugins/cards/card_modules/renderer_tools"
+                      }
+                    ],
+                    "label": "plugins.cards.card_modules",
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": true
+                  },
+                  {
+                    "type": "link",
+                    "label": "card_cli",
+                    "href": "/docs/api/metaflow/plugins/cards/card_cli",
+                    "docId": "api/metaflow/plugins/cards/card_cli"
+                  },
+                  {
+                    "type": "link",
+                    "label": "card_client",
+                    "href": "/docs/api/metaflow/plugins/cards/card_client",
+                    "docId": "api/metaflow/plugins/cards/card_client"
+                  },
+                  {
+                    "type": "link",
+                    "label": "card_datastore",
+                    "href": "/docs/api/metaflow/plugins/cards/card_datastore",
+                    "docId": "api/metaflow/plugins/cards/card_datastore"
+                  },
+                  {
+                    "type": "link",
+                    "label": "component_serializer",
+                    "href": "/docs/api/metaflow/plugins/cards/component_serializer",
+                    "docId": "api/metaflow/plugins/cards/component_serializer"
+                  },
+                  {
+                    "type": "link",
+                    "label": "exception",
+                    "href": "/docs/api/metaflow/plugins/cards/exception",
+                    "docId": "api/metaflow/plugins/cards/exception"
+                  }
+                ],
+                "label": "plugins.cards",
+                "type": "category",
+                "collapsible": true,
+                "collapsed": true
+              },
+              {
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "conda_flow_decorator",
+                    "href": "/docs/api/metaflow/plugins/conda/conda_flow_decorator",
+                    "docId": "api/metaflow/plugins/conda/conda_flow_decorator"
+                  },
+                  {
+                    "type": "link",
+                    "label": "conda_step_decorator",
+                    "href": "/docs/api/metaflow/plugins/conda/conda_step_decorator",
+                    "docId": "api/metaflow/plugins/conda/conda_step_decorator"
+                  }
+                ],
+                "label": "plugins.conda",
+                "type": "category",
+                "collapsible": true,
+                "collapsed": true
+              },
+              {
+                "items": [
+                  {
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "bytestream",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/bytestream",
+                        "docId": "api/metaflow/plugins/env_escape/communication/bytestream"
+                      },
+                      {
+                        "type": "link",
+                        "label": "channel",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/channel",
+                        "docId": "api/metaflow/plugins/env_escape/communication/channel"
+                      },
+                      {
+                        "type": "link",
+                        "label": "utils",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/utils",
+                        "docId": "api/metaflow/plugins/env_escape/communication/utils"
+                      }
+                    ],
+                    "label": "plugins.env_escape.communication",
+                    "type": "category",
+                    "collapsible": true,
+                    "collapsed": true
+                  },
+                  {
+                    "type": "link",
+                    "label": "exception_transferer",
+                    "href": "/docs/api/metaflow/plugins/env_escape/exception_transferer",
+                    "docId": "api/metaflow/plugins/env_escape/exception_transferer"
+                  },
+                  {
+                    "type": "link",
+                    "label": "stub",
+                    "href": "/docs/api/metaflow/plugins/env_escape/stub",
+                    "docId": "api/metaflow/plugins/env_escape/stub"
+                  }
+                ],
+                "label": "plugins.env_escape",
+                "type": "category",
+                "collapsible": true,
+                "collapsed": true
+              },
+              {
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "pytorch",
+                    "href": "/docs/api/metaflow/plugins/frameworks/pytorch",
+                    "docId": "api/metaflow/plugins/frameworks/pytorch"
+                  }
+                ],
+                "label": "plugins.frameworks",
+                "type": "category",
+                "collapsible": true,
+                "collapsed": true
+              },
+              {
+                "type": "link",
+                "label": "catch_decorator",
+                "href": "/docs/api/metaflow/plugins/catch_decorator",
+                "docId": "api/metaflow/plugins/catch_decorator"
+              },
+              {
+                "type": "link",
+                "label": "environment_decorator",
+                "href": "/docs/api/metaflow/plugins/environment_decorator",
+                "docId": "api/metaflow/plugins/environment_decorator"
+              },
+              {
+                "type": "link",
+                "label": "resources_decorator",
+                "href": "/docs/api/metaflow/plugins/resources_decorator",
+                "docId": "api/metaflow/plugins/resources_decorator"
+              },
+              {
+                "type": "link",
+                "label": "retry_decorator",
+                "href": "/docs/api/metaflow/plugins/retry_decorator",
+                "docId": "api/metaflow/plugins/retry_decorator"
+              },
+              {
+                "type": "link",
+                "label": "test_unbounded_foreach_decorator",
+                "href": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
+                "docId": "api/metaflow/plugins/test_unbounded_foreach_decorator"
+              },
+              {
+                "type": "link",
+                "label": "timeout_decorator",
+                "href": "/docs/api/metaflow/plugins/timeout_decorator",
+                "docId": "api/metaflow/plugins/timeout_decorator"
+              }
+            ],
+            "label": "plugins",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": true
+          },
+          {
+            "type": "link",
+            "label": "decorators",
+            "href": "/docs/api/metaflow/decorators",
+            "docId": "api/metaflow/decorators"
+          },
+          {
+            "type": "link",
+            "label": "flowspec",
+            "href": "/docs/api/metaflow/flowspec",
+            "docId": "api/metaflow/flowspec"
+          },
+          {
+            "type": "link",
+            "label": "includefile",
+            "href": "/docs/api/metaflow/includefile",
+            "docId": "api/metaflow/includefile"
+          },
+          {
+            "type": "link",
+            "label": "metaflow_environment",
+            "href": "/docs/api/metaflow/metaflow_environment",
+            "docId": "api/metaflow/metaflow_environment"
+          },
+          {
+            "type": "link",
+            "label": "metaflow_version",
+            "href": "/docs/api/metaflow/metaflow_version",
+            "docId": "api/metaflow/metaflow_version"
+          },
+          {
+            "type": "link",
+            "label": "monitor",
+            "href": "/docs/api/metaflow/monitor",
+            "docId": "api/metaflow/monitor"
+          },
+          {
+            "type": "link",
+            "label": "package",
+            "href": "/docs/api/metaflow/package",
+            "docId": "api/metaflow/package"
+          },
+          {
+            "type": "link",
+            "label": "parameters",
+            "href": "/docs/api/metaflow/parameters",
+            "docId": "api/metaflow/parameters"
+          },
+          {
+            "type": "link",
+            "label": "runtime",
+            "href": "/docs/api/metaflow/runtime",
+            "docId": "api/metaflow/runtime"
+          },
+          {
+            "type": "link",
+            "label": "sidecar",
+            "href": "/docs/api/metaflow/sidecar",
+            "docId": "api/metaflow/sidecar"
+          },
+          {
+            "type": "link",
+            "label": "sidecar_worker",
+            "href": "/docs/api/metaflow/sidecar_worker",
+            "docId": "api/metaflow/sidecar_worker"
+          },
+          {
+            "type": "link",
+            "label": "task",
+            "href": "/docs/api/metaflow/task",
+            "docId": "api/metaflow/task"
+          },
+          {
+            "type": "link",
+            "label": "unbounded_foreach",
+            "href": "/docs/api/metaflow/unbounded_foreach",
+            "docId": "api/metaflow/unbounded_foreach"
+          },
+          {
+            "type": "link",
+            "label": "util",
+            "href": "/docs/api/metaflow/util",
+            "docId": "api/metaflow/util"
+          },
+          {
+            "type": "link",
+            "label": "vendor",
+            "href": "/docs/api/metaflow/vendor",
+            "docId": "api/metaflow/vendor"
+          }
+        ],
+        "label": "metaflow",
+        "type": "category",
+        "collapsible": true,
+        "collapsed": true
+      }
     ]
   },
   "docs": {
+    "api/metaflow/client/core": {
+      "id": "api/metaflow/client/core",
+      "title": "client.core",
+      "description": "metadata",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/client/filecache": {
+      "id": "api/metaflow/client/filecache",
+      "title": "client.filecache",
+      "description": "FileCache Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datastore/content_addressed_store": {
+      "id": "api/metaflow/datastore/content_addressed_store",
+      "title": "datastore.content_addressed_store",
+      "description": "ContentAddressedStore Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datastore/datastore_storage": {
+      "id": "api/metaflow/datastore/datastore_storage",
+      "title": "datastore.datastore_storage",
+      "description": "CloseAfterUse Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datastore/flow_datastore": {
+      "id": "api/metaflow/datastore/flow_datastore",
+      "title": "datastore.flow_datastore",
+      "description": "FlowDataStore Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datastore/inputs": {
+      "id": "api/metaflow/datastore/inputs",
+      "title": "datastore.inputs",
+      "description": "Inputs Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datastore/task_datastore": {
+      "id": "api/metaflow/datastore/task_datastore",
+      "title": "datastore.task_datastore",
+      "description": "TaskDataStore Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datatools/s3": {
+      "id": "api/metaflow/datatools/s3",
+      "title": "datatools.s3",
+      "description": "S3Object Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/datatools/s3util": {
+      "id": "api/metaflow/datatools/s3util",
+      "title": "datatools.s3util",
+      "description": "get\\_timestamp",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/decorators": {
+      "id": "api/metaflow/decorators",
+      "title": "decorators",
+      "description": "Decorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/flowspec": {
+      "id": "api/metaflow/flowspec",
+      "title": "flowspec",
+      "description": "ParallelUBF Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/includefile": {
+      "id": "api/metaflow/includefile",
+      "title": "includefile",
+      "description": "LocalObject Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/index": {
+      "id": "api/metaflow/index",
+      "title": "Metaflow documentation",
+      "description": "",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/metadata/metadata": {
+      "id": "api/metaflow/metadata/metadata",
+      "title": "metadata.metadata",
+      "description": "MetadataProvider Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/metaflow_environment": {
+      "id": "api/metaflow/metaflow_environment",
+      "title": "metaflow_environment",
+      "description": "MetaflowEnvironment Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/metaflow_version": {
+      "id": "api/metaflow/metaflow_version",
+      "title": "metaflow_version",
+      "description": "Get version identification for the package",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/monitor": {
+      "id": "api/metaflow/monitor",
+      "title": "monitor",
+      "description": "Metric Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/package": {
+      "id": "api/metaflow/package",
+      "title": "package",
+      "description": "MetaflowPackage Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/parameters": {
+      "id": "api/metaflow/parameters",
+      "title": "parameters",
+      "description": "DeployTimeField Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/aws/aws_utils": {
+      "id": "api/metaflow/plugins/aws/aws_utils",
+      "title": "plugins.aws.aws_utils",
+      "description": "get\\docker\\registry",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/aws/batch/batch_decorator": {
+      "id": "api/metaflow/plugins/aws/batch/batch_decorator",
+      "title": "plugins.aws.batch.batch_decorator",
+      "description": "BatchDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/aws/eks/kubernetes": {
+      "id": "api/metaflow/plugins/aws/eks/kubernetes",
+      "title": "plugins.aws.eks.kubernetes",
+      "description": "generate\\rfc1123\\name",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/aws/eks/kubernetes_decorator": {
+      "id": "api/metaflow/plugins/aws/eks/kubernetes_decorator",
+      "title": "plugins.aws.eks.kubernetes_decorator",
+      "description": "KubernetesDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_cli": {
+      "id": "api/metaflow/plugins/cards/card_cli",
+      "title": "plugins.cards.card_cli",
+      "description": "resolve\\task\\from\\_pathspec",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_client": {
+      "id": "api/metaflow/plugins/cards/card_client",
+      "title": "plugins.cards.card_client",
+      "description": "Card Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_datastore": {
+      "id": "api/metaflow/plugins/cards/card_datastore",
+      "title": "plugins.cards.card_datastore",
+      "description": "CardDatastore Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/basic": {
+      "id": "api/metaflow/plugins/cards/card_modules/basic",
+      "title": "plugins.cards.card_modules.basic",
+      "description": "DefaultComponent Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/card": {
+      "id": "api/metaflow/plugins/cards/card_modules/card",
+      "title": "plugins.cards.card_modules.card",
+      "description": "MetaflowCard Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/chevron/main": {
+      "id": "api/metaflow/plugins/cards/card_modules/chevron/main",
+      "title": "plugins.cards.card_modules.chevron.main",
+      "description": "cli\\_main",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/chevron/renderer": {
+      "id": "api/metaflow/plugins/cards/card_modules/chevron/renderer",
+      "title": "plugins.cards.card_modules.chevron.renderer",
+      "description": "render",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/chevron/tokenizer": {
+      "id": "api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+      "title": "plugins.cards.card_modules.chevron.tokenizer",
+      "description": "grab\\_literal",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/components": {
+      "id": "api/metaflow/plugins/cards/card_modules/components",
+      "title": "plugins.cards.card_modules.components",
+      "description": "Artifact Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/card_modules/renderer_tools": {
+      "id": "api/metaflow/plugins/cards/card_modules/renderer_tools",
+      "title": "plugins.cards.card_modules.renderer_tools",
+      "description": "render\\_safely",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/component_serializer": {
+      "id": "api/metaflow/plugins/cards/component_serializer",
+      "title": "plugins.cards.component_serializer",
+      "description": "CardComponentCollector Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/cards/exception": {
+      "id": "api/metaflow/plugins/cards/exception",
+      "title": "plugins.cards.exception",
+      "description": "CardClassFoundException Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/catch_decorator": {
+      "id": "api/metaflow/plugins/catch_decorator",
+      "title": "plugins.catch_decorator",
+      "description": "CatchDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/conda/conda_flow_decorator": {
+      "id": "api/metaflow/plugins/conda/conda_flow_decorator",
+      "title": "plugins.conda.conda_flow_decorator",
+      "description": "CondaFlowDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/conda/conda_step_decorator": {
+      "id": "api/metaflow/plugins/conda/conda_step_decorator",
+      "title": "plugins.conda.conda_step_decorator",
+      "description": "CondaStepDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/env_escape/communication/bytestream": {
+      "id": "api/metaflow/plugins/env_escape/communication/bytestream",
+      "title": "plugins.env_escape.communication.bytestream",
+      "description": "ByteStream Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/env_escape/communication/channel": {
+      "id": "api/metaflow/plugins/env_escape/communication/channel",
+      "title": "plugins.env_escape.communication.channel",
+      "description": "Channel Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/env_escape/communication/utils": {
+      "id": "api/metaflow/plugins/env_escape/communication/utils",
+      "title": "plugins.env_escape.communication.utils",
+      "description": "\\\\try\\op\\\\_",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/env_escape/exception_transferer": {
+      "id": "api/metaflow/plugins/env_escape/exception_transferer",
+      "title": "plugins.env_escape.exception_transferer",
+      "description": "RemoteInterpreterException Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/env_escape/stub": {
+      "id": "api/metaflow/plugins/env_escape/stub",
+      "title": "plugins.env_escape.stub",
+      "description": "with\\_metaclass",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/environment_decorator": {
+      "id": "api/metaflow/plugins/environment_decorator",
+      "title": "plugins.environment_decorator",
+      "description": "EnvironmentDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/frameworks/pytorch": {
+      "id": "api/metaflow/plugins/frameworks/pytorch",
+      "title": "plugins.frameworks.pytorch",
+      "description": "setup\\torch\\distributed",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/resources_decorator": {
+      "id": "api/metaflow/plugins/resources_decorator",
+      "title": "plugins.resources_decorator",
+      "description": "ResourcesDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/retry_decorator": {
+      "id": "api/metaflow/plugins/retry_decorator",
+      "title": "plugins.retry_decorator",
+      "description": "RetryDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/test_unbounded_foreach_decorator": {
+      "id": "api/metaflow/plugins/test_unbounded_foreach_decorator",
+      "title": "plugins.test_unbounded_foreach_decorator",
+      "description": "InternalTestUnboundedForeachInput Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/plugins/timeout_decorator": {
+      "id": "api/metaflow/plugins/timeout_decorator",
+      "title": "plugins.timeout_decorator",
+      "description": "TimeoutDecorator Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/runtime": {
+      "id": "api/metaflow/runtime",
+      "title": "runtime",
+      "description": "Local backend",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/sidecar": {
+      "id": "api/metaflow/sidecar",
+      "title": "sidecar",
+      "description": "PipeUnavailableError Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/sidecar_worker": {
+      "id": "api/metaflow/sidecar_worker",
+      "title": "sidecar_worker",
+      "description": "WorkershutdownError Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/task": {
+      "id": "api/metaflow/task",
+      "title": "task",
+      "description": "MetaflowTask Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/unbounded_foreach": {
+      "id": "api/metaflow/unbounded_foreach",
+      "title": "unbounded_foreach",
+      "description": "UnboundedForeachInput Objects",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/util": {
+      "id": "api/metaflow/util",
+      "title": "util",
+      "description": "all\\_equal",
+      "sidebar": "apiMetaflow"
+    },
+    "api/metaflow/vendor": {
+      "id": "api/metaflow/vendor",
+      "title": "vendor",
+      "description": "iter\\_subtree",
+      "sidebar": "apiMetaflow"
+    },
     "flow_datastore": {
       "id": "flow_datastore",
       "title": "flow_datastore",
@@ -474,7 +1270,7 @@
     "flow_datastory_mdx": {
       "id": "flow_datastory_mdx",
       "title": "flow_datastore_bg",
-      "description": "console.log('children: ', children);"
+      "description": "FlowDataStore Objects"
     },
     "getting-started/install": {
       "id": "getting-started/install",

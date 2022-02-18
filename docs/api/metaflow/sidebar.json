@@ -1,0 +1,151 @@
+{
+  "items": [
+    {
+      "items": [
+        "api/metaflow/client/core",
+        "api/metaflow/client/filecache"
+      ],
+      "label": "client",
+      "type": "category"
+    },
+    {
+      "items": [
+        "api/metaflow/datastore/content_addressed_store",
+        "api/metaflow/datastore/datastore_storage",
+        "api/metaflow/datastore/flow_datastore",
+        "api/metaflow/datastore/inputs",
+        "api/metaflow/datastore/task_datastore"
+      ],
+      "label": "datastore",
+      "type": "category"
+    },
+    {
+      "items": [
+        "api/metaflow/datatools/s3",
+        "api/metaflow/datatools/s3util"
+      ],
+      "label": "datatools",
+      "type": "category"
+    },
+    {
+      "items": [
+        "api/metaflow/metadata/metadata"
+      ],
+      "label": "metadata",
+      "type": "category"
+    },
+    {
+      "items": [
+        {
+          "items": [
+            {
+              "items": [
+                "api/metaflow/plugins/aws/batch/batch_decorator"
+              ],
+              "label": "plugins.aws.batch",
+              "type": "category"
+            },
+            {
+              "items": [
+                "api/metaflow/plugins/aws/eks/kubernetes",
+                "api/metaflow/plugins/aws/eks/kubernetes_decorator"
+              ],
+              "label": "plugins.aws.eks",
+              "type": "category"
+            },
+            "api/metaflow/plugins/aws/aws_utils"
+          ],
+          "label": "plugins.aws",
+          "type": "category"
+        },
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "items": [
+                    "api/metaflow/plugins/cards/card_modules/chevron/main",
+                    "api/metaflow/plugins/cards/card_modules/chevron/renderer",
+                    "api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
+                  ],
+                  "label": "plugins.cards.card_modules.chevron",
+                  "type": "category"
+                },
+                "api/metaflow/plugins/cards/card_modules/basic",
+                "api/metaflow/plugins/cards/card_modules/card",
+                "api/metaflow/plugins/cards/card_modules/components",
+                "api/metaflow/plugins/cards/card_modules/renderer_tools"
+              ],
+              "label": "plugins.cards.card_modules",
+              "type": "category"
+            },
+            "api/metaflow/plugins/cards/card_cli",
+            "api/metaflow/plugins/cards/card_client",
+            "api/metaflow/plugins/cards/card_datastore",
+            "api/metaflow/plugins/cards/component_serializer",
+            "api/metaflow/plugins/cards/exception"
+          ],
+          "label": "plugins.cards",
+          "type": "category"
+        },
+        {
+          "items": [
+            "api/metaflow/plugins/conda/conda_flow_decorator",
+            "api/metaflow/plugins/conda/conda_step_decorator"
+          ],
+          "label": "plugins.conda",
+          "type": "category"
+        },
+        {
+          "items": [
+            {
+              "items": [
+                "api/metaflow/plugins/env_escape/communication/bytestream",
+                "api/metaflow/plugins/env_escape/communication/channel",
+                "api/metaflow/plugins/env_escape/communication/utils"
+              ],
+              "label": "plugins.env_escape.communication",
+              "type": "category"
+            },
+            "api/metaflow/plugins/env_escape/exception_transferer",
+            "api/metaflow/plugins/env_escape/stub"
+          ],
+          "label": "plugins.env_escape",
+          "type": "category"
+        },
+        {
+          "items": [
+            "api/metaflow/plugins/frameworks/pytorch"
+          ],
+          "label": "plugins.frameworks",
+          "type": "category"
+        },
+        "api/metaflow/plugins/catch_decorator",
+        "api/metaflow/plugins/environment_decorator",
+        "api/metaflow/plugins/resources_decorator",
+        "api/metaflow/plugins/retry_decorator",
+        "api/metaflow/plugins/test_unbounded_foreach_decorator",
+        "api/metaflow/plugins/timeout_decorator"
+      ],
+      "label": "plugins",
+      "type": "category"
+    },
+    "api/metaflow/decorators",
+    "api/metaflow/flowspec",
+    "api/metaflow/includefile",
+    "api/metaflow/metaflow_environment",
+    "api/metaflow/metaflow_version",
+    "api/metaflow/monitor",
+    "api/metaflow/package",
+    "api/metaflow/parameters",
+    "api/metaflow/runtime",
+    "api/metaflow/sidecar",
+    "api/metaflow/sidecar_worker",
+    "api/metaflow/task",
+    "api/metaflow/unbounded_foreach",
+    "api/metaflow/util",
+    "api/metaflow/vendor"
+  ],
+  "label": "metaflow",
+  "type": "category"
+}

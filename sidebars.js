@@ -194,6 +194,7 @@ const sidebars = {
       items: ["r/going-to-production-with-metaflow/scheduling-metaflow-flows"],
     },
   ],
+  apiMetaflow: [require("./docs/api/metaflow/sidebar.json")],
 };
 
 module.exports = sidebars;

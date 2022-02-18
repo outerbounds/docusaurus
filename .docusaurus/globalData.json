@@ -19,6 +19,286 @@
           "mainDocId": "index",
           "docs": [
             {
+              "id": "api/metaflow/client/core",
+              "path": "/docs/api/metaflow/client/core",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/client/filecache",
+              "path": "/docs/api/metaflow/client/filecache",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datastore/content_addressed_store",
+              "path": "/docs/api/metaflow/datastore/content_addressed_store",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datastore/datastore_storage",
+              "path": "/docs/api/metaflow/datastore/datastore_storage",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datastore/flow_datastore",
+              "path": "/docs/api/metaflow/datastore/flow_datastore",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datastore/inputs",
+              "path": "/docs/api/metaflow/datastore/inputs",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datastore/task_datastore",
+              "path": "/docs/api/metaflow/datastore/task_datastore",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datatools/s3",
+              "path": "/docs/api/metaflow/datatools/s3",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/datatools/s3util",
+              "path": "/docs/api/metaflow/datatools/s3util",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/decorators",
+              "path": "/docs/api/metaflow/decorators",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/flowspec",
+              "path": "/docs/api/metaflow/flowspec",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/includefile",
+              "path": "/docs/api/metaflow/includefile",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/index",
+              "path": "/docs/api/metaflow/",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/metadata/metadata",
+              "path": "/docs/api/metaflow/metadata/",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/metaflow_environment",
+              "path": "/docs/api/metaflow/metaflow_environment",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/metaflow_version",
+              "path": "/docs/api/metaflow/metaflow_version",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/monitor",
+              "path": "/docs/api/metaflow/monitor",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/package",
+              "path": "/docs/api/metaflow/package",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/parameters",
+              "path": "/docs/api/metaflow/parameters",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/aws/aws_utils",
+              "path": "/docs/api/metaflow/plugins/aws/aws_utils",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/aws/batch/batch_decorator",
+              "path": "/docs/api/metaflow/plugins/aws/batch/batch_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/aws/eks/kubernetes",
+              "path": "/docs/api/metaflow/plugins/aws/eks/kubernetes",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/aws/eks/kubernetes_decorator",
+              "path": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_cli",
+              "path": "/docs/api/metaflow/plugins/cards/card_cli",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_client",
+              "path": "/docs/api/metaflow/plugins/cards/card_client",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_datastore",
+              "path": "/docs/api/metaflow/plugins/cards/card_datastore",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/basic",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/basic",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/card",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/card",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/chevron/main",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/chevron/renderer",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/components",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/components",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/card_modules/renderer_tools",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/component_serializer",
+              "path": "/docs/api/metaflow/plugins/cards/component_serializer",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/cards/exception",
+              "path": "/docs/api/metaflow/plugins/cards/exception",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/catch_decorator",
+              "path": "/docs/api/metaflow/plugins/catch_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/conda/conda_flow_decorator",
+              "path": "/docs/api/metaflow/plugins/conda/conda_flow_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/conda/conda_step_decorator",
+              "path": "/docs/api/metaflow/plugins/conda/conda_step_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/env_escape/communication/bytestream",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/bytestream",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/env_escape/communication/channel",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/channel",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/env_escape/communication/utils",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/utils",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/env_escape/exception_transferer",
+              "path": "/docs/api/metaflow/plugins/env_escape/exception_transferer",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/env_escape/stub",
+              "path": "/docs/api/metaflow/plugins/env_escape/stub",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/environment_decorator",
+              "path": "/docs/api/metaflow/plugins/environment_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/frameworks/pytorch",
+              "path": "/docs/api/metaflow/plugins/frameworks/pytorch",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/resources_decorator",
+              "path": "/docs/api/metaflow/plugins/resources_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/retry_decorator",
+              "path": "/docs/api/metaflow/plugins/retry_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/test_unbounded_foreach_decorator",
+              "path": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/plugins/timeout_decorator",
+              "path": "/docs/api/metaflow/plugins/timeout_decorator",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/runtime",
+              "path": "/docs/api/metaflow/runtime",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/sidecar",
+              "path": "/docs/api/metaflow/sidecar",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/sidecar_worker",
+              "path": "/docs/api/metaflow/sidecar_worker",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/task",
+              "path": "/docs/api/metaflow/task",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/unbounded_foreach",
+              "path": "/docs/api/metaflow/unbounded_foreach",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/util",
+              "path": "/docs/api/metaflow/util",
+              "sidebar": "apiMetaflow"
+            },
+            {
+              "id": "api/metaflow/vendor",
+              "path": "/docs/api/metaflow/vendor",
+              "sidebar": "apiMetaflow"
+            },
+            {
               "id": "flow_datastore",
               "path": "/docs/flow_datastore"
             },
@@ -384,6 +664,12 @@
               "link": {
                 "path": "/docs/",
                 "label": "📚 Python Docs"
+              }
+            },
+            "apiMetaflow": {
+              "link": {
+                "path": "/docs/api/metaflow/client/core",
+                "label": "api/metaflow/client/core"
               }
             }
           }

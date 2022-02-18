@@ -45,13 +45,349 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','402'),
+    component: ComponentCreator('/docs','6df'),
     routes: [
       {
         path: '/docs/',
         component: ComponentCreator('/docs/','e9a'),
         exact: true,
         'sidebar': "python"
+      },
+      {
+        path: '/docs/api/metaflow/',
+        component: ComponentCreator('/docs/api/metaflow/','660'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/client/core',
+        component: ComponentCreator('/docs/api/metaflow/client/core','ba1'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/client/filecache',
+        component: ComponentCreator('/docs/api/metaflow/client/filecache','b26'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datastore/content_addressed_store',
+        component: ComponentCreator('/docs/api/metaflow/datastore/content_addressed_store','c36'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datastore/datastore_storage',
+        component: ComponentCreator('/docs/api/metaflow/datastore/datastore_storage','39b'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datastore/flow_datastore',
+        component: ComponentCreator('/docs/api/metaflow/datastore/flow_datastore','12e'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datastore/inputs',
+        component: ComponentCreator('/docs/api/metaflow/datastore/inputs','9c5'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datastore/task_datastore',
+        component: ComponentCreator('/docs/api/metaflow/datastore/task_datastore','811'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datatools/s3',
+        component: ComponentCreator('/docs/api/metaflow/datatools/s3','047'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/datatools/s3util',
+        component: ComponentCreator('/docs/api/metaflow/datatools/s3util','75a'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/decorators',
+        component: ComponentCreator('/docs/api/metaflow/decorators','403'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/flowspec',
+        component: ComponentCreator('/docs/api/metaflow/flowspec','d09'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/includefile',
+        component: ComponentCreator('/docs/api/metaflow/includefile','546'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/metadata/',
+        component: ComponentCreator('/docs/api/metaflow/metadata/','da7'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/metaflow_environment',
+        component: ComponentCreator('/docs/api/metaflow/metaflow_environment','d91'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/metaflow_version',
+        component: ComponentCreator('/docs/api/metaflow/metaflow_version','12a'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/monitor',
+        component: ComponentCreator('/docs/api/metaflow/monitor','057'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/package',
+        component: ComponentCreator('/docs/api/metaflow/package','b7e'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/parameters',
+        component: ComponentCreator('/docs/api/metaflow/parameters','6ac'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/aws/aws_utils',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/aws_utils','3d7'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/aws/batch/batch_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/batch/batch_decorator','f27'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/aws/eks/kubernetes',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/eks/kubernetes','986'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator','4a6'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_cli',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_cli','aee'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_client',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_client','30d'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_datastore',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_datastore','778'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/basic',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/basic','9cb'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/card',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/card','a5c'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/main',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/main','778'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer','ed1'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer','6b4'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/components',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/components','2d1'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/card_modules/renderer_tools',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/renderer_tools','4c9'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/component_serializer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/component_serializer','d28'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/cards/exception',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/exception','58f'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/catch_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/catch_decorator','6f8'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/conda/conda_flow_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/conda/conda_flow_decorator','6f5'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/conda/conda_step_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/conda/conda_step_decorator','eda'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/env_escape/communication/bytestream',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/bytestream','2dc'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/env_escape/communication/channel',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/channel','ce0'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/env_escape/communication/utils',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/utils','e6d'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/env_escape/exception_transferer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/exception_transferer','c7f'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/env_escape/stub',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/stub','95d'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/environment_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/environment_decorator','944'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/frameworks/pytorch',
+        component: ComponentCreator('/docs/api/metaflow/plugins/frameworks/pytorch','17b'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/resources_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/resources_decorator','a2a'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/retry_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/retry_decorator','5b3'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/test_unbounded_foreach_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/test_unbounded_foreach_decorator','833'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/plugins/timeout_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/timeout_decorator','b10'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/runtime',
+        component: ComponentCreator('/docs/api/metaflow/runtime','b3c'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/sidecar',
+        component: ComponentCreator('/docs/api/metaflow/sidecar','8fc'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/sidecar_worker',
+        component: ComponentCreator('/docs/api/metaflow/sidecar_worker','9ce'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/task',
+        component: ComponentCreator('/docs/api/metaflow/task','4f0'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/unbounded_foreach',
+        component: ComponentCreator('/docs/api/metaflow/unbounded_foreach','196'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/util',
+        component: ComponentCreator('/docs/api/metaflow/util','ed6'),
+        exact: true,
+        'sidebar': "apiMetaflow"
+      },
+      {
+        path: '/docs/api/metaflow/vendor',
+        component: ComponentCreator('/docs/api/metaflow/vendor','0de'),
+        exact: true,
+        'sidebar': "apiMetaflow"
       },
       {
         path: '/docs/flow_datastore',

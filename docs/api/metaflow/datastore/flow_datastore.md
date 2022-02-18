@@ -1,11 +1,7 @@
 ---
-sidebar_label: flow_datastore_bg
-title: flow_datastore_bg
+sidebar_label: flow_datastore
+title: datastore.flow_datastore
 ---
-
-import APIDoc from "/src/components/APIDoc/APIDoc";
-
-<APIDoc lang="python">
 
 ## FlowDataStore Objects
 
@@ -25,26 +21,26 @@ This datastore can then be used to get TaskDataStore to store artifacts
 and metadata about a task as well as a ContentAddressedStore to store
 things like packages, etc.
 
-## Parameters
-
+Parameters
+----------
 flow_name : str
-The name of the flow
+    The name of the flow
 environment : MetaflowEnvironment
-Environment this datastore is operating in
+    Environment this datastore is operating in
 metadata : MetadataProvider, optional
-The metadata provider to use and update if needed, by default None
+    The metadata provider to use and update if needed, by default None
 event_logger : EventLogger, optional
-EventLogger to use to report events, by default None
+    EventLogger to use to report events, by default None
 monitor : Monitor, optional
-Monitor to use to measure/monitor events, by default None
+    Monitor to use to measure/monitor events, by default None
 storage_impl : type
-Class for the backing DataStoreStorage to use; if not provided use
-default_storage_impl, optional
+    Class for the backing DataStoreStorage to use; if not provided use
+    default_storage_impl, optional
 ds_root : str
-The optional root for this datastore; if not provided, use the
-default for the DataStoreStorage, optional
+    The optional root for this datastore; if not provided, use the
+    default for the DataStoreStorage, optional
 
-#### get_latest_task_datastores
+#### get\_latest\_task\_datastores
 
 ```python
  | get_latest_task_datastores(run_id=None, steps=None, pathspecs=None, allow_not_done=False)
@@ -58,8 +54,8 @@ Alternatively, `pathspecs` can contain the exact list of pathspec(s)
 Note: When `pathspecs` is specified, we expect strict consistency and
 not eventual consistency in contrast to other modes.
 
-## Parameters
-
+Parameters
+----------
 run_id : str, optional
 Run ID to get the tasks from. If not specified, use pathspecs,
 by default None
@@ -73,12 +69,12 @@ allow_not_done : bool, optional
 If True, returns the latest attempt of a task even if that attempt
 wasn&#x27;t marked as done, by default False
 
-## Returns
-
+Returns
+-------
 List[TaskDataStore]
 Task datastores for all the tasks specified.
 
-#### save_data
+#### save\_data
 
 ```python
  | save_data(data_iter, len_hint=0)
@@ -86,22 +82,22 @@ Task datastores for all the tasks specified.
 
 Saves data to the underlying content-addressed store
 
-## Parameters
-
+Parameters
+----------
 data : Iterator[bytes]
-Iterator over blobs to save; each item in the list will be saved individually.
+    Iterator over blobs to save; each item in the list will be saved individually.
 len_hint : int
-Estimate of the number of items that will be produced by the iterator,
-by default 0.
+    Estimate of the number of items that will be produced by the iterator,
+    by default 0.
 
-## Returns
-
+Returns
+-------
 (str, str)
-Tuple containing the URI to access the saved resource as well as
-the key needed to retrieve it using load_data. This is returned in
-the same order as the input.
+    Tuple containing the URI to access the saved resource as well as
+    the key needed to retrieve it using load_data. This is returned in
+    the same order as the input.
 
-#### load_data
+#### load\_data
 
 ```python
  | load_data(keys, force_raw=False)
@@ -109,19 +105,18 @@ the same order as the input.
 
 Retrieves data from the underlying content-addressed store
 
-## Parameters
-
+Parameters
+----------
 keys : List[str]
-Keys to retrieve
+    Keys to retrieve
 force_raw : bool, optional
-Backward compatible mode. Raw data will be properly identified with
-metadata information but older datastores did not do this. If you
-know the data should be handled as raw data, set this to True,
-by default False
+    Backward compatible mode. Raw data will be properly identified with
+    metadata information but older datastores did not do this. If you
+    know the data should be handled as raw data, set this to True,
+    by default False
 
-## Returns
-
+Returns
+-------
 Iterator[bytes]
-Iterator over (key, blob) tuples
+    Iterator over (key, blob) tuples
 
-</APIDoc>
