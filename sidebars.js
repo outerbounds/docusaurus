@@ -142,7 +142,6 @@ const sidebars = {
         "r/introduction/why-metaflow",
         "r/introduction/what-is-metaflow",
         "r/introduction/release-notes",
-        "r/introduction/roadmap",
         "r/introduction/contributing-to-metaflow",
         "r/introduction/getting-in-touch",
       ],
@@ -153,7 +152,44 @@ const sidebars = {
       collapsed: false,
       items: [
         "r/getting-started/install",
-        "r/getting-started/tutorials/README",
+        "r/getting-started/development-environment",
+        {
+          type: "category",
+          label: "Tutorials",
+          collapsed: false,
+          link: { type: "doc", id: "r/getting-started/tutorials/README" },
+          items: [
+            {
+              type: "category",
+              label: "Season 1: The Local Experience",
+              link: {
+                type: "doc",
+                id: "r/getting-started/tutorials/season-1-the-local-experience/README",
+              },
+              collapsed: false,
+              items: [
+                "r/getting-started/tutorials/season-1-the-local-experience/episode00",
+                "r/getting-started/tutorials/season-1-the-local-experience/episode01",
+                "r/getting-started/tutorials/season-1-the-local-experience/episode02",
+                "r/getting-started/tutorials/season-1-the-local-experience/episode03",
+              ],
+            },
+            {
+              type: "category",
+              label: "Season 2: Scaling Out and Up",
+              link: {
+                type: "doc",
+                id: "r/getting-started/tutorials/season-2-scaling-out-and-up/README",
+              },
+              collapsed: false,
+              items: [
+                "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              ],
+            },
+          ],
+        },
       ],
     },
     {

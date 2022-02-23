@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','6df'),
+    component: ComponentCreator('/docs','7e4'),
     routes: [
       {
         path: '/docs/',
@@ -640,8 +640,9 @@ export default [
       },
       {
         path: '/docs/r/getting-started/development-environment',
-        component: ComponentCreator('/docs/r/getting-started/development-environment','2ee'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/development-environment','4a7'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/install',
@@ -657,33 +658,39 @@ export default [
       },
       {
         path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/','aca'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/','e5f'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00','256'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00','f96'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01','e3f'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01','54d'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02','297'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02','23a'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03','1b9'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03','1d1'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/','9b2'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/','cc8'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04',
@@ -692,18 +699,21 @@ export default [
       },
       {
         path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05','9cf'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05','3e8'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06','65d'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06','a01'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07',
-        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07','e0c'),
-        exact: true
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07','bfe'),
+        exact: true,
+        'sidebar': "r"
       },
       {
         path: '/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows',
@@ -731,9 +741,8 @@ export default [
       },
       {
         path: '/docs/r/introduction/roadmap',
-        component: ComponentCreator('/docs/r/introduction/roadmap','370'),
-        exact: true,
-        'sidebar': "r"
+        component: ComponentCreator('/docs/r/introduction/roadmap','003'),
+        exact: true
       },
       {
         path: '/docs/r/introduction/what-is-metaflow',

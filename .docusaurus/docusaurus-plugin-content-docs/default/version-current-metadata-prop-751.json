@@ -335,12 +335,6 @@
           },
           {
             "type": "link",
-            "label": "Roadmap",
-            "href": "/docs/r/introduction/roadmap",
-            "docId": "r/introduction/roadmap"
-          },
-          {
-            "type": "link",
             "label": "Contributing to Metaflow",
             "href": "/docs/r/introduction/contributing-to-metaflow",
             "docId": "r/introduction/contributing-to-metaflow"
@@ -367,9 +361,78 @@
           },
           {
             "type": "link",
+            "label": "Development Environment",
+            "href": "/docs/r/getting-started/development-environment",
+            "docId": "r/getting-started/development-environment"
+          },
+          {
+            "type": "category",
             "label": "Tutorials",
-            "href": "/docs/r/getting-started/tutorials/",
-            "docId": "r/getting-started/tutorials/README"
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "Season 1: The Local Experience",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Episode 0: Hello World",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
+                    "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode00"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 1: Playlist",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
+                    "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode01"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 2: Statistics",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
+                    "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode02"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 3: Playlist Redux",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
+                    "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode03"
+                  }
+                ],
+                "collapsible": true,
+                "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+              },
+              {
+                "type": "category",
+                "label": "Season 2: Scaling Out and Up",
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Episode 5: Hello AWS",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                    "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 6: Statistics Redux",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                    "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 7: Worldview",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+                    "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                  }
+                ],
+                "collapsible": true,
+                "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+              }
+            ],
+            "collapsible": true,
+            "href": "/docs/r/getting-started/tutorials/"
           }
         ],
         "collapsible": true
@@ -1509,7 +1572,8 @@
     "r/getting-started/development-environment": {
       "id": "r/getting-started/development-environment",
       "title": "Development Environment",
-      "description": "You can install and use Metaflow easily within your favorite IDE, whether it is RStudio, a Jupyter Notebook, vim/emacs on your terminal, or any other IDE."
+      "description": "You can install and use Metaflow easily within your favorite IDE, whether it is RStudio, a Jupyter Notebook, vim/emacs on your terminal, or any other IDE.",
+      "sidebar": "r"
     },
     "r/getting-started/install": {
       "id": "r/getting-started/install",
@@ -1526,27 +1590,32 @@
     "r/getting-started/tutorials/season-1-the-local-experience/episode00": {
       "id": "r/getting-started/tutorials/season-1-the-local-experience/episode00",
       "title": "Episode 0: Hello World",
-      "description": "Metaflow says Hi!"
+      "description": "Metaflow says Hi!",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-1-the-local-experience/episode01": {
       "id": "r/getting-started/tutorials/season-1-the-local-experience/episode01",
       "title": "Episode 1: Playlist",
-      "description": "This flow loads a movie metadata CSV file and builds a playlist for your favorite movie genre. Everything in Metaflow is versioned, so you can run it multiple times and view all the historical playlists with the Metaflow client in an R Markdown Notebook."
+      "description": "This flow loads a movie metadata CSV file and builds a playlist for your favorite movie genre. Everything in Metaflow is versioned, so you can run it multiple times and view all the historical playlists with the Metaflow client in an R Markdown Notebook.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-1-the-local-experience/episode02": {
       "id": "r/getting-started/tutorials/season-1-the-local-experience/episode02",
       "title": "Episode 2: Statistics",
-      "description": "Use Metaflow to load the movie metadata CSV file into a data frame and compute some movie genre specific statistics. These statistics are then used in later examples to improve our playlist generator."
+      "description": "Use Metaflow to load the movie metadata CSV file into a data frame and compute some movie genre specific statistics. These statistics are then used in later examples to improve our playlist generator.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-1-the-local-experience/episode03": {
       "id": "r/getting-started/tutorials/season-1-the-local-experience/episode03",
       "title": "Episode 3: Playlist Redux",
-      "description": "Use Metaflow to load the statistics generated from Episode 2 Is this Data Science and recommend movies from a genre with highest median gross box office"
+      "description": "Use Metaflow to load the statistics generated from Episode 2 Is this Data Science and recommend movies from a genre with highest median gross box office",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-1-the-local-experience/README": {
       "id": "r/getting-started/tutorials/season-1-the-local-experience/README",
       "title": "Season 1: The Local Experience",
-      "description": "This season focus on introducing the basics of Metaflow. You can run all these tutorials on your local machine."
+      "description": "This season focus on introducing the basics of Metaflow. You can run all these tutorials on your local machine.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
@@ -1556,22 +1625,26 @@
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
       "title": "Episode 5: Hello AWS",
-      "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch."
+      "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
       "title": "Episode 6: Statistics Redux",
-      "description": "This example revisits Episode 02-statistics: Is this Data Science?."
+      "description": "This example revisits Episode 02-statistics: Is this Data Science?.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
       "title": "Episode 7: Worldview",
-      "description": "This episode shows how you can use a notebook to setup a simple dashboard to monitor all of your Metaflow flows."
+      "description": "This episode shows how you can use a notebook to setup a simple dashboard to monitor all of your Metaflow flows.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/README": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/README",
       "title": "Season 2: Scaling Out and Up",
-      "description": "This season introduces how to use Metaflow on AWS. To run through these tutorials, you will either need to setup Metaflow on AWS or use the Metaflow Sandbox."
+      "description": "This season introduces how to use Metaflow on AWS. To run through these tutorials, you will either need to setup Metaflow on AWS or use the Metaflow Sandbox.",
+      "sidebar": "r"
     },
     "r/going-to-production-with-metaflow/scheduling-metaflow-flows": {
       "id": "r/going-to-production-with-metaflow/scheduling-metaflow-flows",
@@ -1600,8 +1673,7 @@
     "r/introduction/roadmap": {
       "id": "r/introduction/roadmap",
       "title": "Roadmap",
-      "description": "Metaflow has been used in production at Netflix since early 2018. The core Metaflow was open-sourced in December 2019. Some features of Metaflow are not available in open-source yet but we may open-source them later if there is sufficient external interest. These features are listed below.",
-      "sidebar": "r"
+      "description": "Metaflow has been used in production at Netflix since early 2018. The core Metaflow was open-sourced in December 2019. Some features of Metaflow are not available in open-source yet but we may open-source them later if there is sufficient external interest. These features are listed below."
     },
     "r/introduction/what-is-metaflow": {
       "id": "r/introduction/what-is-metaflow",

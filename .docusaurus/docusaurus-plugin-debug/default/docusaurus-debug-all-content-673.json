@@ -2418,7 +2418,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/development-environment.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Installing Metaflow",
+                "permalink": "/docs/r/getting-started/install"
+              },
+              "next": {
+                "title": "Tutorials",
+                "permalink": "/docs/r/getting-started/tutorials/"
+              }
             },
             {
               "unversionedId": "r/getting-started/install",
@@ -2439,8 +2448,8 @@
                 "permalink": "/docs/r/introduction/getting-in-touch"
               },
               "next": {
-                "title": "Tutorials",
-                "permalink": "/docs/r/getting-started/tutorials/"
+                "title": "Development Environment",
+                "permalink": "/docs/r/getting-started/development-environment"
               }
             },
             {
@@ -2458,12 +2467,12 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Installing Metaflow",
-                "permalink": "/docs/r/getting-started/install"
+                "title": "Development Environment",
+                "permalink": "/docs/r/getting-started/development-environment"
               },
               "next": {
-                "title": "Metaflow on AWS",
-                "permalink": "/docs/r/metaflow-on-aws/"
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
               }
             },
             {
@@ -2478,7 +2487,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Season 1: The Local Experience",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+              },
+              "next": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-1-the-local-experience/episode01",
@@ -2492,7 +2510,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
+              },
+              "next": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-1-the-local-experience/episode02",
@@ -2506,7 +2533,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 1: Playlist",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
+              },
+              "next": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-1-the-local-experience/episode03",
@@ -2520,7 +2556,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 2: Statistics",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
+              },
+              "next": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-1-the-local-experience/README",
@@ -2534,7 +2579,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-1-the-local-experience/README.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Tutorials",
+                "permalink": "/docs/r/getting-started/tutorials/"
+              },
+              "next": {
+                "title": "Episode 0: Hello World",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
@@ -2562,7 +2616,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+              },
+              "next": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
@@ -2576,7 +2639,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              },
+              "next": {
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
@@ -2590,7 +2662,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 6: Statistics Redux",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              },
+              "next": {
+                "title": "Metaflow on AWS",
+                "permalink": "/docs/r/metaflow-on-aws/"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/README",
@@ -2604,7 +2685,16 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Episode 3: Playlist Redux",
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
+              },
+              "next": {
+                "title": "Episode 5: Hello AWS",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              }
             },
             {
               "unversionedId": "r/going-to-production-with-metaflow/scheduling-metaflow-flows",
@@ -2640,8 +2730,8 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Roadmap",
-                "permalink": "/docs/r/introduction/roadmap"
+                "title": "Release Notes",
+                "permalink": "/docs/r/introduction/release-notes"
               },
               "next": {
                 "title": "Get in Touch",
@@ -2690,8 +2780,8 @@
                 "permalink": "/docs/r/introduction/what-is-metaflow"
               },
               "next": {
-                "title": "Roadmap",
-                "permalink": "/docs/r/introduction/roadmap"
+                "title": "Contributing to Metaflow",
+                "permalink": "/docs/r/introduction/contributing-to-metaflow"
               }
             },
             {
@@ -2706,16 +2796,7 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/introduction/roadmap.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "r",
-              "previous": {
-                "title": "Release Notes",
-                "permalink": "/docs/r/introduction/release-notes"
-              },
-              "next": {
-                "title": "Contributing to Metaflow",
-                "permalink": "/docs/r/introduction/contributing-to-metaflow"
-              }
+              "frontMatter": {}
             },
             {
               "unversionedId": "r/introduction/what-is-metaflow",
@@ -2817,8 +2898,8 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Tutorials",
-                "permalink": "/docs/r/getting-started/tutorials/"
+                "title": "Episode 7: Worldview",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
               },
               "next": {
                 "title": "Metaflow Sandbox",
@@ -3286,10 +3367,6 @@
                   },
                   {
                     "type": "doc",
-                    "id": "r/introduction/roadmap"
-                  },
-                  {
-                    "type": "doc",
                     "id": "r/introduction/contributing-to-metaflow"
                   },
                   {
@@ -3310,7 +3387,71 @@
                   },
                   {
                     "type": "doc",
-                    "id": "r/getting-started/tutorials/README"
+                    "id": "r/getting-started/development-environment"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Tutorials",
+                    "collapsed": false,
+                    "link": {
+                      "type": "doc",
+                      "id": "r/getting-started/tutorials/README"
+                    },
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Season 1: The Local Experience",
+                        "link": {
+                          "type": "doc",
+                          "id": "r/getting-started/tutorials/season-1-the-local-experience/README"
+                        },
+                        "collapsed": false,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-1-the-local-experience/episode00"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-1-the-local-experience/episode01"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-1-the-local-experience/episode02"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-1-the-local-experience/episode03"
+                          }
+                        ],
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Season 2: Scaling Out and Up",
+                        "link": {
+                          "type": "doc",
+                          "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/README"
+                        },
+                        "collapsed": false,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                          }
+                        ],
+                        "collapsible": true
+                      }
+                    ],
+                    "collapsible": true
                   }
                 ],
                 "collapsible": true

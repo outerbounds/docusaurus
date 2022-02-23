@@ -507,7 +507,8 @@
             },
             {
               "id": "r/getting-started/development-environment",
-              "path": "/docs/r/getting-started/development-environment"
+              "path": "/docs/r/getting-started/development-environment",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/install",
@@ -521,23 +522,28 @@
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode00",
-              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode01",
-              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode02",
-              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode03",
-              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/README",
-              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
@@ -545,19 +551,23 @@
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/README",
-              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "sidebar": "r"
             },
             {
               "id": "r/going-to-production-with-metaflow/scheduling-metaflow-flows",
@@ -581,8 +591,7 @@
             },
             {
               "id": "r/introduction/roadmap",
-              "path": "/docs/r/introduction/roadmap",
-              "sidebar": "r"
+              "path": "/docs/r/introduction/roadmap"
             },
             {
               "id": "r/introduction/what-is-metaflow",

@@ -21,7 +21,7 @@ The most basic type of transition is **a linear** transition. It moves from one 
 
 Here is a graph with two linear transitions:
 
-![](/assets/assets*-lpjn0yp7r49jrnxca*5*-lpjrytxto2crix9qi6y_graph_linear*%281%29 %282%29.png)
+![](/assets/graph_linear.png)
 
 The corresponding Metaflow script looks like this:
 
@@ -55,14 +55,14 @@ metaflow("LinearFlow") %>%
 You can execute this directly in your RStudio IDE or via the terminal:
 
 <Tabs>
-<TabItem value="bash" label="Terminal">
+<TabItem value="Terminal" label="Terminal">
 
 ```bash
 Rscript myflow.R run
 ```
 
 </TabItem>
-<TabItem value="" label="RStudio">
+<TabItem value="RStudio" label="RStudio">
 
 ```
 # Execute as is
