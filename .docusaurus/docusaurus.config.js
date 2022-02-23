@@ -21,11 +21,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/brendan/dev/docusaurus/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/outerbounds/docusaurus/tree/main"
         },
         "theme": {
           "customCss": "/Users/brendan/dev/docusaurus/src/css/custom.css"
@@ -38,8 +34,8 @@ export default {
     "navbar": {
       "logo": {
         "alt": "Metaflow Logo",
-        "srcDark": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
-        "src": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
+        "srcDark": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.svg",
+        "src": "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.svg",
         "href": "/docs",
         "height": "64px"
       },

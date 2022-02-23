@@ -28,14 +28,7 @@ const config = {
           // remarkPlugins: [[remarkCodeHike, { theme }]],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/outerbounds/docusaurus/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -51,8 +44,8 @@ const config = {
       navbar: {
         logo: {
           alt: "Metaflow Logo",
-          srcDark: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
-          src: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.png",
+          srcDark: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.svg",
+          src: "img/Metaflow_Logo_Horizontal_OneColor_White_RGB.svg",
           href: "/docs",
           height: "64px",
         },

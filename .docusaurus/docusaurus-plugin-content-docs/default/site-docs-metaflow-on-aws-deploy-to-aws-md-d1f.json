@@ -7,7 +7,7 @@
   "sourceDirName": "metaflow-on-aws",
   "slug": "/metaflow-on-aws/deploy-to-aws",
   "permalink": "/docs/metaflow-on-aws/deploy-to-aws",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/metaflow-on-aws/deploy-to-aws.md",
+  "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow-on-aws/deploy-to-aws.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
