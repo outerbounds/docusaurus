@@ -10,7 +10,7 @@ Bring all of Metaflow's capabilities to the Kubernetes universe \([Github issue]
 
 ## Metaflow UI\(s\)
 
-A variety of UI\(s\) for Metaflow - tracking flows, model monitoring, etc 
+A variety of UI\(s\) for Metaflow - tracking flows, model monitoring, etc
 
 ## Faster and more flexible dependency management solutions
 
@@ -38,15 +38,14 @@ Provide advanced tutorials and documentation highlighting non-trivial use-cases 
 
 An easy-to-use Function-as-a-Service -style [microservice hosting platform](https://www.youtube.com/watch?v=sBM5cSBGZS4) for artifacts \(e.g. models\) produced by Metaflow runs \([Github issue](https://github.com/Netflix/metaflow/issues/3)\)
 
-## ~~**Support for R Lang**~~ 
+## ~~**Support for R Lang**~~
 
 [Metaflow in the R language](https://www.youtube.com/watch?v=lakPlz8GJcA). Provide an idiomatic R API which uses the Python library as the backend \([Github issue](https://github.com/Netflix/metaflow/issues/1)\)
 
-**Update** - [Metaflow-R](https://docs.metaflow.org/v/r/) is now available!
+**Update** - [Metaflow-R](/docs/r) is now available!
 
 ## ~~Support deployments to a production DAG scheduler~~
 
 Netflix uses [an internal DAG scheduler](https://www.youtube.com/watch?v=0R58_tx7azY) to orchestrate most modeling and ETL pipelines in production. Metaflow flows can be deployed to the production scheduler with a single command. A similar integration could be provided e.g. for [AWS Step Functions](https://aws.amazon.com/step-functions/) \([Github issue](https://github.com/Netflix/metaflow/issues/2)\)
 
 **Update** - Metaflow 2.1.0 introduced [integration with AWS Step Functions.](../going-to-production-with-metaflow/scheduling-metaflow-flows.md)
-

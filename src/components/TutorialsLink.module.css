@@ -1,0 +1,16 @@
+.tutorialslink {
+  border-radius: 4px;
+  padding: 16px;
+  border: 1px solid rgb(227, 232, 237);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.tutorialsicon {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  color: rgb(136, 153, 168);
+  margin-right: 16px;
+}

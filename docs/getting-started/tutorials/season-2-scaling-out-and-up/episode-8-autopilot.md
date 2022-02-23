@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 8: Autopilot
 
 ## Scheduling Compute in the Cloud.
@@ -8,16 +10,16 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 
 **Showcasing:**
 
-* `step-functions create` command-line option
-* `step-functions trigger` command-line option
-* Accessing data locally or remotely through the Metaflow [Client API](../../../metaflow/client.md)
+- `step-functions create` command-line option
+- `step-functions trigger` command-line option
+- Accessing data locally or remotely through the Metaflow [Client API](../../../metaflow/client.md)
 
 **Before playing this episode:**
 
 1. `python -m pip install notebook`
 2. `python -m pip install plotly`
-3. This tutorial requires access to compute and storage resources on AWS, which can be configured by 
-   1. Following the instructions [here](https://admin-docs.metaflow.org/metaflow-on-aws/deployment-guide) or 
+3. This tutorial requires access to compute and storage resources on AWS, which can be configured by
+   1. Following the instructions [here](https://admin-docs.metaflow.org/metaflow-on-aws/deployment-guide) or
    2. Requesting a [sandbox](https://docs.metaflow.org/metaflow-on-aws/metaflow-sandbox).
 
 **To play this episode:**
@@ -27,4 +29,3 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 3. `python 02-statistics/stats.py step-functions trigger`
 4. `jupyter-notebook 08-autopilot/autopilot.ipynb`
 5. Open _**autopilot.ipynb**_ in your remote Sagemaker notebook.
-

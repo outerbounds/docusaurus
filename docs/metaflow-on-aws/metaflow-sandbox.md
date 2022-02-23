@@ -36,10 +36,6 @@ It is important that you read and agree to the [Metaflow Sandbox terms of use](h
 
 You can sign up for a sandbox at [metaflow.org/sandbox](https://metaflow.org/sandbox).
 
-Here is a short screencast that walks you through the process \(no audio\):
-
-<ReactPlayer controls url="https://www.youtube.com/watch?v=SMvgAINYGqU" />
-
 1. After agreeing to the Terms of Use and Privacy Policy, you will need to sign up with your GitHub account. This is required so we can verify your identify to prevent abuse.
 2. You will be added to a waitlist. You can log in to [metaflow.org/sandbox](https://metaflow.org/sandbox) to see the status of your process. You can expect that the status will remain at "Waiting for the next available sandbox" for many days.
 3. You will receive an email to the address specified in your GitHub profile after your sandbox is ready for use. Note that by default the sandbox will remain active only for three days. You can [contact us](../introduction/getting-in-touch) if you need more time for evaluation.

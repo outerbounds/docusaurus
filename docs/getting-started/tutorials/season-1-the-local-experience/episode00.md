@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 0: Hello World
 
 ## Metaflow says Hi!
@@ -17,4 +19,4 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 2. `python 00-helloworld/helloworld.py show`
 3. `python 00-helloworld/helloworld.py run`
 
-[Tutorials](../)
+<TutorialsLink link="../"/>

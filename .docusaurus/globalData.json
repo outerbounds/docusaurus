@@ -656,14 +656,14 @@
           "sidebars": {
             "python": {
               "link": {
-                "path": "/docs/r/",
-                "label": "📚 R Docs"
+                "path": "/docs/",
+                "label": "index"
               }
             },
             "r": {
               "link": {
-                "path": "/docs/",
-                "label": "📚 Python Docs"
+                "path": "/docs/r/",
+                "label": "r/README"
               }
             },
             "apiMetaflow": {

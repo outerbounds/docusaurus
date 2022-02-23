@@ -118,7 +118,7 @@ which will result in another separate, isolated namespace:
 
 ![](https://lh6.googleusercontent.com/uv8Zt8Rni77skhjJ90kw6pw6VcnOT2whBTSUstZHzT1-1yqOP61UGx8220Jn068xisYlh31wPjrjVl_IWxmVHsLVyRZ1-MPZ911EqTjs3ff2vXJ_MLt7rEnPIJ_QEX6CLIn4p84o)
 
-Alice and Bob can share the production token corresponding to the branch, so either of them can redeploy the branch when needed.\
+Alice and Bob can share the production token corresponding to the branch, so either of them can redeploy the branch when needed.
 
 #### Custom branches for Production deployment
 

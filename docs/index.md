@@ -2,9 +2,14 @@
 description: Build and manage real-life data science projects with ease.
 displayed_sidebar: python
 pagination_next: introduction/why-metaflow
+pagination_prev:
 ---
 
+import Description from "/src/components/Description";
+
 # Welcome to Metaflow for Python
+
+<Description>Build and manage real-life data science projects with ease.</Description>
 
 ## Introduction
 

@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 2: Statistics
 
 ## Is this Data Science?
@@ -25,4 +27,4 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 3. `python 02-statistics/stats.py run`
 4. `jupyter-notebook 02-statistics/stats.ipynb`
 
-[Tutorials](../)
+<TutorialsLink link="../"/>

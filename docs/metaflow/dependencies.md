@@ -5,19 +5,19 @@ What if your step code wants to import an external library? When you run Metaflo
 However, a core benefit of Metaflow is that the same code can be run in different environments without modifications. Clearly this promise does not hold if a step code depends on locally installed libraries. The topic of providing isolated and encapsulated execution environments is a surprisingly complex one. We recommend the following approaches for handling external libraries, in order of preference:
 
 1. If your code needs an additional Python module, for instance, a library module that you wrote by yourself, you can place the file in the same directory with your flow file. When Metaflow packages your code for remote execution, any `.py` files in the directory are included in the distribution automatically. In this case, you can simply `import mymodule` in the step code. This works even with packages with multiple files which can be included as subdirectories.
-2.  If you need a custom package that is too complex to include in the flow directory, one approach is to install it on the fly in your step code:
+2. If you need a custom package that is too complex to include in the flow directory, one approach is to install it on the fly in your step code:
 
-    ```
-    os.system('pip install my_package') 
-    import my_package
-    ```
+   ```
+   os.system('pip install my_package')
+   import my_package
+   ```
 
-    This approach is, however, not encouraged for multiple reasons:
+   This approach is, however, not encouraged for multiple reasons:
 
-    1. It makes the results harder to reproduce since the version of `my_package` may change;
-    2. `pip install`ing packages on the fly is brittle, especially if performed in tasks running in parallel.
+   1. It makes the results harder to reproduce since the version of `my_package` may change;
+   2. `pip install`ing packages on the fly is brittle, especially if performed in tasks running in parallel.
 
-    Instead, to define external dependencies for a step, you can instead use the `@conda` decorator which uses [conda](https://docs.conda.io/en/latest/) behind the scenes.
+   Instead, to define external dependencies for a step, you can instead use the `@conda` decorator which uses [conda](https://docs.conda.io/en/latest/) behind the scenes.
 
 ## Managing dependencies with `@conda` decorator
 
@@ -180,13 +180,11 @@ Since we cache the exact set of dependencies (stated and transitive) for your fl
 
 Note that, the exact set of dependencies and their behavior might differ between an execution on MacOS (darwin) and on AWS Batch (linux).\
 
-
 ### `@conda` Tips and Tricks
 
 #### How do I specify the version of Python interpreter?
 
-By default, we take the version of the Python interpreter with which you invoke your flow. You can override it whatever version you choose, e.g,  `@conda(python='3.6.5')`.\
-
+By default, we take the version of the Python interpreter with which you invoke your flow. You can override it whatever version you choose, e.g, `@conda(python='3.6.5')`.\
 
 #### What about storing and retrieving data artifacts between steps in my flow?
 
@@ -230,5 +228,4 @@ class MyFlow(FlowSpec):
        ...
 ```
 
-In this example, step `a` executes in the environment `libraries={'numpy':'1.15.4'}, python=’3.6.5’`, step `b` executes in the environment `libraries={'numpy':'1.16.3'}, python=’3.6.5’`, while step `c` executes outside the conda environment in the user environment.\
-\
+In this example, step `a` executes in the environment `libraries={'numpy':'1.15.4'}, python=’3.6.5’`, step `b` executes in the environment `libraries={'numpy':'1.16.3'}, python=’3.6.5’`, while step `c` executes outside the conda environment in the user environment.

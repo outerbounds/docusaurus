@@ -1870,7 +1870,8 @@
               "frontMatter": {
                 "description": "Build and manage real-life data science projects with ease.",
                 "displayed_sidebar": "python",
-                "pagination_next": "introduction/why-metaflow"
+                "pagination_next": "introduction/why-metaflow",
+                "pagination_prev": null
               },
               "sidebar": "python",
               "next": {
@@ -2016,7 +2017,7 @@
               "unversionedId": "introduction/what-is-metaflow",
               "id": "introduction/what-is-metaflow",
               "title": "What is Metaflow",
-              "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.",
+              "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects, from classical statistics to state-of-the-art deep learning.",
               "source": "@site/docs/introduction/what-is-metaflow.md",
               "sourceDirName": "introduction",
               "slug": "/introduction/what-is-metaflow",
@@ -2751,7 +2752,9 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/introduction/why-metaflow.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "pagination_prev": "index"
+              },
               "sidebar": "r",
               "previous": {
                 "title": "Welcome to Metaflow for Python",
@@ -2999,7 +3002,11 @@
                 "description": "Build and manage real-life data science projects with ease.",
                 "displayed_sidebar": "r"
               },
-              "sidebar": "r"
+              "sidebar": "r",
+              "next": {
+                "title": "Why Metaflow",
+                "permalink": "/docs/r/introduction/why-metaflow"
+              }
             },
             {
               "unversionedId": "r/SUMMARY",
@@ -3020,8 +3027,7 @@
             "python": [
               {
                 "type": "doc",
-                "id": "r/README",
-                "label": "📚 R Docs"
+                "id": "index"
               },
               {
                 "type": "category",
@@ -3259,8 +3265,7 @@
             "r": [
               {
                 "type": "doc",
-                "id": "index",
-                "label": "📚 Python Docs"
+                "id": "r/README"
               },
               {
                 "type": "category",

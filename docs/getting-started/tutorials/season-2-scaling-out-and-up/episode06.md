@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 6: Statistics Redux
 
 ## Computing in the Cloud.
@@ -39,4 +41,4 @@ Note for _**Python 2.7**_ users: when opening the _**stats.ipynb**_ in a Sagemak
 
 :::
 
-[Tutorials](../)
+<TutorialsLink link="../"/>

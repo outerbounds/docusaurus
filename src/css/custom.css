@@ -42,8 +42,18 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   height: 3rem;
 }
 
-aside {
+html[data-theme="light"] aside {
   background: rgb(245, 247, 249);
+}
+
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html[data-theme="dark"] p > img {
+  background-color: rgb(255, 255, 255);
 }
 
 .dsla-search-wrapper {

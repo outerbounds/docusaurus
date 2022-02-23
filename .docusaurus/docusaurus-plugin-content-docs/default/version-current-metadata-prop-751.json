@@ -10,9 +10,9 @@
     "python": [
       {
         "type": "link",
-        "label": "📚 R Docs",
-        "href": "/docs/r/",
-        "docId": "r/README"
+        "label": "Welcome to Metaflow for Python",
+        "href": "/docs/",
+        "docId": "index"
       },
       {
         "type": "category",
@@ -306,9 +306,9 @@
     "r": [
       {
         "type": "link",
-        "label": "📚 Python Docs",
-        "href": "/docs/",
-        "docId": "index"
+        "label": "Welcome to Metaflow for R",
+        "href": "/docs/r/",
+        "docId": "r/README"
       },
       {
         "type": "category",
@@ -1407,7 +1407,7 @@
     "introduction/what-is-metaflow": {
       "id": "introduction/what-is-metaflow",
       "title": "What is Metaflow",
-      "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.",
+      "description": "Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects, from classical statistics to state-of-the-art deep learning.",
       "sidebar": "python"
     },
     "introduction/why-metaflow": {

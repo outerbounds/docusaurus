@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 5: Hello AWS
 
 ## Look Mom, We're in the Cloud.
@@ -26,4 +28,4 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 3. `jupyter-notebook 05-helloaws/helloaws.ipynb`
 4. Open _**helloaws.ipynb**_ in your remote Sagemaker notebook
 
-[Tutorials](../)
+<TutorialsLink link="../"/>

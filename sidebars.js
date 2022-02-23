@@ -15,11 +15,7 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   python: [
-    {
-      type: "doc",
-      id: "r/README",
-      label: "📚 R Docs",
-    },
+    "index",
     {
       type: "category",
       label: "Introduction",
@@ -137,11 +133,7 @@ const sidebars = {
   ],
 
   r: [
-    {
-      type: "doc",
-      id: "index",
-      label: "📚 Python Docs",
-    },
+    "r/README",
     {
       type: "category",
       label: "Introduction",

@@ -2,52 +2,54 @@
 pagination_prev: index
 ---
 
+import Caption from "/src/components/Caption";
+
 # Why Metaflow
 
 ![Here is a data scientist.](/assets/metaflow_docs-1.png)
 
-<div style={{textAlign: "center"}}>Here is a data scientist.</div>
+<Caption>Here is a data scientist.</Caption>
 
 ![Data scientists solve important business problems.](/assets/metaflow_docs-2.png)
 
-<div style={{textAlign: "center"}}>Data scientists solve important business problems.</div>
+<Caption>Data scientists solve important business problems.</Caption>
 
 ![A good way to start solving a problem is to prototype a solution in a notebook.](/assets/metaflow_docs-3.png)
 
-<div style={{textAlign: "center"}}>A good way to start solving a problem is to prototype a solution in a notebook.</div>
+<Caption>A good way to start solving a problem is to prototype a solution in a notebook.</Caption>
 
 ![There are great libraries available for machine learning that make prototyping fun.](/assets/metaflow_docs-4.png)
 
-<div style={{textAlign: "center"}}>There are great libraries available for machine learning that make prototyping fun.</div>
+<Caption>There are great libraries available for machine learning that make prototyping fun.</Caption>
 
 ![After the first experiments, it is a good idea to start keeping track of models and data.](/assets/metaflow_docs-5.png)
 
-<div style={{textAlign: "center"}}>After the first experiments, it is a good idea to start keeping track of models and data.</div>
+<Caption>After the first experiments, it is a good idea to start keeping track of models and data.</Caption>
 
 ![It can take a lot of work to get the latest data and keep the models up to date reliably.](/assets/metaflow_docs-6.png)
 
-<div style={{textAlign: "center"}}>It can take a lot of work to get the latest data and keep the models up to date reliably.</div>
+<Caption>It can take a lot of work to get the latest data and keep the models up to date reliably.</Caption>
 
 ![Production workflows should run on servers, not on a laptop.](/assets/metaflow_docs-7.png)
 
-<div style={{textAlign: "center"}}>Production workflows should run on servers, not on a laptop.</div>
+<Caption>Production workflows should run on servers, not on a laptop.</Caption>
 
 ![These days, servers execute containers. Workflows need to be packaged for execution.](/assets/metaflow_docs-8.png)
 
-<div style={{textAlign: "center"}}>These days, servers execute containers. Workflows need to be packaged for execution.</div>
+<Caption>These days, servers execute containers. Workflows need to be packaged for execution.</Caption>
 
 ![Where should the results go? Sometimes they are deployed as containers too.](/assets/metaflow_docs-9.png)
 
-<div style={{textAlign: "center"}}>Where should the results go? Sometimes they are deployed as containers too.</div>
+<Caption>Where should the results go? Sometimes they are deployed as containers too.</Caption>
 
 ![Containerized models can be consumed by business applications.](/assets/metaflow_docs-10.png)
 
-<div style={{textAlign: "center"}}>Containerized models can be consumed by business applications.</div>
+<Caption>Containerized models can be consumed by business applications.</Caption>
 
 ![Stakeholders evaluate the results. They want more models and better models!](/assets/metaflow_docs-11.png)
 
-<div style={{textAlign: "center"}}>Stakeholders evaluate the results. They want more models and better models!</div>
+<Caption>Stakeholders evaluate the results. They want more models and better models!</Caption>
 
 ![Taking care of all this can be hard. Metaflow can help.](/assets/metaflow_logo.png)
 
-<div style={{textAlign: "center"}}>Taking care of all this can be hard. Metaflow can help.</div>
+<Caption>Taking care of all this can be hard. Metaflow can help.</Caption>

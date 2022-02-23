@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 
 # What is Metaflow
 
-Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
+Metaflow is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost the productivity of data scientists who work on a wide variety of projects, from classical statistics to state-of-the-art deep learning.
 
 Metaflow provides a unified API to the infrastructure stack that is required to execute data science projects, from prototype to production.
 
@@ -30,7 +30,7 @@ How do you **architect** the code to be executed? Should you structure it as an 
 
 After the model has been deployed to production, **model operations** become a pertinent question: how do you keep the code running reliably in production? How do you monitor its performance? How do you deploy new versions of the code to run in parallel with the previous version? The software industry has spent over a decade perfecting DevOps best practices for normal software. We are just getting started with data science.
 
-At the very top of the stack there's the question of how you produce **features** for your models, and you **develop models** in the first place, maybe using off-the-shelf libraries. This is the area where the skills of a data scientist become most useful.
+At the very top of the stack, there's the question of how you produce **features** for your models, and you **develop models** in the first place, maybe using off-the-shelf libraries. This is the area where the skills of a data scientist become most useful.
 
 Metaflow provides a unified, human-friendly approach to navigating the stack. Metaflow is more prescriptive about the lower levels of the stack but it is less opinionated about the actual data science at the top of the stack. You can use Metaflow with your favorite machine learning or data science libraries, such as [PyTorch](https://pytorch.org), [Tensorflow](https://tensorflow.org), or [SciKit Learn](https://scikit-learn.org/stable/). Metaflow allows you to write your models and business logic as idiomatic Python code with not much new to learn.
 
@@ -40,8 +40,8 @@ You can find more details about Metaflow's approach to various parts of the stac
 
 |                         |                                                                                                                                                                                |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Model Development**   | \*\*\*\*[Managing External Libraries](../metaflow/dependencies)                                                                                                                |
-| **Feature Engineering** | \*\*\*\*[Loading and Storing Data](../metaflow/data)                                                                                                                           |
+| **Model Development**   | [Managing External Libraries](../metaflow/dependencies)                                                                                                                        |
+| **Feature Engineering** | [Loading and Storing Data](../metaflow/data)                                                                                                                                   |
 | **Model Operations**    | <p><a href="../metaflow/debugging">Debugging with Metaflow</a> and <a href="../metaflow/failures">Dealing with Failures</a></p><p>(also see <a href="roadmap">Roadmap</a>)</p> |
 | **Versioning**          | [Inspecting Flow and Results](../metaflow/client) and [Organizing Results](../metaflow/tagging)                                                                                |
 | **Architecture**        | [Basics of Metaflow](../metaflow/basics)                                                                                                                                       |
@@ -71,7 +71,7 @@ Metaflow was originally designed and built to address practical pain points of d
 
 We don’t focus on exotic, large-scale, specific use cases like real-time bidding or self-driving cars. Instead, we focus on the widest variety of ML use cases, many of which are small or medium-sized, which many companies face on a day to day basis.
 
-We embrace the fact that the life is full of entropy: There is no elegant, grand unified theory of ML infrastructure. The inputs to ML workflows are noisy, the models may be ridden with special cases, and the outputs need to be integrated with various downstream systems, instead of a single unified UI.
+We embrace the fact that the life is full of entropy: There is no elegant, grand unified theory of ML infrastructure. The inputs to ML workflows are noisy, the models may be ridden with special cases, and the outputs need to be integrated with various downstream systems instead of a single unified UI.
 
 We don’t expect the users of Metaflow to be unicorns who are experts in software engineering and machine learning. Nor we expect our users to care about ML infrastructure. Metaflow helps them to get their job done.
 
@@ -107,9 +107,9 @@ We want to embrace the idea that most projects are continuous experiments, even 
 
 The fifth tenet suggested that the user should be able to scale a Metaflow project gradually. This applies both to time and space.
 
-We embrace the fact that Python is a slow but expressive language. We encourage our users to write idiomatic Python code initially, without worrying too much about performance. If performance becomes an issue, we can provide an arsenal of tools for gradual performance optimization from performance-oriented libraries like [Numpy](https://numpy.org) to compilers such as [Numba](http://numba.pydata.org).
+We embrace the fact that Python is a slow but expressive language. We encourage our users to write idiomatic Python code initially without worrying too much about performance. If performance becomes an issue, we can provide an arsenal of tools for gradual performance optimization from performance-oriented libraries like [Numpy](https://numpy.org) to compilers such as [Numba](http://numba.pydata.org).
 
-We encourage our users to primarily rely on vertical scalability, which allows the user to focus on readable, straightforward code and easy operations. When the user hits the limits of vertical scalability, we make it easy to use horizontal, share-nothing parallelism, or hassle-free distributed learning provided e.g. by AWS Sagemaker.
+We encourage our users to primarily rely on vertical scalability which allows the user to focus on readable, straightforward code and easy operations. When the user hits the limits of vertical scalability, we make it easy to use horizontal share-nothing parallelism, or hassle-free distributed learning provided e.g. by AWS Sagemaker.
 
 We shy away from custom paradigms for scalability which require code to be (re)written with scalability in mind, which can lead to worse readability, harder debuggability, and increased operational burden.
 

@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 1: Playlist
 
 ## Let's build you a movie playlist.
@@ -25,4 +27,4 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 4. `python 01-playlist/playlist.py run --genre comedy`
 5. `jupyter-notebook 01-playlist/playlist.ipynb`
 
-[Tutorials](../)
+<TutorialsLink link="../"/>

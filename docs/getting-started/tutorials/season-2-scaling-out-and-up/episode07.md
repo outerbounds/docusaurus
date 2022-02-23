@@ -1,3 +1,5 @@
+import TutorialsLink from "/src/components/TutorialsLink"
+
 # Episode 7: Worldview
 
 ## Way up here.
@@ -23,4 +25,4 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 2. `jupyter-notebook 07-worldview/worldview.ipynb`
 3. Open _**worldview.ipynb**_ in your remote Sagemaker notebook
 
-[Tutorials](../)
+<TutorialsLink link="../"/>
