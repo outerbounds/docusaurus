@@ -17,7 +17,7 @@ Many users can use Metaflow concurrently. Imagine that Anne and Will are collabo
 
 Anne could analyze her latest `PredictionFlow` results in a notebook by remembering that her latest run is `PredictionFlow/8`. Fortunately, Metaflow makes this even easier thanks to **namespaces**:
 
-![](/assets/assets*metaflow*-lpjn0yp7r49jrnxca*5*-lpjryuvqmspdu9w5imb_namespace2 %281%29.png)
+![](/assets/assets_metaflow_-lpjn0yp7r49jrnxca_5_-lpjryuvqmspdu9w5imb_namespace2.png)
 
 When Anne runs `PredictionFlow`, her runs are automatically **tagged** with her user name, prefixed with `user:`. By default, when Anne uses the [Client API](client), the API only returns results that are tagged with `user:anne`. Instead of having to remember the exact ID of her latest run, she can simply say:
 
@@ -99,7 +99,7 @@ Isolated production namespaces have three main benefits:
 
 If you are a single developer working on a new project, you don't have to do anything special to deal with production namespaces. You can rely on the default behavior of `step-functions create`.
 
-### **Production tokens**
+### Production tokens
 
 When you deploy a Flow to production for the first time, Metaflow creates a new, isolated production namespace for your production flow. This namespace is identified by a **production token**, which is a random identifier that identifies a production deployment, e.g. production:PredictionFlow3 above. You can examine production results in a notebook by switching to the production namespace.
 
@@ -117,7 +117,7 @@ Rscript production_flow.R step-functions create --authorize TOKEN_YOU_SHARED_WIT
 </TabItem>
 <TabItem label="RStudio" value="RStudio">
 
-```
+```r
   ...
   step(step = "end",
        ...)
@@ -131,7 +131,7 @@ Rscript production_flow.R step-functions create --authorize TOKEN_YOU_SHARED_WIT
 
 They need to use the `--authorize` option only once. Metaflow stores the token for them after the first deployment, so they need to do this only once.
 
-### **Resetting a production namespace**
+### Resetting a production namespace
 
 If you call `step-functions create` again, it will deploy an updated version of your code in the existing production namespace of the flow.
 
@@ -147,7 +147,7 @@ Rscript production_flow.R step-functions create --generate-new-token
 </TabItem>
 <TabItem label="RStudio" value="RStudio">
 
-```
+```r
   ...
   step(step = "end",
        ...)

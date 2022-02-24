@@ -21,7 +21,7 @@ in production as it requires someone to type the command manually. A classic sol
 
 It is not easy to use cron as a production scheduler. What if the instance running cron fails? If the scheduled command fails, how do I know it has failed? How do you see its error logs? Does my cron instance have enough capacity to handle another command? And most importantly, how do I orchestrate schedules of multiple commands so that their mutual dependencies are handled correctly?
 
-## **Why AWS Step Functions?**
+## Why AWS Step Functions?
 
 [AWS Step Functions](https://aws.amazon.com/step-functions/) is a general-purpose workflow orchestrator that can answer these questions. If you are curious, you can [read AWS Step Functions documentation to learn all about it](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html). If you just want to get your flow in production, this document contains everything you need to know.
 
@@ -34,7 +34,7 @@ When running on AWS Step Functions, Metaflow code works exactly as it does local
 
 This document describes the basics of AWS Step Functions scheduling. If your project involves multiple people, multiple workflows, or it is becoming business-critical, we will soon introduce a new feature around coordinating larger Metaflow projects.
 
-## **Pushing a flow to production**
+## Pushing a flow to production
 
 Let's use [the flow from the section about parameters](../metaflow/basics.md#how-to-define-parameters-for-flows) as an example:
 
@@ -67,7 +67,7 @@ metaflow("ParameterFlow") %>%
 </TabItem>
 <TabItem label="RStudio" value="RStudio">
 
-```
+```python
 ...
    step(step="end",
          r_function=end) %>%
@@ -121,7 +121,7 @@ Rscript parameter_flow.R step-functions trigger --alpha 0.5
 </TabItem>
 <TabItem label="RStudio" value="RStudio">
 
-```
+```python
 ...
    step(step="end",
          r_function=end) %>%
@@ -136,7 +136,7 @@ If you run `step-functions create` again, it will create a new version of your f
 
 Note that step-functions create creates a new isolated [production namespace](../metaflow/tagging.md#tags-as-namespaces) for your production flow. Please read [Organizing Results](../metaflow/tagging.md) to learn all about namespace behavior.
 
-### **Limiting the number of concurrent tasks**
+### Limiting the number of concurrent tasks
 
 By default, Metaflow configures AWS Step Functions to execute at most 100 tasks concurrently within a foreach step. This should ensure that most workflows finish quickly without overwhelming your AWS Batch queue, the execution backend.
 
@@ -144,7 +144,7 @@ If your workflow includes a large foreach and you need results faster, you can i
 
 This option is similar to [`run --max-workers`](../metaflow/scaling.md#safeguard-flags) that is used to limit concurrency outside AWS Step Functions.
 
-## **Scheduling a flow**
+## Scheduling a flow
 
 By default, a flow on AWS Step Functions does not run automatically. You need to set up a trigger to launch the flow when an event occurs.
 

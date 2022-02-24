@@ -3,7 +3,13 @@ description: Build and manage real-life data science projects with ease.
 displayed_sidebar: r
 ---
 
+import Description from "/src/components/Description";
+
 # Welcome to Metaflow for R
+
+<Description>Build and manage real-life data science projects with ease.</Description>
+
+---
 
 ## Introduction
 

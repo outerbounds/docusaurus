@@ -22,7 +22,7 @@ If you answered "yes" to any of the above, keep reading - Metaflow can help you.
 
 Models are only a small part of an end-to-end data science project. Production-grade projects rely on a thick stack of infrastructure. At the minimum, projects need data and a way to perform computation on it. In a business environment like Netflix's, a typical data science project touches all layers of the stack depicted below:
 
-![image](https://user-images.githubusercontent.com/1483922/151918234-b178246a-2f95-47fd-b8eb-3cb2cbf8fb38.png)
+![image](/assets/triangles.png)
 
 Data is accessed from a **data warehouse**, which can be a folder of files, a database, or a multi-petabyte data lake. The modeling code that crunches the data is executed in a **compute environment** which can range from a laptop to a large-scale container management system. A **job scheduler** is often used to orchestrate multiple units of work.
 
@@ -51,7 +51,7 @@ You can find more details about Metaflow's approach to various parts of the stac
 
 If you are an infrastructure person who wants to know how to deploy and operate Metaflow, take a look at [Administrator's Guide to Metaflow](https://admin-docs.metaflow.org).
 
-## Presentations about Metaflow&#x20;
+## Presentations about Metaflow
 
 If you want to learn more, the Machine Learning Infrastructure team at Netflix has given a number of public presentations about Metaflow prior to its open-sourcing. You can find links to these presentations below. You can also read the original [open-source release announcement in the Netflix tech blog](https://netflixtechblog.com/open-sourcing-metaflow-a-human-centric-framework-for-data-science-fa72e04a5d9).
 
@@ -63,7 +63,7 @@ For other general overviews of Metaflow, see the [Overviews of Metaflow](https:/
 
 ## The Philosophy of Metaflow
 
-If you are eager to give Metaflow a try, head to the [tutorials](../getting-started/tutorials/). If you want to learn about the background of Metaflow in more detail, keep on reading.&#x20;
+If you are eager to give Metaflow a try, head to the [tutorials](../getting-started/tutorials/). If you want to learn about the background of Metaflow in more detail, keep on reading.
 
 Metaflow was originally designed and built to address practical pain points of data scientist at Netflix. Its design philosophy is influenced by [the unique culture at Netflix](https://jobs.netflix.com/culture). The following eight tenets summarize the philosophy of Metaflow:
 
@@ -75,13 +75,13 @@ We embrace the fact that the life is full of entropy: There is no elegant, grand
 
 We don’t expect the users of Metaflow to be unicorns who are experts in software engineering and machine learning. Nor we expect our users to care about ML infrastructure. Metaflow helps them to get their job done.
 
-### **2. Manage entropy with code**
+### 2. Manage entropy with code
 
 The first tenet implies that we must manage a great amount of inherent, irreducible complexity. Many ML infrastructures rely on GUIs, configuration, DSLs, or automation - we don’t. Most of these modalities fail to scale in terms of increasing complexity.
 
 We rely on code. General-purpose programming languages are arguably the most effective tool in building functional systems for complex use cases. The main downside of code is a steeper learning curve: for the simplest use cases, almost any other modality would provide a simpler solution. To minimize this cost, we rely on easy to learn, popular languages like Python or R.
 
-### **3. Fanatic focus on the usability and ergonomics**
+### 3. Fanatic focus on the usability and ergonomics
 
 The second tenet implies that we don’t try to hide the complexity. Inherently complex problems require complex solutions. However, we can do a lot to reduce the amount of accidental complexity which often results from mismatching abstractions.
 
@@ -89,13 +89,13 @@ Since the problems our users solve are complex in nature, the best we can do is 
 
 We don’t expect tools to solve problems. People solve problems. Hence we focus on optimizing data scientist productivity, which we do by providing ergonomic tools, excellent documentation, and fanatic support.
 
-### **4. Enable collaboration**
+### 4. Enable collaboration
 
 Besides the first-person developer experience described in the third tenet, Metaflow is built to enable collaboration. However, we are sensitive to the fact that there is not a single recipe for collaboration. Sometimes it might be just a single developer “collaborating” with themselves over a long period of time. Sometimes it might be a tightly coupled team working on a common project. Sometimes it is a loosely coupled organization working on separate projects, sharing pieces of code and data. We want to support all these scenarios.
 
 Instead of being prescriptive about the ways of collaboration, we remove roadblocks that hinder collaboration. Most importantly, we enable unsurprising, side-effect free reproducibility, which removes the fear of interfering with other people’s work. We also make it easy to discover and access previous results produced by others.
 
-### **5. First-class support for both prototyping and production**
+### 5. First-class support for both prototyping and production
 
 The third and fourth tenets make Metaflow human-centric. People produce complex creative work iteratively. We want to make iterative development the default mode of operation: **y**ou can start prototyping locally with a very straightforward script, which you can make gradually more capable and scalable, if the results after each iteration seem promising enough.
 
@@ -103,7 +103,7 @@ Metaflow should be robust enough for serious production use. However, we recogni
 
 We want to embrace the idea that most projects are continuous experiments, even when they are being run in production. Consider Metaflow as a meta-algorithm for reinforcement learning with a human in the loop.
 
-### **6. Straightforward scalability**
+### 6. Straightforward scalability
 
 The fifth tenet suggested that the user should be able to scale a Metaflow project gradually. This applies both to time and space.
 
@@ -113,7 +113,7 @@ We encourage our users to primarily rely on vertical scalability which allows th
 
 We shy away from custom paradigms for scalability which require code to be (re)written with scalability in mind, which can lead to worse readability, harder debuggability, and increased operational burden.
 
-### **7. Pragmatic approach to data access and processing**
+### 7. Pragmatic approach to data access and processing
 
 The sixth tenet suggested that our primary tools for scalability and performance are larger servers and faster libraries. Typically, it is larger datasets that demand larger tools. Since the question of big data is so central to ML projects, we want to provide specific data tooling to address these needs.
 
@@ -121,7 +121,7 @@ Following the sixth tenet, we don’t want to introduce new paradigms for data p
 
 We also recognize that this approach has its limits. We leverage other big data tools such as Spark for heavy lifting when necessary.
 
-### **8. Failures are a feature**
+### 8. Failures are a feature
 
 We design Metaflow primarily for failure cases, not for the happy case. Most ML infrastructures do the job well enough for the happy case. The true value of the infrastructure is shown when things fail. This is especially true for ML workflows with a high degree of inherent complexity.
 

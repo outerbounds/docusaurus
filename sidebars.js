@@ -183,9 +183,9 @@ const sidebars = {
               },
               collapsed: false,
               items: [
+                "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
                 "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
                 "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-                "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
               ],
             },
           ],

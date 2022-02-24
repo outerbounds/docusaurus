@@ -1,14 +1,14 @@
-# Episode 5: Hello AWS
+# Episode 5: Statistics Redux
 
-This flow is a simple linear workflow that verifies your AWS configuration. The `start` and `end` steps will run locally, while the `hello` step will run remotely on AWS batch.
+This example revisits [**Episode 02-statistics: Is this Data Science?**](../season-1-the-local-experience/episode02.md).
 
-After configuring Metaflow to run on AWS, data and metadata about your runs will be stored remotely. This means you can use the client to access information about any flow from anywhere.
+With Metaflow, you don't need to make any code changes to scale-up your flow by running on remote compute. In this example we re-run the `stats.R` workflow adding the `--with batch` command line argument. This instructs Metaflow to run all your steps on AWS batch without changing any code. You can control the behavior with additional arguments, like `--max-workers`. For this example, `--max-workers` is used to limit the number of parallel genre specific statistics computations. You can then access the data artifacts \(even the local CSV file\) from anywhere because the data is being stored in AWS S3.
 
 ## Showcasing:
 
-* AWS [batch decorator](../../../metaflow/scaling.md).
-* Accessing data artifacts generated remotely in a local notebook.
-* [retry decorator](../../../metaflow/failures.md#retrying-tasks-with-the-retry-decorator).
+- `--with batch` command line option
+- `--max-workers` command line option
+- Accessing data artifact stored in AWS S3 from a local Markdown Notebook.
 
 ## Before playing this episode:
 
@@ -16,49 +16,8 @@ Configure your [sandbox](../../../metaflow-on-aws/metaflow-sandbox.md).
 
 ## To play this episode:
 
-If you haven't yet pulled the tutorials to your current working directory, you can follow the instructions [here](../#pull-tutorials). 
+If you haven't yet pulled the tutorials to your current working directory, you can follow the instructions [here](../#pull-tutorials).
 
-1. `cd tutorials/04-helloaws` 
-2. `Rscript helloaws.R run` 
-3. Open `helloaws.md` in your local RStudio
-
-```r
-#  A flow where Metaflow prints 'Hi'.
-#  Run this flow to validate that Metaflow is installed correctly.
-
-library(metaflow)
-
-# This is the 'start' step. All flows must have a step named 
-# 'start' that is the first step in the flow.
-start <- function(self){
-    message("HelloAWS is starting.")
-    message("Using metadata provider: ", get_metadata())
-}
-
-# A step for metaflow to introduce itself.
-hello <- function(self){
-    self$message <- "We're on the cloud! Metaflow says: Hi!"
-    print(self$message) 
-    message("Using metadata provider: ", get_metadata())
-}
-
-# This is the 'end' step. All flows must have an 'end' step, 
-# which is the last step in the flow.
-end <- function(self){
-    message("HelloAWS is all done.")
-}
-
-metaflow("HelloAWSFlow") %>%
-    step(step = "start", 
-         r_function = start, 
-         next_step = "hello") %>%
-    step(step = "hello", 
-         decorator("retry", times=2),
-         decorator("batch", cpu=2, memory=2048),
-         r_function = hello,  
-         next_step = "end") %>%
-    step(step = "end", 
-         r_function = end) %>% 
-    run()
-```
-
+1. `cd tutorials/02-statistics/`
+2. `Rscript stats.R --package-suffixes=.R,.csv run --with batch --max-workers 4`
+3. Open `02-statistics/stats.Rmd` in your RStudio and re-run the cells. You can acccess the artifacts stored in AWS S3 from your local RStudio session.

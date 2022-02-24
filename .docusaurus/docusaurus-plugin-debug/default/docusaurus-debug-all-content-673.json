@@ -2593,7 +2593,7 @@
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
-              "title": "Episode 4: Look Mom, We're in the Cloud.",
+              "title": "Episode 4: Hello AWS",
               "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch.",
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
@@ -2602,13 +2602,22 @@
               "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
+              "frontMatter": {},
+              "sidebar": "r",
+              "previous": {
+                "title": "Season 2: Scaling Out and Up",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+              },
+              "next": {
+                "title": "Episode 5: Statistics Redux",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+              }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "title": "Episode 5: Hello AWS",
-              "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch.",
+              "title": "Episode 5: Statistics Redux",
+              "description": "This example revisits Episode 02-statistics: Is this Data Science?.",
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
@@ -2619,19 +2628,19 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Season 2: Scaling Out and Up",
-                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "title": "Episode 4: Hello AWS",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
               },
               "next": {
-                "title": "Episode 6: Statistics Redux",
+                "title": "Episode 6: Worldview",
                 "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               }
             },
             {
               "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "title": "Episode 6: Statistics Redux",
-              "description": "This example revisits Episode 02-statistics: Is this Data Science?.",
+              "title": "Episode 6: Worldview",
+              "description": "This episode shows how you can use a notebook to setup a simple dashboard to monitor all of your Metaflow flows.",
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
@@ -2642,31 +2651,8 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Episode 5: Hello AWS",
+                "title": "Episode 5: Statistics Redux",
                 "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
-              },
-              "next": {
-                "title": "Episode 7: Worldview",
-                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
-              }
-            },
-            {
-              "unversionedId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "title": "Episode 7: Worldview",
-              "description": "This episode shows how you can use a notebook to setup a simple dashboard to monitor all of your Metaflow flows.",
-              "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
-              "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
-              "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "r",
-              "previous": {
-                "title": "Episode 6: Statistics Redux",
-                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               },
               "next": {
                 "title": "Metaflow on AWS",
@@ -2692,8 +2678,8 @@
                 "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
               },
               "next": {
-                "title": "Episode 5: Hello AWS",
-                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                "title": "Episode 4: Hello AWS",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
               }
             },
             {
@@ -2898,8 +2884,8 @@
               "frontMatter": {},
               "sidebar": "r",
               "previous": {
-                "title": "Episode 7: Worldview",
-                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                "title": "Episode 6: Worldview",
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               },
               "next": {
                 "title": "Metaflow Sandbox",
@@ -3437,15 +3423,15 @@
                         "items": [
                           {
                             "type": "doc",
+                            "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
+                          },
+                          {
+                            "type": "doc",
                             "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
                           },
                           {
                             "type": "doc",
                             "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
                           }
                         ],
                         "collapsible": true

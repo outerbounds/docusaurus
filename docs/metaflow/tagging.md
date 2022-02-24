@@ -77,7 +77,7 @@ run = Run('PredictionFlow/5')
 
 Setting `namespace(None)` allows you allows you to access all results without limitations. Be careful though: relative references like `latest_run` make little sense in the global namespace since anyone can produce a new run at any time.
 
-## **Production Namespaces**
+## Production Namespaces
 
 During development, namespacing by the user name feels natural. However, when you [schedule your flow to run automatically](../going-to-production-with-metaflow/scheduling-metaflow-flows), runs are not related to a specific user anymore. It is typical for multiple people to collaborate on a project that has a canonical production version. It is not obvious which user "owns" the production version.
 
@@ -93,9 +93,9 @@ Isolated production namespaces have three main benefits:
 2. An isolated production namespace makes it easy to **keep production results separate from any experimental runs** of the same project running concurrently. You can rest assured that when you switch to a production namespace, you will see only results related to production - nothing more, nothing less.
 3. By having control over the production namespace, you can **alter data that is seen by production flows**. For instance, if you have separate training and prediction flows in production, the prediction flow can access the previously built model as long as one exists in the same namespace. By changing the production namespace, you can make sure that a new deployment isn't tainted by old results.
 
-If you are a single developer working on a new project, you don't have to do anything special to deal with production namespaces. You can rely on the default behavior of `step-functions create`.&#x20;
+If you are a single developer working on a new project, you don't have to do anything special to deal with production namespaces. You can rely on the default behavior of `step-functions create`.
 
-### **Production tokens**
+### Production tokens
 
 When you deploy a Flow to production for the first time, Metaflow creates a new, isolated production namespace for your production flow. This namespace is identified by a **production token**, which is a random identifier that identifies a production deployment, e.g. production:PredictionFlow3 above. You can examine production results in a notebook by switching to the production namespace.
 
@@ -109,7 +109,7 @@ python production_flow.py step-functions create --authorize TOKEN_YOU_SHARED_WIT
 
 They need to use the `--authorize` option only once. Metaflow stores the token for them after the first deployment, so they need to do this only once.
 
-### **Resetting a production namespace**
+### Resetting a production namespace
 
 If you call `step-functions create` again, it will deploy an updated version of your code in the existing production namespace of the flow.
 
@@ -233,7 +233,7 @@ The `current` singleton also provides programmatic access to the CLI option `--o
 
 If a user explicitly overrides the CLI option `--origin-run-id`, the `current` singleton would reflect that value.
 
-If not, it would be the id of the last invocation of `run` (successful or not).&#x20;
+If not, it would be the id of the last invocation of `run` (successful or not).
 
 :::info
 

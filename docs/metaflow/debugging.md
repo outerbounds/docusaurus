@@ -127,15 +127,15 @@ If your flow has [`Parameters`](basics#how-to-define-parameters-for-flows), you 
 
 The `resume` command reuses the parameter values that you set with `run` originally.
 
-## **Reproducing production issues locally**
+## Reproducing production issues locally
 
-This section shows you how to reproduce a failed Metaflow run on AWS Step Functions locally. This is how a failed run on AWS Step Functions UI looks like -&#x20;
+This section shows you how to reproduce a failed Metaflow run on AWS Step Functions locally. This is how a failed run on AWS Step Functions UI looks like -
 
 ![](/assets/image1.png)
 
 ![](</assets/image3_(1).png>)
 
-Notice the execution ID of `5ca85f96-8508-409d-a5f5-b567db1040c5`. When running on AWS Step Functions, Metaflow uses the AWS Step Functions execution ID (prefixed with `sfn-`) as the run id.&#x20;
+Notice the execution ID of `5ca85f96-8508-409d-a5f5-b567db1040c5`. When running on AWS Step Functions, Metaflow uses the AWS Step Functions execution ID (prefixed with `sfn-`) as the run id.
 
 The graph visualization shows that step `b` failed, as expected. First, you should inspect the logs of the failed step to get an idea of why it failed. You can access AWS Batch step logs in the AWS Step Functions UI by looking for the `JobId` in the `Error` blob that can be accessed by clicking on the `Exception` pane on the right side of the UI. You can use this `JobId` in the AWS Batch console to check the job logs. This `JobId` is also the metaflow task ID for the step.
 
@@ -151,7 +151,7 @@ You can fix the error locally as above. In the case of this simple flow, you can
 
 However, this might not be a feasible approach for complex production flow. For instance, the flow might process large amounts of data that can not be handled in your local instance. We have better approaches for staging flows for production:
 
-### **Staging flows for production**
+### Staging flows for production
 
 The easiest approach to test a demanding flow is to run it with AWS Batch. This works even with resume:
 

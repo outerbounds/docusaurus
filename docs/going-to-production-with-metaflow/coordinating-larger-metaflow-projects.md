@@ -4,7 +4,7 @@ Most Metaflow projects start as a simple Python script that is developed by a si
 
 Over time, the project matures to the point that you want to [deploy it to AWS Step Functions](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) to test how the model works with real-life, updating data. In Metaflow, this is a matter of executing a single command, step-functions create. Having the workflow run automatically with fresh data is a great way to surface unforeseen issues in the code.
 
-After a few iterations, the workflow starts to work reliably. If the results are promising enough, stakeholders can start relying on the results of your workflow. Often, success attracts more developers to join the project. At this point, you will need to start thinking how to coordinate work amongst multiple people and how to iterate on new, experimental versions of the workflow while providing stable results to your stakeholders. This is where the `@project` decorator comes in.
+After a few iterations, the workflow starts to work reliably. If the results are promising enough, stakeholders can start relying on the results of your workflow. Often, success attracts more developers to join the project. At this point, you will need to start thinking about how to coordinate work amongst multiple people and how to iterate on new, experimental versions of the workflow while providing stable results to your stakeholders. This is where the `@project` decorator comes in.
 
 ## The `@project` decorator
 
@@ -55,7 +55,7 @@ If ProjectFlow did not have a @project decorator, it would get deployed as a wor
 
 On the AWS Step Functions UI, you would see one workflow called `ProjectFlow`:
 
-![](https://lh6.googleusercontent.com/EYiiL19aH222-JgMp4_Quz-TqEmRX1M9bu8wWdW3ColDjFN6rHytxaKv6qh3q-EzDxiz-Ok9r-BEbw1oSJJr7E38NZFqVtucfrEyfMuVdRx6MTwSoLvPtDtwGKvksmpLajomOzp8)
+![](/assets/project_old.png)
 
 The `@project` decorator changes this behavior. Let's deploy ProjectFlow:
 
@@ -67,7 +67,7 @@ The `@project` decorator adds a user-specific prefix in the workflow name: the w
 
 This allows multiple developers to deploy their workflows on AWS Step Functions without fear that they might interfere with someone else's deployment. Imagine Alice, Bob, and Carol collaborating on a project. Each one of them can call `step-functions create` independently, which results in three separate workflows on AWS Step Functions:
 
-![](https://lh5.googleusercontent.com/zAs6l7ZSZEA68ARLaDtwc_V_PHKhvaWHnvvFs2I_QofMnxh8R3-yeGdcPYaXp_UoGpMEfIqJL9kU4ZcT6k_YgqiAvWw8oYGB8hC5TmNXp1-66mmukDIJuLkH6na3zfEDJ2UggTzl)
+![](/assets/project_user.png)
 
 Note that each one of these deployments gets [an isolated namespace](https://docs.metaflow.org/metaflow/tagging) and [a separate production token](https://docs.metaflow.org/metaflow/tagging#production-tokens). This means that if your code refers to `Flow('ProjectFlow').latest_run` on AWS Step Functions, it is guaranteed to refer to a run that corresponds to its own isolated deployment. The deployments don't interfere with each other.
 
@@ -94,7 +94,7 @@ Instead of deploying the flow with a user-specific prefix, this will deploy the 
 
 The production deployment gets a separate, isolated namespace of its own:
 
-![](https://lh6.googleusercontent.com/pTFm6xYWlL2wqJNmEwAOYj34wwt_2TLZlDbWrJIEDo2q7ksBOcMlll9kVW-n27cvTw8RKAxUyt9gYD0PgvEwnUWz0m1_daVeR5HeOjuxbBH7WDf1LiwwSwLjs7CGFM48l6RPIvTJ)
+![](/assets/project_prod.png)
 
 #### Custom Branches
 
@@ -116,7 +116,7 @@ python project_flow.py --branch better_version step-functions create
 
 which will result in another separate, isolated namespace:
 
-![](https://lh6.googleusercontent.com/uv8Zt8Rni77skhjJ90kw6pw6VcnOT2whBTSUstZHzT1-1yqOP61UGx8220Jn068xisYlh31wPjrjVl_IWxmVHsLVyRZ1-MPZ911EqTjs3ff2vXJ_MLt7rEnPIJ_QEX6CLIn4p84o)
+![](/assets/project_branch.png)
 
 Alice and Bob can share the production token corresponding to the branch, so either of them can redeploy the branch when needed.
 
@@ -144,4 +144,4 @@ The `@project` decorator makes available three classes of namespaces that will a
 - `test` denotes custom branches that can be shared amongst multiple users. Use it for deploying experimental versions that can run in parallel with production. Deploy custom branches with `--branch foo`.
 - `prod` denotes the global production namespace. Use it for deploying the official production version of the project. Deploy to production with `--production`. For multiple production variants, deploy custom branches with `--production --branch foo`.
 
-Note that the isolated namespaces offered by `@project` work best when your code is designed to respect these boundaries. For instance, when writing results to a table, you can use `current.branch_name` to choose the table to write to or you can disable writes outside production by checking `current.is_production`.\
+Note that the isolated namespaces offered by `@project` work best when your code is designed to respect these boundaries. For instance, when writing results to a table, you can use `current.branch_name` to choose the table to write to, or you can disable writes outside production by checking `current.is_production`.

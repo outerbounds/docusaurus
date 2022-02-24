@@ -10,8 +10,8 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 
 #### Showcasing:
 
-- [Basics of Metaflow.](../../../metaflow/basics)
-- [Step](../../../metaflow/basics#what-should-be-a-step) decorator.
+- [Basics of Metaflow.](/docs/metaflow/basics)
+- [Step](/docs/metaflow/basics#what-should-be-a-step) decorator.
 
 #### To play this episode:
 

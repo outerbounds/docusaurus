@@ -410,21 +410,21 @@
                 "items": [
                   {
                     "type": "link",
-                    "label": "Episode 5: Hello AWS",
+                    "label": "Episode 4: Hello AWS",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
+                    "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Episode 5: Statistics Redux",
                     "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
                     "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
                   },
                   {
                     "type": "link",
-                    "label": "Episode 6: Statistics Redux",
+                    "label": "Episode 6: Worldview",
                     "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
                     "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
-                  },
-                  {
-                    "type": "link",
-                    "label": "Episode 7: Worldview",
-                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-                    "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
                   }
                 ],
                 "collapsible": true,
@@ -1619,24 +1619,19 @@
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
-      "title": "Episode 4: Look Mom, We're in the Cloud.",
-      "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch."
+      "title": "Episode 4: Hello AWS",
+      "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch.",
+      "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-      "title": "Episode 5: Hello AWS",
-      "description": "This flow is a simple linear workflow that verifies your AWS configuration. The start and end steps will run locally, while the hello step will run remotely on AWS batch.",
+      "title": "Episode 5: Statistics Redux",
+      "description": "This example revisits Episode 02-statistics: Is this Data Science?.",
       "sidebar": "r"
     },
     "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06": {
       "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-      "title": "Episode 6: Statistics Redux",
-      "description": "This example revisits Episode 02-statistics: Is this Data Science?.",
-      "sidebar": "r"
-    },
-    "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07": {
-      "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-      "title": "Episode 7: Worldview",
+      "title": "Episode 6: Worldview",
       "description": "This episode shows how you can use a notebook to setup a simple dashboard to monitor all of your Metaflow flows.",
       "sidebar": "r"
     },

@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./TutorialsLink.module.css";
 
+/**
+ * Show a button with link to the Tutorials homepage with an icon
+ * @param link string The path to the tutorials
+ */
 export const TutorialsLink = ({ link }) => (
   <a className={styles.tutorialslink} href={link}>
     <svg

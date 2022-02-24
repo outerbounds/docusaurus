@@ -21,11 +21,8 @@ export const APIDoc = ({ children, lang }) => {
     <div className={styles.apiDoc}>
       {children.map((child) => {
         i++;
-        console.log("child.props?.id: ", child.props?.id);
-        console.log(child);
 
         if (section) {
-          console.log("section: ", section);
           if (child.props.mdxType === "p") {
             const Component = getParamType(section);
 

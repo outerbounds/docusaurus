@@ -6,6 +6,6 @@
   margin-bottom: 16px;
 }
 
-html[data-theme="light"] .color {
-  color: rgb(136, 153, 168);
+html[data-theme="light"] .caption {
+  color: var(--ifm-color-secondary-darkest);
 }

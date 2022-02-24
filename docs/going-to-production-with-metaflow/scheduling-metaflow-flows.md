@@ -18,11 +18,11 @@ in production as it requires someone to type the command manually. A classic sol
 
 It is not easy to use cron as a production scheduler. What if the instance running cron fails? If the scheduled command fails, how do I know it has failed? How do you see its error logs? Does my cron instance have enough capacity to handle another command? And most importantly, how do I orchestrate schedules of multiple commands so that their mutual dependencies are handled correctly?
 
-## **Why AWS Step Functions?**
+## Why AWS Step Functions?
 
 [AWS Step Functions](https://aws.amazon.com/step-functions/) is a general-purpose workflow orchestrator that can answer these questions. If you are curious, you can [read AWS Step Functions documentation to learn all about it](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html). If you just want to get your flow in production, this document contains everything you need to know.
 
-In the Metaflow's point of view, the main benefits of AWS Step Functions are the following:
+In Metaflow's point of view, the main benefits of AWS Step Functions are the following:
 
 - AWS Step Functions orchestrates workflows expressed as state machines, which are a superset of directed graphs. This means that we can map Metaflow flows to corresponding AWS Step Functions state machines fully automatically. This gives you much more detail about what gets executed and how, in contrast to treating Metaflow scripts as black boxes.
 - AWS Step Functions comes with tooling that is required for running workflows in production. You can benefit from battle-hardened solutions provided by AWS for alerting, monitoring, and scheduling. By using AWS Step Functions your Metaflow flows can integrate seamlessly with the wider AWS offerings.
@@ -31,7 +31,7 @@ When running on AWS Step Functions, Metaflow code works exactly as it does local
 
 This document describes the basics of AWS Step Functions scheduling. If your project involves multiple people, multiple workflows, or it is becoming business-critical, we will soon introduce a new feature around coordinating larger Metaflow projects.
 
-## **Pushing a flow to production**
+## Pushing a flow to production
 
 Let's use [the flow from the section about parameters](../metaflow/basics#how-to-define-parameters-for-flows) as an example:
 
@@ -106,7 +106,7 @@ In case your flow doesn't accept any parameters, and you would like to execute i
 }
 ```
 
-### **Limiting the number of concurrent tasks**
+### Limiting the number of concurrent tasks
 
 By default, Metaflow configures AWS Step Functions to execute at most 100 tasks concurrently within a foreach step. This should ensure that most workflows finish quickly without overwhelming your AWS Batch queue, the execution backend.
 
@@ -154,7 +154,7 @@ When `step-functions create` is called, `deployment_info` is evaluated which cap
 
 The `context` object is passed to any function defined in Parameter. It contains various fields related to the flow being deployed. By relying on the values passed in context, you can create generic deploy-time functions that can be reused by multiple flows.
 
-## **Scheduling a flow**
+## Scheduling a flow
 
 By default, a flow on AWS Step Functions does not run automatically. You need to set up a trigger to launch the flow when an event occurs.
 

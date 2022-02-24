@@ -4,7 +4,7 @@ Metaflow has been used in production at Netflix since early 2018. The core Metaf
 
 Please click the link and comment / thumbs-up the corresponding GitHub issue if you want to see the feature open-sourced.
 
-## **Support for Kubernetes**
+## Support for Kubernetes
 
 Bring all of Metaflow's capabilities to the Kubernetes universe \([Github issue](https://github.com/Netflix/metaflow/issues/50)\)
 
@@ -16,29 +16,29 @@ A variety of UI\(s\) for Metaflow - tracking flows, model monitoring, etc
 
 Support for dependency management tools beyond conda and docker and address existing pain points \([Github issue](https://github.com/Netflix/metaflow/issues/497)\)
 
-## **Flow Composition**
+## Flow Composition
 
 Support composing Metaflow flow from other flows \([Github issue](https://github.com/Netflix/metaflow/issues/245)\)
 
-## ~~**MetaflowBot**~~
+## ~~MetaflowBot~~
 
 A Slack bot for Metaflow. Use it to ask questions about past runs \([Github issue](https://github.com/Netflix/metaflow/issues/5)\)
 
 **Update -** [Metaflowbot](https://github.com/outerbounds/metaflowbot) is now available in Open Source!
 
-## **Metaflow DataFrame**
+## Metaflow DataFrame
 
 Support in-memory processing of large data sets \([Github issue\)](https://github.com/Netflix/metaflow/issues/4)
 
-## **More tutorials and recipes**
+## More tutorials and recipes
 
 Provide advanced tutorials and documentation highlighting non-trivial use-cases \([Github issue\)](https://github.com/Netflix/metaflow/issues/49)
 
-## **Support for hosting models as a micro-service**
+## Support for hosting models as a micro-service
 
 An easy-to-use Function-as-a-Service -style [microservice hosting platform](https://www.youtube.com/watch?v=sBM5cSBGZS4) for artifacts \(e.g. models\) produced by Metaflow runs \([Github issue](https://github.com/Netflix/metaflow/issues/3)\)
 
-## ~~**Support for R Lang**~~
+## ~~Support for R Lang~~
 
 [Metaflow in the R language](https://www.youtube.com/watch?v=lakPlz8GJcA). Provide an idiomatic R API which uses the Python library as the backend \([Github issue](https://github.com/Netflix/metaflow/issues/1)\)
 

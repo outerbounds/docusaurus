@@ -220,7 +220,7 @@ Rscript debug.R resume --origin-run-id sfn-5ca85f96-8508-409d-a5f5-b567db1040c5
 </TabItem>
 <TabItem label="RStudio" value="RStudio">
 
-```
+```r
    ...
    step(step="end",
         ...)
@@ -237,7 +237,7 @@ You can fix the error locally as above. In the case of this simple flow, you can
 
 However, this might not be a feasible approach for complex production flow. For instance, the flow might process large amounts of data that can not be handled in your local instance. We have better approaches for staging flows for production:
 
-### **Staging flows for production**
+### Staging flows for production
 
 The easiest approach to test a demanding flow is to run it with AWS Batch. This works even with resume:
 

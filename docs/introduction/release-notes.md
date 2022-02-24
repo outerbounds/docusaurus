@@ -81,7 +81,7 @@ When accessing artifacts of a running task using `Task(...).artifacts`, a race c
 
 A step as below:
 
-```
+```python
 @retry(times=2)
 @catch(var='exception')
 @step
@@ -455,7 +455,7 @@ The Metaflow 2.3.1 release is a minor release.
 - Features
   - [Performance optimizations for `merge_artifacts`](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)
 
-### **Features**
+### Features
 
 [**Performance optimizations for `merge_artifacts`**](https://github.com/Netflix/metaflow/releases/tag/2.3.1#556)
 
@@ -476,7 +476,7 @@ The Metaflow 2.3.0 release is a minor release.
 
 It's not uncommon for multiple people to work on the same workflow simultaneously. Metaflow makes it possible by keeping executions [isolated through independently stored artifacts and namespaces](https://docs.metaflow.org/metaflow/tagging). However, by default, [all AWS Step Functions deployments](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) are bound to the name of the workflow. If multiple people call `step-functions create` independently, each deployment will overwrite the previous one. In the early stages of a project, this simple model is convenient but as the project grows, it is desirable that multiple people can test their own AWS Step Functions deployments without interference. Or, as a single developer, you may want to experiment with multiple independent AWS Step Functions deployments of their workflow. This release introduces a `@project` decorator to address this need. The `@project` decorator is used at the `FlowSpec`-level to bind a Flow to a specific project. All flows with the same project name belong to the same project.
 
-```
+```python
 from metaflow import FlowSpec, step, project, current
 
 @project(name='example_project')
@@ -523,7 +523,7 @@ Note that the isolated namespaces offered by `@project` work best when your code
 
 Prior to this release, hyphenated parameters in AWS Step Functions weren't supported through CLI.
 
-```
+```python
 from metaflow import FlowSpec, Parameter, step
 
 class ParameterFlow(FlowSpec):
@@ -640,17 +640,17 @@ Step('Flow/42/a').task.metadata_dict['aws-batch-awslogs-stream']
 All Metaflow runtime/task logs are now published via a sidecar process to the datastore. The user-visible logs on the console are streamed directly from the datastore. For Metaflow's integrations with the cloud (AWS at the moment), the compute tasks logs (AWS Batch) are directly written by Metaflow into the datastore (Amazon S3) independent of where the flow is launched from (User's laptop or AWS Step Functions). This has multiple benefits
 
 - Metaflow no longer relies on AWS Cloud Watch for fetching the AWS Batch execution logs to the console - AWS Cloud Watch has rather low global API limits which have caused multiple issues in the past for our users
-- Logs for AWS Step Functions executions are now also available in Amazon S3 and can be easily fetched by simply doing `python flow.py logs 42/start` or `Step('Flow/42/start').task.stdout`.&#x20;
+- Logs for AWS Step Functions executions are now also available in Amazon S3 and can be easily fetched by simply doing `python flow.py logs 42/start` or `Step('Flow/42/start').task.stdout`.
 
 ### Bug Fixes
 
 #### Fix regression with `ping/` endpoint for Metadata service
 
-Fix a regression introduced in `v2.2.9` where the endpoint responsible for ascertaining the version of the deployed Metadata service was erroneously moved to `ping/` from `ping`&#x20;
+Fix a regression introduced in `v2.2.9` where the endpoint responsible for ascertaining the version of the deployed Metadata service was erroneously moved to `ping/` from `ping`
 
 #### [Fix the behaviour of `--namespace=` CLI args when executing a flow](https://gitter.im/metaflow_org/community?at=605decca68921b62f48a4190)
 
-`python flow.py run --namespace=` now correctly makes the global namespace visible within the flow execution.&#x20;
+`python flow.py run --namespace=` now correctly makes the global namespace visible within the flow execution.
 
 ## 2.2.9 (Apr 19th, 2021)
 
@@ -689,7 +689,7 @@ The Metaflow 2.2.8 release is a minor patch release.
 
 Metaflow was incorrectly handling environment variables passed through the `@environment` decorator in some specific instances. When `@environment` decorator is specified over multiple steps, the actual environment that's available to any step is the union of attributes of all the `@environment` decorators; which is incorrect behavior. For example, in the following workflow -
 
-```
+```python
 from metaflow import FlowSpec, step, batch, environment
 import os
 class LinearFlow(FlowSpec):
@@ -778,7 +778,7 @@ The `@batch` decorator now supports `shared_memory`, `max_swap`, `swappiness` at
 
 #### Support wider very-wide workflows on top of AWS Step Functions
 
-The tag `metaflow_version:` and `runtime:` is now available for all packaged executions and remote executions as well. This ensures that every run logged by Metaflow will have `metaflow_version` and `runtime` system tags available.&#x20;
+The tag `metaflow_version:` and `runtime:` is now available for all packaged executions and remote executions as well. This ensures that every run logged by Metaflow will have `metaflow_version` and `runtime` system tags available.
 
 ### Bug Fixes
 
@@ -788,7 +788,7 @@ The tag `metaflow_version:` and `runtime:` is now available for all packaged exe
 
 #### Pipe all workflow set-up logs to `stderr`
 
-Execution set-up logs for `@conda` and `IncludeFile` were being piped to `stdout` which made manipulating the output of commands like `python flow.py step-functions create --only-json` a bit difficult. This release moves the workflow set-up logs to `stderr`.&#x20;
+Execution set-up logs for `@conda` and `IncludeFile` were being piped to `stdout` which made manipulating the output of commands like `python flow.py step-functions create --only-json` a bit difficult. This release moves the workflow set-up logs to `stderr`.
 
 #### Handle null assignment to `IncludeFile` properly
 
@@ -938,7 +938,7 @@ The Metaflow 2.2.0 release is a minor release and introduces [Metaflow's support
 
 This release provides an [idiomatic API to access Metaflow in R lang](https://docs.metaflow.org/v/r/). It piggybacks on the Pythonic implementation as the backend providing most of the functionality previously accessible to the Python community. With this release, R users can structure their code as a metaflow flow. Metaflow will [snapshot the code, data, and dependencies](https://docs.metaflow.org/v/r/metaflow/basics#the-structure-of-metaflow-code) automatically in a content-addressed datastore allowing for [resuming of workflows](https://docs.metaflow.org/v/r/metaflow/debugging#how-to-debug-failed-flows), [reproducing past results, and inspecting anything about the workflow](https://docs.metaflow.org/v/r/metaflow/client) e.g. in a notebook or RStudio IDE. Additionally, without any changes to their workflows, users can now [execute code on AWS Batch and interact with Amazon S3 seamlessly](https://docs.metaflow.org/v/r/metaflow/scaling).
 
-PR [#263](https://github.com/Netflix/metaflow/pull/263) and PR [#214](https://github.com/Netflix/metaflow/pull/214)&#x20;
+PR [#263](https://github.com/Netflix/metaflow/pull/263) and PR [#214](https://github.com/Netflix/metaflow/pull/214)
 
 ## 2.1.1 (Jul 30th, 2020)
 
@@ -1019,8 +1019,8 @@ PR [#209](https://github.com/Netflix/metaflow/pull/209).
 The Metaflow 2.0.5 release is a minor patch release.
 
 - \***\*[**Improvements**](release-notes.md#2-0-5-improvements)\*\***
-  - Fix logging of prefixes in `datatools.S3._read_many_files`.&#x20;
-  - Increase retry count for AWS Batch logs streaming.&#x20;
+  - Fix logging of prefixes in `datatools.S3._read_many_files`.
+  - Increase retry count for AWS Batch logs streaming.
   - Upper-bound `pylint` version to `< 2.5.0` for compatibility issues.
 
 The Metaflow 2.0.5 release is a minor patch release.
@@ -1150,7 +1150,7 @@ Bug Fixes
 
 ## 2.0.0 (Dec 3rd, 2019)
 
-#### **Hello World!**&#x20;
+#### Hello World!
 
 - First Open Source Release.
 - Read the [blogpost](https://medium.com/@NetflixTechBlog/open-sourcing-metaflow-a-human-centric-framework-for-data-science-fa72e04a5d9) announcing the release

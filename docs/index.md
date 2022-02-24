@@ -11,6 +11,8 @@ import Description from "/src/components/Description";
 
 <Description>Build and manage real-life data science projects with ease.</Description>
 
+---
+
 ## Introduction
 
 - [Why Metaflow](/docs/introduction/why-metaflow)
@@ -43,7 +45,7 @@ import Description from "/src/components/Description";
 - [Dealing with Failures](/docs/metaflow/failures)
 - [Organizing Results](/docs/metaflow/tagging)
 
-## Going to Production with Metaflow&#x20;
+## Going to Production with Metaflow
 
 - [Scheduling Metaflow Flows](/docs/going-to-production-with-metaflow/scheduling-metaflow-flows)
 - [Coordinating Larger Metaflow Projects](/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
