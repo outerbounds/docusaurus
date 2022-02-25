@@ -10,7 +10,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d82'),
+    component: ComponentCreator('/docs','b85'),
     routes: [
       {
         path: '/docs/',
@@ -778,6 +778,11 @@ export default [
       {
         path: '/docs/r/SUMMARY',
         component: ComponentCreator('/docs/r/SUMMARY','a98'),
+        exact: true
+      },
+      {
+        path: '/docs/some_code',
+        component: ComponentCreator('/docs/some_code','8f2'),
         exact: true
       }
     ]

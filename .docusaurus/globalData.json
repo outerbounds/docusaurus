@@ -656,6 +656,10 @@
             {
               "id": "r/SUMMARY",
               "path": "/docs/r/SUMMARY"
+            },
+            {
+              "id": "some_code",
+              "path": "/docs/some_code"
             }
           ],
           "sidebars": {

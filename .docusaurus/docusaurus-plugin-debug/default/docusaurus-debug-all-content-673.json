@@ -3088,6 +3088,20 @@
               "tags": [],
               "version": "current",
               "frontMatter": {}
+            },
+            {
+              "unversionedId": "some_code",
+              "id": "some_code",
+              "title": "Code Documentation example",
+              "description": "Example 1",
+              "source": "@site/docs/some_code.md",
+              "sourceDirName": ".",
+              "slug": "/some_code",
+              "permalink": "/docs/some_code",
+              "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/some_code.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
             }
           ],
           "sidebars": {

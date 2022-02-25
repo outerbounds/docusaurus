@@ -1751,6 +1751,11 @@
       "id": "r/SUMMARY",
       "title": "Table of contents",
       "description": "* Welcome to Metaflow for R"
+    },
+    "some_code": {
+      "id": "some_code",
+      "title": "Code Documentation example",
+      "description": "Example 1"
     }
   }
 }
