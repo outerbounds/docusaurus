@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/client.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/client",
-  "permalink": "/docs/metaflow/client",
+  "permalink": "/docusaurus/docs/metaflow/client",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/client.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Basics of Metaflow",
-    "permalink": "/docs/metaflow/basics"
+    "permalink": "/docusaurus/docs/metaflow/basics"
   },
   "next": {
     "title": "Visualizing Results",
-    "permalink": "/docs/metaflow/visualizing-results/"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/"
   }
 }

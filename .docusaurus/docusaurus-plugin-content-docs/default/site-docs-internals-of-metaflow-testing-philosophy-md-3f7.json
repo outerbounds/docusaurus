@@ -6,7 +6,7 @@
   "source": "@site/docs/internals-of-metaflow/testing-philosophy.md",
   "sourceDirName": "internals-of-metaflow",
   "slug": "/internals-of-metaflow/testing-philosophy",
-  "permalink": "/docs/internals-of-metaflow/testing-philosophy",
+  "permalink": "/docusaurus/docs/internals-of-metaflow/testing-philosophy",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/internals-of-metaflow/testing-philosophy.md",
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "python",
   "previous": {
     "title": "Technical Overview",
-    "permalink": "/docs/internals-of-metaflow/technical-overview"
+    "permalink": "/docusaurus/docs/internals-of-metaflow/technical-overview"
   }
 }

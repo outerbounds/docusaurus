@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/basics.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/basics",
-  "permalink": "/docs/metaflow/basics",
+  "permalink": "/docusaurus/docs/metaflow/basics",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/basics.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Deploying to AWS",
-    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+    "permalink": "/docusaurus/docs/metaflow-on-aws/deploy-to-aws"
   },
   "next": {
     "title": "Inspecting Flows and Results",
-    "permalink": "/docs/metaflow/client"
+    "permalink": "/docusaurus/docs/metaflow/client"
   }
 }

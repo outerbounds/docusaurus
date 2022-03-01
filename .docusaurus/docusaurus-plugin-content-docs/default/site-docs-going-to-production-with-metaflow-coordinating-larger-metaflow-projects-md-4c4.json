@@ -6,7 +6,7 @@
   "source": "@site/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
   "sourceDirName": "going-to-production-with-metaflow",
   "slug": "/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
-  "permalink": "/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+  "permalink": "/docusaurus/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Scheduling Metaflow Flows",
-    "permalink": "/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
+    "permalink": "/docusaurus/docs/going-to-production-with-metaflow/scheduling-metaflow-flows"
   },
   "next": {
     "title": "Technical Overview",
-    "permalink": "/docs/internals-of-metaflow/technical-overview"
+    "permalink": "/docusaurus/docs/internals-of-metaflow/technical-overview"
   }
 }

@@ -1,1 +1,1 @@
-[Python Docs](/docs)
+[Python Docs](/docs/python)

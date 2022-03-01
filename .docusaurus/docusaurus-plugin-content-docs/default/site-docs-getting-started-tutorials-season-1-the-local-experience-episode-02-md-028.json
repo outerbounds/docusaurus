@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/episode02.md",
   "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
   "slug": "/getting-started/tutorials/season-1-the-local-experience/episode02",
-  "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
+  "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/episode02",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/tutorials/season-1-the-local-experience/episode02.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Episode 1: Playlist",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/episode01"
   },
   "next": {
     "title": "Episode 3: Playlist Redux",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/episode03"
   }
 }

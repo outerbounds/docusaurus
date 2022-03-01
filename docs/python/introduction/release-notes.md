@@ -180,7 +180,7 @@ Task('42/start/452', attempt=1)
 
 #### Introduce @kubernetes decorator for launching Metaflow tasks on Kubernetes ([#644](https://github.com/Netflix/metaflow/pull/644))
 
-This release marks the alpha launch of `@kubernetes` decorator that allows farming off Metaflow tasks onto Kubernetes. The functionality works in exactly the same manner as [`@batch`](https://docs.metaflow.org/metaflow/scaling) -
+This release marks the alpha launch of `@kubernetes` decorator that allows farming off Metaflow tasks onto Kubernetes. The functionality works in exactly the same manner as [`@batch`](../metaflow/scaling) -
 
 ```python
 from metaflow import FlowSpec, step, resources
@@ -466,15 +466,15 @@ Prior to this release, `FlowSpec.merge_artifacts` was loading all of the merged 
 The Metaflow 2.3.0 release is a minor release.
 
 - Features
-  - [Coordinate larger Metaflow projects with `@project`](https://docs.metaflow.org/going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
+  - [Coordinate larger Metaflow projects with `@project`](../going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
   - [Hyphenated-parameters support in AWS Step Functions](release-notes.md#hyphenated-parameters-support-in-aws-step-functions)
   - [State Machine execution history logging for AWS Step Functions in AWS CloudWatch Logs](release-notes.md#state-machine-execution-history-logging-for-aws-step-functions)
 
 ### Features
 
-#### [Coordinate larger Metaflow projects with `@project`](https://docs.metaflow.org/going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
+#### [Coordinate larger Metaflow projects with `@project`](../going-to-production-with-metaflow/coordinating-larger-metaflow-projects)
 
-It's not uncommon for multiple people to work on the same workflow simultaneously. Metaflow makes it possible by keeping executions [isolated through independently stored artifacts and namespaces](https://docs.metaflow.org/metaflow/tagging). However, by default, [all AWS Step Functions deployments](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) are bound to the name of the workflow. If multiple people call `step-functions create` independently, each deployment will overwrite the previous one. In the early stages of a project, this simple model is convenient but as the project grows, it is desirable that multiple people can test their own AWS Step Functions deployments without interference. Or, as a single developer, you may want to experiment with multiple independent AWS Step Functions deployments of their workflow. This release introduces a `@project` decorator to address this need. The `@project` decorator is used at the `FlowSpec`-level to bind a Flow to a specific project. All flows with the same project name belong to the same project.
+It's not uncommon for multiple people to work on the same workflow simultaneously. Metaflow makes it possible by keeping executions [isolated through independently stored artifacts and namespaces](../metaflow/tagging). However, by default, [all AWS Step Functions deployments](../going-to-production-with-metaflow/scheduling-metaflow-flows) are bound to the name of the workflow. If multiple people call `step-functions create` independently, each deployment will overwrite the previous one. In the early stages of a project, this simple model is convenient but as the project grows, it is desirable that multiple people can test their own AWS Step Functions deployments without interference. Or, as a single developer, you may want to experiment with multiple independent AWS Step Functions deployments of their workflow. This release introduces a `@project` decorator to address this need. The `@project` decorator is used at the `FlowSpec`-level to bind a Flow to a specific project. All flows with the same project name belong to the same project.
 
 ```python
 from metaflow import FlowSpec, step, project, current
@@ -501,9 +501,9 @@ if __name__ == '__main__':
 python flow.py run
 ```
 
-The flow works exactly as before when executed outside AWS Step Functions and introduces `project_name`, `branch_name` & `is_production` in the [`current`](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow) object.
+The flow works exactly as before when executed outside AWS Step Functions and introduces `project_name`, `branch_name` & `is_production` in the [`current`](../metaflow/tagging#accessing-current-ids-in-a-flow) object.
 
-On AWS Step Functions, however, `step-functions create` will create a new workflow `example_project.user.username.ProjectFlow` (where `username` is your user name) with a user-specific [isolated namespace](https://docs.metaflow.org/metaflow/tagging) and a [separate production token](https://docs.metaflow.org/metaflow/tagging#production-tokens).
+On AWS Step Functions, however, `step-functions create` will create a new workflow `example_project.user.username.ProjectFlow` (where `username` is your user name) with a user-specific [isolated namespace](../metaflow/tagging) and a [separate production token](../metaflow/tagging#production-tokens).
 
 For deploying experimental (test) versions that can run in parallel with production, you can deploy custom branches with `--branch`
 
@@ -822,7 +822,7 @@ The Metaflow 2.2.4 release is a minor patch release.
 - Features
   - Metaflow is now compliant with AWS GovCloud & AWS CN regions
 - Bug Fixes
-  - Address a bug with overriding the default value for [IncludeFile](https://docs.metaflow.org/metaflow/data#data-in-local-files)
+  - Address a bug with overriding the default value for [IncludeFile](../metaflow/data#data-in-local-files)
   - Port AWS region check for AWS DynamoDb from `curl` to `requests`
 
 ### Features
@@ -833,13 +833,13 @@ AWS GovCloud & AWS CN users can now enjoy all the features of Metaflow within th
 
 ### Bug Fixes
 
-#### Address a bug with overriding the default value for [IncludeFile](https://docs.metaflow.org/metaflow/data#data-in-local-files)
+#### Address a bug with overriding the default value for [IncludeFile](../metaflow/data#data-in-local-files)
 
-Metaflow v2.1.0 introduced a bug in [IncludeFile functionality](https://docs.metaflow.org/metaflow/data#data-in-local-files) which prevented users from overriding the default value specified.
+Metaflow v2.1.0 introduced a bug in [IncludeFile functionality](../metaflow/data#data-in-local-files) which prevented users from overriding the default value specified.
 
 #### Port AWS region check for AWS DynamoDb from `curl` to `requests`
 
-Metaflow's AWS Step Functions' integration relies on AWS DynamoDb to manage [foreach](https://docs.metaflow.org/metaflow/basics#foreach) constructs. Metaflow was leveraging `curl` at runtime to detect the region for AWS DynamoDb. Some docker images don't have `curl` installed by default; moving to `requests` (a metaflow dependency) fixes the issue.
+Metaflow's AWS Step Functions' integration relies on AWS DynamoDb to manage [foreach](../metaflow/basics#foreach) constructs. Metaflow was leveraging `curl` at runtime to detect the region for AWS DynamoDb. Some docker images don't have `curl` installed by default; moving to `requests` (a metaflow dependency) fixes the issue.
 
 ## 2.2.3 (Sept 8th, 2020)
 
@@ -927,7 +927,7 @@ PRs [#282](https://github.com/Netflix/metaflow/pull/282), [#286](https://github.
 
 ## 2.2.0 (Aug 4th, 2020)
 
-The Metaflow 2.2.0 release is a minor release and introduces [Metaflow's support for R lang](https://docs.metaflow.org/v/r/).
+The Metaflow 2.2.0 release is a minor release and introduces [Metaflow's support for R lang](/docs/r/).
 
 - [Features](release-notes.md#features-1)
   - Support for R lang.
@@ -936,7 +936,7 @@ The Metaflow 2.2.0 release is a minor release and introduces [Metaflow's support
 
 #### Support for R lang.
 
-This release provides an [idiomatic API to access Metaflow in R lang](https://docs.metaflow.org/v/r/). It piggybacks on the Pythonic implementation as the backend providing most of the functionality previously accessible to the Python community. With this release, R users can structure their code as a metaflow flow. Metaflow will [snapshot the code, data, and dependencies](https://docs.metaflow.org/v/r/metaflow/basics#the-structure-of-metaflow-code) automatically in a content-addressed datastore allowing for [resuming of workflows](https://docs.metaflow.org/v/r/metaflow/debugging#how-to-debug-failed-flows), [reproducing past results, and inspecting anything about the workflow](https://docs.metaflow.org/v/r/metaflow/client) e.g. in a notebook or RStudio IDE. Additionally, without any changes to their workflows, users can now [execute code on AWS Batch and interact with Amazon S3 seamlessly](https://docs.metaflow.org/v/r/metaflow/scaling).
+This release provides an [idiomatic API to access Metaflow in R lang](/docs/r/). It piggybacks on the Pythonic implementation as the backend providing most of the functionality previously accessible to the Python community. With this release, R users can structure their code as a metaflow flow. Metaflow will [snapshot the code, data, and dependencies](/docs/r/metaflow/basics#the-structure-of-metaflow-code) automatically in a content-addressed datastore allowing for [resuming of workflows](/docs/r/metaflow/debugging#how-to-debug-failed-flows), [reproducing past results, and inspecting anything about the workflow](/docs/r/metaflow/client) e.g. in a notebook or RStudio IDE. Additionally, without any changes to their workflows, users can now [execute code on AWS Batch and interact with Amazon S3 seamlessly](/docs/r/metaflow/scaling).
 
 PR [#263](https://github.com/Netflix/metaflow/pull/263) and PR [#214](https://github.com/Netflix/metaflow/pull/214)
 
@@ -957,7 +957,7 @@ PR [#258](https://github.com/Netflix/metaflow/pull/258) & PR [#260](https://gith
 
 ## 2.1.0 (Jul 29th, 2020)
 
-The Metaflow 2.1.0 release is a minor release and introduces [Metaflow's integration with AWS Step Functions](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows).
+The Metaflow 2.1.0 release is a minor release and introduces [Metaflow's integration with AWS Step Functions](../going-to-production-with-metaflow/scheduling-metaflow-flows).
 
 - [Features](release-notes.md#features)
   - Add capability to schedule Metaflow flows with AWS Step Functions.
@@ -971,7 +971,7 @@ The Metaflow 2.1.0 release is a minor release and introduces [Metaflow's integra
 
 #### Add capability to schedule Metaflow flows with AWS Step Functions.
 
-Netflix uses an [internal DAG scheduler](https://medium.com/@NetflixTechBlog/unbundling-data-science-workflows-with-metaflow-and-aws-step-functions-d454780c6280) to orchestrate most machine learning and ETL pipelines in production. Metaflow users at Netflix can seamlessly deploy and schedule their flows to this scheduler. Now, with this release, we are introducing a similar integration with [AWS Step Functions](https://aws.amazon.com/step-functions/) where Metaflow users can [easily deploy & schedule their flows](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) by simply executing
+Netflix uses an [internal DAG scheduler](https://medium.com/@NetflixTechBlog/unbundling-data-science-workflows-with-metaflow-and-aws-step-functions-d454780c6280) to orchestrate most machine learning and ETL pipelines in production. Metaflow users at Netflix can seamlessly deploy and schedule their flows to this scheduler. Now, with this release, we are introducing a similar integration with [AWS Step Functions](https://aws.amazon.com/step-functions/) where Metaflow users can [easily deploy & schedule their flows](../going-to-production-with-metaflow/scheduling-metaflow-flows) by simply executing
 
 ```
 python myflow.py step-functions create
@@ -979,11 +979,11 @@ python myflow.py step-functions create
 
 which will create an AWS Step Functions state machine for them. With this feature, Metaflow users can now enjoy all the features of Metaflow along with a highly available, scalable, maintenance-free production scheduler without any changes in their existing code.
 
-We are also introducing a new decorator - [`@schedule`](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows#scheduling-a-flow), which allows Metaflow users to instrument time-based triggers via [Amazon EventBridge](https://aws.amazon.com/eventbridge/) for their flows deployed on AWS Step Functions.
+We are also introducing a new decorator - [`@schedule`](../going-to-production-with-metaflow/scheduling-metaflow-flows#scheduling-a-flow), which allows Metaflow users to instrument time-based triggers via [Amazon EventBridge](https://aws.amazon.com/eventbridge/) for their flows deployed on AWS Step Functions.
 
-With this integration, Metaflow users can [inspect](https://docs.metaflow.org/metaflow/client) their flows deployed on AWS Step Functions as before and [debug and reproduce](https://docs.metaflow.org/metaflow/debugging#reproducing-production-issues-locally) results from AWS Step Functions on their local laptop or within a notebook.
+With this integration, Metaflow users can [inspect](../metaflow/client) their flows deployed on AWS Step Functions as before and [debug and reproduce](../metaflow/debugging#reproducing-production-issues-locally) results from AWS Step Functions on their local laptop or within a notebook.
 
-[Documentation](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows)\
+[Documentation](../going-to-production-with-metaflow/scheduling-metaflow-flows)\
 [Launch Blog Post](https://medium.com/@NetflixTechBlog/unbundling-data-science-workflows-with-metaflow-and-aws-step-functions-d454780c6280)
 
 PR [#211](https://github.com/Netflix/metaflow/pull/211) addresses Issue [#2](https://github.com/Netflix/metaflow/issues/2).
@@ -1045,10 +1045,10 @@ Additionally, fail the Metaflow task when we fail to stream the task logs back t
 
 The Metaflow 2.0.4 release is a minor patch release.
 
-- \***\*[**Improvements**](https://docs.metaflow.org/introduction/release-notes#2-0-4-improvements)\*\***
-  - Expose `retry_count` in [`Current`](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow)
+- \***\*[**Improvements**](release-notes#2-0-4-improvements)\*\***
+  - Expose `retry_count` in [`Current`](../metaflow/tagging#accessing-current-ids-in-a-flow)
   - Mute superfluous `ThrottleExceptions` in AWS Batch job logs
-- \***\*[**Bug Fixes\*\*](https://docs.metaflow.org/introduction/release-notes#2-0-4-bug-fixes)
+- \***\*[**Bug Fixes\*\*](release-notes#2-0-4-bug-fixes)
   - Set proper thresholds for retrying `DescribeJobs` API for AWS Batch
   - Explicitly override `PYTHONNOUSERSITE` for `conda` environments
   - Preempt AWS Batch job log collection when the job fails to get into a `RUNNING` state
@@ -1057,7 +1057,7 @@ The Metaflow 2.0.4 release is a minor patch release.
 
 #### Expose `retry_count` in `Current`
 
-You can now use the [`current`](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow) singleton to access the `retry_count` of your task. The first attempt of the task will have `retry_count` as 0 and subsequent retries will increment the `retry_count`. As an example:
+You can now use the [`current`](../metaflow/tagging#accessing-current-ids-in-a-flow) singleton to access the `retry_count` of your task. The first attempt of the task will have `retry_count` as 0 and subsequent retries will increment the `retry_count`. As an example:
 
 ```python
 @retry
@@ -1103,7 +1103,7 @@ The Metaflow 2.0.3 release is a minor patch release.
 
 #### Parameter listing
 
-You can now use the `current` singleton (documented [here](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow)) to access the names of the parameters passed into your flow. As an example:
+You can now use the `current` singleton (documented [here](../metaflow/tagging#accessing-current-ids-in-a-flow)) to access the names of the parameters passed into your flow. As an example:
 
 ```python
 for var in current.parameter_names:

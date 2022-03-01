@@ -34,7 +34,7 @@ At the very top of the stack, there's the question of how you produce **features
 
 Metaflow provides a unified, human-friendly approach to navigating the stack. Metaflow is more prescriptive about the lower levels of the stack but it is less opinionated about the actual data science at the top of the stack. You can use Metaflow with your favorite machine learning or data science libraries, such as [PyTorch](https://pytorch.org), [Tensorflow](https://tensorflow.org), or [SciKit Learn](https://scikit-learn.org/stable/). Metaflow allows you to write your models and business logic as idiomatic Python code with not much new to learn.
 
-Internally, Metaflow leverages existing infrastructure when feasible. In particular, it is [tightly integrated with Amazon Web Services](/docs/metaflow-on-aws). The core value proposition of Metaflow is its integrated full-stack, human-centric API, rather than reinvention of the stack itself.
+Internally, Metaflow leverages existing infrastructure when feasible. In particular, it is [tightly integrated with Amazon Web Services](../metaflow-on-aws). The core value proposition of Metaflow is its integrated full-stack, human-centric API, rather than reinvention of the stack itself.
 
 You can find more details about Metaflow's approach to various parts of the stack across the documentation:
 

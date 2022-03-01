@@ -6,7 +6,7 @@
   "source": "@site/docs/introduction/what-is-metaflow.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/what-is-metaflow",
-  "permalink": "/docs/introduction/what-is-metaflow",
+  "permalink": "/docusaurus/docs/introduction/what-is-metaflow",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/introduction/what-is-metaflow.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Why Metaflow",
-    "permalink": "/docs/introduction/why-metaflow"
+    "permalink": "/docusaurus/docs/introduction/why-metaflow"
   },
   "next": {
     "title": "Release Notes",
-    "permalink": "/docs/introduction/release-notes"
+    "permalink": "/docusaurus/docs/introduction/release-notes"
   }
 }

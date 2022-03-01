@@ -6,7 +6,7 @@
   "source": "@site/docs/introduction/release-notes.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/release-notes",
-  "permalink": "/docs/introduction/release-notes",
+  "permalink": "/docusaurus/docs/introduction/release-notes",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/introduction/release-notes.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "What is Metaflow",
-    "permalink": "/docs/introduction/what-is-metaflow"
+    "permalink": "/docusaurus/docs/introduction/what-is-metaflow"
   },
   "next": {
     "title": "Roadmap",
-    "permalink": "/docs/introduction/roadmap"
+    "permalink": "/docusaurus/docs/introduction/roadmap"
   }
 }

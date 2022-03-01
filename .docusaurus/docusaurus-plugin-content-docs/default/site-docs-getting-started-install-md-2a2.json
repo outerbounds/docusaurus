@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/install.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/install",
-  "permalink": "/docs/getting-started/install",
+  "permalink": "/docusaurus/docs/getting-started/install",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/install.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Get in Touch",
-    "permalink": "/docs/introduction/getting-in-touch"
+    "permalink": "/docusaurus/docs/introduction/getting-in-touch"
   },
   "next": {
     "title": "Tutorials",
-    "permalink": "/docs/getting-started/tutorials/"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/"
   }
 }

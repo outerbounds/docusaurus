@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
   "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
   "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/",
-  "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/",
+  "permalink": "/docusaurus/docs/getting-started/tutorials/season-2-scaling-out-and-up/",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Episode 4: Playlist Plus",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/episode04"
   },
   "next": {
     "title": "Episode 5: Hello AWS",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
   }
 }

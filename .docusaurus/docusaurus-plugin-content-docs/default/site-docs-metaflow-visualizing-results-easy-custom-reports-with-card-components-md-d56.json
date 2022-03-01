@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
   "sourceDirName": "metaflow/visualizing-results",
   "slug": "/metaflow/visualizing-results/easy-custom-reports-with-card-components",
-  "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+  "permalink": "/docusaurus/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Effortless Task Inspection with Default Cards",
-    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
   },
   "next": {
     "title": "Advanced, Shareable Cards with Card Templates",
-    "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/tutorials/season-1-the-local-experience/README.md",
   "sourceDirName": "getting-started/tutorials/season-1-the-local-experience",
   "slug": "/getting-started/tutorials/season-1-the-local-experience/",
-  "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/",
+  "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/tutorials/season-1-the-local-experience/README.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Tutorials",
-    "permalink": "/docs/getting-started/tutorials/"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/"
   },
   "next": {
     "title": "Episode 0: Hello World",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/episode00"
   }
 }

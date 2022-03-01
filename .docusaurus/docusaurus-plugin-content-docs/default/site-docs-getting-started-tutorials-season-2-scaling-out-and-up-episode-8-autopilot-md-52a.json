@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
   "sourceDirName": "getting-started/tutorials/season-2-scaling-out-and-up",
   "slug": "/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
-  "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+  "permalink": "/docusaurus/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Episode 7: Worldview",
-    "permalink": "/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
   },
   "next": {
     "title": "Metaflow on AWS",
-    "permalink": "/docs/metaflow-on-aws/"
+    "permalink": "/docusaurus/docs/metaflow-on-aws/"
   }
 }

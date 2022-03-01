@@ -6,7 +6,7 @@
   "source": "@site/docs/introduction/contributing-to-metaflow.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/contributing-to-metaflow",
-  "permalink": "/docs/introduction/contributing-to-metaflow",
+  "permalink": "/docusaurus/docs/introduction/contributing-to-metaflow",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/introduction/contributing-to-metaflow.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Roadmap",
-    "permalink": "/docs/introduction/roadmap"
+    "permalink": "/docusaurus/docs/introduction/roadmap"
   },
   "next": {
     "title": "Get in Touch",
-    "permalink": "/docs/introduction/getting-in-touch"
+    "permalink": "/docusaurus/docs/introduction/getting-in-touch"
   }
 }

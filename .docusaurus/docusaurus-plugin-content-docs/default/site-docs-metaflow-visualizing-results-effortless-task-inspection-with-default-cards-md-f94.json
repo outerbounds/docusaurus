@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
   "sourceDirName": "metaflow/visualizing-results",
   "slug": "/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
-  "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+  "permalink": "/docusaurus/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Visualizing Results",
-    "permalink": "/docs/metaflow/visualizing-results/"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/"
   },
   "next": {
     "title": "Easy Custom Reports with Card Components",
-    "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
   }
 }

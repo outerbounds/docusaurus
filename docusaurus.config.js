@@ -10,13 +10,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Metaflow Docs",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  baseUrl: "/docusaurus/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "outerbounds", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
-
+  trailingSlash: false,
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
@@ -53,7 +53,7 @@ const config = {
           {
             type: "doc",
             position: "left",
-            docId: "index",
+            docId: "python/index",
             label: "Python Docs",
           },
           {

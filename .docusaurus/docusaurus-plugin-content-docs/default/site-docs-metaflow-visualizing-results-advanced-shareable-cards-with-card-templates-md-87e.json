@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
   "sourceDirName": "metaflow/visualizing-results",
   "slug": "/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
-  "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+  "permalink": "/docusaurus/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Easy Custom Reports with Card Components",
-    "permalink": "/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/easy-custom-reports-with-card-components"
   },
   "next": {
     "title": "Debugging with Metaflow",
-    "permalink": "/docs/metaflow/debugging"
+    "permalink": "/docusaurus/docs/metaflow/debugging"
   }
 }

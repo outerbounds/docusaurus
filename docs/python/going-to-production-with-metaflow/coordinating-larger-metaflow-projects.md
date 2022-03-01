@@ -1,14 +1,14 @@
 # Coordinating Larger Metaflow Projects
 
-Most Metaflow projects start as a simple Python script that is developed by a single data scientist. Metaflow takes care of [keeping results organized automatically](https://docs.metaflow.org/metaflow/tagging), so you can focus on developing models and the business logic around them.
+Most Metaflow projects start as a simple Python script that is developed by a single data scientist. Metaflow takes care of [keeping results organized automatically](../metaflow/tagging), so you can focus on developing models and the business logic around them.
 
-Over time, the project matures to the point that you want to [deploy it to AWS Step Functions](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) to test how the model works with real-life, updating data. In Metaflow, this is a matter of executing a single command, step-functions create. Having the workflow run automatically with fresh data is a great way to surface unforeseen issues in the code.
+Over time, the project matures to the point that you want to [deploy it to AWS Step Functions](scheduling-metaflow-flows) to test how the model works with real-life, updating data. In Metaflow, this is a matter of executing a single command, step-functions create. Having the workflow run automatically with fresh data is a great way to surface unforeseen issues in the code.
 
 After a few iterations, the workflow starts to work reliably. If the results are promising enough, stakeholders can start relying on the results of your workflow. Often, success attracts more developers to join the project. At this point, you will need to start thinking about how to coordinate work amongst multiple people and how to iterate on new, experimental versions of the workflow while providing stable results to your stakeholders. This is where the `@project` decorator comes in.
 
 ## The `@project` decorator
 
-During development, multiple people can work on the same workflow simultaneously as Metaflow keeps executions isolated through [independently stored artifacts and namespaces](https://docs.metaflow.org/metaflow/tagging). However, by default, all [AWS Step Functions deployments](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows) are bound to the name of the workflow. If multiple people call `step-functions create` independently, each deployment will overwrite the previous one.
+During development, multiple people can work on the same workflow simultaneously as Metaflow keeps executions isolated through [independently stored artifacts and namespaces](../metaflow/tagging). However, by default, all [AWS Step Functions deployments](scheduling-metaflow-flows) are bound to the name of the workflow. If multiple people call `step-functions create` independently, each deployment will overwrite the previous one.
 
 In the early stages of a project, this simple model is convenient but as the project grows, it is desirable that multiple people can test their own AWS Step Functions deployments without interference. Or, as a single developer, you may want to experiment with multiple independent AWS Step Functions deployments of your workflow.
 
@@ -43,15 +43,15 @@ Save the above snippet in a file, `project_flow.py`. Now you can run the flow as
 python project_flow.py run
 ```
 
-The `@project` decorator exposes new project-related attributes, `project_name`, `branch_name`, and `is_production` in [the current object](https://docs.metaflow.org/metaflow/tagging#accessing-current-ids-in-a-flow) which you can use to alter the behavior of the flow depending on the execution context. Besides the new attributes in current, the flow works exactly as before when executed outside AWS Step Functions.
+The `@project` decorator exposes new project-related attributes, `project_name`, `branch_name`, and `is_production` in [the current object](../metaflow/tagging#accessing-current-ids-in-a-flow) which you can use to alter the behavior of the flow depending on the execution context. Besides the new attributes in current, the flow works exactly as before when executed outside AWS Step Functions.
 
 ## Projects on AWS Step Functions
 
-The main benefit of `@project` relates to [deployments on AWS Step Functions](https://docs.metaflow.org/going-to-production-with-metaflow/scheduling-metaflow-flows). Next, we will cover its main use case: Managing a project with multiple developers collaborating.
+The main benefit of `@project` relates to [deployments on AWS Step Functions](scheduling-metaflow-flows). Next, we will cover its main use case: Managing a project with multiple developers collaborating.
 
 ### Single Flow, Multiple Developers
 
-If ProjectFlow did not have a @project decorator, it would get deployed as a workflow called ProjectFlow on AWS Step Functions by step-functions create. Only one version of ProjectFlow could exist on AWS Step Functions at a time. Everyone deploying the flow would need to know [the production token](https://docs.metaflow.org/metaflow/tagging#production-namespaces) assigned to the deployment.
+If ProjectFlow did not have a @project decorator, it would get deployed as a workflow called ProjectFlow on AWS Step Functions by step-functions create. Only one version of ProjectFlow could exist on AWS Step Functions at a time. Everyone deploying the flow would need to know [the production token](../metaflow/tagging#production-namespaces) assigned to the deployment.
 
 On the AWS Step Functions UI, you would see one workflow called `ProjectFlow`:
 
@@ -69,7 +69,7 @@ This allows multiple developers to deploy their workflows on AWS Step Functions 
 
 ![](/assets/project_user.png)
 
-Note that each one of these deployments gets [an isolated namespace](https://docs.metaflow.org/metaflow/tagging) and [a separate production token](https://docs.metaflow.org/metaflow/tagging#production-tokens). This means that if your code refers to `Flow('ProjectFlow').latest_run` on AWS Step Functions, it is guaranteed to refer to a run that corresponds to its own isolated deployment. The deployments don't interfere with each other.
+Note that each one of these deployments gets [an isolated namespace](../metaflow/tagging) and [a separate production token](../metaflow/tagging#production-tokens). This means that if your code refers to `Flow('ProjectFlow').latest_run` on AWS Step Functions, it is guaranteed to refer to a run that corresponds to its own isolated deployment. The deployments don't interfere with each other.
 
 #### Production Deployment
 

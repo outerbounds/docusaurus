@@ -10,7 +10,7 @@ You can find the tutorial code on [GitHub](https://github.com/Netflix/metaflow/t
 
 **Showcasing:**
 
-- Fan-out over a set of parameters using Metaflow [foreach](/docs/metaflow/basics#foreach).
+- Fan-out over a set of parameters using Metaflow [foreach](../../../metaflow/basics#foreach).
 - Using external packages like Pandas.
 - Plotting results in a Notebook.
 

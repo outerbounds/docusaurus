@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/visualizing-results/README.md",
   "sourceDirName": "metaflow/visualizing-results",
   "slug": "/metaflow/visualizing-results/",
-  "permalink": "/docs/metaflow/visualizing-results/",
+  "permalink": "/docusaurus/docs/metaflow/visualizing-results/",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/visualizing-results/README.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Inspecting Flows and Results",
-    "permalink": "/docs/metaflow/client"
+    "permalink": "/docusaurus/docs/metaflow/client"
   },
   "next": {
     "title": "Effortless Task Inspection with Default Cards",
-    "permalink": "/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
   }
 }

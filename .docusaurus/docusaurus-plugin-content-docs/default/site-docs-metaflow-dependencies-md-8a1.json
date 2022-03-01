@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/dependencies.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/dependencies",
-  "permalink": "/docs/metaflow/dependencies",
+  "permalink": "/docusaurus/docs/metaflow/dependencies",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/dependencies.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Loading and Storing Data",
-    "permalink": "/docs/metaflow/data"
+    "permalink": "/docusaurus/docs/metaflow/data"
   },
   "next": {
     "title": "Dealing with Failures",
-    "permalink": "/docs/metaflow/failures"
+    "permalink": "/docusaurus/docs/metaflow/failures"
   }
 }

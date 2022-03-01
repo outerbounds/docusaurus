@@ -6,7 +6,7 @@
   "source": "@site/docs/getting-started/tutorials/README.md",
   "sourceDirName": "getting-started/tutorials",
   "slug": "/getting-started/tutorials/",
-  "permalink": "/docs/getting-started/tutorials/",
+  "permalink": "/docusaurus/docs/getting-started/tutorials/",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/getting-started/tutorials/README.md",
   "tags": [],
   "version": "current",
@@ -16,10 +16,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Installing Metaflow",
-    "permalink": "/docs/getting-started/install"
+    "permalink": "/docusaurus/docs/getting-started/install"
   },
   "next": {
     "title": "Season 1: The Local Experience",
-    "permalink": "/docs/getting-started/tutorials/season-1-the-local-experience/"
+    "permalink": "/docusaurus/docs/getting-started/tutorials/season-1-the-local-experience/"
   }
 }

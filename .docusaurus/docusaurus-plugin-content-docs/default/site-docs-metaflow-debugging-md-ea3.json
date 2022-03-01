@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/debugging.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/debugging",
-  "permalink": "/docs/metaflow/debugging",
+  "permalink": "/docusaurus/docs/metaflow/debugging",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/debugging.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Advanced, Shareable Cards with Card Templates",
-    "permalink": "/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+    "permalink": "/docusaurus/docs/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
   },
   "next": {
     "title": "Scaling Out and Up",
-    "permalink": "/docs/metaflow/scaling"
+    "permalink": "/docusaurus/docs/metaflow/scaling"
   }
 }

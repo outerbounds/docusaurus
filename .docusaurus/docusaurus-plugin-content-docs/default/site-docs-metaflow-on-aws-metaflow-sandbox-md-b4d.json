@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow-on-aws/metaflow-sandbox.md",
   "sourceDirName": "metaflow-on-aws",
   "slug": "/metaflow-on-aws/metaflow-sandbox",
-  "permalink": "/docs/metaflow-on-aws/metaflow-sandbox",
+  "permalink": "/docusaurus/docs/metaflow-on-aws/metaflow-sandbox",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow-on-aws/metaflow-sandbox.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Metaflow on AWS",
-    "permalink": "/docs/metaflow-on-aws/"
+    "permalink": "/docusaurus/docs/metaflow-on-aws/"
   },
   "next": {
     "title": "Deploying to AWS",
-    "permalink": "/docs/metaflow-on-aws/deploy-to-aws"
+    "permalink": "/docusaurus/docs/metaflow-on-aws/deploy-to-aws"
   }
 }

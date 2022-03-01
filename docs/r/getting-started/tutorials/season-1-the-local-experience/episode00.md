@@ -7,7 +7,7 @@ This flow is a simple linear workflow that verifies your installation by printin
 ### Showcasing:
 
 - [Basics of Metaflow](../../../metaflow/basics.md).
-- Metaflow [Step](../../../metaflow/basics.md#linear).
+- Metaflow [Step](../../../metaflow/basics#linear).
 
 ### To play this episode:
 

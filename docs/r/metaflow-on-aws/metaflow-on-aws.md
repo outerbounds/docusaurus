@@ -16,17 +16,17 @@ While technically Metaflow could work with any cloud provider, currently Metaflo
 
 The following table summarizes the integration between Metaflow and AWS:
 
-| Service | Local | AWS |
-| :--- | :--- | :--- |
-| **Datastore** | Local Directory | [Amazon S3](https://aws.amazon.com/s3/) |
-| **Compute** | Local Process | [AWS Batch](https://aws.amazon.com/batch/) |
-| **Metadata** | Local Directory | [AWS Fargate](https://aws.amazon.com/fargate/) + [Amazon RDS](https://aws.amazon.com/rds) |
-| **Notebooks** | Local Notebook | [Amazon Sagemaker Notebooks](https://aws.amazon.com/sagemaker/) |
-| **Scheduling** | - | [AWS Step Functions](https://aws.amazon.com/step-functions/) + [Amazon EventBridge](https://aws.amazon.com/eventbridge/) |
-| **Large-scale ML** | - | [Sagemaker Models](https://aws.amazon.com/sagemaker/)\* |
-| **Hosting** | - | \* |
+| Service            | Local           | AWS                                                                                                                      |
+| :----------------- | :-------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| **Datastore**      | Local Directory | [Amazon S3](https://aws.amazon.com/s3/)                                                                                  |
+| **Compute**        | Local Process   | [AWS Batch](https://aws.amazon.com/batch/)                                                                               |
+| **Metadata**       | Local Directory | [AWS Fargate](https://aws.amazon.com/fargate/) + [Amazon RDS](https://aws.amazon.com/rds)                                |
+| **Notebooks**      | Local Notebook  | [Amazon Sagemaker Notebooks](https://aws.amazon.com/sagemaker/)                                                          |
+| **Scheduling**     | -               | [AWS Step Functions](https://aws.amazon.com/step-functions/) + [Amazon EventBridge](https://aws.amazon.com/eventbridge/) |
+| **Large-scale ML** | -               | [Sagemaker Models](https://aws.amazon.com/sagemaker/)\*                                                                  |
+| **Hosting**        | -               | \*                                                                                                                       |
 
-\(\*\) [available later](https://docs.metaflow.org/introduction/roadmap)
+\(\*\) [available later](introduction/roadmap)
 
 ### **Datastore**
 
@@ -65,4 +65,3 @@ If your organization doesn't have an AWS account already, we provide a hosted sa
 If your organization has an AWS account already, see our [deployment guide](https://admin-docs.metaflow.org/metaflow-on-aws/deployment-guide) for detailed instructions on how to configure your account for Metaflow.
 
 If you are already using Metaflow in your AWS account, and want to get started with how to manage various AWS resources, take a look at our [operations guide](https://admin-docs.metaflow.org/metaflow-on-aws/operations-guide).
-

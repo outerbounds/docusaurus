@@ -4,9 +4,9 @@ Traditionally, there has been a tension between local \(e.g. on a laptop\) and r
 
 Metaflow tries to combine the best of both worlds. Most importantly, we support the same idiomatic Python scripts both locally and remotely. No changes in code or libraries needed. However, Metaflow doesn't try to abstract away the fact that code is executed remotely. We believe that this is crucial in making troubleshooting easier.
 
-Metaflow makes it easy to move back and forth between the local and remote modes of execution. You can even use a hybrid of the two approaches in a single workflow. This means that you can develop and test your Metaflow code similarly to any local Python script - simply and easily. When you need to [process larger amounts of data](https://docs.metaflow.org/metaflow/scaling), or you want to deploy your workflow to production, you can do it with a single line of code or a single command.
+Metaflow makes it easy to move back and forth between the local and remote modes of execution. You can even use a hybrid of the two approaches in a single workflow. This means that you can develop and test your Metaflow code similarly to any local Python script - simply and easily. When you need to [process larger amounts of data](metaflow/scaling), or you want to deploy your workflow to production, you can do it with a single line of code or a single command.
 
-When you set up a cloud-based object store as the datastore, Metaflow snapshots all data and code in the cloud automatically. This means that you can [inspect](https://docs.metaflow.org/metaflow/client), [resume](https://docs.metaflow.org/metaflow/debugging#how-to-use-the-resume-command), and restore any previous Metaflow execution without having to worry that the fruits of your hard work get lost.
+When you set up a cloud-based object store as the datastore, Metaflow snapshots all data and code in the cloud automatically. This means that you can [inspect](metaflow/client), [resume](metaflow/debugging#how-to-use-the-resume-command), and restore any previous Metaflow execution without having to worry that the fruits of your hard work get lost.
 
 ## Amazon Web Services
 
@@ -24,7 +24,7 @@ The following table summarizes the integration between Metaflow and AWS:
 | **Large-scale ML** | -               | [Sagemaker Models](https://aws.amazon.com/sagemaker/)\*                                                                  |
 | **Hosting**        | -               | \*                                                                                                                       |
 
-\(\*\) [available later](https://docs.metaflow.org/introduction/roadmap)
+\(\*\) [available later](introduction/roadmap)
 
 ### **Datastore**
 
@@ -38,7 +38,7 @@ Metaflow executes all steps in the flow as a separate local process in local mod
 
 Metaflow ships with a light-weight [metaflow service](https://github.com/Netflix/metaflow-service) that provides a centralized place to keep track of all flow executions. This metadata service is not strictly needed. Metaflow will use a local directory to keep track of all executions from your laptop, even if you are using Amazon S3 as datastore or AWS Batch for [compute](#compute). You can use a local Jupyter notebook to interact with data artifacts from all your previous executions as well as currently running ones. However, deploying the metaflow service \(as well as Amazon S3 as datastore\) is helpful if you would like to share results with your peers and track your work without fear of losing any state.
 
-At Netflix, all executions are logged in the metaflow service and all data artifacts are stored in Amazon S3, so that any data scientist can interface with anybody's work via the [client](https://docs.metaflow.org/metaflow/client) and collaborate fruitfully. Also, a centralized metaflow service along with a data store like Amazon S3 makes it easy for data scientists at Netflix to use hosted notebooks to easily set-up dashboards to monitors their flows.
+At Netflix, all executions are logged in the metaflow service and all data artifacts are stored in Amazon S3, so that any data scientist can interface with anybody's work via the [client](metaflow/client) and collaborate fruitfully. Also, a centralized metaflow service along with a data store like Amazon S3 makes it easy for data scientists at Netflix to use hosted notebooks to easily set-up dashboards to monitors their flows.
 
 ### Notebooks
 
@@ -58,7 +58,7 @@ Netflix uses this setup internally. To make the experience smoother, Netflix's d
 
 ## Next Steps
 
-If your organization doesn't have an AWS account already, we provide a hosted sandbox environment where you can test Metaflow using your own code and data, to get a feel of the benefits of AWS. Read more in the section about [Metaflow Sandbox](metaflow-sandbox).
+If your organization doesn't have an AWS account already, we provide a hosted sandbox environment where you can test Metaflow using your own code and data, to get a feel of the benefits of AWS. Read more in the section about [Metaflow Sandbox](metaflow-on-aws/metaflow-sandbox).
 
 If your organization has an AWS account already, see our [deployment guide](https://admin-docs.metaflow.org/metaflow-on-aws/deployment-guide) for detailed instructions on how to configure your account for Metaflow.
 

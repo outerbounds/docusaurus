@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/failures.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/failures",
-  "permalink": "/docs/metaflow/failures",
+  "permalink": "/docusaurus/docs/metaflow/failures",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/failures.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Managing External Libraries",
-    "permalink": "/docs/metaflow/dependencies"
+    "permalink": "/docusaurus/docs/metaflow/dependencies"
   },
   "next": {
     "title": "Organizing Results",
-    "permalink": "/docs/metaflow/tagging"
+    "permalink": "/docusaurus/docs/metaflow/tagging"
   }
 }

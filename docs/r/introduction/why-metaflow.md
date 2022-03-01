@@ -1,5 +1,5 @@
 ---
-pagination_prev: index
+pagination_prev: r/README
 ---
 
 import Caption from "/src/components/Caption";

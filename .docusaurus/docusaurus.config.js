@@ -6,12 +6,13 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "Metaflow Docs",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "baseUrl": "/docusaurus/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
+  "organizationName": "outerbounds",
   "projectName": "docusaurus",
+  "trailingSlash": false,
   "plugins": [
     "/Users/brendan/dev/docusaurus/node_modules/@cmfcmf/docusaurus-search-local/lib/server/index.js"
   ],
@@ -43,7 +44,7 @@ export default {
         {
           "type": "doc",
           "position": "left",
-          "docId": "index",
+          "docId": "python/index",
           "label": "Python Docs"
         },
         {

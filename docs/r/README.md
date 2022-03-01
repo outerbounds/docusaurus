@@ -13,31 +13,31 @@ import Description from "/src/components/Description";
 
 ## Introduction
 
-- [Why Metaflow](introduction/why-metaflow)
-- [What is Metaflow](introduction/what-is-metaflow)
-- [Contributing to Metaflow](introduction/contributing-to-metaflow)
-- [Get in Touch](introduction/getting-in-touch)
+- [Why Metaflow](r/introduction/why-metaflow)
+- [What is Metaflow](r/introduction/what-is-metaflow)
+- [Contributing to Metaflow](r/introduction/contributing-to-metaflow)
+- [Get in Touch](r/introduction/getting-in-touch)
 
 ## Getting Started
 
-- [Installing Metaflow](getting-started/install)
-- [Tutorials](getting-started/tutorials/)
+- [Installing Metaflow](r/getting-started/install)
+- [Tutorials](r/getting-started/tutorials/)
 
 ## Metaflow on AWS
 
-- [Metaflow on AWS](metaflow-on-aws)
-- [Metaflow Sandbox](metaflow-on-aws/metaflow-sandbox)
-- [Deploying to AWS](metaflow-on-aws/deploy-to-aws)
+- [Metaflow on AWS](r/metaflow-on-aws)
+- [Metaflow Sandbox](r/metaflow-on-aws/metaflow-sandbox)
+- [Deploying to AWS](r/metaflow-on-aws/deploy-to-aws)
 
 ## Developing with Metaflow
 
-- [Basics of Metaflow](metaflow/basics)
-- [Inspecting Flows and Results](metaflow/client)
-- [Debugging with Metaflow](metaflow/debugging)
-- [Scaling Out and Up](metaflow/scaling)
-- [Dealing with Failures](metaflow/failures)
-- [Organizing Results](metaflow/tagging)
+- [Basics of Metaflow](r/metaflow/basics)
+- [Inspecting Flows and Results](r/metaflow/client)
+- [Debugging with Metaflow](r/metaflow/debugging)
+- [Scaling Out and Up](r/metaflow/scaling)
+- [Dealing with Failures](r/metaflow/failures)
+- [Organizing Results](r/metaflow/tagging)
 
 ## Going to Production with Metaflow
 
-- [Scheduling Metaflow Flows ](going-to-production-with-metaflow/scheduling-metaflow-flows)
+- [Scheduling Metaflow Flows ](r/going-to-production-with-metaflow/scheduling-metaflow-flows)

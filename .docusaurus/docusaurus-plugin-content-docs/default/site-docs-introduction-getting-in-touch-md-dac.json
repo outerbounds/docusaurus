@@ -6,7 +6,7 @@
   "source": "@site/docs/introduction/getting-in-touch.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/getting-in-touch",
-  "permalink": "/docs/introduction/getting-in-touch",
+  "permalink": "/docusaurus/docs/introduction/getting-in-touch",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/introduction/getting-in-touch.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Contributing to Metaflow",
-    "permalink": "/docs/introduction/contributing-to-metaflow"
+    "permalink": "/docusaurus/docs/introduction/contributing-to-metaflow"
   },
   "next": {
     "title": "Installing Metaflow",
-    "permalink": "/docs/getting-started/install"
+    "permalink": "/docusaurus/docs/getting-started/install"
   }
 }

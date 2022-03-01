@@ -6,7 +6,7 @@
   "source": "@site/docs/introduction/roadmap.md",
   "sourceDirName": "introduction",
   "slug": "/introduction/roadmap",
-  "permalink": "/docs/introduction/roadmap",
+  "permalink": "/docusaurus/docs/introduction/roadmap",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/introduction/roadmap.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Release Notes",
-    "permalink": "/docs/introduction/release-notes"
+    "permalink": "/docusaurus/docs/introduction/release-notes"
   },
   "next": {
     "title": "Contributing to Metaflow",
-    "permalink": "/docs/introduction/contributing-to-metaflow"
+    "permalink": "/docusaurus/docs/introduction/contributing-to-metaflow"
   }
 }

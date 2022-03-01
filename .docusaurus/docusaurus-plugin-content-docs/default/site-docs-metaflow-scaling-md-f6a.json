@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/scaling.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/scaling",
-  "permalink": "/docs/metaflow/scaling",
+  "permalink": "/docusaurus/docs/metaflow/scaling",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/scaling.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Debugging with Metaflow",
-    "permalink": "/docs/metaflow/debugging"
+    "permalink": "/docusaurus/docs/metaflow/debugging"
   },
   "next": {
     "title": "Loading and Storing Data",
-    "permalink": "/docs/metaflow/data"
+    "permalink": "/docusaurus/docs/metaflow/data"
   }
 }

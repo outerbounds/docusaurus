@@ -6,7 +6,7 @@
   "source": "@site/docs/metaflow/data.md",
   "sourceDirName": "metaflow",
   "slug": "/metaflow/data",
-  "permalink": "/docs/metaflow/data",
+  "permalink": "/docusaurus/docs/metaflow/data",
   "editUrl": "https://github.com/outerbounds/docusaurus/tree/main/docs/metaflow/data.md",
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "python",
   "previous": {
     "title": "Scaling Out and Up",
-    "permalink": "/docs/metaflow/scaling"
+    "permalink": "/docusaurus/docs/metaflow/scaling"
   },
   "next": {
     "title": "Managing External Libraries",
-    "permalink": "/docs/metaflow/dependencies"
+    "permalink": "/docusaurus/docs/metaflow/dependencies"
   }
 }
