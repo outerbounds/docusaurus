@@ -39,3 +39,4 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           destination_dir: ${( steps.branch.outputs.BRANCH_NAME }}
+          tag_message: "Deployed to [${( steps.branch.outputs.BRANCH_NAME }}](https://bbc.co.uk)"
