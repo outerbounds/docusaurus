@@ -42,7 +42,7 @@ jobs:
 
       - name: Set branch
         id: link
-        run: echo "::set-output name=BRANCH::${( steps.branch.outputs.BRANCH_NAME }}
+        run: echo "::set-output name=BRANCH::${( steps.branch.outputs.BRANCH_NAME }}"
 
       - name: Surface message
         uses: mshick/add-pr-comment@v1
