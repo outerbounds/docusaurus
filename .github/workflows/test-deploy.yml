@@ -42,12 +42,12 @@ jobs:
 
       - name: Set branch
         id: link
-        run: echo "::set-output name= BRANCH::${( steps.branch.outputs.BRANCH_NAME }}
+        run: echo "::set-output name=BRANCH::${( steps.branch.outputs.BRANCH_NAME }}
 
       - name: Surface message
         uses: mshick/add-pr-comment@v1
         with:
-          message: 'Outputs ${( steps.link.output.BRANCH }}''
+          message: "See [preview](${( steps.link.output.BRANCH }})"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default
