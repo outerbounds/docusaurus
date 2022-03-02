@@ -44,7 +44,7 @@ jobs:
         uses: mshick/add-pr-comment@v1
         with:
           message: |
-            See [preview](https://outerbounds.github.io/docusaurus/${{ steps.link.output.BRANCH }})
+            See [preview](https://outerbounds.github.io/docusaurus/${{ steps.branch.outputs.BRANCH_NAME }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: true
