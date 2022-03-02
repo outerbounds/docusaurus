@@ -28,7 +28,7 @@ const config = {
           // remarkPlugins: [[remarkCodeHike, { theme }]],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/outerbounds/docusaurus/tree/main",
+          editUrl: "https://github.dev/outerbounds/docusaurus/blob/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

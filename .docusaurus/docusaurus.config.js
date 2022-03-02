@@ -22,7 +22,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/brendan/dev/docusaurus/sidebars.js",
-          "editUrl": "https://github.com/outerbounds/docusaurus/tree/main"
+          "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main"
         },
         "theme": {
           "customCss": "/Users/brendan/dev/docusaurus/src/css/custom.css"
