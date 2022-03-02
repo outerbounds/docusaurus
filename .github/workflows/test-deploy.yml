@@ -40,10 +40,14 @@ jobs:
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           destination_dir: ${( steps.branch.outputs.BRANCH_NAME }}
 
+      - name: Set branch
+        id: link
+        run: echo "::set-output name= BRANCH::${( steps.branch.outputs.BRANCH_NAME }}
+
       - name: Surface message
         uses: mshick/add-pr-comment@v1
         with:
-          message: echo "Outputs ${( steps.branch.outputs.BRANCH_NAME }}"
+          message: 'Outputs ${( steps.link.output.BRANCH }}''
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default
