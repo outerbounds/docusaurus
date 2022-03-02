@@ -38,16 +38,13 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          destination_dir: ${( steps.branch.outputs.BRANCH_NAME }}
-
-      - name: Set branch
-        id: link
-        run: echo "::set-output name=BRANCH::${( steps.branch.outputs.BRANCH_NAME }}"
+          destination_dir: ${{ steps.branch.outputs.BRANCH_NAME }}
 
       - name: Surface message
         uses: mshick/add-pr-comment@v1
         with:
-          message: "See [preview](${( steps.link.output.BRANCH }})"
+          message: |
+          See [preview](https://outerbounds.github.io/docusaurus/${{ steps.link.output.BRANCH }})
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
-          allow-repeats: false # This is the default
+          allow-repeats: true 
