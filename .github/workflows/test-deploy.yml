@@ -23,6 +23,10 @@ jobs:
       - name: Test build website
         run: yarn build
 
+      - name: Set branch name
+        id: branch
+        run: echo "::set-output name=BRANCH_NAME::${GITHUB_REF##*/}"
+
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
@@ -44,7 +48,7 @@ jobs:
         uses: mshick/add-pr-comment@v1
         with:
           message: |
-            See [preview](https://outerbounds.github.io/docusaurus/${{ steps.branch.outputs.BRANCH_NAME }}
+            See [preview](https://outerbounds.github.io/docusaurus/${{ steps.branch.outputs.BRANCH_NAME }})
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: true
