@@ -2,6 +2,7 @@ import TerminalWindow from "/src/components/TerminalWindow";
 import Output from "/src/components/Output/Output";
 import Output2 from "/src/components/Output2/Output2";
 import OutputCollapse from "/src/components/OutputCollapse";
+import Output3 from "/src/components/Output3/Output3";
 
 # Code Documentation example CD
 
@@ -269,3 +270,46 @@ drwxr-xr-x   13 brendan  staff     416 Feb 27 09:30 .git
 ```
 
 </OutputCollapse>
+
+## Output with Indent and no styling
+
+```bash
+cuba
+```
+
+<Output3>
+
+```
+4
+```
+
+</Output3>
+
+```bash
+ls -lart
+```
+
+<Output3>
+
+```bash
+total 800
+-rw-r--r--    1 brendan  staff     770 Feb 15 12:51 README.md
+-rw-r--r--    1 brendan  staff      89 Feb 15 12:51 babel.config.js
+drwxr-xr-x  743 brendan  staff   23776 Feb 16 12:09 node_modules
+-rw-r--r--    1 brendan  staff  372382 Feb 16 12:09 yarn.lock
+-rw-r--r--    1 brendan  staff    1048 Feb 16 12:09 package.json
+drwxr-xr-x   35 brendan  staff    1120 Feb 17 09:13 ..
+drwxr-xr-x    7 brendan  staff     224 Feb 23 08:43 static
+-rw-r--r--    1 brendan  staff    2396 Feb 23 08:57 docusaurus.config.js
+-rw-r--r--@   1 brendan  staff    6148 Feb 24 06:45 .DS_Store
+-rw-r--r--    1 brendan  staff    7174 Feb 24 06:53 sidebars.js
+-rw-r--r--    1 brendan  staff      44 Feb 24 07:40 .gitignore
+drwxr-xr-x   17 brendan  staff     544 Feb 24 07:40 .
+drwxr-xr-x   15 brendan  staff     480 Feb 24 12:10 docs
+drwxr-xr-x    6 brendan  staff     192 Feb 24 16:28 src
+drwxr-xr-x   17 brendan  staff     544 Feb 25 11:08 .docusaurus
+drwxr-xr-x   13 brendan  staff     416 Feb 25 11:08 build
+drwxr-xr-x   13 brendan  staff     416 Feb 27 09:30 .git
+```
+
+</Output3>

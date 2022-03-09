@@ -1,0 +1,13 @@
+.output3 {
+  padding-left: var(--ifm-pre-padding);
+}
+
+.output3 code,
+.output3 pre {
+  border: none !important;
+  background: none !important;
+}
+
+.output3 div {
+  box-shadow: none;
+}
