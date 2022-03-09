@@ -4,7 +4,7 @@ import Output2 from "/src/components/Output2/Output2";
 import OutputCollapse from "/src/components/OutputCollapse";
 import Output3 from "/src/components/Output3/Output3";
 
-# Code Documentation example CD
+# Code Documentation example (stripe)
 
 ## Example 1
 
@@ -41,6 +41,46 @@ import Output3 from "/src/components/Output3/Output3";
 	<Parameter name="input" />
 </ParamSection>
 </DocSection>
+
+import {DocSection2, SigArgSection2, SigArg2, Description2, ParamSection2, Parameter2} from "/src/components/DocSection2"
+
+# Code Documentation example (numpy)
+
+## Example 1
+
+<DocSection2 type="class" name="Run" module="metaflow.client.core" link="metaflow/client/core.py#L1512">
+    <SigArgSection2>
+        <SigArg2 name="pathspec" default="None" />
+        <SigArg2 name="attempt" default="None" />
+        <SigArg2 name="_object" default="None" />
+        <SigArg2 name="_parent" default="None" />
+        <SigArg2 name="_namespace_check" default="True" />
+    </SigArgSection2>
+    <Description2 summary="A Run represents an execution of a Flow"
+        extended_summary="As such, it contains all Steps associated with the flow." />
+    <ParamSection2 name="Attributes">
+        <Parameter2 name="data" type="MetaflowData" desc="Container of all data artifacts produced by this run" />
+        <Parameter2 name="successful" type="boolean" desc="True if the run successfully completed" />
+        <Parameter2 name="finished" type="boolean" desc="True if the run completed" />
+        <Parameter2 name="finished_at" type="datetime" desc="Time this run finished" />
+        <Parameter2 name="code" type="MetaflowCode" desc="Code package for this run (if present)" />
+        <Parameter2 name="end_task" type="Task" desc="Task for the end step (if it is present already)" />
+    </ParamSection2>
+</DocSection2>
+
+## Example 2
+
+<DocSection2 type="class" name="FlowSpec" module="metaflow.flowspec" link="metaflow/flowspec.py#L48">
+<SigArgSection2>
+<SigArg2 name="use_cli" default="True" />
+</SigArgSection2>
+<Description2 summary="Main class from which all Flows should inherit." />
+<ParamSection2 name="Attributes">
+	<Parameter2 name="script_name" />
+	<Parameter2 name="index" />
+	<Parameter2 name="input" />
+</ParamSection2>
+</DocSection2>
 
 ## Output
 
