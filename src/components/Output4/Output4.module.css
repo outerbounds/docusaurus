@@ -1,0 +1,13 @@
+.output4 {
+  padding-left: var(--ifm-pre-padding);
+}
+
+.output4 code,
+.output4 pre {
+  border: none !important;
+  background: none !important;
+}
+
+.output4 div {
+  box-shadow: none;
+}
