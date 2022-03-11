@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docusaurus/docs',
-    component: ComponentCreator('/docusaurus/docs','790'),
+    component: ComponentCreator('/docusaurus/docs','f44'),
     routes: [
       {
         path: '/docusaurus/docs',
@@ -401,6 +401,11 @@ export default [
       {
         path: '/docusaurus/docs/flow_datastory_mdx',
         component: ComponentCreator('/docusaurus/docs/flow_datastory_mdx','a6f'),
+        exact: true
+      },
+      {
+        path: '/docusaurus/docs/more_code',
+        component: ComponentCreator('/docusaurus/docs/more_code','85b'),
         exact: true
       },
       {

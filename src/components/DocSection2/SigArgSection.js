@@ -6,10 +6,10 @@ export const SigArgSection2 = ({ children }) => {
       <strong>
         (
         {children.map((c, index) => (
-          <>
+          <span key={index}>
             {c}
             {index === children.length - 1 ? "" : ", "}
-          </>
+          </span>
         ))}
         )
       </strong>

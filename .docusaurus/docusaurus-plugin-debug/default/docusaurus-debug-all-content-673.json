@@ -1520,6 +1520,20 @@
               "frontMatter": {}
             },
             {
+              "unversionedId": "more_code",
+              "id": "more_code",
+              "title": "Code Documentation example (numpy)",
+              "description": "Example 1",
+              "source": "@site/docs/more_code.md",
+              "sourceDirName": ".",
+              "slug": "/more_code",
+              "permalink": "/docusaurus/docs/more_code",
+              "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/more_code.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
               "unversionedId": "python/getting-started/install",
               "id": "python/getting-started/install",
               "title": "Installing Metaflow",
@@ -3106,7 +3120,7 @@
             {
               "unversionedId": "some_code",
               "id": "some_code",
-              "title": "Code Documentation example CD",
+              "title": "Code Documentation example (stripe)",
               "description": "Example 1",
               "source": "@site/docs/some_code.md",
               "sourceDirName": ".",

@@ -25,7 +25,7 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---docusaurus-blog-archivee-50-27c"
   },
-  "/docusaurus/docs-790": {
+  "/docusaurus/docs-f44": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docusaurus-docs-935-60a"
   },
@@ -268,6 +268,10 @@
   "/docusaurus/docs/flow_datastory_mdx-a6f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-flow-datastory-mdx-01-e-bae"
+  },
+  "/docusaurus/docs/more_code-85b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-more-codec-94-8f0"
   },
   "/docusaurus/docs/python-8d0": {
     "component": "component---theme-doc-item-178-a40",
