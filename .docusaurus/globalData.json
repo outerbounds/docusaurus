@@ -315,10 +315,6 @@
               "path": "/docusaurus/docs/"
             },
             {
-              "id": "more_code",
-              "path": "/docusaurus/docs/more_code"
-            },
-            {
               "id": "python/getting-started/install",
               "path": "/docusaurus/docs/python/getting-started/install",
               "sidebar": "python"

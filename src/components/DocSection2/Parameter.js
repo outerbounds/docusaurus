@@ -6,8 +6,9 @@ export const Parameter2 = ({ name, type, desc }) => {
     <div>
       <div>
         <strong>
-          {name}
-          {type ? ":" : ""} {type}
+          {name ? name : ""}
+          {name && type ? ": " : ""}
+          {type ? type : ""}
         </strong>
       </div>
       <div className={styles.content}>{desc}</div>

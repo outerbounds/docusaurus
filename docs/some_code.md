@@ -5,8 +5,6 @@ import OutputCollapse from "/src/components/OutputCollapse";
 import Output3 from "/src/components/Output3/Output3";
 import HTMLOutputBlock from "/src/components/HTMLOutputBlock/HTMLOutputBlock";
 
-_testing private repo_
-
 # Code Documentation example (stripe)
 
 ## Example 1
@@ -47,43 +45,79 @@ _testing private repo_
 
 import {DocSection2, SigArgSection2, SigArg2, Description2, ParamSection2, Parameter2} from "/src/components/DocSection2"
 
-# Code Documentation example (numpy)
+# Code Documentation example (numpy with better colors)
 
 ## Example 1
 
-<DocSection2 type="class" name="Run" module="metaflow.client.core" link="metaflow/client/core.py#L1512">
+<DocSection2 type="class" name="ExampleClass" module="test_lib.example" heading_level="3">
     <SigArgSection2>
-        <SigArg2 name="pathspec" default="None" />
-        <SigArg2 name="attempt" default="None" />
-        <SigArg2 name="_object" default="None" />
-        <SigArg2 name="_parent" default="None" />
-        <SigArg2 name="_namespace_check" default="True" />
+        <SigArg2 name="param1" />
+        <SigArg2 name="param2" />
+        <SigArg2 name="param3" />
     </SigArgSection2>
-    <Description2 summary="A Run represents an execution of a Flow"
-        extended_summary="As such, it contains all Steps associated with the flow." />
+    <Description2 summary="The summary line for a class docstring should fit on one line."
+        extended_summary="If the class has public attributes, they may be documented here\nin an ``Attributes`` section and follow the same formatting as a\nfunction's ``Args`` section. Alternatively, attributes may be documented\ninline with the attribute's declaration (see __init__ method below).\n\nProperties created with the ``@property`` decorator should be documented\nin the property's getter method." />
     <ParamSection2 name="Attributes">
-        <Parameter2 name="data" type="MetaflowData" desc="Container of all data artifacts produced by this run" />
-        <Parameter2 name="successful" type="boolean" desc="True if the run successfully completed" />
-        <Parameter2 name="finished" type="boolean" desc="True if the run completed" />
-        <Parameter2 name="finished_at" type="datetime" desc="Time this run finished" />
-        <Parameter2 name="code" type="MetaflowCode" desc="Code package for this run (if present)" />
-        <Parameter2 name="end_task" type="Task" desc="Task for the end step (if it is present already)" />
+        <Parameter2 name="attr1" type="str" desc="Description of `attr1`." />
+        <Parameter2 name="attr2" type=":obj:`int`, optional" desc="Description of `attr2`." />
     </ParamSection2>
 </DocSection2>
 
 ## Example 2
 
-<DocSection2 type="class" name="FlowSpec" module="metaflow.flowspec" link="metaflow/flowspec.py#L48">
-<SigArgSection2>
-<SigArg2 name="use_cli" default="True" />
-</SigArgSection2>
-<Description2 summary="Main class from which all Flows should inherit." />
-<ParamSection2 name="Attributes">
-	<Parameter2 name="script_name" />
-	<Parameter2 name="index" />
-	<Parameter2 name="input" />
-</ParamSection2>
+<DocSection2 type="method" name="example_method" module="test_lib.example" heading_level="4">
+    <SigArgSection2>
+        <SigArg2 name="self" />
+        <SigArg2 name="param1" />
+        <SigArg2 name="param2" />
+    </SigArgSection2>
+    <Description2 summary="Class methods are similar to regular functions." />
+    <ParamSection2 name="Parameters">
+        <Parameter2 name="param1" desc="The first parameter." />
+        <Parameter2 name="param2" desc="The second parameter." />
+    </ParamSection2>
+    <ParamSection2 name="Returns">
+        <Parameter2 type="bool" desc="True if successful, False otherwise." />
+    </ParamSection2>
 </DocSection2>
+
+import {DocSection3, SigArgSection3, SigArg3, Description3, ParamSection3, Parameter3} from "/src/components/DocSection3"
+
+# Code Documentation example (numpy with better colors, with md in attributes)
+
+## Example 1
+
+<DocSection3 type="class" name="ExampleClass" module="test_lib.example" heading_level="3">
+    <SigArgSection3>
+        <SigArg3 name="param1" />
+        <SigArg3 name="param2" />
+        <SigArg3 name="param3" />
+    </SigArgSection3>
+    <Description3 summary="The summary line for a class docstring should fit on one line."
+        extended_summary="If the class has public attributes, they may be documented here\nin an ``Attributes`` section and follow the same formatting as a\nfunction's ``Args`` section. Alternatively, attributes may be documented\ninline with the attribute's declaration (see __init__ method below).\n\nProperties created with the ``@property`` decorator should be documented\nin the property's getter method." />
+    <ParamSection3 name="Attributes">
+        <Parameter3 name="attr1" type="str" desc="Description of `attr1`." />
+        <Parameter3 name="attr2" type=":obj:`int`, optional" desc="Description of `attr2`." />
+    </ParamSection3>
+</DocSection3>
+
+## Example 2
+
+<DocSection3 type="method" name="example_method" module="test_lib.example" heading_level="4">
+    <SigArgSection3>
+        <SigArg3 name="self" />
+        <SigArg3 name="param1" />
+        <SigArg3 name="param2" />
+    </SigArgSection3>
+    <Description3 summary="Class methods are similar to regular functions." />
+    <ParamSection3 name="Parameters">
+        <Parameter3 name="param1" desc="The first parameter." />
+        <Parameter3 name="param2" desc="The second parameter." />
+    </ParamSection3>
+    <ParamSection3 name="Returns">
+        <Parameter3 type="bool" desc="True if successful, False otherwise." />
+    </ParamSection3>
+</DocSection3>
 
 ## Output
 

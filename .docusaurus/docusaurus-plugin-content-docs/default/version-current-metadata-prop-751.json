@@ -1340,11 +1340,6 @@
       "title": "index",
       "description": "I am an index"
     },
-    "more_code": {
-      "id": "more_code",
-      "title": "Code Documentation example (numpy)",
-      "description": "Example 1"
-    },
     "python/getting-started/install": {
       "id": "python/getting-started/install",
       "title": "Installing Metaflow",

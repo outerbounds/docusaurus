@@ -1,3 +1,7 @@
+.docsection p {
+  margin: 0;
+}
+
 .titlebox {
   background: var(--ifm-color-emphasis-200);
   width: 100%;

@@ -3,7 +3,7 @@ import styles from "./DocSection.module.css";
 
 const BASE_URL = "https://github.com/Netflix/metaflow/tree/master/";
 
-export const DocSection2 = ({
+export const DocSection3 = ({
   children,
   name,
   module,
@@ -11,26 +11,26 @@ export const DocSection2 = ({
   heading_level = 3,
 }) => {
   return (
-    <>
+    <div className={styles.docsection}>
       <h4>{module}</h4>
       <div className={styles.titlebox}>
         <Name heading_level={heading_level}>
           <span className={styles.name}>{name}</span>
-          {children.filter((child) => child.props.mdxType === "SigArgSection2")}
+          {children.filter((child) => child.props.mdxType === "SigArgSection3")}
         </Name>
         <a className={styles.source} href={BASE_URL + link}>
           [source]
         </a>
       </div>
       <div className={styles.content}>
-        {children.filter((child) => child.props.mdxType === "Description2")}
+        {children.filter((child) => child.props.mdxType === "Description3")}
         {children.filter(
           (child) =>
-            child.props.mdxType !== "Description2" &&
-            child.props.mdxType !== "SigArgSection2"
+            child.props.mdxType !== "Description3" &&
+            child.props.mdxType !== "SigArgSection3"
         )}
       </div>
-    </>
+    </div>
   );
 };
 
@@ -53,4 +53,4 @@ const Name = ({ children, heading_level }) => {
   }
 };
 
-export default DocSection2;
+export default DocSection3;
