@@ -83,7 +83,7 @@ import {DocSection2, SigArgSection2, SigArg2, Description2, ParamSection2, Param
 
 import {DocSection3, SigArgSection3, SigArg3, Description3, ParamSection3, Parameter3} from "/src/components/DocSection3"
 
-# Code Documentation example (numpy with better colors, with md in attributes)
+# Code Documentation example (`numpy` with better colors, with `md` in attributes)
 
 ## Example 1
 
