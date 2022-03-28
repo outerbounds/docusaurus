@@ -1759,8 +1759,8 @@
     },
     "some_code": {
       "id": "some_code",
-      "title": "Code Documentation example (stripe)",
-      "description": "Example 1"
+      "title": "some_code",
+      "description": "Adding another line to trigger rebuild"
     }
   }
 }

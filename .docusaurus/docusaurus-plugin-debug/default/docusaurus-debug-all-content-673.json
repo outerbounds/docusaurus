@@ -3106,8 +3106,8 @@
             {
               "unversionedId": "some_code",
               "id": "some_code",
-              "title": "Code Documentation example (stripe)",
-              "description": "Example 1",
+              "title": "some_code",
+              "description": "Adding another line to trigger rebuild",
               "source": "@site/docs/some_code.md",
               "sourceDirName": ".",
               "slug": "/some_code",
