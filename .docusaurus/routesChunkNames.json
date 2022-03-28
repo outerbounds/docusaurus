@@ -25,7 +25,7 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/docs-ffd": {
+  "/docs-a00": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -552,6 +552,10 @@
   "/docs/some_code-8f2": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-some-codee-5-e-bdc"
+  },
+  "/docs/some_test-b68": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-some-testb-50-baf"
   },
   "/-5f1": {
     "component": "component---theme-mdx-page-1-f-3-b90",

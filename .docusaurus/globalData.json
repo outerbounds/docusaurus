@@ -664,6 +664,10 @@
             {
               "id": "some_code",
               "path": "/docs/some_code"
+            },
+            {
+              "id": "some_test",
+              "path": "/docs/some_test"
             }
           ],
           "sidebars": {

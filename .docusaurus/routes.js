@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','ffd'),
+    component: ComponentCreator('/docs','a00'),
     routes: [
       {
         path: '/docs',
@@ -823,6 +823,11 @@ export default [
       {
         path: '/docs/some_code',
         component: ComponentCreator('/docs/some_code','8f2'),
+        exact: true
+      },
+      {
+        path: '/docs/some_test',
+        component: ComponentCreator('/docs/some_test','b68'),
         exact: true
       }
     ]
