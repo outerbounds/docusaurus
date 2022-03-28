@@ -1,4 +1,4 @@
-.docsection p {
+.content p {
   margin: 0;
 }
 
@@ -26,11 +26,11 @@
   color: var(--ifm-color-emphasis-800);
 }
 
-.name h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.titlebox h1,
+.titlebox h2,
+.titlebox h3,
+.titlebox h4,
+.titlebox h5,
+.titlebox h6 {
   margin: 0;
 }

@@ -11,7 +11,7 @@ export const DocSection3 = ({
   heading_level = 3,
 }) => {
   return (
-    <div className={styles.docsection}>
+    <div>
       <h4>{module}</h4>
       <div className={styles.titlebox}>
         <Name heading_level={heading_level}>
