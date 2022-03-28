@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/docusaurus/",
+  "permalink": "/",
   "source": "@site/src/pages/index.md",
   "description": "Python Docs",
   "frontMatter": {}

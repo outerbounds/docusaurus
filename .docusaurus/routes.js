@@ -4,832 +4,832 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docusaurus/__docusaurus/debug',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug','cd2'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/config',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/config','136'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/content',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/content','b6c'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/globalData',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/globalData','038'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/metadata',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/metadata','5f4'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/registry',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/registry','ab4'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
     exact: true
   },
   {
-    path: '/docusaurus/__docusaurus/debug/routes',
-    component: ComponentCreator('/docusaurus/__docusaurus/debug/routes','cf4'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
     exact: true
   },
   {
-    path: '/docusaurus/blog/archive',
-    component: ComponentCreator('/docusaurus/blog/archive','ae5'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive','f4c'),
     exact: true
   },
   {
-    path: '/docusaurus/docs',
-    component: ComponentCreator('/docusaurus/docs','790'),
+    path: '/docs',
+    component: ComponentCreator('/docs','ffd'),
     routes: [
       {
-        path: '/docusaurus/docs',
-        component: ComponentCreator('/docusaurus/docs','c61'),
+        path: '/docs',
+        component: ComponentCreator('/docs','51a'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/api/metaflow',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow','583'),
+        path: '/docs/api/metaflow',
+        component: ComponentCreator('/docs/api/metaflow','ae9'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/client/core',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/client/core','cf2'),
+        path: '/docs/api/metaflow/client/core',
+        component: ComponentCreator('/docs/api/metaflow/client/core','ba1'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/client/filecache',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/client/filecache','1ea'),
+        path: '/docs/api/metaflow/client/filecache',
+        component: ComponentCreator('/docs/api/metaflow/client/filecache','b26'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datastore/content_addressed_store',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datastore/content_addressed_store','34b'),
+        path: '/docs/api/metaflow/datastore/content_addressed_store',
+        component: ComponentCreator('/docs/api/metaflow/datastore/content_addressed_store','c36'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datastore/datastore_storage',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datastore/datastore_storage','b29'),
+        path: '/docs/api/metaflow/datastore/datastore_storage',
+        component: ComponentCreator('/docs/api/metaflow/datastore/datastore_storage','39b'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datastore/flow_datastore',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datastore/flow_datastore','5df'),
+        path: '/docs/api/metaflow/datastore/flow_datastore',
+        component: ComponentCreator('/docs/api/metaflow/datastore/flow_datastore','12e'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datastore/inputs',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datastore/inputs','b51'),
+        path: '/docs/api/metaflow/datastore/inputs',
+        component: ComponentCreator('/docs/api/metaflow/datastore/inputs','9c5'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datastore/task_datastore',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datastore/task_datastore','12d'),
+        path: '/docs/api/metaflow/datastore/task_datastore',
+        component: ComponentCreator('/docs/api/metaflow/datastore/task_datastore','811'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datatools/s3',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datatools/s3','ac1'),
+        path: '/docs/api/metaflow/datatools/s3',
+        component: ComponentCreator('/docs/api/metaflow/datatools/s3','047'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/datatools/s3util',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/datatools/s3util','a29'),
+        path: '/docs/api/metaflow/datatools/s3util',
+        component: ComponentCreator('/docs/api/metaflow/datatools/s3util','75a'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/decorators',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/decorators','4f6'),
+        path: '/docs/api/metaflow/decorators',
+        component: ComponentCreator('/docs/api/metaflow/decorators','403'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/flowspec',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/flowspec','589'),
+        path: '/docs/api/metaflow/flowspec',
+        component: ComponentCreator('/docs/api/metaflow/flowspec','d09'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/includefile',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/includefile','066'),
+        path: '/docs/api/metaflow/includefile',
+        component: ComponentCreator('/docs/api/metaflow/includefile','546'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/metadata',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/metadata','924'),
+        path: '/docs/api/metaflow/metadata',
+        component: ComponentCreator('/docs/api/metaflow/metadata','92e'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/metaflow_environment',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/metaflow_environment','322'),
+        path: '/docs/api/metaflow/metaflow_environment',
+        component: ComponentCreator('/docs/api/metaflow/metaflow_environment','d91'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/metaflow_version',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/metaflow_version','d53'),
+        path: '/docs/api/metaflow/metaflow_version',
+        component: ComponentCreator('/docs/api/metaflow/metaflow_version','12a'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/monitor',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/monitor','d4b'),
+        path: '/docs/api/metaflow/monitor',
+        component: ComponentCreator('/docs/api/metaflow/monitor','057'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/package',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/package','ee7'),
+        path: '/docs/api/metaflow/package',
+        component: ComponentCreator('/docs/api/metaflow/package','b7e'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/parameters',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/parameters','250'),
+        path: '/docs/api/metaflow/parameters',
+        component: ComponentCreator('/docs/api/metaflow/parameters','6ac'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/aws/aws_utils',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/aws/aws_utils','01b'),
+        path: '/docs/api/metaflow/plugins/aws/aws_utils',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/aws_utils','3d7'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator','6de'),
+        path: '/docs/api/metaflow/plugins/aws/batch/batch_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/batch/batch_decorator','f27'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes','a27'),
+        path: '/docs/api/metaflow/plugins/aws/eks/kubernetes',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/eks/kubernetes','986'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator','5d5'),
+        path: '/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator','4a6'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_cli',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_cli','268'),
+        path: '/docs/api/metaflow/plugins/cards/card_cli',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_cli','aee'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_client',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_client','e51'),
+        path: '/docs/api/metaflow/plugins/cards/card_client',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_client','30d'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_datastore',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_datastore','f52'),
+        path: '/docs/api/metaflow/plugins/cards/card_datastore',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_datastore','778'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic','b86'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/basic',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/basic','9cb'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card','987'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/card',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/card','a5c'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main','b89'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/main',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/main','778'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer','8be'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer','ed1'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer','b39'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer','6b4'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components','572'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/components',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/components','2d1'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools','0f5'),
+        path: '/docs/api/metaflow/plugins/cards/card_modules/renderer_tools',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/card_modules/renderer_tools','4c9'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/component_serializer',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/component_serializer','9b0'),
+        path: '/docs/api/metaflow/plugins/cards/component_serializer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/component_serializer','d28'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/cards/exception',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/cards/exception','7c9'),
+        path: '/docs/api/metaflow/plugins/cards/exception',
+        component: ComponentCreator('/docs/api/metaflow/plugins/cards/exception','58f'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/catch_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/catch_decorator','ace'),
+        path: '/docs/api/metaflow/plugins/catch_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/catch_decorator','6f8'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator','d6c'),
+        path: '/docs/api/metaflow/plugins/conda/conda_flow_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/conda/conda_flow_decorator','6f5'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator','763'),
+        path: '/docs/api/metaflow/plugins/conda/conda_step_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/conda/conda_step_decorator','eda'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream','382'),
+        path: '/docs/api/metaflow/plugins/env_escape/communication/bytestream',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/bytestream','2dc'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel','084'),
+        path: '/docs/api/metaflow/plugins/env_escape/communication/channel',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/channel','ce0'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils','84d'),
+        path: '/docs/api/metaflow/plugins/env_escape/communication/utils',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/communication/utils','e6d'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer','66b'),
+        path: '/docs/api/metaflow/plugins/env_escape/exception_transferer',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/exception_transferer','c7f'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/env_escape/stub',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/env_escape/stub','0f8'),
+        path: '/docs/api/metaflow/plugins/env_escape/stub',
+        component: ComponentCreator('/docs/api/metaflow/plugins/env_escape/stub','95d'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/environment_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/environment_decorator','1fb'),
+        path: '/docs/api/metaflow/plugins/environment_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/environment_decorator','944'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch','23b'),
+        path: '/docs/api/metaflow/plugins/frameworks/pytorch',
+        component: ComponentCreator('/docs/api/metaflow/plugins/frameworks/pytorch','17b'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/resources_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/resources_decorator','d02'),
+        path: '/docs/api/metaflow/plugins/resources_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/resources_decorator','a2a'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/retry_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/retry_decorator','b51'),
+        path: '/docs/api/metaflow/plugins/retry_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/retry_decorator','5b3'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator','4a8'),
+        path: '/docs/api/metaflow/plugins/test_unbounded_foreach_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/test_unbounded_foreach_decorator','833'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/plugins/timeout_decorator',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/plugins/timeout_decorator','4a5'),
+        path: '/docs/api/metaflow/plugins/timeout_decorator',
+        component: ComponentCreator('/docs/api/metaflow/plugins/timeout_decorator','b10'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/runtime',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/runtime','6e0'),
+        path: '/docs/api/metaflow/runtime',
+        component: ComponentCreator('/docs/api/metaflow/runtime','b3c'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/sidecar',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/sidecar','520'),
+        path: '/docs/api/metaflow/sidecar',
+        component: ComponentCreator('/docs/api/metaflow/sidecar','8fc'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/sidecar_worker',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/sidecar_worker','ad0'),
+        path: '/docs/api/metaflow/sidecar_worker',
+        component: ComponentCreator('/docs/api/metaflow/sidecar_worker','9ce'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/task',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/task','f42'),
+        path: '/docs/api/metaflow/task',
+        component: ComponentCreator('/docs/api/metaflow/task','4f0'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/unbounded_foreach',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/unbounded_foreach','3df'),
+        path: '/docs/api/metaflow/unbounded_foreach',
+        component: ComponentCreator('/docs/api/metaflow/unbounded_foreach','196'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/util',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/util','b20'),
+        path: '/docs/api/metaflow/util',
+        component: ComponentCreator('/docs/api/metaflow/util','ed6'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/api/metaflow/vendor',
-        component: ComponentCreator('/docusaurus/docs/api/metaflow/vendor','711'),
+        path: '/docs/api/metaflow/vendor',
+        component: ComponentCreator('/docs/api/metaflow/vendor','0de'),
         exact: true,
         'sidebar': "apiMetaflow"
       },
       {
-        path: '/docusaurus/docs/flow_datastore',
-        component: ComponentCreator('/docusaurus/docs/flow_datastore','08c'),
+        path: '/docs/flow_datastore',
+        component: ComponentCreator('/docs/flow_datastore','db2'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/flow_datastore2',
-        component: ComponentCreator('/docusaurus/docs/flow_datastore2','aa5'),
+        path: '/docs/flow_datastore2',
+        component: ComponentCreator('/docs/flow_datastore2','714'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/flow_datastory_mdx',
-        component: ComponentCreator('/docusaurus/docs/flow_datastory_mdx','a6f'),
+        path: '/docs/flow_datastory_mdx',
+        component: ComponentCreator('/docs/flow_datastory_mdx','944'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/python',
-        component: ComponentCreator('/docusaurus/docs/python','8d0'),
+        path: '/docs/python',
+        component: ComponentCreator('/docs/python','b20'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/install',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/install','d58'),
+        path: '/docs/python/getting-started/install',
+        component: ComponentCreator('/docs/python/getting-started/install','510'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials','866'),
+        path: '/docs/python/getting-started/tutorials',
+        component: ComponentCreator('/docs/python/getting-started/tutorials','4f9'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience','28e'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience','b39'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00','0ca'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00','ce8'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01','92b'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01','8ed'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02','2b0'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02','b63'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03','f57'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03','cff'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04','8d6'),
+        path: '/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04','557'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up','f99'),
+        path: '/docs/python/getting-started/tutorials/season-2-scaling-out-and-up',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-2-scaling-out-and-up','604'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot','930'),
+        path: '/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot','d2a'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05','0e4'),
+        path: '/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05','4dd'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06','b38'),
+        path: '/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06','89f'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07',
-        component: ComponentCreator('/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07','0f6'),
+        path: '/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07',
+        component: ComponentCreator('/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07','e1c'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects',
-        component: ComponentCreator('/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects','652'),
+        path: '/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects',
+        component: ComponentCreator('/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects','618'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows',
-        component: ComponentCreator('/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows','007'),
+        path: '/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows',
+        component: ComponentCreator('/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows','c3a'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/internals-of-metaflow/technical-overview',
-        component: ComponentCreator('/docusaurus/docs/python/internals-of-metaflow/technical-overview','fe6'),
+        path: '/docs/python/internals-of-metaflow/technical-overview',
+        component: ComponentCreator('/docs/python/internals-of-metaflow/technical-overview','bd1'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/internals-of-metaflow/testing-philosophy',
-        component: ComponentCreator('/docusaurus/docs/python/internals-of-metaflow/testing-philosophy','0d2'),
+        path: '/docs/python/internals-of-metaflow/testing-philosophy',
+        component: ComponentCreator('/docs/python/internals-of-metaflow/testing-philosophy','5a5'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/contributing-to-metaflow',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/contributing-to-metaflow','5b9'),
+        path: '/docs/python/introduction/contributing-to-metaflow',
+        component: ComponentCreator('/docs/python/introduction/contributing-to-metaflow','3ce'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/getting-in-touch',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/getting-in-touch','0de'),
+        path: '/docs/python/introduction/getting-in-touch',
+        component: ComponentCreator('/docs/python/introduction/getting-in-touch','94c'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/release-notes',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/release-notes','91c'),
+        path: '/docs/python/introduction/release-notes',
+        component: ComponentCreator('/docs/python/introduction/release-notes','008'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/roadmap',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/roadmap','b2b'),
+        path: '/docs/python/introduction/roadmap',
+        component: ComponentCreator('/docs/python/introduction/roadmap','d97'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/what-is-metaflow',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/what-is-metaflow','e97'),
+        path: '/docs/python/introduction/what-is-metaflow',
+        component: ComponentCreator('/docs/python/introduction/what-is-metaflow','2b6'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/introduction/why-metaflow',
-        component: ComponentCreator('/docusaurus/docs/python/introduction/why-metaflow','889'),
+        path: '/docs/python/introduction/why-metaflow',
+        component: ComponentCreator('/docs/python/introduction/why-metaflow','59f'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow-on-aws',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow-on-aws','1df'),
+        path: '/docs/python/metaflow-on-aws',
+        component: ComponentCreator('/docs/python/metaflow-on-aws','89a'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws','33a'),
+        path: '/docs/python/metaflow-on-aws/deploy-to-aws',
+        component: ComponentCreator('/docs/python/metaflow-on-aws/deploy-to-aws','17b'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox','dfa'),
+        path: '/docs/python/metaflow-on-aws/metaflow-sandbox',
+        component: ComponentCreator('/docs/python/metaflow-on-aws/metaflow-sandbox','710'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/basics',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/basics','e4d'),
+        path: '/docs/python/metaflow/basics',
+        component: ComponentCreator('/docs/python/metaflow/basics','ae0'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/client',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/client','f83'),
+        path: '/docs/python/metaflow/client',
+        component: ComponentCreator('/docs/python/metaflow/client','cb4'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/data',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/data','e3d'),
+        path: '/docs/python/metaflow/data',
+        component: ComponentCreator('/docs/python/metaflow/data','214'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/debugging',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/debugging','019'),
+        path: '/docs/python/metaflow/debugging',
+        component: ComponentCreator('/docs/python/metaflow/debugging','7fc'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/dependencies',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/dependencies','c55'),
+        path: '/docs/python/metaflow/dependencies',
+        component: ComponentCreator('/docs/python/metaflow/dependencies','194'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/failures',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/failures','4e5'),
+        path: '/docs/python/metaflow/failures',
+        component: ComponentCreator('/docs/python/metaflow/failures','5fe'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/scaling',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/scaling','70a'),
+        path: '/docs/python/metaflow/scaling',
+        component: ComponentCreator('/docs/python/metaflow/scaling','a22'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/tagging',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/tagging','f89'),
+        path: '/docs/python/metaflow/tagging',
+        component: ComponentCreator('/docs/python/metaflow/tagging','12e'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/visualizing-results',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/visualizing-results','e83'),
+        path: '/docs/python/metaflow/visualizing-results',
+        component: ComponentCreator('/docs/python/metaflow/visualizing-results','c08'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates','170'),
+        path: '/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates',
+        component: ComponentCreator('/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates','931'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components','f21'),
+        path: '/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components',
+        component: ComponentCreator('/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components','a6b'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards',
-        component: ComponentCreator('/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards','ec0'),
+        path: '/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards',
+        component: ComponentCreator('/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards','60d'),
         exact: true,
         'sidebar': "python"
       },
       {
-        path: '/docusaurus/docs/r',
-        component: ComponentCreator('/docusaurus/docs/r','ea9'),
+        path: '/docs/r',
+        component: ComponentCreator('/docs/r','6e3'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/development-environment',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/development-environment','c71'),
+        path: '/docs/r/getting-started/development-environment',
+        component: ComponentCreator('/docs/r/getting-started/development-environment','4a7'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/install',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/install','97c'),
+        path: '/docs/r/getting-started/install',
+        component: ComponentCreator('/docs/r/getting-started/install','526'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials','75e'),
+        path: '/docs/r/getting-started/tutorials',
+        component: ComponentCreator('/docs/r/getting-started/tutorials','b2d'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience','2fc'),
+        path: '/docs/r/getting-started/tutorials/season-1-the-local-experience',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience','077'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00','783'),
+        path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00','f96'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01','a6d'),
+        path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01','54d'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02','9c5'),
+        path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02','23a'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03','3aa'),
+        path: '/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03','1d1'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up','190'),
+        path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up','9b4'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04','34e'),
+        path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04','4b4'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05','307'),
+        path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05','3e8'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
-        component: ComponentCreator('/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06','fd4'),
+        path: '/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06',
+        component: ComponentCreator('/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06','a01'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows',
-        component: ComponentCreator('/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows','da5'),
+        path: '/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows',
+        component: ComponentCreator('/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows','039'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/contributing-to-metaflow',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/contributing-to-metaflow','03e'),
+        path: '/docs/r/introduction/contributing-to-metaflow',
+        component: ComponentCreator('/docs/r/introduction/contributing-to-metaflow','74d'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/getting-in-touch',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/getting-in-touch','3b7'),
+        path: '/docs/r/introduction/getting-in-touch',
+        component: ComponentCreator('/docs/r/introduction/getting-in-touch','905'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/release-notes',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/release-notes','491'),
+        path: '/docs/r/introduction/release-notes',
+        component: ComponentCreator('/docs/r/introduction/release-notes','93e'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/roadmap',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/roadmap','a23'),
+        path: '/docs/r/introduction/roadmap',
+        component: ComponentCreator('/docs/r/introduction/roadmap','003'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/r/introduction/what-is-metaflow',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/what-is-metaflow','8c9'),
+        path: '/docs/r/introduction/what-is-metaflow',
+        component: ComponentCreator('/docs/r/introduction/what-is-metaflow','1a7'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/why-metaflow',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/why-metaflow','3e9'),
+        path: '/docs/r/introduction/why-metaflow',
+        component: ComponentCreator('/docs/r/introduction/why-metaflow','5e0'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/introduction/wip-contributing-to-metaflow',
-        component: ComponentCreator('/docusaurus/docs/r/introduction/wip-contributing-to-metaflow','347'),
+        path: '/docs/r/introduction/wip-contributing-to-metaflow',
+        component: ComponentCreator('/docs/r/introduction/wip-contributing-to-metaflow','20b'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/r/metaflow-on-aws',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow-on-aws','eb2'),
+        path: '/docs/r/metaflow-on-aws',
+        component: ComponentCreator('/docs/r/metaflow-on-aws','51b'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws','d49'),
+        path: '/docs/r/metaflow-on-aws/deploy-to-aws',
+        component: ComponentCreator('/docs/r/metaflow-on-aws/deploy-to-aws','d81'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox','de0'),
+        path: '/docs/r/metaflow-on-aws/metaflow-sandbox',
+        component: ComponentCreator('/docs/r/metaflow-on-aws/metaflow-sandbox','212'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/basics',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/basics','533'),
+        path: '/docs/r/metaflow/basics',
+        component: ComponentCreator('/docs/r/metaflow/basics','294'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/client',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/client','9fc'),
+        path: '/docs/r/metaflow/client',
+        component: ComponentCreator('/docs/r/metaflow/client','eb3'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/debugging',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/debugging','aa8'),
+        path: '/docs/r/metaflow/debugging',
+        component: ComponentCreator('/docs/r/metaflow/debugging','30d'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/failures',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/failures','d02'),
+        path: '/docs/r/metaflow/failures',
+        component: ComponentCreator('/docs/r/metaflow/failures','155'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/scaling',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/scaling','93d'),
+        path: '/docs/r/metaflow/scaling',
+        component: ComponentCreator('/docs/r/metaflow/scaling','6dd'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/metaflow/tagging',
-        component: ComponentCreator('/docusaurus/docs/r/metaflow/tagging','b1c'),
+        path: '/docs/r/metaflow/tagging',
+        component: ComponentCreator('/docs/r/metaflow/tagging','38a'),
         exact: true,
         'sidebar': "r"
       },
       {
-        path: '/docusaurus/docs/r/SUMMARY',
-        component: ComponentCreator('/docusaurus/docs/r/SUMMARY','6f1'),
+        path: '/docs/r/SUMMARY',
+        component: ComponentCreator('/docs/r/SUMMARY','a98'),
         exact: true
       },
       {
-        path: '/docusaurus/docs/some_code',
-        component: ComponentCreator('/docusaurus/docs/some_code','508'),
+        path: '/docs/some_code',
+        component: ComponentCreator('/docs/some_code','8f2'),
         exact: true
       }
     ]
   },
   {
-    path: '/docusaurus/',
-    component: ComponentCreator('/docusaurus/','bcd'),
+    path: '/',
+    component: ComponentCreator('/','5f1'),
     exact: true
   },
   {

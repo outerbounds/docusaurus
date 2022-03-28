@@ -1,559 +1,559 @@
 {
-  "/docusaurus/__docusaurus/debug-cd2": {
+  "/__docusaurus/debug-3d6": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/docusaurus/__docusaurus/debug/config-136": {
+  "/__docusaurus/debug/config-914": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/docusaurus/__docusaurus/debug/content-b6c": {
+  "/__docusaurus/debug/content-c28": {
     "component": "component---theme-debug-contentba-8-ce7",
     "allContent": "allContent---docusaurus-docusaurus-debug-content-246-f40"
   },
-  "/docusaurus/__docusaurus/debug/globalData-038": {
+  "/__docusaurus/debug/globalData-3cf": {
     "component": "component---theme-debug-global-dataede-0fa"
   },
-  "/docusaurus/__docusaurus/debug/metadata-5f4": {
+  "/__docusaurus/debug/metadata-31b": {
     "component": "component---theme-debug-site-metadata-68-e-3d4"
   },
-  "/docusaurus/__docusaurus/debug/registry-ab4": {
+  "/__docusaurus/debug/registry-0da": {
     "component": "component---theme-debug-registry-679-501"
   },
-  "/docusaurus/__docusaurus/debug/routes-cf4": {
+  "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docusaurus/blog/archive-ae5": {
+  "/blog/archive-f4c": {
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---docusaurus-blog-archivee-50-27c"
+    "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/docusaurus/docs-790": {
+  "/docs-ffd": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docusaurus-docs-935-60a"
   },
-  "/docusaurus/docs-c61": {
+  "/docs-51a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docsc-37-2e4"
   },
-  "/docusaurus/docs/api/metaflow-583": {
+  "/docs/api/metaflow-ae9": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflowd-51-636"
   },
-  "/docusaurus/docs/api/metaflow/client/core-cf2": {
+  "/docs/api/metaflow/client/core-ba1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-client-core-78-e-de2"
   },
-  "/docusaurus/docs/api/metaflow/client/filecache-1ea": {
+  "/docs/api/metaflow/client/filecache-b26": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-client-filecache-4-a-1-110"
   },
-  "/docusaurus/docs/api/metaflow/datastore/content_addressed_store-34b": {
+  "/docs/api/metaflow/datastore/content_addressed_store-c36": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datastore-content-addressed-storee-24-454"
   },
-  "/docusaurus/docs/api/metaflow/datastore/datastore_storage-b29": {
+  "/docs/api/metaflow/datastore/datastore_storage-39b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datastore-datastore-storage-896-5e6"
   },
-  "/docusaurus/docs/api/metaflow/datastore/flow_datastore-5df": {
+  "/docs/api/metaflow/datastore/flow_datastore-12e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datastore-flow-datastore-713-459"
   },
-  "/docusaurus/docs/api/metaflow/datastore/inputs-b51": {
+  "/docs/api/metaflow/datastore/inputs-9c5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datastore-inputsb-6-e-cba"
   },
-  "/docusaurus/docs/api/metaflow/datastore/task_datastore-12d": {
+  "/docs/api/metaflow/datastore/task_datastore-811": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datastore-task-datastore-4-b-9-672"
   },
-  "/docusaurus/docs/api/metaflow/datatools/s3-ac1": {
+  "/docs/api/metaflow/datatools/s3-047": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datatools-s-3-c-3-e-5bb"
   },
-  "/docusaurus/docs/api/metaflow/datatools/s3util-a29": {
+  "/docs/api/metaflow/datatools/s3util-75a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-datatools-s-3-util-209-434"
   },
-  "/docusaurus/docs/api/metaflow/decorators-4f6": {
+  "/docs/api/metaflow/decorators-403": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-decoratorsdf-4-a41"
   },
-  "/docusaurus/docs/api/metaflow/flowspec-589": {
+  "/docs/api/metaflow/flowspec-d09": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-flowspec-685-0ab"
   },
-  "/docusaurus/docs/api/metaflow/includefile-066": {
+  "/docs/api/metaflow/includefile-546": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-includefile-5-bf-a25"
   },
-  "/docusaurus/docs/api/metaflow/metadata-924": {
+  "/docs/api/metaflow/metadata-92e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-metadata-3-f-7-19a"
   },
-  "/docusaurus/docs/api/metaflow/metaflow_environment-322": {
+  "/docs/api/metaflow/metaflow_environment-d91": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-metaflow-environmentc-66-fa7"
   },
-  "/docusaurus/docs/api/metaflow/metaflow_version-d53": {
+  "/docs/api/metaflow/metaflow_version-12a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-metaflow-version-44-b-8a3"
   },
-  "/docusaurus/docs/api/metaflow/monitor-d4b": {
+  "/docs/api/metaflow/monitor-057": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-monitor-98-d-5e0"
   },
-  "/docusaurus/docs/api/metaflow/package-ee7": {
+  "/docs/api/metaflow/package-b7e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-package-7-e-7-c4d"
   },
-  "/docusaurus/docs/api/metaflow/parameters-250": {
+  "/docs/api/metaflow/parameters-6ac": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-parametersbd-7-4c8"
   },
-  "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils-01b": {
+  "/docs/api/metaflow/plugins/aws/aws_utils-3d7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-aws-aws-utils-528-55f"
   },
-  "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator-6de": {
+  "/docs/api/metaflow/plugins/aws/batch/batch_decorator-f27": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-aws-batch-batch-decorator-916-e7d"
   },
-  "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes-a27": {
+  "/docs/api/metaflow/plugins/aws/eks/kubernetes-986": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-aws-eks-kubernetese-91-33c"
   },
-  "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator-5d5": {
+  "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator-4a6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-aws-eks-kubernetes-decorator-940-6fd"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_cli-268": {
+  "/docs/api/metaflow/plugins/cards/card_cli-aee": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-clic-0-f-d5e"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_client-e51": {
+  "/docs/api/metaflow/plugins/cards/card_client-30d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-client-6-fe-a01"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore-f52": {
+  "/docs/api/metaflow/plugins/cards/card_datastore-778": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-datastorecf-5-078"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic-b86": {
+  "/docs/api/metaflow/plugins/cards/card_modules/basic-9cb": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-basic-60-c-970"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card-987": {
+  "/docs/api/metaflow/plugins/cards/card_modules/card-a5c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-card-7-be-adf"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main-b89": {
+  "/docs/api/metaflow/plugins/cards/card_modules/chevron/main-778": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-chevron-mainaf-8-469"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer-8be": {
+  "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer-ed1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-chevron-renderer-4-bb-29a"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer-b39": {
+  "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer-6b4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-chevron-tokenizercbe-94f"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components-572": {
+  "/docs/api/metaflow/plugins/cards/card_modules/components-2d1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-components-967-653"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools-0f5": {
+  "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools-4c9": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-card-modules-renderer-tools-7-d-5-aed"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer-9b0": {
+  "/docs/api/metaflow/plugins/cards/component_serializer-d28": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-component-serializer-336-6c2"
   },
-  "/docusaurus/docs/api/metaflow/plugins/cards/exception-7c9": {
+  "/docs/api/metaflow/plugins/cards/exception-58f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-cards-exceptionae-3-773"
   },
-  "/docusaurus/docs/api/metaflow/plugins/catch_decorator-ace": {
+  "/docs/api/metaflow/plugins/catch_decorator-6f8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-catch-decoratord-1-a-152"
   },
-  "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator-d6c": {
+  "/docs/api/metaflow/plugins/conda/conda_flow_decorator-6f5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-conda-conda-flow-decorator-571-cf6"
   },
-  "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator-763": {
+  "/docs/api/metaflow/plugins/conda/conda_step_decorator-eda": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-conda-conda-step-decorator-7-bc-781"
   },
-  "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream-382": {
+  "/docs/api/metaflow/plugins/env_escape/communication/bytestream-2dc": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-env-escape-communication-bytestreamb-3-c-f49"
   },
-  "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel-084": {
+  "/docs/api/metaflow/plugins/env_escape/communication/channel-ce0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-env-escape-communication-channel-764-a0b"
   },
-  "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils-84d": {
+  "/docs/api/metaflow/plugins/env_escape/communication/utils-e6d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-env-escape-communication-utils-48-d-886"
   },
-  "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer-66b": {
+  "/docs/api/metaflow/plugins/env_escape/exception_transferer-c7f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-env-escape-exception-transferer-568-4eb"
   },
-  "/docusaurus/docs/api/metaflow/plugins/env_escape/stub-0f8": {
+  "/docs/api/metaflow/plugins/env_escape/stub-95d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-env-escape-stub-7-d-5-be4"
   },
-  "/docusaurus/docs/api/metaflow/plugins/environment_decorator-1fb": {
+  "/docs/api/metaflow/plugins/environment_decorator-944": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-environment-decoratora-43-1ed"
   },
-  "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch-23b": {
+  "/docs/api/metaflow/plugins/frameworks/pytorch-17b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-frameworks-pytorchd-83-b8b"
   },
-  "/docusaurus/docs/api/metaflow/plugins/resources_decorator-d02": {
+  "/docs/api/metaflow/plugins/resources_decorator-a2a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-resources-decorator-118-b8d"
   },
-  "/docusaurus/docs/api/metaflow/plugins/retry_decorator-b51": {
+  "/docs/api/metaflow/plugins/retry_decorator-5b3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-retry-decorator-110-6a1"
   },
-  "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator-4a8": {
+  "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator-833": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-test-unbounded-foreach-decoratorf-8-a-921"
   },
-  "/docusaurus/docs/api/metaflow/plugins/timeout_decorator-4a5": {
+  "/docs/api/metaflow/plugins/timeout_decorator-b10": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-plugins-timeout-decoratore-9-e-c36"
   },
-  "/docusaurus/docs/api/metaflow/runtime-6e0": {
+  "/docs/api/metaflow/runtime-b3c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-runtimee-48-482"
   },
-  "/docusaurus/docs/api/metaflow/sidecar-520": {
+  "/docs/api/metaflow/sidecar-8fc": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-sidecar-2-a-6-941"
   },
-  "/docusaurus/docs/api/metaflow/sidecar_worker-ad0": {
+  "/docs/api/metaflow/sidecar_worker-9ce": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-sidecar-worker-774-7ea"
   },
-  "/docusaurus/docs/api/metaflow/task-f42": {
+  "/docs/api/metaflow/task-4f0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-task-3-d-8-6e6"
   },
-  "/docusaurus/docs/api/metaflow/unbounded_foreach-3df": {
+  "/docs/api/metaflow/unbounded_foreach-196": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-unbounded-foreach-2-d-4-096"
   },
-  "/docusaurus/docs/api/metaflow/util-b20": {
+  "/docs/api/metaflow/util-ed6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-util-416-587"
   },
-  "/docusaurus/docs/api/metaflow/vendor-711": {
+  "/docs/api/metaflow/vendor-0de": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-api-metaflow-vendorac-0-54b"
   },
-  "/docusaurus/docs/flow_datastore-08c": {
+  "/docs/flow_datastore-db2": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-flow-datastore-4-b-0-cdb"
   },
-  "/docusaurus/docs/flow_datastore2-aa5": {
+  "/docs/flow_datastore2-714": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-flow-datastore-29-cd-28d"
   },
-  "/docusaurus/docs/flow_datastory_mdx-a6f": {
+  "/docs/flow_datastory_mdx-944": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-flow-datastory-mdx-01-e-bae"
   },
-  "/docusaurus/docs/python-8d0": {
+  "/docs/python-b20": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-pythona-2-a-b4d"
   },
-  "/docusaurus/docs/python/getting-started/install-d58": {
+  "/docs/python/getting-started/install-510": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-installa-25-7fb"
   },
-  "/docusaurus/docs/python/getting-started/tutorials-866": {
+  "/docs/python/getting-started/tutorials-4f9": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-585-d77"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience-28e": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience-b39": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-19-e-b04"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00-0ca": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00-ce8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-episode-00328-6b3"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01-92b": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01-8ed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-episode-01-b-59-4a6"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02-2b0": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02-b63": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-episode-02473-f42"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03-f57": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03-cff": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-episode-03633-120"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04-8d6": {
+  "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04-557": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-1-the-local-experience-episode-046-a-6-3fd"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up-f99": {
+  "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up-604": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-2-scaling-out-and-upcdf-e56"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot-930": {
+  "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot-d2a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-2-scaling-out-and-up-episode-8-autopilot-5-e-8-0df"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05-0e4": {
+  "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05-4dd": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-2-scaling-out-and-up-episode-05-b-7-c-cae"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06-b38": {
+  "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06-89f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-2-scaling-out-and-up-episode-0636-c-e3e"
   },
-  "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07-0f6": {
+  "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07-e1c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-getting-started-tutorials-season-2-scaling-out-and-up-episode-0726-e-37a"
   },
-  "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects-652": {
+  "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects-618": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-going-to-production-with-metaflow-coordinating-larger-metaflow-projectse-88-4d0"
   },
-  "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows-007": {
+  "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows-c3a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-going-to-production-with-metaflow-scheduling-metaflow-flows-48-c-a29"
   },
-  "/docusaurus/docs/python/internals-of-metaflow/technical-overview-fe6": {
+  "/docs/python/internals-of-metaflow/technical-overview-bd1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-internals-of-metaflow-technical-overview-3-f-0-050"
   },
-  "/docusaurus/docs/python/internals-of-metaflow/testing-philosophy-0d2": {
+  "/docs/python/internals-of-metaflow/testing-philosophy-5a5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-internals-of-metaflow-testing-philosophy-64-b-b6f"
   },
-  "/docusaurus/docs/python/introduction/contributing-to-metaflow-5b9": {
+  "/docs/python/introduction/contributing-to-metaflow-3ce": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-contributing-to-metaflowde-9-b83"
   },
-  "/docusaurus/docs/python/introduction/getting-in-touch-0de": {
+  "/docs/python/introduction/getting-in-touch-94c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-getting-in-touch-49-e-ee1"
   },
-  "/docusaurus/docs/python/introduction/release-notes-91c": {
+  "/docs/python/introduction/release-notes-008": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-release-notese-93-3c9"
   },
-  "/docusaurus/docs/python/introduction/roadmap-b2b": {
+  "/docs/python/introduction/roadmap-d97": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-roadmapb-91-d65"
   },
-  "/docusaurus/docs/python/introduction/what-is-metaflow-e97": {
+  "/docs/python/introduction/what-is-metaflow-2b6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-what-is-metaflow-10-f-ba6"
   },
-  "/docusaurus/docs/python/introduction/why-metaflow-889": {
+  "/docs/python/introduction/why-metaflow-59f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-introduction-why-metaflow-97-b-5c3"
   },
-  "/docusaurus/docs/python/metaflow-on-aws-1df": {
+  "/docs/python/metaflow-on-aws-89a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-on-aws-61-b-807"
   },
-  "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws-33a": {
+  "/docs/python/metaflow-on-aws/deploy-to-aws-17b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-on-aws-deploy-to-aws-3-ea-e16"
   },
-  "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox-dfa": {
+  "/docs/python/metaflow-on-aws/metaflow-sandbox-710": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-on-aws-metaflow-sandbox-4-bd-2de"
   },
-  "/docusaurus/docs/python/metaflow/basics-e4d": {
+  "/docs/python/metaflow/basics-ae0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-basicsc-9-e-824"
   },
-  "/docusaurus/docs/python/metaflow/client-f83": {
+  "/docs/python/metaflow/client-cb4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-clientf-5-a-d5f"
   },
-  "/docusaurus/docs/python/metaflow/data-e3d": {
+  "/docs/python/metaflow/data-214": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-datae-5-d-f21"
   },
-  "/docusaurus/docs/python/metaflow/debugging-019": {
+  "/docs/python/metaflow/debugging-7fc": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-debugging-73-c-798"
   },
-  "/docusaurus/docs/python/metaflow/dependencies-c55": {
+  "/docs/python/metaflow/dependencies-194": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-dependenciesa-43-d54"
   },
-  "/docusaurus/docs/python/metaflow/failures-4e5": {
+  "/docs/python/metaflow/failures-5fe": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-failuresf-4-d-20f"
   },
-  "/docusaurus/docs/python/metaflow/scaling-70a": {
+  "/docs/python/metaflow/scaling-a22": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-scaling-5-f-6-419"
   },
-  "/docusaurus/docs/python/metaflow/tagging-f89": {
+  "/docs/python/metaflow/tagging-12e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-tagging-089-f82"
   },
-  "/docusaurus/docs/python/metaflow/visualizing-results-e83": {
+  "/docs/python/metaflow/visualizing-results-c08": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-visualizing-resultsb-08-b54"
   },
-  "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates-170": {
+  "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates-931": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-visualizing-results-advanced-shareable-cards-with-card-templates-8-fb-9a3"
   },
-  "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components-f21": {
+  "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components-a6b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-visualizing-results-easy-custom-reports-with-card-componentse-8-a-c5d"
   },
-  "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards-ec0": {
+  "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards-60d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-python-metaflow-visualizing-results-effortless-task-inspection-with-default-cards-9-b-2-c6d"
   },
-  "/docusaurus/docs/r-ea9": {
+  "/docs/r-6e3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-86-c-650"
   },
-  "/docusaurus/docs/r/getting-started/development-environment-c71": {
+  "/docs/r/getting-started/development-environment-4a7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-development-environmentc-2-d-714"
   },
-  "/docusaurus/docs/r/getting-started/install-97c": {
+  "/docs/r/getting-started/install-526": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-installf-7-f-352"
   },
-  "/docusaurus/docs/r/getting-started/tutorials-75e": {
+  "/docs/r/getting-started/tutorials-b2d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-7-ea-f7b"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience-2fc": {
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience-077": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-1-the-local-experience-32-a-b2f"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00-783": {
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00-f96": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-1-the-local-experience-episode-00179-1c9"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01-a6d": {
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01-54d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-1-the-local-experience-episode-0103-e-e4d"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02-9c5": {
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02-23a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-1-the-local-experience-episode-02-c-81-b37"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03-3aa": {
+  "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03-1d1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-1-the-local-experience-episode-03-f-03-8b1"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up-190": {
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up-9b4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-2-scaling-out-and-up-218-2c4"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04-34e": {
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04-4b4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-2-scaling-out-and-up-episode-04-d-12-04d"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05-307": {
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05-3e8": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-2-scaling-out-and-up-episode-05596-fc2"
   },
-  "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06-fd4": {
+  "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06-a01": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-getting-started-tutorials-season-2-scaling-out-and-up-episode-06-fc-3-430"
   },
-  "/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows-da5": {
+  "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows-039": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-going-to-production-with-metaflow-scheduling-metaflow-flowse-93-352"
   },
-  "/docusaurus/docs/r/introduction/contributing-to-metaflow-03e": {
+  "/docs/r/introduction/contributing-to-metaflow-74d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-contributing-to-metaflow-567-be4"
   },
-  "/docusaurus/docs/r/introduction/getting-in-touch-3b7": {
+  "/docs/r/introduction/getting-in-touch-905": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-getting-in-touchd-60-0a0"
   },
-  "/docusaurus/docs/r/introduction/release-notes-491": {
+  "/docs/r/introduction/release-notes-93e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-release-notesdac-3ab"
   },
-  "/docusaurus/docs/r/introduction/roadmap-a23": {
+  "/docs/r/introduction/roadmap-003": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-roadmap-6-e-3-1c9"
   },
-  "/docusaurus/docs/r/introduction/what-is-metaflow-8c9": {
+  "/docs/r/introduction/what-is-metaflow-1a7": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-what-is-metaflow-31-c-14e"
   },
-  "/docusaurus/docs/r/introduction/why-metaflow-3e9": {
+  "/docs/r/introduction/why-metaflow-5e0": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-why-metaflow-276-fc9"
   },
-  "/docusaurus/docs/r/introduction/wip-contributing-to-metaflow-347": {
+  "/docs/r/introduction/wip-contributing-to-metaflow-20b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-introduction-wip-contributing-to-metaflow-6-ee-16f"
   },
-  "/docusaurus/docs/r/metaflow-on-aws-eb2": {
+  "/docs/r/metaflow-on-aws-51b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-on-aws-0-aa-ba2"
   },
-  "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws-d49": {
+  "/docs/r/metaflow-on-aws/deploy-to-aws-d81": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-on-aws-deploy-to-awscdc-2a3"
   },
-  "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox-de0": {
+  "/docs/r/metaflow-on-aws/metaflow-sandbox-212": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-on-aws-metaflow-sandbox-494-cdb"
   },
-  "/docusaurus/docs/r/metaflow/basics-533": {
+  "/docs/r/metaflow/basics-294": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-basics-8-de-6b8"
   },
-  "/docusaurus/docs/r/metaflow/client-9fc": {
+  "/docs/r/metaflow/client-eb3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-client-3-a-4-c9c"
   },
-  "/docusaurus/docs/r/metaflow/debugging-aa8": {
+  "/docs/r/metaflow/debugging-30d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-debugging-0-ff-1b3"
   },
-  "/docusaurus/docs/r/metaflow/failures-d02": {
+  "/docs/r/metaflow/failures-155": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-failuresfad-2d0"
   },
-  "/docusaurus/docs/r/metaflow/scaling-93d": {
+  "/docs/r/metaflow/scaling-6dd": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-scaling-030-8c5"
   },
-  "/docusaurus/docs/r/metaflow/tagging-b1c": {
+  "/docs/r/metaflow/tagging-38a": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-metaflow-tagging-688-eee"
   },
-  "/docusaurus/docs/r/SUMMARY-6f1": {
+  "/docs/r/SUMMARY-a98": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-r-summary-01-a-fee"
   },
-  "/docusaurus/docs/some_code-508": {
+  "/docs/some_code-8f2": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-some-codee-5-e-645"
   },
-  "/docusaurus/-bcd": {
+  "/-5f1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---docusaurus-f-39-4da"
   }

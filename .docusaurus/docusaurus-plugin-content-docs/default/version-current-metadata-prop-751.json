@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Welcome to Metaflow for Python",
-        "href": "/docusaurus/docs/python/",
+        "href": "/docs/python/",
         "docId": "python/index"
       },
       {
@@ -22,37 +22,37 @@
           {
             "type": "link",
             "label": "Why Metaflow",
-            "href": "/docusaurus/docs/python/introduction/why-metaflow",
+            "href": "/docs/python/introduction/why-metaflow",
             "docId": "python/introduction/why-metaflow"
           },
           {
             "type": "link",
             "label": "What is Metaflow",
-            "href": "/docusaurus/docs/python/introduction/what-is-metaflow",
+            "href": "/docs/python/introduction/what-is-metaflow",
             "docId": "python/introduction/what-is-metaflow"
           },
           {
             "type": "link",
             "label": "Release Notes",
-            "href": "/docusaurus/docs/python/introduction/release-notes",
+            "href": "/docs/python/introduction/release-notes",
             "docId": "python/introduction/release-notes"
           },
           {
             "type": "link",
             "label": "Roadmap",
-            "href": "/docusaurus/docs/python/introduction/roadmap",
+            "href": "/docs/python/introduction/roadmap",
             "docId": "python/introduction/roadmap"
           },
           {
             "type": "link",
             "label": "Contributing to Metaflow",
-            "href": "/docusaurus/docs/python/introduction/contributing-to-metaflow",
+            "href": "/docs/python/introduction/contributing-to-metaflow",
             "docId": "python/introduction/contributing-to-metaflow"
           },
           {
             "type": "link",
             "label": "Get in Touch",
-            "href": "/docusaurus/docs/python/introduction/getting-in-touch",
+            "href": "/docs/python/introduction/getting-in-touch",
             "docId": "python/introduction/getting-in-touch"
           }
         ],
@@ -66,7 +66,7 @@
           {
             "type": "link",
             "label": "Installing Metaflow",
-            "href": "/docusaurus/docs/python/getting-started/install",
+            "href": "/docs/python/getting-started/install",
             "docId": "python/getting-started/install"
           },
           {
@@ -82,36 +82,36 @@
                   {
                     "type": "link",
                     "label": "Episode 0: Hello World",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
+                    "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
                     "docId": "python/getting-started/tutorials/season-1-the-local-experience/episode00"
                   },
                   {
                     "type": "link",
                     "label": "Episode 1: Playlist",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
+                    "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
                     "docId": "python/getting-started/tutorials/season-1-the-local-experience/episode01"
                   },
                   {
                     "type": "link",
                     "label": "Episode 2: Statistics",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
+                    "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
                     "docId": "python/getting-started/tutorials/season-1-the-local-experience/episode02"
                   },
                   {
                     "type": "link",
                     "label": "Episode 3: Playlist Redux",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
+                    "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
                     "docId": "python/getting-started/tutorials/season-1-the-local-experience/episode03"
                   },
                   {
                     "type": "link",
                     "label": "Episode 4: Playlist Plus",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
+                    "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
                     "docId": "python/getting-started/tutorials/season-1-the-local-experience/episode04"
                   }
                 ],
                 "collapsible": true,
-                "href": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/"
+                "href": "/docs/python/getting-started/tutorials/season-1-the-local-experience/"
               },
               {
                 "type": "category",
@@ -121,34 +121,34 @@
                   {
                     "type": "link",
                     "label": "Episode 5: Hello AWS",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                    "href": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
                     "docId": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
                   },
                   {
                     "type": "link",
                     "label": "Episode 6: Statistics Redux",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                    "href": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
                     "docId": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
                   },
                   {
                     "type": "link",
                     "label": "Episode 7: Worldview",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+                    "href": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
                     "docId": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
                   },
                   {
                     "type": "link",
                     "label": "Episode 8: Autopilot",
-                    "href": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+                    "href": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
                     "docId": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
                   }
                 ],
                 "collapsible": true,
-                "href": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "href": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
               }
             ],
             "collapsible": true,
-            "href": "/docusaurus/docs/python/getting-started/tutorials/"
+            "href": "/docs/python/getting-started/tutorials/"
           }
         ],
         "collapsible": true
@@ -161,19 +161,19 @@
           {
             "type": "link",
             "label": "Metaflow on AWS",
-            "href": "/docusaurus/docs/python/metaflow-on-aws/",
+            "href": "/docs/python/metaflow-on-aws/",
             "docId": "python/metaflow-on-aws/metaflow-on-aws"
           },
           {
             "type": "link",
             "label": "Metaflow Sandbox",
-            "href": "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox",
+            "href": "/docs/python/metaflow-on-aws/metaflow-sandbox",
             "docId": "python/metaflow-on-aws/metaflow-sandbox"
           },
           {
             "type": "link",
             "label": "Deploying to AWS",
-            "href": "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws",
+            "href": "/docs/python/metaflow-on-aws/deploy-to-aws",
             "docId": "python/metaflow-on-aws/deploy-to-aws"
           }
         ],
@@ -187,13 +187,13 @@
           {
             "type": "link",
             "label": "Basics of Metaflow",
-            "href": "/docusaurus/docs/python/metaflow/basics",
+            "href": "/docs/python/metaflow/basics",
             "docId": "python/metaflow/basics"
           },
           {
             "type": "link",
             "label": "Inspecting Flows and Results",
-            "href": "/docusaurus/docs/python/metaflow/client",
+            "href": "/docs/python/metaflow/client",
             "docId": "python/metaflow/client"
           },
           {
@@ -204,59 +204,59 @@
               {
                 "type": "link",
                 "label": "Effortless Task Inspection with Default Cards",
-                "href": "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+                "href": "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
                 "docId": "python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
               },
               {
                 "type": "link",
                 "label": "Easy Custom Reports with Card Components",
-                "href": "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+                "href": "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
                 "docId": "python/metaflow/visualizing-results/easy-custom-reports-with-card-components"
               },
               {
                 "type": "link",
                 "label": "Advanced, Shareable Cards with Card Templates",
-                "href": "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+                "href": "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
                 "docId": "python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
               }
             ],
             "collapsible": true,
-            "href": "/docusaurus/docs/python/metaflow/visualizing-results/"
+            "href": "/docs/python/metaflow/visualizing-results/"
           },
           {
             "type": "link",
             "label": "Debugging with Metaflow",
-            "href": "/docusaurus/docs/python/metaflow/debugging",
+            "href": "/docs/python/metaflow/debugging",
             "docId": "python/metaflow/debugging"
           },
           {
             "type": "link",
             "label": "Scaling Out and Up",
-            "href": "/docusaurus/docs/python/metaflow/scaling",
+            "href": "/docs/python/metaflow/scaling",
             "docId": "python/metaflow/scaling"
           },
           {
             "type": "link",
             "label": "Loading and Storing Data",
-            "href": "/docusaurus/docs/python/metaflow/data",
+            "href": "/docs/python/metaflow/data",
             "docId": "python/metaflow/data"
           },
           {
             "type": "link",
             "label": "Managing External Libraries",
-            "href": "/docusaurus/docs/python/metaflow/dependencies",
+            "href": "/docs/python/metaflow/dependencies",
             "docId": "python/metaflow/dependencies"
           },
           {
             "type": "link",
             "label": "Dealing with Failures",
-            "href": "/docusaurus/docs/python/metaflow/failures",
+            "href": "/docs/python/metaflow/failures",
             "docId": "python/metaflow/failures"
           },
           {
             "type": "link",
             "label": "Organizing Results",
-            "href": "/docusaurus/docs/python/metaflow/tagging",
+            "href": "/docs/python/metaflow/tagging",
             "docId": "python/metaflow/tagging"
           }
         ],
@@ -270,13 +270,13 @@
           {
             "type": "link",
             "label": "Scheduling Metaflow Flows",
-            "href": "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
+            "href": "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
             "docId": "python/going-to-production-with-metaflow/scheduling-metaflow-flows"
           },
           {
             "type": "link",
             "label": "Coordinating Larger Metaflow Projects",
-            "href": "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+            "href": "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
             "docId": "python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
           }
         ],
@@ -290,13 +290,13 @@
           {
             "type": "link",
             "label": "Technical Overview",
-            "href": "/docusaurus/docs/python/internals-of-metaflow/technical-overview",
+            "href": "/docs/python/internals-of-metaflow/technical-overview",
             "docId": "python/internals-of-metaflow/technical-overview"
           },
           {
             "type": "link",
             "label": "Testing Philosophy",
-            "href": "/docusaurus/docs/python/internals-of-metaflow/testing-philosophy",
+            "href": "/docs/python/internals-of-metaflow/testing-philosophy",
             "docId": "python/internals-of-metaflow/testing-philosophy"
           }
         ],
@@ -307,7 +307,7 @@
       {
         "type": "link",
         "label": "Welcome to Metaflow for R",
-        "href": "/docusaurus/docs/r/",
+        "href": "/docs/r/",
         "docId": "r/README"
       },
       {
@@ -318,31 +318,31 @@
           {
             "type": "link",
             "label": "Why Metaflow",
-            "href": "/docusaurus/docs/r/introduction/why-metaflow",
+            "href": "/docs/r/introduction/why-metaflow",
             "docId": "r/introduction/why-metaflow"
           },
           {
             "type": "link",
             "label": "What is Metaflow",
-            "href": "/docusaurus/docs/r/introduction/what-is-metaflow",
+            "href": "/docs/r/introduction/what-is-metaflow",
             "docId": "r/introduction/what-is-metaflow"
           },
           {
             "type": "link",
             "label": "Release Notes",
-            "href": "/docusaurus/docs/r/introduction/release-notes",
+            "href": "/docs/r/introduction/release-notes",
             "docId": "r/introduction/release-notes"
           },
           {
             "type": "link",
             "label": "Contributing to Metaflow",
-            "href": "/docusaurus/docs/r/introduction/contributing-to-metaflow",
+            "href": "/docs/r/introduction/contributing-to-metaflow",
             "docId": "r/introduction/contributing-to-metaflow"
           },
           {
             "type": "link",
             "label": "Get in Touch",
-            "href": "/docusaurus/docs/r/introduction/getting-in-touch",
+            "href": "/docs/r/introduction/getting-in-touch",
             "docId": "r/introduction/getting-in-touch"
           }
         ],
@@ -356,13 +356,13 @@
           {
             "type": "link",
             "label": "Installing Metaflow",
-            "href": "/docusaurus/docs/r/getting-started/install",
+            "href": "/docs/r/getting-started/install",
             "docId": "r/getting-started/install"
           },
           {
             "type": "link",
             "label": "Development Environment",
-            "href": "/docusaurus/docs/r/getting-started/development-environment",
+            "href": "/docs/r/getting-started/development-environment",
             "docId": "r/getting-started/development-environment"
           },
           {
@@ -378,30 +378,30 @@
                   {
                     "type": "link",
                     "label": "Episode 0: Hello World",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
                     "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode00"
                   },
                   {
                     "type": "link",
                     "label": "Episode 1: Playlist",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
                     "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode01"
                   },
                   {
                     "type": "link",
                     "label": "Episode 2: Statistics",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
                     "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode02"
                   },
                   {
                     "type": "link",
                     "label": "Episode 3: Playlist Redux",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
+                    "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
                     "docId": "r/getting-started/tutorials/season-1-the-local-experience/episode03"
                   }
                 ],
                 "collapsible": true,
-                "href": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+                "href": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
               },
               {
                 "type": "category",
@@ -411,28 +411,28 @@
                   {
                     "type": "link",
                     "label": "Episode 4: Hello AWS",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
                     "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
                   },
                   {
                     "type": "link",
                     "label": "Episode 5: Statistics Redux",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
                     "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
                   },
                   {
                     "type": "link",
                     "label": "Episode 6: Worldview",
-                    "href": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+                    "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
                     "docId": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
                   }
                 ],
                 "collapsible": true,
-                "href": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "href": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
               }
             ],
             "collapsible": true,
-            "href": "/docusaurus/docs/r/getting-started/tutorials/"
+            "href": "/docs/r/getting-started/tutorials/"
           }
         ],
         "collapsible": true
@@ -445,19 +445,19 @@
           {
             "type": "link",
             "label": "Metaflow on AWS",
-            "href": "/docusaurus/docs/r/metaflow-on-aws/",
+            "href": "/docs/r/metaflow-on-aws/",
             "docId": "r/metaflow-on-aws/metaflow-on-aws"
           },
           {
             "type": "link",
             "label": "Metaflow Sandbox",
-            "href": "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox",
+            "href": "/docs/r/metaflow-on-aws/metaflow-sandbox",
             "docId": "r/metaflow-on-aws/metaflow-sandbox"
           },
           {
             "type": "link",
             "label": "Deploying to AWS",
-            "href": "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws",
+            "href": "/docs/r/metaflow-on-aws/deploy-to-aws",
             "docId": "r/metaflow-on-aws/deploy-to-aws"
           }
         ],
@@ -471,37 +471,37 @@
           {
             "type": "link",
             "label": "Basics of Metaflow",
-            "href": "/docusaurus/docs/r/metaflow/basics",
+            "href": "/docs/r/metaflow/basics",
             "docId": "r/metaflow/basics"
           },
           {
             "type": "link",
             "label": "Inspecting Flows and Results",
-            "href": "/docusaurus/docs/r/metaflow/client",
+            "href": "/docs/r/metaflow/client",
             "docId": "r/metaflow/client"
           },
           {
             "type": "link",
             "label": "Debugging with Metaflow",
-            "href": "/docusaurus/docs/r/metaflow/debugging",
+            "href": "/docs/r/metaflow/debugging",
             "docId": "r/metaflow/debugging"
           },
           {
             "type": "link",
             "label": "Scaling Out and Up",
-            "href": "/docusaurus/docs/r/metaflow/scaling",
+            "href": "/docs/r/metaflow/scaling",
             "docId": "r/metaflow/scaling"
           },
           {
             "type": "link",
             "label": "Dealing with Failures",
-            "href": "/docusaurus/docs/r/metaflow/failures",
+            "href": "/docs/r/metaflow/failures",
             "docId": "r/metaflow/failures"
           },
           {
             "type": "link",
             "label": "Organizing Results",
-            "href": "/docusaurus/docs/r/metaflow/tagging",
+            "href": "/docs/r/metaflow/tagging",
             "docId": "r/metaflow/tagging"
           }
         ],
@@ -515,7 +515,7 @@
           {
             "type": "link",
             "label": "Scheduling Metaflow Flows",
-            "href": "/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
+            "href": "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
             "docId": "r/going-to-production-with-metaflow/scheduling-metaflow-flows"
           }
         ],
@@ -530,13 +530,13 @@
               {
                 "type": "link",
                 "label": "core",
-                "href": "/docusaurus/docs/api/metaflow/client/core",
+                "href": "/docs/api/metaflow/client/core",
                 "docId": "api/metaflow/client/core"
               },
               {
                 "type": "link",
                 "label": "filecache",
-                "href": "/docusaurus/docs/api/metaflow/client/filecache",
+                "href": "/docs/api/metaflow/client/filecache",
                 "docId": "api/metaflow/client/filecache"
               }
             ],
@@ -550,31 +550,31 @@
               {
                 "type": "link",
                 "label": "content_addressed_store",
-                "href": "/docusaurus/docs/api/metaflow/datastore/content_addressed_store",
+                "href": "/docs/api/metaflow/datastore/content_addressed_store",
                 "docId": "api/metaflow/datastore/content_addressed_store"
               },
               {
                 "type": "link",
                 "label": "datastore_storage",
-                "href": "/docusaurus/docs/api/metaflow/datastore/datastore_storage",
+                "href": "/docs/api/metaflow/datastore/datastore_storage",
                 "docId": "api/metaflow/datastore/datastore_storage"
               },
               {
                 "type": "link",
                 "label": "flow_datastore",
-                "href": "/docusaurus/docs/api/metaflow/datastore/flow_datastore",
+                "href": "/docs/api/metaflow/datastore/flow_datastore",
                 "docId": "api/metaflow/datastore/flow_datastore"
               },
               {
                 "type": "link",
                 "label": "inputs",
-                "href": "/docusaurus/docs/api/metaflow/datastore/inputs",
+                "href": "/docs/api/metaflow/datastore/inputs",
                 "docId": "api/metaflow/datastore/inputs"
               },
               {
                 "type": "link",
                 "label": "task_datastore",
-                "href": "/docusaurus/docs/api/metaflow/datastore/task_datastore",
+                "href": "/docs/api/metaflow/datastore/task_datastore",
                 "docId": "api/metaflow/datastore/task_datastore"
               }
             ],
@@ -588,13 +588,13 @@
               {
                 "type": "link",
                 "label": "s3",
-                "href": "/docusaurus/docs/api/metaflow/datatools/s3",
+                "href": "/docs/api/metaflow/datatools/s3",
                 "docId": "api/metaflow/datatools/s3"
               },
               {
                 "type": "link",
                 "label": "s3util",
-                "href": "/docusaurus/docs/api/metaflow/datatools/s3util",
+                "href": "/docs/api/metaflow/datatools/s3util",
                 "docId": "api/metaflow/datatools/s3util"
               }
             ],
@@ -608,7 +608,7 @@
               {
                 "type": "link",
                 "label": "metadata",
-                "href": "/docusaurus/docs/api/metaflow/metadata/",
+                "href": "/docs/api/metaflow/metadata/",
                 "docId": "api/metaflow/metadata/metadata"
               }
             ],
@@ -626,7 +626,7 @@
                       {
                         "type": "link",
                         "label": "batch_decorator",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator",
+                        "href": "/docs/api/metaflow/plugins/aws/batch/batch_decorator",
                         "docId": "api/metaflow/plugins/aws/batch/batch_decorator"
                       }
                     ],
@@ -640,13 +640,13 @@
                       {
                         "type": "link",
                         "label": "kubernetes",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes",
+                        "href": "/docs/api/metaflow/plugins/aws/eks/kubernetes",
                         "docId": "api/metaflow/plugins/aws/eks/kubernetes"
                       },
                       {
                         "type": "link",
                         "label": "kubernetes_decorator",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
+                        "href": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
                         "docId": "api/metaflow/plugins/aws/eks/kubernetes_decorator"
                       }
                     ],
@@ -658,7 +658,7 @@
                   {
                     "type": "link",
                     "label": "aws_utils",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils",
+                    "href": "/docs/api/metaflow/plugins/aws/aws_utils",
                     "docId": "api/metaflow/plugins/aws/aws_utils"
                   }
                 ],
@@ -676,19 +676,19 @@
                           {
                             "type": "link",
                             "label": "main",
-                            "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
                             "docId": "api/metaflow/plugins/cards/card_modules/chevron/main"
                           },
                           {
                             "type": "link",
                             "label": "renderer",
-                            "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
                             "docId": "api/metaflow/plugins/cards/card_modules/chevron/renderer"
                           },
                           {
                             "type": "link",
                             "label": "tokenizer",
-                            "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+                            "href": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
                             "docId": "api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
                           }
                         ],
@@ -700,25 +700,25 @@
                       {
                         "type": "link",
                         "label": "basic",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/basic",
                         "docId": "api/metaflow/plugins/cards/card_modules/basic"
                       },
                       {
                         "type": "link",
                         "label": "card",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/card",
                         "docId": "api/metaflow/plugins/cards/card_modules/card"
                       },
                       {
                         "type": "link",
                         "label": "components",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/components",
                         "docId": "api/metaflow/plugins/cards/card_modules/components"
                       },
                       {
                         "type": "link",
                         "label": "renderer_tools",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
+                        "href": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
                         "docId": "api/metaflow/plugins/cards/card_modules/renderer_tools"
                       }
                     ],
@@ -730,31 +730,31 @@
                   {
                     "type": "link",
                     "label": "card_cli",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_cli",
+                    "href": "/docs/api/metaflow/plugins/cards/card_cli",
                     "docId": "api/metaflow/plugins/cards/card_cli"
                   },
                   {
                     "type": "link",
                     "label": "card_client",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_client",
+                    "href": "/docs/api/metaflow/plugins/cards/card_client",
                     "docId": "api/metaflow/plugins/cards/card_client"
                   },
                   {
                     "type": "link",
                     "label": "card_datastore",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore",
+                    "href": "/docs/api/metaflow/plugins/cards/card_datastore",
                     "docId": "api/metaflow/plugins/cards/card_datastore"
                   },
                   {
                     "type": "link",
                     "label": "component_serializer",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer",
+                    "href": "/docs/api/metaflow/plugins/cards/component_serializer",
                     "docId": "api/metaflow/plugins/cards/component_serializer"
                   },
                   {
                     "type": "link",
                     "label": "exception",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/cards/exception",
+                    "href": "/docs/api/metaflow/plugins/cards/exception",
                     "docId": "api/metaflow/plugins/cards/exception"
                   }
                 ],
@@ -768,13 +768,13 @@
                   {
                     "type": "link",
                     "label": "conda_flow_decorator",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator",
+                    "href": "/docs/api/metaflow/plugins/conda/conda_flow_decorator",
                     "docId": "api/metaflow/plugins/conda/conda_flow_decorator"
                   },
                   {
                     "type": "link",
                     "label": "conda_step_decorator",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator",
+                    "href": "/docs/api/metaflow/plugins/conda/conda_step_decorator",
                     "docId": "api/metaflow/plugins/conda/conda_step_decorator"
                   }
                 ],
@@ -790,19 +790,19 @@
                       {
                         "type": "link",
                         "label": "bytestream",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/bytestream",
                         "docId": "api/metaflow/plugins/env_escape/communication/bytestream"
                       },
                       {
                         "type": "link",
                         "label": "channel",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/channel",
                         "docId": "api/metaflow/plugins/env_escape/communication/channel"
                       },
                       {
                         "type": "link",
                         "label": "utils",
-                        "href": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils",
+                        "href": "/docs/api/metaflow/plugins/env_escape/communication/utils",
                         "docId": "api/metaflow/plugins/env_escape/communication/utils"
                       }
                     ],
@@ -814,13 +814,13 @@
                   {
                     "type": "link",
                     "label": "exception_transferer",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer",
+                    "href": "/docs/api/metaflow/plugins/env_escape/exception_transferer",
                     "docId": "api/metaflow/plugins/env_escape/exception_transferer"
                   },
                   {
                     "type": "link",
                     "label": "stub",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/env_escape/stub",
+                    "href": "/docs/api/metaflow/plugins/env_escape/stub",
                     "docId": "api/metaflow/plugins/env_escape/stub"
                   }
                 ],
@@ -834,7 +834,7 @@
                   {
                     "type": "link",
                     "label": "pytorch",
-                    "href": "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch",
+                    "href": "/docs/api/metaflow/plugins/frameworks/pytorch",
                     "docId": "api/metaflow/plugins/frameworks/pytorch"
                   }
                 ],
@@ -846,37 +846,37 @@
               {
                 "type": "link",
                 "label": "catch_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/catch_decorator",
+                "href": "/docs/api/metaflow/plugins/catch_decorator",
                 "docId": "api/metaflow/plugins/catch_decorator"
               },
               {
                 "type": "link",
                 "label": "environment_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/environment_decorator",
+                "href": "/docs/api/metaflow/plugins/environment_decorator",
                 "docId": "api/metaflow/plugins/environment_decorator"
               },
               {
                 "type": "link",
                 "label": "resources_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/resources_decorator",
+                "href": "/docs/api/metaflow/plugins/resources_decorator",
                 "docId": "api/metaflow/plugins/resources_decorator"
               },
               {
                 "type": "link",
                 "label": "retry_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/retry_decorator",
+                "href": "/docs/api/metaflow/plugins/retry_decorator",
                 "docId": "api/metaflow/plugins/retry_decorator"
               },
               {
                 "type": "link",
                 "label": "test_unbounded_foreach_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
+                "href": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
                 "docId": "api/metaflow/plugins/test_unbounded_foreach_decorator"
               },
               {
                 "type": "link",
                 "label": "timeout_decorator",
-                "href": "/docusaurus/docs/api/metaflow/plugins/timeout_decorator",
+                "href": "/docs/api/metaflow/plugins/timeout_decorator",
                 "docId": "api/metaflow/plugins/timeout_decorator"
               }
             ],
@@ -888,91 +888,91 @@
           {
             "type": "link",
             "label": "decorators",
-            "href": "/docusaurus/docs/api/metaflow/decorators",
+            "href": "/docs/api/metaflow/decorators",
             "docId": "api/metaflow/decorators"
           },
           {
             "type": "link",
             "label": "flowspec",
-            "href": "/docusaurus/docs/api/metaflow/flowspec",
+            "href": "/docs/api/metaflow/flowspec",
             "docId": "api/metaflow/flowspec"
           },
           {
             "type": "link",
             "label": "includefile",
-            "href": "/docusaurus/docs/api/metaflow/includefile",
+            "href": "/docs/api/metaflow/includefile",
             "docId": "api/metaflow/includefile"
           },
           {
             "type": "link",
             "label": "metaflow_environment",
-            "href": "/docusaurus/docs/api/metaflow/metaflow_environment",
+            "href": "/docs/api/metaflow/metaflow_environment",
             "docId": "api/metaflow/metaflow_environment"
           },
           {
             "type": "link",
             "label": "metaflow_version",
-            "href": "/docusaurus/docs/api/metaflow/metaflow_version",
+            "href": "/docs/api/metaflow/metaflow_version",
             "docId": "api/metaflow/metaflow_version"
           },
           {
             "type": "link",
             "label": "monitor",
-            "href": "/docusaurus/docs/api/metaflow/monitor",
+            "href": "/docs/api/metaflow/monitor",
             "docId": "api/metaflow/monitor"
           },
           {
             "type": "link",
             "label": "package",
-            "href": "/docusaurus/docs/api/metaflow/package",
+            "href": "/docs/api/metaflow/package",
             "docId": "api/metaflow/package"
           },
           {
             "type": "link",
             "label": "parameters",
-            "href": "/docusaurus/docs/api/metaflow/parameters",
+            "href": "/docs/api/metaflow/parameters",
             "docId": "api/metaflow/parameters"
           },
           {
             "type": "link",
             "label": "runtime",
-            "href": "/docusaurus/docs/api/metaflow/runtime",
+            "href": "/docs/api/metaflow/runtime",
             "docId": "api/metaflow/runtime"
           },
           {
             "type": "link",
             "label": "sidecar",
-            "href": "/docusaurus/docs/api/metaflow/sidecar",
+            "href": "/docs/api/metaflow/sidecar",
             "docId": "api/metaflow/sidecar"
           },
           {
             "type": "link",
             "label": "sidecar_worker",
-            "href": "/docusaurus/docs/api/metaflow/sidecar_worker",
+            "href": "/docs/api/metaflow/sidecar_worker",
             "docId": "api/metaflow/sidecar_worker"
           },
           {
             "type": "link",
             "label": "task",
-            "href": "/docusaurus/docs/api/metaflow/task",
+            "href": "/docs/api/metaflow/task",
             "docId": "api/metaflow/task"
           },
           {
             "type": "link",
             "label": "unbounded_foreach",
-            "href": "/docusaurus/docs/api/metaflow/unbounded_foreach",
+            "href": "/docs/api/metaflow/unbounded_foreach",
             "docId": "api/metaflow/unbounded_foreach"
           },
           {
             "type": "link",
             "label": "util",
-            "href": "/docusaurus/docs/api/metaflow/util",
+            "href": "/docs/api/metaflow/util",
             "docId": "api/metaflow/util"
           },
           {
             "type": "link",
             "label": "vendor",
-            "href": "/docusaurus/docs/api/metaflow/vendor",
+            "href": "/docs/api/metaflow/vendor",
             "docId": "api/metaflow/vendor"
           }
         ],

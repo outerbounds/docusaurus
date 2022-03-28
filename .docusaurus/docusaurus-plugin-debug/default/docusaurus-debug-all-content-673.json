@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docusaurus/docs",
-          "tagsPath": "/docusaurus/docs/tags",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs",
           "versionEditUrlLocalized": "https://github.dev/outerbounds/docusaurus/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -26,7 +26,7 @@
               "source": "@site/docs/api/metaflow/client/core.md",
               "sourceDirName": "api/metaflow/client",
               "slug": "/api/metaflow/client/core",
-              "permalink": "/docusaurus/docs/api/metaflow/client/core",
+              "permalink": "/docs/api/metaflow/client/core",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/client/core.md",
               "tags": [],
               "version": "current",
@@ -37,7 +37,7 @@
               "sidebar": "apiMetaflow",
               "next": {
                 "title": "filecache",
-                "permalink": "/docusaurus/docs/api/metaflow/client/filecache"
+                "permalink": "/docs/api/metaflow/client/filecache"
               }
             },
             {
@@ -48,7 +48,7 @@
               "source": "@site/docs/api/metaflow/client/filecache.md",
               "sourceDirName": "api/metaflow/client",
               "slug": "/api/metaflow/client/filecache",
-              "permalink": "/docusaurus/docs/api/metaflow/client/filecache",
+              "permalink": "/docs/api/metaflow/client/filecache",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/client/filecache.md",
               "tags": [],
               "version": "current",
@@ -59,11 +59,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "core",
-                "permalink": "/docusaurus/docs/api/metaflow/client/core"
+                "permalink": "/docs/api/metaflow/client/core"
               },
               "next": {
                 "title": "content_addressed_store",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/content_addressed_store"
+                "permalink": "/docs/api/metaflow/datastore/content_addressed_store"
               }
             },
             {
@@ -74,7 +74,7 @@
               "source": "@site/docs/api/metaflow/datastore/content_addressed_store.md",
               "sourceDirName": "api/metaflow/datastore",
               "slug": "/api/metaflow/datastore/content_addressed_store",
-              "permalink": "/docusaurus/docs/api/metaflow/datastore/content_addressed_store",
+              "permalink": "/docs/api/metaflow/datastore/content_addressed_store",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datastore/content_addressed_store.md",
               "tags": [],
               "version": "current",
@@ -85,11 +85,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "filecache",
-                "permalink": "/docusaurus/docs/api/metaflow/client/filecache"
+                "permalink": "/docs/api/metaflow/client/filecache"
               },
               "next": {
                 "title": "datastore_storage",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/datastore_storage"
+                "permalink": "/docs/api/metaflow/datastore/datastore_storage"
               }
             },
             {
@@ -100,7 +100,7 @@
               "source": "@site/docs/api/metaflow/datastore/datastore_storage.md",
               "sourceDirName": "api/metaflow/datastore",
               "slug": "/api/metaflow/datastore/datastore_storage",
-              "permalink": "/docusaurus/docs/api/metaflow/datastore/datastore_storage",
+              "permalink": "/docs/api/metaflow/datastore/datastore_storage",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datastore/datastore_storage.md",
               "tags": [],
               "version": "current",
@@ -111,11 +111,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "content_addressed_store",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/content_addressed_store"
+                "permalink": "/docs/api/metaflow/datastore/content_addressed_store"
               },
               "next": {
                 "title": "flow_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/flow_datastore"
+                "permalink": "/docs/api/metaflow/datastore/flow_datastore"
               }
             },
             {
@@ -126,7 +126,7 @@
               "source": "@site/docs/api/metaflow/datastore/flow_datastore.md",
               "sourceDirName": "api/metaflow/datastore",
               "slug": "/api/metaflow/datastore/flow_datastore",
-              "permalink": "/docusaurus/docs/api/metaflow/datastore/flow_datastore",
+              "permalink": "/docs/api/metaflow/datastore/flow_datastore",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datastore/flow_datastore.md",
               "tags": [],
               "version": "current",
@@ -137,11 +137,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "datastore_storage",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/datastore_storage"
+                "permalink": "/docs/api/metaflow/datastore/datastore_storage"
               },
               "next": {
                 "title": "inputs",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/inputs"
+                "permalink": "/docs/api/metaflow/datastore/inputs"
               }
             },
             {
@@ -152,7 +152,7 @@
               "source": "@site/docs/api/metaflow/datastore/inputs.md",
               "sourceDirName": "api/metaflow/datastore",
               "slug": "/api/metaflow/datastore/inputs",
-              "permalink": "/docusaurus/docs/api/metaflow/datastore/inputs",
+              "permalink": "/docs/api/metaflow/datastore/inputs",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datastore/inputs.md",
               "tags": [],
               "version": "current",
@@ -163,11 +163,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "flow_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/flow_datastore"
+                "permalink": "/docs/api/metaflow/datastore/flow_datastore"
               },
               "next": {
                 "title": "task_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/task_datastore"
+                "permalink": "/docs/api/metaflow/datastore/task_datastore"
               }
             },
             {
@@ -178,7 +178,7 @@
               "source": "@site/docs/api/metaflow/datastore/task_datastore.md",
               "sourceDirName": "api/metaflow/datastore",
               "slug": "/api/metaflow/datastore/task_datastore",
-              "permalink": "/docusaurus/docs/api/metaflow/datastore/task_datastore",
+              "permalink": "/docs/api/metaflow/datastore/task_datastore",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datastore/task_datastore.md",
               "tags": [],
               "version": "current",
@@ -189,11 +189,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "inputs",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/inputs"
+                "permalink": "/docs/api/metaflow/datastore/inputs"
               },
               "next": {
                 "title": "s3",
-                "permalink": "/docusaurus/docs/api/metaflow/datatools/s3"
+                "permalink": "/docs/api/metaflow/datatools/s3"
               }
             },
             {
@@ -204,7 +204,7 @@
               "source": "@site/docs/api/metaflow/datatools/s3.md",
               "sourceDirName": "api/metaflow/datatools",
               "slug": "/api/metaflow/datatools/s3",
-              "permalink": "/docusaurus/docs/api/metaflow/datatools/s3",
+              "permalink": "/docs/api/metaflow/datatools/s3",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datatools/s3.md",
               "tags": [],
               "version": "current",
@@ -215,11 +215,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "task_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/datastore/task_datastore"
+                "permalink": "/docs/api/metaflow/datastore/task_datastore"
               },
               "next": {
                 "title": "s3util",
-                "permalink": "/docusaurus/docs/api/metaflow/datatools/s3util"
+                "permalink": "/docs/api/metaflow/datatools/s3util"
               }
             },
             {
@@ -230,7 +230,7 @@
               "source": "@site/docs/api/metaflow/datatools/s3util.md",
               "sourceDirName": "api/metaflow/datatools",
               "slug": "/api/metaflow/datatools/s3util",
-              "permalink": "/docusaurus/docs/api/metaflow/datatools/s3util",
+              "permalink": "/docs/api/metaflow/datatools/s3util",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/datatools/s3util.md",
               "tags": [],
               "version": "current",
@@ -241,11 +241,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "s3",
-                "permalink": "/docusaurus/docs/api/metaflow/datatools/s3"
+                "permalink": "/docs/api/metaflow/datatools/s3"
               },
               "next": {
                 "title": "metadata",
-                "permalink": "/docusaurus/docs/api/metaflow/metadata/"
+                "permalink": "/docs/api/metaflow/metadata/"
               }
             },
             {
@@ -256,7 +256,7 @@
               "source": "@site/docs/api/metaflow/decorators.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/decorators",
-              "permalink": "/docusaurus/docs/api/metaflow/decorators",
+              "permalink": "/docs/api/metaflow/decorators",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/decorators.md",
               "tags": [],
               "version": "current",
@@ -267,11 +267,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "timeout_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/timeout_decorator"
+                "permalink": "/docs/api/metaflow/plugins/timeout_decorator"
               },
               "next": {
                 "title": "flowspec",
-                "permalink": "/docusaurus/docs/api/metaflow/flowspec"
+                "permalink": "/docs/api/metaflow/flowspec"
               }
             },
             {
@@ -282,7 +282,7 @@
               "source": "@site/docs/api/metaflow/flowspec.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/flowspec",
-              "permalink": "/docusaurus/docs/api/metaflow/flowspec",
+              "permalink": "/docs/api/metaflow/flowspec",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/flowspec.md",
               "tags": [],
               "version": "current",
@@ -293,11 +293,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "decorators",
-                "permalink": "/docusaurus/docs/api/metaflow/decorators"
+                "permalink": "/docs/api/metaflow/decorators"
               },
               "next": {
                 "title": "includefile",
-                "permalink": "/docusaurus/docs/api/metaflow/includefile"
+                "permalink": "/docs/api/metaflow/includefile"
               }
             },
             {
@@ -308,7 +308,7 @@
               "source": "@site/docs/api/metaflow/includefile.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/includefile",
-              "permalink": "/docusaurus/docs/api/metaflow/includefile",
+              "permalink": "/docs/api/metaflow/includefile",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/includefile.md",
               "tags": [],
               "version": "current",
@@ -319,11 +319,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "flowspec",
-                "permalink": "/docusaurus/docs/api/metaflow/flowspec"
+                "permalink": "/docs/api/metaflow/flowspec"
               },
               "next": {
                 "title": "metaflow_environment",
-                "permalink": "/docusaurus/docs/api/metaflow/metaflow_environment"
+                "permalink": "/docs/api/metaflow/metaflow_environment"
               }
             },
             {
@@ -334,7 +334,7 @@
               "source": "@site/docs/api/metaflow/index.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/",
-              "permalink": "/docusaurus/docs/api/metaflow/",
+              "permalink": "/docs/api/metaflow/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/index.md",
               "tags": [],
               "version": "current",
@@ -351,7 +351,7 @@
               "source": "@site/docs/api/metaflow/metadata/metadata.md",
               "sourceDirName": "api/metaflow/metadata",
               "slug": "/api/metaflow/metadata/",
-              "permalink": "/docusaurus/docs/api/metaflow/metadata/",
+              "permalink": "/docs/api/metaflow/metadata/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/metadata/metadata.md",
               "tags": [],
               "version": "current",
@@ -362,11 +362,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "s3util",
-                "permalink": "/docusaurus/docs/api/metaflow/datatools/s3util"
+                "permalink": "/docs/api/metaflow/datatools/s3util"
               },
               "next": {
                 "title": "batch_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator"
+                "permalink": "/docs/api/metaflow/plugins/aws/batch/batch_decorator"
               }
             },
             {
@@ -377,7 +377,7 @@
               "source": "@site/docs/api/metaflow/metaflow_environment.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/metaflow_environment",
-              "permalink": "/docusaurus/docs/api/metaflow/metaflow_environment",
+              "permalink": "/docs/api/metaflow/metaflow_environment",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/metaflow_environment.md",
               "tags": [],
               "version": "current",
@@ -388,11 +388,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "includefile",
-                "permalink": "/docusaurus/docs/api/metaflow/includefile"
+                "permalink": "/docs/api/metaflow/includefile"
               },
               "next": {
                 "title": "metaflow_version",
-                "permalink": "/docusaurus/docs/api/metaflow/metaflow_version"
+                "permalink": "/docs/api/metaflow/metaflow_version"
               }
             },
             {
@@ -403,7 +403,7 @@
               "source": "@site/docs/api/metaflow/metaflow_version.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/metaflow_version",
-              "permalink": "/docusaurus/docs/api/metaflow/metaflow_version",
+              "permalink": "/docs/api/metaflow/metaflow_version",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/metaflow_version.md",
               "tags": [],
               "version": "current",
@@ -414,11 +414,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "metaflow_environment",
-                "permalink": "/docusaurus/docs/api/metaflow/metaflow_environment"
+                "permalink": "/docs/api/metaflow/metaflow_environment"
               },
               "next": {
                 "title": "monitor",
-                "permalink": "/docusaurus/docs/api/metaflow/monitor"
+                "permalink": "/docs/api/metaflow/monitor"
               }
             },
             {
@@ -429,7 +429,7 @@
               "source": "@site/docs/api/metaflow/monitor.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/monitor",
-              "permalink": "/docusaurus/docs/api/metaflow/monitor",
+              "permalink": "/docs/api/metaflow/monitor",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/monitor.md",
               "tags": [],
               "version": "current",
@@ -440,11 +440,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "metaflow_version",
-                "permalink": "/docusaurus/docs/api/metaflow/metaflow_version"
+                "permalink": "/docs/api/metaflow/metaflow_version"
               },
               "next": {
                 "title": "package",
-                "permalink": "/docusaurus/docs/api/metaflow/package"
+                "permalink": "/docs/api/metaflow/package"
               }
             },
             {
@@ -455,7 +455,7 @@
               "source": "@site/docs/api/metaflow/package.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/package",
-              "permalink": "/docusaurus/docs/api/metaflow/package",
+              "permalink": "/docs/api/metaflow/package",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/package.md",
               "tags": [],
               "version": "current",
@@ -466,11 +466,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "monitor",
-                "permalink": "/docusaurus/docs/api/metaflow/monitor"
+                "permalink": "/docs/api/metaflow/monitor"
               },
               "next": {
                 "title": "parameters",
-                "permalink": "/docusaurus/docs/api/metaflow/parameters"
+                "permalink": "/docs/api/metaflow/parameters"
               }
             },
             {
@@ -481,7 +481,7 @@
               "source": "@site/docs/api/metaflow/parameters.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/parameters",
-              "permalink": "/docusaurus/docs/api/metaflow/parameters",
+              "permalink": "/docs/api/metaflow/parameters",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/parameters.md",
               "tags": [],
               "version": "current",
@@ -492,11 +492,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "package",
-                "permalink": "/docusaurus/docs/api/metaflow/package"
+                "permalink": "/docs/api/metaflow/package"
               },
               "next": {
                 "title": "runtime",
-                "permalink": "/docusaurus/docs/api/metaflow/runtime"
+                "permalink": "/docs/api/metaflow/runtime"
               }
             },
             {
@@ -507,7 +507,7 @@
               "source": "@site/docs/api/metaflow/plugins/aws/aws_utils.md",
               "sourceDirName": "api/metaflow/plugins/aws",
               "slug": "/api/metaflow/plugins/aws/aws_utils",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils",
+              "permalink": "/docs/api/metaflow/plugins/aws/aws_utils",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/aws/aws_utils.md",
               "tags": [],
               "version": "current",
@@ -518,11 +518,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "kubernetes_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator"
+                "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator"
               },
               "next": {
                 "title": "main",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main"
               }
             },
             {
@@ -533,7 +533,7 @@
               "source": "@site/docs/api/metaflow/plugins/aws/batch/batch_decorator.md",
               "sourceDirName": "api/metaflow/plugins/aws/batch",
               "slug": "/api/metaflow/plugins/aws/batch/batch_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator",
+              "permalink": "/docs/api/metaflow/plugins/aws/batch/batch_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/aws/batch/batch_decorator.md",
               "tags": [],
               "version": "current",
@@ -544,11 +544,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "metadata",
-                "permalink": "/docusaurus/docs/api/metaflow/metadata/"
+                "permalink": "/docs/api/metaflow/metadata/"
               },
               "next": {
                 "title": "kubernetes",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes"
+                "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes"
               }
             },
             {
@@ -559,7 +559,7 @@
               "source": "@site/docs/api/metaflow/plugins/aws/eks/kubernetes.md",
               "sourceDirName": "api/metaflow/plugins/aws/eks",
               "slug": "/api/metaflow/plugins/aws/eks/kubernetes",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes",
+              "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/aws/eks/kubernetes.md",
               "tags": [],
               "version": "current",
@@ -570,11 +570,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "batch_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator"
+                "permalink": "/docs/api/metaflow/plugins/aws/batch/batch_decorator"
               },
               "next": {
                 "title": "kubernetes_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator"
+                "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator"
               }
             },
             {
@@ -585,7 +585,7 @@
               "source": "@site/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator.md",
               "sourceDirName": "api/metaflow/plugins/aws/eks",
               "slug": "/api/metaflow/plugins/aws/eks/kubernetes_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
+              "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator.md",
               "tags": [],
               "version": "current",
@@ -596,11 +596,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "kubernetes",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes"
+                "permalink": "/docs/api/metaflow/plugins/aws/eks/kubernetes"
               },
               "next": {
                 "title": "aws_utils",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils"
+                "permalink": "/docs/api/metaflow/plugins/aws/aws_utils"
               }
             },
             {
@@ -611,7 +611,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_cli.md",
               "sourceDirName": "api/metaflow/plugins/cards",
               "slug": "/api/metaflow/plugins/cards/card_cli",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_cli",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_cli",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_cli.md",
               "tags": [],
               "version": "current",
@@ -622,11 +622,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "renderer_tools",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools"
               },
               "next": {
                 "title": "card_client",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_client"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_client"
               }
             },
             {
@@ -637,7 +637,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_client.md",
               "sourceDirName": "api/metaflow/plugins/cards",
               "slug": "/api/metaflow/plugins/cards/card_client",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_client",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_client",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_client.md",
               "tags": [],
               "version": "current",
@@ -648,11 +648,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "card_cli",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_cli"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_cli"
               },
               "next": {
                 "title": "card_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_datastore"
               }
             },
             {
@@ -663,7 +663,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_datastore.md",
               "sourceDirName": "api/metaflow/plugins/cards",
               "slug": "/api/metaflow/plugins/cards/card_datastore",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_datastore",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_datastore.md",
               "tags": [],
               "version": "current",
@@ -674,11 +674,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "card_client",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_client"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_client"
               },
               "next": {
                 "title": "component_serializer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer"
+                "permalink": "/docs/api/metaflow/plugins/cards/component_serializer"
               }
             },
             {
@@ -689,7 +689,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/basic.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules",
               "slug": "/api/metaflow/plugins/cards/card_modules/basic",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/basic",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/basic.md",
               "tags": [],
               "version": "current",
@@ -700,11 +700,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "tokenizer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
               },
               "next": {
                 "title": "card",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/card"
               }
             },
             {
@@ -715,7 +715,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/card.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules",
               "slug": "/api/metaflow/plugins/cards/card_modules/card",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/card",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/card.md",
               "tags": [],
               "version": "current",
@@ -726,11 +726,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "basic",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/basic"
               },
               "next": {
                 "title": "components",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/components"
               }
             },
             {
@@ -741,7 +741,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/chevron/main.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules/chevron",
               "slug": "/api/metaflow/plugins/cards/card_modules/chevron/main",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/chevron/main.md",
               "tags": [],
               "version": "current",
@@ -752,11 +752,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "aws_utils",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils"
+                "permalink": "/docs/api/metaflow/plugins/aws/aws_utils"
               },
               "next": {
                 "title": "renderer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer"
               }
             },
             {
@@ -767,7 +767,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules/chevron",
               "slug": "/api/metaflow/plugins/cards/card_modules/chevron/renderer",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer.md",
               "tags": [],
               "version": "current",
@@ -778,11 +778,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "main",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main"
               },
               "next": {
                 "title": "tokenizer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer"
               }
             },
             {
@@ -793,7 +793,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules/chevron",
               "slug": "/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer.md",
               "tags": [],
               "version": "current",
@@ -804,11 +804,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "renderer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer"
               },
               "next": {
                 "title": "basic",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/basic"
               }
             },
             {
@@ -819,7 +819,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/components.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules",
               "slug": "/api/metaflow/plugins/cards/card_modules/components",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/components",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/components.md",
               "tags": [],
               "version": "current",
@@ -830,11 +830,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "card",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/card"
               },
               "next": {
                 "title": "renderer_tools",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools"
               }
             },
             {
@@ -845,7 +845,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/card_modules/renderer_tools.md",
               "sourceDirName": "api/metaflow/plugins/cards/card_modules",
               "slug": "/api/metaflow/plugins/cards/card_modules/renderer_tools",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
+              "permalink": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/card_modules/renderer_tools.md",
               "tags": [],
               "version": "current",
@@ -856,11 +856,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "components",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_modules/components"
               },
               "next": {
                 "title": "card_cli",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_cli"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_cli"
               }
             },
             {
@@ -871,7 +871,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/component_serializer.md",
               "sourceDirName": "api/metaflow/plugins/cards",
               "slug": "/api/metaflow/plugins/cards/component_serializer",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer",
+              "permalink": "/docs/api/metaflow/plugins/cards/component_serializer",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/component_serializer.md",
               "tags": [],
               "version": "current",
@@ -882,11 +882,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "card_datastore",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore"
+                "permalink": "/docs/api/metaflow/plugins/cards/card_datastore"
               },
               "next": {
                 "title": "exception",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/exception"
+                "permalink": "/docs/api/metaflow/plugins/cards/exception"
               }
             },
             {
@@ -897,7 +897,7 @@
               "source": "@site/docs/api/metaflow/plugins/cards/exception.md",
               "sourceDirName": "api/metaflow/plugins/cards",
               "slug": "/api/metaflow/plugins/cards/exception",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/exception",
+              "permalink": "/docs/api/metaflow/plugins/cards/exception",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/cards/exception.md",
               "tags": [],
               "version": "current",
@@ -908,11 +908,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "component_serializer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer"
+                "permalink": "/docs/api/metaflow/plugins/cards/component_serializer"
               },
               "next": {
                 "title": "conda_flow_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator"
+                "permalink": "/docs/api/metaflow/plugins/conda/conda_flow_decorator"
               }
             },
             {
@@ -923,7 +923,7 @@
               "source": "@site/docs/api/metaflow/plugins/catch_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/catch_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/catch_decorator",
+              "permalink": "/docs/api/metaflow/plugins/catch_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/catch_decorator.md",
               "tags": [],
               "version": "current",
@@ -934,11 +934,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "pytorch",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch"
+                "permalink": "/docs/api/metaflow/plugins/frameworks/pytorch"
               },
               "next": {
                 "title": "environment_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/environment_decorator"
+                "permalink": "/docs/api/metaflow/plugins/environment_decorator"
               }
             },
             {
@@ -949,7 +949,7 @@
               "source": "@site/docs/api/metaflow/plugins/conda/conda_flow_decorator.md",
               "sourceDirName": "api/metaflow/plugins/conda",
               "slug": "/api/metaflow/plugins/conda/conda_flow_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator",
+              "permalink": "/docs/api/metaflow/plugins/conda/conda_flow_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/conda/conda_flow_decorator.md",
               "tags": [],
               "version": "current",
@@ -960,11 +960,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "exception",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/cards/exception"
+                "permalink": "/docs/api/metaflow/plugins/cards/exception"
               },
               "next": {
                 "title": "conda_step_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator"
+                "permalink": "/docs/api/metaflow/plugins/conda/conda_step_decorator"
               }
             },
             {
@@ -975,7 +975,7 @@
               "source": "@site/docs/api/metaflow/plugins/conda/conda_step_decorator.md",
               "sourceDirName": "api/metaflow/plugins/conda",
               "slug": "/api/metaflow/plugins/conda/conda_step_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator",
+              "permalink": "/docs/api/metaflow/plugins/conda/conda_step_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/conda/conda_step_decorator.md",
               "tags": [],
               "version": "current",
@@ -986,11 +986,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "conda_flow_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator"
+                "permalink": "/docs/api/metaflow/plugins/conda/conda_flow_decorator"
               },
               "next": {
                 "title": "bytestream",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/bytestream"
               }
             },
             {
@@ -1001,7 +1001,7 @@
               "source": "@site/docs/api/metaflow/plugins/env_escape/communication/bytestream.md",
               "sourceDirName": "api/metaflow/plugins/env_escape/communication",
               "slug": "/api/metaflow/plugins/env_escape/communication/bytestream",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream",
+              "permalink": "/docs/api/metaflow/plugins/env_escape/communication/bytestream",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/env_escape/communication/bytestream.md",
               "tags": [],
               "version": "current",
@@ -1012,11 +1012,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "conda_step_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator"
+                "permalink": "/docs/api/metaflow/plugins/conda/conda_step_decorator"
               },
               "next": {
                 "title": "channel",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/channel"
               }
             },
             {
@@ -1027,7 +1027,7 @@
               "source": "@site/docs/api/metaflow/plugins/env_escape/communication/channel.md",
               "sourceDirName": "api/metaflow/plugins/env_escape/communication",
               "slug": "/api/metaflow/plugins/env_escape/communication/channel",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel",
+              "permalink": "/docs/api/metaflow/plugins/env_escape/communication/channel",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/env_escape/communication/channel.md",
               "tags": [],
               "version": "current",
@@ -1038,11 +1038,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "bytestream",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/bytestream"
               },
               "next": {
                 "title": "utils",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/utils"
               }
             },
             {
@@ -1053,7 +1053,7 @@
               "source": "@site/docs/api/metaflow/plugins/env_escape/communication/utils.md",
               "sourceDirName": "api/metaflow/plugins/env_escape/communication",
               "slug": "/api/metaflow/plugins/env_escape/communication/utils",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils",
+              "permalink": "/docs/api/metaflow/plugins/env_escape/communication/utils",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/env_escape/communication/utils.md",
               "tags": [],
               "version": "current",
@@ -1064,11 +1064,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "channel",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/channel"
               },
               "next": {
                 "title": "exception_transferer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/exception_transferer"
               }
             },
             {
@@ -1079,7 +1079,7 @@
               "source": "@site/docs/api/metaflow/plugins/env_escape/exception_transferer.md",
               "sourceDirName": "api/metaflow/plugins/env_escape",
               "slug": "/api/metaflow/plugins/env_escape/exception_transferer",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer",
+              "permalink": "/docs/api/metaflow/plugins/env_escape/exception_transferer",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/env_escape/exception_transferer.md",
               "tags": [],
               "version": "current",
@@ -1090,11 +1090,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "utils",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/communication/utils"
               },
               "next": {
                 "title": "stub",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/stub"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/stub"
               }
             },
             {
@@ -1105,7 +1105,7 @@
               "source": "@site/docs/api/metaflow/plugins/env_escape/stub.md",
               "sourceDirName": "api/metaflow/plugins/env_escape",
               "slug": "/api/metaflow/plugins/env_escape/stub",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/stub",
+              "permalink": "/docs/api/metaflow/plugins/env_escape/stub",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/env_escape/stub.md",
               "tags": [],
               "version": "current",
@@ -1116,11 +1116,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "exception_transferer",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/exception_transferer"
               },
               "next": {
                 "title": "pytorch",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch"
+                "permalink": "/docs/api/metaflow/plugins/frameworks/pytorch"
               }
             },
             {
@@ -1131,7 +1131,7 @@
               "source": "@site/docs/api/metaflow/plugins/environment_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/environment_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/environment_decorator",
+              "permalink": "/docs/api/metaflow/plugins/environment_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/environment_decorator.md",
               "tags": [],
               "version": "current",
@@ -1142,11 +1142,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "catch_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/catch_decorator"
+                "permalink": "/docs/api/metaflow/plugins/catch_decorator"
               },
               "next": {
                 "title": "resources_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/resources_decorator"
+                "permalink": "/docs/api/metaflow/plugins/resources_decorator"
               }
             },
             {
@@ -1157,7 +1157,7 @@
               "source": "@site/docs/api/metaflow/plugins/frameworks/pytorch.md",
               "sourceDirName": "api/metaflow/plugins/frameworks",
               "slug": "/api/metaflow/plugins/frameworks/pytorch",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch",
+              "permalink": "/docs/api/metaflow/plugins/frameworks/pytorch",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/frameworks/pytorch.md",
               "tags": [],
               "version": "current",
@@ -1168,11 +1168,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "stub",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/env_escape/stub"
+                "permalink": "/docs/api/metaflow/plugins/env_escape/stub"
               },
               "next": {
                 "title": "catch_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/catch_decorator"
+                "permalink": "/docs/api/metaflow/plugins/catch_decorator"
               }
             },
             {
@@ -1183,7 +1183,7 @@
               "source": "@site/docs/api/metaflow/plugins/resources_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/resources_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/resources_decorator",
+              "permalink": "/docs/api/metaflow/plugins/resources_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/resources_decorator.md",
               "tags": [],
               "version": "current",
@@ -1194,11 +1194,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "environment_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/environment_decorator"
+                "permalink": "/docs/api/metaflow/plugins/environment_decorator"
               },
               "next": {
                 "title": "retry_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/retry_decorator"
+                "permalink": "/docs/api/metaflow/plugins/retry_decorator"
               }
             },
             {
@@ -1209,7 +1209,7 @@
               "source": "@site/docs/api/metaflow/plugins/retry_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/retry_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/retry_decorator",
+              "permalink": "/docs/api/metaflow/plugins/retry_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/retry_decorator.md",
               "tags": [],
               "version": "current",
@@ -1220,11 +1220,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "resources_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/resources_decorator"
+                "permalink": "/docs/api/metaflow/plugins/resources_decorator"
               },
               "next": {
                 "title": "test_unbounded_foreach_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator"
+                "permalink": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator"
               }
             },
             {
@@ -1235,7 +1235,7 @@
               "source": "@site/docs/api/metaflow/plugins/test_unbounded_foreach_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/test_unbounded_foreach_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
+              "permalink": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/test_unbounded_foreach_decorator.md",
               "tags": [],
               "version": "current",
@@ -1246,11 +1246,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "retry_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/retry_decorator"
+                "permalink": "/docs/api/metaflow/plugins/retry_decorator"
               },
               "next": {
                 "title": "timeout_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/timeout_decorator"
+                "permalink": "/docs/api/metaflow/plugins/timeout_decorator"
               }
             },
             {
@@ -1261,7 +1261,7 @@
               "source": "@site/docs/api/metaflow/plugins/timeout_decorator.md",
               "sourceDirName": "api/metaflow/plugins",
               "slug": "/api/metaflow/plugins/timeout_decorator",
-              "permalink": "/docusaurus/docs/api/metaflow/plugins/timeout_decorator",
+              "permalink": "/docs/api/metaflow/plugins/timeout_decorator",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/plugins/timeout_decorator.md",
               "tags": [],
               "version": "current",
@@ -1272,11 +1272,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "test_unbounded_foreach_decorator",
-                "permalink": "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator"
+                "permalink": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator"
               },
               "next": {
                 "title": "decorators",
-                "permalink": "/docusaurus/docs/api/metaflow/decorators"
+                "permalink": "/docs/api/metaflow/decorators"
               }
             },
             {
@@ -1287,7 +1287,7 @@
               "source": "@site/docs/api/metaflow/runtime.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/runtime",
-              "permalink": "/docusaurus/docs/api/metaflow/runtime",
+              "permalink": "/docs/api/metaflow/runtime",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/runtime.md",
               "tags": [],
               "version": "current",
@@ -1298,11 +1298,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "parameters",
-                "permalink": "/docusaurus/docs/api/metaflow/parameters"
+                "permalink": "/docs/api/metaflow/parameters"
               },
               "next": {
                 "title": "sidecar",
-                "permalink": "/docusaurus/docs/api/metaflow/sidecar"
+                "permalink": "/docs/api/metaflow/sidecar"
               }
             },
             {
@@ -1313,7 +1313,7 @@
               "source": "@site/docs/api/metaflow/sidecar.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/sidecar",
-              "permalink": "/docusaurus/docs/api/metaflow/sidecar",
+              "permalink": "/docs/api/metaflow/sidecar",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/sidecar.md",
               "tags": [],
               "version": "current",
@@ -1324,11 +1324,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "runtime",
-                "permalink": "/docusaurus/docs/api/metaflow/runtime"
+                "permalink": "/docs/api/metaflow/runtime"
               },
               "next": {
                 "title": "sidecar_worker",
-                "permalink": "/docusaurus/docs/api/metaflow/sidecar_worker"
+                "permalink": "/docs/api/metaflow/sidecar_worker"
               }
             },
             {
@@ -1339,7 +1339,7 @@
               "source": "@site/docs/api/metaflow/sidecar_worker.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/sidecar_worker",
-              "permalink": "/docusaurus/docs/api/metaflow/sidecar_worker",
+              "permalink": "/docs/api/metaflow/sidecar_worker",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/sidecar_worker.md",
               "tags": [],
               "version": "current",
@@ -1350,11 +1350,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "sidecar",
-                "permalink": "/docusaurus/docs/api/metaflow/sidecar"
+                "permalink": "/docs/api/metaflow/sidecar"
               },
               "next": {
                 "title": "task",
-                "permalink": "/docusaurus/docs/api/metaflow/task"
+                "permalink": "/docs/api/metaflow/task"
               }
             },
             {
@@ -1365,7 +1365,7 @@
               "source": "@site/docs/api/metaflow/task.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/task",
-              "permalink": "/docusaurus/docs/api/metaflow/task",
+              "permalink": "/docs/api/metaflow/task",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/task.md",
               "tags": [],
               "version": "current",
@@ -1376,11 +1376,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "sidecar_worker",
-                "permalink": "/docusaurus/docs/api/metaflow/sidecar_worker"
+                "permalink": "/docs/api/metaflow/sidecar_worker"
               },
               "next": {
                 "title": "unbounded_foreach",
-                "permalink": "/docusaurus/docs/api/metaflow/unbounded_foreach"
+                "permalink": "/docs/api/metaflow/unbounded_foreach"
               }
             },
             {
@@ -1391,7 +1391,7 @@
               "source": "@site/docs/api/metaflow/unbounded_foreach.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/unbounded_foreach",
-              "permalink": "/docusaurus/docs/api/metaflow/unbounded_foreach",
+              "permalink": "/docs/api/metaflow/unbounded_foreach",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/unbounded_foreach.md",
               "tags": [],
               "version": "current",
@@ -1402,11 +1402,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "task",
-                "permalink": "/docusaurus/docs/api/metaflow/task"
+                "permalink": "/docs/api/metaflow/task"
               },
               "next": {
                 "title": "util",
-                "permalink": "/docusaurus/docs/api/metaflow/util"
+                "permalink": "/docs/api/metaflow/util"
               }
             },
             {
@@ -1417,7 +1417,7 @@
               "source": "@site/docs/api/metaflow/util.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/util",
-              "permalink": "/docusaurus/docs/api/metaflow/util",
+              "permalink": "/docs/api/metaflow/util",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/util.md",
               "tags": [],
               "version": "current",
@@ -1428,11 +1428,11 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "unbounded_foreach",
-                "permalink": "/docusaurus/docs/api/metaflow/unbounded_foreach"
+                "permalink": "/docs/api/metaflow/unbounded_foreach"
               },
               "next": {
                 "title": "vendor",
-                "permalink": "/docusaurus/docs/api/metaflow/vendor"
+                "permalink": "/docs/api/metaflow/vendor"
               }
             },
             {
@@ -1443,7 +1443,7 @@
               "source": "@site/docs/api/metaflow/vendor.md",
               "sourceDirName": "api/metaflow",
               "slug": "/api/metaflow/vendor",
-              "permalink": "/docusaurus/docs/api/metaflow/vendor",
+              "permalink": "/docs/api/metaflow/vendor",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/api/metaflow/vendor.md",
               "tags": [],
               "version": "current",
@@ -1454,7 +1454,7 @@
               "sidebar": "apiMetaflow",
               "previous": {
                 "title": "util",
-                "permalink": "/docusaurus/docs/api/metaflow/util"
+                "permalink": "/docs/api/metaflow/util"
               }
             },
             {
@@ -1465,7 +1465,7 @@
               "source": "@site/docs/flow_datastore.md",
               "sourceDirName": ".",
               "slug": "/flow_datastore",
-              "permalink": "/docusaurus/docs/flow_datastore",
+              "permalink": "/docs/flow_datastore",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/flow_datastore.md",
               "tags": [],
               "version": "current",
@@ -1479,7 +1479,7 @@
               "source": "@site/docs/flow_datastore2.md",
               "sourceDirName": ".",
               "slug": "/flow_datastore2",
-              "permalink": "/docusaurus/docs/flow_datastore2",
+              "permalink": "/docs/flow_datastore2",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/flow_datastore2.md",
               "tags": [],
               "version": "current",
@@ -1496,7 +1496,7 @@
               "source": "@site/docs/flow_datastory_mdx.mdx",
               "sourceDirName": ".",
               "slug": "/flow_datastory_mdx",
-              "permalink": "/docusaurus/docs/flow_datastory_mdx",
+              "permalink": "/docs/flow_datastory_mdx",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/flow_datastory_mdx.mdx",
               "tags": [],
               "version": "current",
@@ -1513,7 +1513,7 @@
               "source": "@site/docs/index.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/docusaurus/docs/",
+              "permalink": "/docs/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/index.md",
               "tags": [],
               "version": "current",
@@ -1527,7 +1527,7 @@
               "source": "@site/docs/python/getting-started/install.md",
               "sourceDirName": "python/getting-started",
               "slug": "/python/getting-started/install",
-              "permalink": "/docusaurus/docs/python/getting-started/install",
+              "permalink": "/docs/python/getting-started/install",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/install.md",
               "tags": [],
               "version": "current",
@@ -1535,11 +1535,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Get in Touch",
-                "permalink": "/docusaurus/docs/python/introduction/getting-in-touch"
+                "permalink": "/docs/python/introduction/getting-in-touch"
               },
               "next": {
                 "title": "Tutorials",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/"
+                "permalink": "/docs/python/getting-started/tutorials/"
               }
             },
             {
@@ -1550,7 +1550,7 @@
               "source": "@site/docs/python/getting-started/tutorials/README.md",
               "sourceDirName": "python/getting-started/tutorials",
               "slug": "/python/getting-started/tutorials/",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/",
+              "permalink": "/docs/python/getting-started/tutorials/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/README.md",
               "tags": [],
               "version": "current",
@@ -1560,11 +1560,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Installing Metaflow",
-                "permalink": "/docusaurus/docs/python/getting-started/install"
+                "permalink": "/docs/python/getting-started/install"
               },
               "next": {
                 "title": "Season 1: The Local Experience",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/"
               }
             },
             {
@@ -1575,7 +1575,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/episode00",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "tags": [],
               "version": "current",
@@ -1583,11 +1583,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Season 1: The Local Experience",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/"
               },
               "next": {
                 "title": "Episode 1: Playlist",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01"
               }
             },
             {
@@ -1598,7 +1598,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/episode01",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "tags": [],
               "version": "current",
@@ -1606,11 +1606,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 0: Hello World",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00"
               },
               "next": {
                 "title": "Episode 2: Statistics",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02"
               }
             },
             {
@@ -1621,7 +1621,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/episode02",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "tags": [],
               "version": "current",
@@ -1629,11 +1629,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 1: Playlist",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01"
               },
               "next": {
                 "title": "Episode 3: Playlist Redux",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03"
               }
             },
             {
@@ -1644,7 +1644,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/episode03",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "tags": [],
               "version": "current",
@@ -1652,11 +1652,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 2: Statistics",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02"
               },
               "next": {
                 "title": "Episode 4: Playlist Plus",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04"
               }
             },
             {
@@ -1667,7 +1667,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/episode04",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04.md",
               "tags": [],
               "version": "current",
@@ -1675,11 +1675,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 3: Playlist Redux",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03"
               },
               "next": {
                 "title": "Season 2: Scaling Out and Up",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
               }
             },
             {
@@ -1690,7 +1690,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-1-the-local-experience/README.md",
               "sourceDirName": "python/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/python/getting-started/tutorials/season-1-the-local-experience/",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/",
+              "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-1-the-local-experience/README.md",
               "tags": [],
               "version": "current",
@@ -1701,11 +1701,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Tutorials",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/"
+                "permalink": "/docs/python/getting-started/tutorials/"
               },
               "next": {
                 "title": "Episode 0: Hello World",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00"
               }
             },
             {
@@ -1716,7 +1716,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
               "sourceDirName": "python/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot.md",
               "tags": [],
               "version": "current",
@@ -1724,11 +1724,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 7: Worldview",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
               },
               "next": {
                 "title": "Metaflow on AWS",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/"
+                "permalink": "/docs/python/metaflow-on-aws/"
               }
             },
             {
@@ -1739,7 +1739,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "sourceDirName": "python/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "tags": [],
               "version": "current",
@@ -1747,11 +1747,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Season 2: Scaling Out and Up",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/"
               },
               "next": {
                 "title": "Episode 6: Statistics Redux",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               }
             },
             {
@@ -1762,7 +1762,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "sourceDirName": "python/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "tags": [],
               "version": "current",
@@ -1770,11 +1770,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 5: Hello AWS",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
               },
               "next": {
                 "title": "Episode 7: Worldview",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07"
               }
             },
             {
@@ -1785,7 +1785,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
               "sourceDirName": "python/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07.md",
               "tags": [],
               "version": "current",
@@ -1793,11 +1793,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 6: Statistics Redux",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               },
               "next": {
                 "title": "Episode 8: Autopilot",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
               }
             },
             {
@@ -1808,7 +1808,7 @@
               "source": "@site/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "sourceDirName": "python/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/python/getting-started/tutorials/season-2-scaling-out-and-up/",
-              "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "tags": [],
               "version": "current",
@@ -1816,11 +1816,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 4: Playlist Plus",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04"
+                "permalink": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04"
               },
               "next": {
                 "title": "Episode 5: Hello AWS",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
               }
             },
             {
@@ -1831,7 +1831,7 @@
               "source": "@site/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
               "sourceDirName": "python/going-to-production-with-metaflow",
               "slug": "/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
-              "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "permalink": "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects.md",
               "tags": [],
               "version": "current",
@@ -1839,11 +1839,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Scheduling Metaflow Flows",
-                "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows"
+                "permalink": "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows"
               },
               "next": {
                 "title": "Technical Overview",
-                "permalink": "/docusaurus/docs/python/internals-of-metaflow/technical-overview"
+                "permalink": "/docs/python/internals-of-metaflow/technical-overview"
               }
             },
             {
@@ -1854,7 +1854,7 @@
               "source": "@site/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
               "sourceDirName": "python/going-to-production-with-metaflow",
               "slug": "/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
-              "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "permalink": "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
               "tags": [],
               "version": "current",
@@ -1862,11 +1862,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Organizing Results",
-                "permalink": "/docusaurus/docs/python/metaflow/tagging"
+                "permalink": "/docs/python/metaflow/tagging"
               },
               "next": {
                 "title": "Coordinating Larger Metaflow Projects",
-                "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+                "permalink": "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
               }
             },
             {
@@ -1877,7 +1877,7 @@
               "source": "@site/docs/python/index.md",
               "sourceDirName": "python",
               "slug": "/python/",
-              "permalink": "/docusaurus/docs/python/",
+              "permalink": "/docs/python/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/index.md",
               "tags": [],
               "version": "current",
@@ -1890,7 +1890,7 @@
               "sidebar": "python",
               "next": {
                 "title": "Why Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/why-metaflow"
+                "permalink": "/docs/python/introduction/why-metaflow"
               }
             },
             {
@@ -1901,7 +1901,7 @@
               "source": "@site/docs/python/internals-of-metaflow/technical-overview.md",
               "sourceDirName": "python/internals-of-metaflow",
               "slug": "/python/internals-of-metaflow/technical-overview",
-              "permalink": "/docusaurus/docs/python/internals-of-metaflow/technical-overview",
+              "permalink": "/docs/python/internals-of-metaflow/technical-overview",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/internals-of-metaflow/technical-overview.md",
               "tags": [],
               "version": "current",
@@ -1909,11 +1909,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Coordinating Larger Metaflow Projects",
-                "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
+                "permalink": "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects"
               },
               "next": {
                 "title": "Testing Philosophy",
-                "permalink": "/docusaurus/docs/python/internals-of-metaflow/testing-philosophy"
+                "permalink": "/docs/python/internals-of-metaflow/testing-philosophy"
               }
             },
             {
@@ -1924,7 +1924,7 @@
               "source": "@site/docs/python/internals-of-metaflow/testing-philosophy.md",
               "sourceDirName": "python/internals-of-metaflow",
               "slug": "/python/internals-of-metaflow/testing-philosophy",
-              "permalink": "/docusaurus/docs/python/internals-of-metaflow/testing-philosophy",
+              "permalink": "/docs/python/internals-of-metaflow/testing-philosophy",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/internals-of-metaflow/testing-philosophy.md",
               "tags": [],
               "version": "current",
@@ -1932,7 +1932,7 @@
               "sidebar": "python",
               "previous": {
                 "title": "Technical Overview",
-                "permalink": "/docusaurus/docs/python/internals-of-metaflow/technical-overview"
+                "permalink": "/docs/python/internals-of-metaflow/technical-overview"
               }
             },
             {
@@ -1943,7 +1943,7 @@
               "source": "@site/docs/python/introduction/contributing-to-metaflow.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/contributing-to-metaflow",
-              "permalink": "/docusaurus/docs/python/introduction/contributing-to-metaflow",
+              "permalink": "/docs/python/introduction/contributing-to-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/contributing-to-metaflow.md",
               "tags": [],
               "version": "current",
@@ -1951,11 +1951,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Roadmap",
-                "permalink": "/docusaurus/docs/python/introduction/roadmap"
+                "permalink": "/docs/python/introduction/roadmap"
               },
               "next": {
                 "title": "Get in Touch",
-                "permalink": "/docusaurus/docs/python/introduction/getting-in-touch"
+                "permalink": "/docs/python/introduction/getting-in-touch"
               }
             },
             {
@@ -1966,7 +1966,7 @@
               "source": "@site/docs/python/introduction/getting-in-touch.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/getting-in-touch",
-              "permalink": "/docusaurus/docs/python/introduction/getting-in-touch",
+              "permalink": "/docs/python/introduction/getting-in-touch",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/getting-in-touch.md",
               "tags": [],
               "version": "current",
@@ -1974,11 +1974,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Contributing to Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/contributing-to-metaflow"
+                "permalink": "/docs/python/introduction/contributing-to-metaflow"
               },
               "next": {
                 "title": "Installing Metaflow",
-                "permalink": "/docusaurus/docs/python/getting-started/install"
+                "permalink": "/docs/python/getting-started/install"
               }
             },
             {
@@ -1989,7 +1989,7 @@
               "source": "@site/docs/python/introduction/release-notes.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/release-notes",
-              "permalink": "/docusaurus/docs/python/introduction/release-notes",
+              "permalink": "/docs/python/introduction/release-notes",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/release-notes.md",
               "tags": [],
               "version": "current",
@@ -1997,11 +1997,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "What is Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/what-is-metaflow"
+                "permalink": "/docs/python/introduction/what-is-metaflow"
               },
               "next": {
                 "title": "Roadmap",
-                "permalink": "/docusaurus/docs/python/introduction/roadmap"
+                "permalink": "/docs/python/introduction/roadmap"
               }
             },
             {
@@ -2012,7 +2012,7 @@
               "source": "@site/docs/python/introduction/roadmap.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/roadmap",
-              "permalink": "/docusaurus/docs/python/introduction/roadmap",
+              "permalink": "/docs/python/introduction/roadmap",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/roadmap.md",
               "tags": [],
               "version": "current",
@@ -2020,11 +2020,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Release Notes",
-                "permalink": "/docusaurus/docs/python/introduction/release-notes"
+                "permalink": "/docs/python/introduction/release-notes"
               },
               "next": {
                 "title": "Contributing to Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/contributing-to-metaflow"
+                "permalink": "/docs/python/introduction/contributing-to-metaflow"
               }
             },
             {
@@ -2035,7 +2035,7 @@
               "source": "@site/docs/python/introduction/what-is-metaflow.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/what-is-metaflow",
-              "permalink": "/docusaurus/docs/python/introduction/what-is-metaflow",
+              "permalink": "/docs/python/introduction/what-is-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/what-is-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2043,11 +2043,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Why Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/why-metaflow"
+                "permalink": "/docs/python/introduction/why-metaflow"
               },
               "next": {
                 "title": "Release Notes",
-                "permalink": "/docusaurus/docs/python/introduction/release-notes"
+                "permalink": "/docs/python/introduction/release-notes"
               }
             },
             {
@@ -2058,7 +2058,7 @@
               "source": "@site/docs/python/introduction/why-metaflow.md",
               "sourceDirName": "python/introduction",
               "slug": "/python/introduction/why-metaflow",
-              "permalink": "/docusaurus/docs/python/introduction/why-metaflow",
+              "permalink": "/docs/python/introduction/why-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/introduction/why-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2068,11 +2068,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Welcome to Metaflow for Python",
-                "permalink": "/docusaurus/docs/python/"
+                "permalink": "/docs/python/"
               },
               "next": {
                 "title": "What is Metaflow",
-                "permalink": "/docusaurus/docs/python/introduction/what-is-metaflow"
+                "permalink": "/docs/python/introduction/what-is-metaflow"
               }
             },
             {
@@ -2083,7 +2083,7 @@
               "source": "@site/docs/python/metaflow-on-aws/deploy-to-aws.md",
               "sourceDirName": "python/metaflow-on-aws",
               "slug": "/python/metaflow-on-aws/deploy-to-aws",
-              "permalink": "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws",
+              "permalink": "/docs/python/metaflow-on-aws/deploy-to-aws",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow-on-aws/deploy-to-aws.md",
               "tags": [],
               "version": "current",
@@ -2091,11 +2091,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Metaflow Sandbox",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox"
+                "permalink": "/docs/python/metaflow-on-aws/metaflow-sandbox"
               },
               "next": {
                 "title": "Basics of Metaflow",
-                "permalink": "/docusaurus/docs/python/metaflow/basics"
+                "permalink": "/docs/python/metaflow/basics"
               }
             },
             {
@@ -2106,7 +2106,7 @@
               "source": "@site/docs/python/metaflow-on-aws/metaflow-on-aws.md",
               "sourceDirName": "python/metaflow-on-aws",
               "slug": "/python/metaflow-on-aws/",
-              "permalink": "/docusaurus/docs/python/metaflow-on-aws/",
+              "permalink": "/docs/python/metaflow-on-aws/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow-on-aws/metaflow-on-aws.md",
               "tags": [],
               "version": "current",
@@ -2114,11 +2114,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Episode 8: Autopilot",
-                "permalink": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
+                "permalink": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot"
               },
               "next": {
                 "title": "Metaflow Sandbox",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox"
+                "permalink": "/docs/python/metaflow-on-aws/metaflow-sandbox"
               }
             },
             {
@@ -2129,7 +2129,7 @@
               "source": "@site/docs/python/metaflow-on-aws/metaflow-sandbox.md",
               "sourceDirName": "python/metaflow-on-aws",
               "slug": "/python/metaflow-on-aws/metaflow-sandbox",
-              "permalink": "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox",
+              "permalink": "/docs/python/metaflow-on-aws/metaflow-sandbox",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow-on-aws/metaflow-sandbox.md",
               "tags": [],
               "version": "current",
@@ -2137,11 +2137,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Metaflow on AWS",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/"
+                "permalink": "/docs/python/metaflow-on-aws/"
               },
               "next": {
                 "title": "Deploying to AWS",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws"
+                "permalink": "/docs/python/metaflow-on-aws/deploy-to-aws"
               }
             },
             {
@@ -2152,7 +2152,7 @@
               "source": "@site/docs/python/metaflow/basics.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/basics",
-              "permalink": "/docusaurus/docs/python/metaflow/basics",
+              "permalink": "/docs/python/metaflow/basics",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/basics.md",
               "tags": [],
               "version": "current",
@@ -2160,11 +2160,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Deploying to AWS",
-                "permalink": "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws"
+                "permalink": "/docs/python/metaflow-on-aws/deploy-to-aws"
               },
               "next": {
                 "title": "Inspecting Flows and Results",
-                "permalink": "/docusaurus/docs/python/metaflow/client"
+                "permalink": "/docs/python/metaflow/client"
               }
             },
             {
@@ -2175,7 +2175,7 @@
               "source": "@site/docs/python/metaflow/client.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/client",
-              "permalink": "/docusaurus/docs/python/metaflow/client",
+              "permalink": "/docs/python/metaflow/client",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/client.md",
               "tags": [],
               "version": "current",
@@ -2183,11 +2183,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Basics of Metaflow",
-                "permalink": "/docusaurus/docs/python/metaflow/basics"
+                "permalink": "/docs/python/metaflow/basics"
               },
               "next": {
                 "title": "Visualizing Results",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/"
+                "permalink": "/docs/python/metaflow/visualizing-results/"
               }
             },
             {
@@ -2198,7 +2198,7 @@
               "source": "@site/docs/python/metaflow/data.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/data",
-              "permalink": "/docusaurus/docs/python/metaflow/data",
+              "permalink": "/docs/python/metaflow/data",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/data.md",
               "tags": [],
               "version": "current",
@@ -2206,11 +2206,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Scaling Out and Up",
-                "permalink": "/docusaurus/docs/python/metaflow/scaling"
+                "permalink": "/docs/python/metaflow/scaling"
               },
               "next": {
                 "title": "Managing External Libraries",
-                "permalink": "/docusaurus/docs/python/metaflow/dependencies"
+                "permalink": "/docs/python/metaflow/dependencies"
               }
             },
             {
@@ -2221,7 +2221,7 @@
               "source": "@site/docs/python/metaflow/debugging.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/debugging",
-              "permalink": "/docusaurus/docs/python/metaflow/debugging",
+              "permalink": "/docs/python/metaflow/debugging",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/debugging.md",
               "tags": [],
               "version": "current",
@@ -2229,11 +2229,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Advanced, Shareable Cards with Card Templates",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+                "permalink": "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
               },
               "next": {
                 "title": "Scaling Out and Up",
-                "permalink": "/docusaurus/docs/python/metaflow/scaling"
+                "permalink": "/docs/python/metaflow/scaling"
               }
             },
             {
@@ -2244,7 +2244,7 @@
               "source": "@site/docs/python/metaflow/dependencies.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/dependencies",
-              "permalink": "/docusaurus/docs/python/metaflow/dependencies",
+              "permalink": "/docs/python/metaflow/dependencies",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/dependencies.md",
               "tags": [],
               "version": "current",
@@ -2252,11 +2252,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Loading and Storing Data",
-                "permalink": "/docusaurus/docs/python/metaflow/data"
+                "permalink": "/docs/python/metaflow/data"
               },
               "next": {
                 "title": "Dealing with Failures",
-                "permalink": "/docusaurus/docs/python/metaflow/failures"
+                "permalink": "/docs/python/metaflow/failures"
               }
             },
             {
@@ -2267,7 +2267,7 @@
               "source": "@site/docs/python/metaflow/failures.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/failures",
-              "permalink": "/docusaurus/docs/python/metaflow/failures",
+              "permalink": "/docs/python/metaflow/failures",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/failures.md",
               "tags": [],
               "version": "current",
@@ -2275,11 +2275,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Managing External Libraries",
-                "permalink": "/docusaurus/docs/python/metaflow/dependencies"
+                "permalink": "/docs/python/metaflow/dependencies"
               },
               "next": {
                 "title": "Organizing Results",
-                "permalink": "/docusaurus/docs/python/metaflow/tagging"
+                "permalink": "/docs/python/metaflow/tagging"
               }
             },
             {
@@ -2290,7 +2290,7 @@
               "source": "@site/docs/python/metaflow/scaling.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/scaling",
-              "permalink": "/docusaurus/docs/python/metaflow/scaling",
+              "permalink": "/docs/python/metaflow/scaling",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/scaling.md",
               "tags": [],
               "version": "current",
@@ -2298,11 +2298,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Debugging with Metaflow",
-                "permalink": "/docusaurus/docs/python/metaflow/debugging"
+                "permalink": "/docs/python/metaflow/debugging"
               },
               "next": {
                 "title": "Loading and Storing Data",
-                "permalink": "/docusaurus/docs/python/metaflow/data"
+                "permalink": "/docs/python/metaflow/data"
               }
             },
             {
@@ -2313,7 +2313,7 @@
               "source": "@site/docs/python/metaflow/tagging.md",
               "sourceDirName": "python/metaflow",
               "slug": "/python/metaflow/tagging",
-              "permalink": "/docusaurus/docs/python/metaflow/tagging",
+              "permalink": "/docs/python/metaflow/tagging",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/tagging.md",
               "tags": [],
               "version": "current",
@@ -2321,11 +2321,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Dealing with Failures",
-                "permalink": "/docusaurus/docs/python/metaflow/failures"
+                "permalink": "/docs/python/metaflow/failures"
               },
               "next": {
                 "title": "Scheduling Metaflow Flows",
-                "permalink": "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows"
+                "permalink": "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows"
               }
             },
             {
@@ -2336,7 +2336,7 @@
               "source": "@site/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
               "sourceDirName": "python/metaflow/visualizing-results",
               "slug": "/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
-              "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "permalink": "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates.md",
               "tags": [],
               "version": "current",
@@ -2344,11 +2344,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Easy Custom Reports with Card Components",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+                "permalink": "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components"
               },
               "next": {
                 "title": "Debugging with Metaflow",
-                "permalink": "/docusaurus/docs/python/metaflow/debugging"
+                "permalink": "/docs/python/metaflow/debugging"
               }
             },
             {
@@ -2359,7 +2359,7 @@
               "source": "@site/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
               "sourceDirName": "python/metaflow/visualizing-results",
               "slug": "/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
-              "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "permalink": "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components.md",
               "tags": [],
               "version": "current",
@@ -2367,11 +2367,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Effortless Task Inspection with Default Cards",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+                "permalink": "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
               },
               "next": {
                 "title": "Advanced, Shareable Cards with Card Templates",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
+                "permalink": "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates"
               }
             },
             {
@@ -2382,7 +2382,7 @@
               "source": "@site/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
               "sourceDirName": "python/metaflow/visualizing-results",
               "slug": "/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
-              "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "permalink": "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards.md",
               "tags": [],
               "version": "current",
@@ -2390,11 +2390,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Visualizing Results",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/"
+                "permalink": "/docs/python/metaflow/visualizing-results/"
               },
               "next": {
                 "title": "Easy Custom Reports with Card Components",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components"
+                "permalink": "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components"
               }
             },
             {
@@ -2405,7 +2405,7 @@
               "source": "@site/docs/python/metaflow/visualizing-results/README.md",
               "sourceDirName": "python/metaflow/visualizing-results",
               "slug": "/python/metaflow/visualizing-results/",
-              "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/",
+              "permalink": "/docs/python/metaflow/visualizing-results/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/python/metaflow/visualizing-results/README.md",
               "tags": [],
               "version": "current",
@@ -2413,11 +2413,11 @@
               "sidebar": "python",
               "previous": {
                 "title": "Inspecting Flows and Results",
-                "permalink": "/docusaurus/docs/python/metaflow/client"
+                "permalink": "/docs/python/metaflow/client"
               },
               "next": {
                 "title": "Effortless Task Inspection with Default Cards",
-                "permalink": "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
+                "permalink": "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards"
               }
             },
             {
@@ -2428,7 +2428,7 @@
               "source": "@site/docs/r/getting-started/development-environment.md",
               "sourceDirName": "r/getting-started",
               "slug": "/r/getting-started/development-environment",
-              "permalink": "/docusaurus/docs/r/getting-started/development-environment",
+              "permalink": "/docs/r/getting-started/development-environment",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/development-environment.md",
               "tags": [],
               "version": "current",
@@ -2436,11 +2436,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Installing Metaflow",
-                "permalink": "/docusaurus/docs/r/getting-started/install"
+                "permalink": "/docs/r/getting-started/install"
               },
               "next": {
                 "title": "Tutorials",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/"
+                "permalink": "/docs/r/getting-started/tutorials/"
               }
             },
             {
@@ -2451,7 +2451,7 @@
               "source": "@site/docs/r/getting-started/install.md",
               "sourceDirName": "r/getting-started",
               "slug": "/r/getting-started/install",
-              "permalink": "/docusaurus/docs/r/getting-started/install",
+              "permalink": "/docs/r/getting-started/install",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/install.md",
               "tags": [],
               "version": "current",
@@ -2459,11 +2459,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Get in Touch",
-                "permalink": "/docusaurus/docs/r/introduction/getting-in-touch"
+                "permalink": "/docs/r/introduction/getting-in-touch"
               },
               "next": {
                 "title": "Development Environment",
-                "permalink": "/docusaurus/docs/r/getting-started/development-environment"
+                "permalink": "/docs/r/getting-started/development-environment"
               }
             },
             {
@@ -2474,7 +2474,7 @@
               "source": "@site/docs/r/getting-started/tutorials/README.md",
               "sourceDirName": "r/getting-started/tutorials",
               "slug": "/r/getting-started/tutorials/",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/",
+              "permalink": "/docs/r/getting-started/tutorials/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/README.md",
               "tags": [],
               "version": "current",
@@ -2482,11 +2482,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Development Environment",
-                "permalink": "/docusaurus/docs/r/getting-started/development-environment"
+                "permalink": "/docs/r/getting-started/development-environment"
               },
               "next": {
                 "title": "Season 1: The Local Experience",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
               }
             },
             {
@@ -2497,7 +2497,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "sourceDirName": "r/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/r/getting-started/tutorials/season-1-the-local-experience/episode00",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00.md",
               "tags": [],
               "version": "current",
@@ -2505,11 +2505,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Season 1: The Local Experience",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/"
               },
               "next": {
                 "title": "Episode 1: Playlist",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
               }
             },
             {
@@ -2520,7 +2520,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "sourceDirName": "r/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/r/getting-started/tutorials/season-1-the-local-experience/episode01",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01.md",
               "tags": [],
               "version": "current",
@@ -2528,11 +2528,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 0: Hello World",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
               },
               "next": {
                 "title": "Episode 2: Statistics",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
               }
             },
             {
@@ -2543,7 +2543,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "sourceDirName": "r/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/r/getting-started/tutorials/season-1-the-local-experience/episode02",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02.md",
               "tags": [],
               "version": "current",
@@ -2551,11 +2551,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 1: Playlist",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01"
               },
               "next": {
                 "title": "Episode 3: Playlist Redux",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
               }
             },
             {
@@ -2566,7 +2566,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "sourceDirName": "r/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/r/getting-started/tutorials/season-1-the-local-experience/episode03",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03.md",
               "tags": [],
               "version": "current",
@@ -2574,11 +2574,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 2: Statistics",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02"
               },
               "next": {
                 "title": "Season 2: Scaling Out and Up",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
               }
             },
             {
@@ -2589,7 +2589,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-1-the-local-experience/README.md",
               "sourceDirName": "r/getting-started/tutorials/season-1-the-local-experience",
               "slug": "/r/getting-started/tutorials/season-1-the-local-experience/",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/",
+              "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-1-the-local-experience/README.md",
               "tags": [],
               "version": "current",
@@ -2597,11 +2597,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Tutorials",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/"
+                "permalink": "/docs/r/getting-started/tutorials/"
               },
               "next": {
                 "title": "Episode 0: Hello World",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00"
               }
             },
             {
@@ -2612,7 +2612,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
+              "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04.md",
               "tags": [],
               "version": "current",
@@ -2620,11 +2620,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Season 2: Scaling Out and Up",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/"
               },
               "next": {
                 "title": "Episode 5: Statistics Redux",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
               }
             },
             {
@@ -2635,7 +2635,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05.md",
               "tags": [],
               "version": "current",
@@ -2643,11 +2643,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 4: Hello AWS",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
               },
               "next": {
                 "title": "Episode 6: Worldview",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               }
             },
             {
@@ -2658,7 +2658,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06.md",
               "tags": [],
               "version": "current",
@@ -2666,11 +2666,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 5: Statistics Redux",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05"
               },
               "next": {
                 "title": "Metaflow on AWS",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/"
+                "permalink": "/docs/r/metaflow-on-aws/"
               }
             },
             {
@@ -2681,7 +2681,7 @@
               "source": "@site/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "sourceDirName": "r/getting-started/tutorials/season-2-scaling-out-and-up",
               "slug": "/r/getting-started/tutorials/season-2-scaling-out-and-up/",
-              "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/README.md",
               "tags": [],
               "version": "current",
@@ -2689,11 +2689,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 3: Playlist Redux",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
+                "permalink": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03"
               },
               "next": {
                 "title": "Episode 4: Hello AWS",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04"
               }
             },
             {
@@ -2704,7 +2704,7 @@
               "source": "@site/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
               "sourceDirName": "r/going-to-production-with-metaflow",
               "slug": "/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
-              "permalink": "/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "permalink": "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows.md",
               "tags": [],
               "version": "current",
@@ -2712,7 +2712,7 @@
               "sidebar": "r",
               "previous": {
                 "title": "Organizing Results",
-                "permalink": "/docusaurus/docs/r/metaflow/tagging"
+                "permalink": "/docs/r/metaflow/tagging"
               }
             },
             {
@@ -2723,7 +2723,7 @@
               "source": "@site/docs/r/introduction/contributing-to-metaflow.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/contributing-to-metaflow",
-              "permalink": "/docusaurus/docs/r/introduction/contributing-to-metaflow",
+              "permalink": "/docs/r/introduction/contributing-to-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/contributing-to-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2731,11 +2731,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Release Notes",
-                "permalink": "/docusaurus/docs/r/introduction/release-notes"
+                "permalink": "/docs/r/introduction/release-notes"
               },
               "next": {
                 "title": "Get in Touch",
-                "permalink": "/docusaurus/docs/r/introduction/getting-in-touch"
+                "permalink": "/docs/r/introduction/getting-in-touch"
               }
             },
             {
@@ -2746,7 +2746,7 @@
               "source": "@site/docs/r/introduction/getting-in-touch.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/getting-in-touch",
-              "permalink": "/docusaurus/docs/r/introduction/getting-in-touch",
+              "permalink": "/docs/r/introduction/getting-in-touch",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/getting-in-touch.md",
               "tags": [],
               "version": "current",
@@ -2754,11 +2754,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Contributing to Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/contributing-to-metaflow"
+                "permalink": "/docs/r/introduction/contributing-to-metaflow"
               },
               "next": {
                 "title": "Installing Metaflow",
-                "permalink": "/docusaurus/docs/r/getting-started/install"
+                "permalink": "/docs/r/getting-started/install"
               }
             },
             {
@@ -2769,7 +2769,7 @@
               "source": "@site/docs/r/introduction/release-notes.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/release-notes",
-              "permalink": "/docusaurus/docs/r/introduction/release-notes",
+              "permalink": "/docs/r/introduction/release-notes",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/release-notes.md",
               "tags": [],
               "version": "current",
@@ -2777,11 +2777,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "What is Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/what-is-metaflow"
+                "permalink": "/docs/r/introduction/what-is-metaflow"
               },
               "next": {
                 "title": "Contributing to Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/contributing-to-metaflow"
+                "permalink": "/docs/r/introduction/contributing-to-metaflow"
               }
             },
             {
@@ -2792,7 +2792,7 @@
               "source": "@site/docs/r/introduction/roadmap.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/roadmap",
-              "permalink": "/docusaurus/docs/r/introduction/roadmap",
+              "permalink": "/docs/r/introduction/roadmap",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/roadmap.md",
               "tags": [],
               "version": "current",
@@ -2806,7 +2806,7 @@
               "source": "@site/docs/r/introduction/what-is-metaflow.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/what-is-metaflow",
-              "permalink": "/docusaurus/docs/r/introduction/what-is-metaflow",
+              "permalink": "/docs/r/introduction/what-is-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/what-is-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2814,11 +2814,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Why Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/why-metaflow"
+                "permalink": "/docs/r/introduction/why-metaflow"
               },
               "next": {
                 "title": "Release Notes",
-                "permalink": "/docusaurus/docs/r/introduction/release-notes"
+                "permalink": "/docs/r/introduction/release-notes"
               }
             },
             {
@@ -2829,7 +2829,7 @@
               "source": "@site/docs/r/introduction/why-metaflow.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/why-metaflow",
-              "permalink": "/docusaurus/docs/r/introduction/why-metaflow",
+              "permalink": "/docs/r/introduction/why-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/why-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2839,11 +2839,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Welcome to Metaflow for R",
-                "permalink": "/docusaurus/docs/r/"
+                "permalink": "/docs/r/"
               },
               "next": {
                 "title": "What is Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/what-is-metaflow"
+                "permalink": "/docs/r/introduction/what-is-metaflow"
               }
             },
             {
@@ -2854,7 +2854,7 @@
               "source": "@site/docs/r/introduction/wip-contributing-to-metaflow.md",
               "sourceDirName": "r/introduction",
               "slug": "/r/introduction/wip-contributing-to-metaflow",
-              "permalink": "/docusaurus/docs/r/introduction/wip-contributing-to-metaflow",
+              "permalink": "/docs/r/introduction/wip-contributing-to-metaflow",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/introduction/wip-contributing-to-metaflow.md",
               "tags": [],
               "version": "current",
@@ -2868,7 +2868,7 @@
               "source": "@site/docs/r/metaflow-on-aws/deploy-to-aws.md",
               "sourceDirName": "r/metaflow-on-aws",
               "slug": "/r/metaflow-on-aws/deploy-to-aws",
-              "permalink": "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws",
+              "permalink": "/docs/r/metaflow-on-aws/deploy-to-aws",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow-on-aws/deploy-to-aws.md",
               "tags": [],
               "version": "current",
@@ -2876,11 +2876,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Metaflow Sandbox",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox"
+                "permalink": "/docs/r/metaflow-on-aws/metaflow-sandbox"
               },
               "next": {
                 "title": "Basics of Metaflow",
-                "permalink": "/docusaurus/docs/r/metaflow/basics"
+                "permalink": "/docs/r/metaflow/basics"
               }
             },
             {
@@ -2891,7 +2891,7 @@
               "source": "@site/docs/r/metaflow-on-aws/metaflow-on-aws.md",
               "sourceDirName": "r/metaflow-on-aws",
               "slug": "/r/metaflow-on-aws/",
-              "permalink": "/docusaurus/docs/r/metaflow-on-aws/",
+              "permalink": "/docs/r/metaflow-on-aws/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow-on-aws/metaflow-on-aws.md",
               "tags": [],
               "version": "current",
@@ -2899,11 +2899,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Episode 6: Worldview",
-                "permalink": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
+                "permalink": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06"
               },
               "next": {
                 "title": "Metaflow Sandbox",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox"
+                "permalink": "/docs/r/metaflow-on-aws/metaflow-sandbox"
               }
             },
             {
@@ -2914,7 +2914,7 @@
               "source": "@site/docs/r/metaflow-on-aws/metaflow-sandbox.md",
               "sourceDirName": "r/metaflow-on-aws",
               "slug": "/r/metaflow-on-aws/metaflow-sandbox",
-              "permalink": "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox",
+              "permalink": "/docs/r/metaflow-on-aws/metaflow-sandbox",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow-on-aws/metaflow-sandbox.md",
               "tags": [],
               "version": "current",
@@ -2922,11 +2922,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Metaflow on AWS",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/"
+                "permalink": "/docs/r/metaflow-on-aws/"
               },
               "next": {
                 "title": "Deploying to AWS",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws"
+                "permalink": "/docs/r/metaflow-on-aws/deploy-to-aws"
               }
             },
             {
@@ -2937,7 +2937,7 @@
               "source": "@site/docs/r/metaflow/basics.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/basics",
-              "permalink": "/docusaurus/docs/r/metaflow/basics",
+              "permalink": "/docs/r/metaflow/basics",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/basics.md",
               "tags": [],
               "version": "current",
@@ -2945,11 +2945,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Deploying to AWS",
-                "permalink": "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws"
+                "permalink": "/docs/r/metaflow-on-aws/deploy-to-aws"
               },
               "next": {
                 "title": "Inspecting Flows and Results",
-                "permalink": "/docusaurus/docs/r/metaflow/client"
+                "permalink": "/docs/r/metaflow/client"
               }
             },
             {
@@ -2960,7 +2960,7 @@
               "source": "@site/docs/r/metaflow/client.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/client",
-              "permalink": "/docusaurus/docs/r/metaflow/client",
+              "permalink": "/docs/r/metaflow/client",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/client.md",
               "tags": [],
               "version": "current",
@@ -2968,11 +2968,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Basics of Metaflow",
-                "permalink": "/docusaurus/docs/r/metaflow/basics"
+                "permalink": "/docs/r/metaflow/basics"
               },
               "next": {
                 "title": "Debugging with Metaflow",
-                "permalink": "/docusaurus/docs/r/metaflow/debugging"
+                "permalink": "/docs/r/metaflow/debugging"
               }
             },
             {
@@ -2983,7 +2983,7 @@
               "source": "@site/docs/r/metaflow/debugging.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/debugging",
-              "permalink": "/docusaurus/docs/r/metaflow/debugging",
+              "permalink": "/docs/r/metaflow/debugging",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/debugging.md",
               "tags": [],
               "version": "current",
@@ -2991,11 +2991,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Inspecting Flows and Results",
-                "permalink": "/docusaurus/docs/r/metaflow/client"
+                "permalink": "/docs/r/metaflow/client"
               },
               "next": {
                 "title": "Scaling Out and Up",
-                "permalink": "/docusaurus/docs/r/metaflow/scaling"
+                "permalink": "/docs/r/metaflow/scaling"
               }
             },
             {
@@ -3006,7 +3006,7 @@
               "source": "@site/docs/r/metaflow/failures.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/failures",
-              "permalink": "/docusaurus/docs/r/metaflow/failures",
+              "permalink": "/docs/r/metaflow/failures",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/failures.md",
               "tags": [],
               "version": "current",
@@ -3014,11 +3014,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Scaling Out and Up",
-                "permalink": "/docusaurus/docs/r/metaflow/scaling"
+                "permalink": "/docs/r/metaflow/scaling"
               },
               "next": {
                 "title": "Organizing Results",
-                "permalink": "/docusaurus/docs/r/metaflow/tagging"
+                "permalink": "/docs/r/metaflow/tagging"
               }
             },
             {
@@ -3029,7 +3029,7 @@
               "source": "@site/docs/r/metaflow/scaling.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/scaling",
-              "permalink": "/docusaurus/docs/r/metaflow/scaling",
+              "permalink": "/docs/r/metaflow/scaling",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/scaling.md",
               "tags": [],
               "version": "current",
@@ -3037,11 +3037,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Debugging with Metaflow",
-                "permalink": "/docusaurus/docs/r/metaflow/debugging"
+                "permalink": "/docs/r/metaflow/debugging"
               },
               "next": {
                 "title": "Dealing with Failures",
-                "permalink": "/docusaurus/docs/r/metaflow/failures"
+                "permalink": "/docs/r/metaflow/failures"
               }
             },
             {
@@ -3052,7 +3052,7 @@
               "source": "@site/docs/r/metaflow/tagging.md",
               "sourceDirName": "r/metaflow",
               "slug": "/r/metaflow/tagging",
-              "permalink": "/docusaurus/docs/r/metaflow/tagging",
+              "permalink": "/docs/r/metaflow/tagging",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/metaflow/tagging.md",
               "tags": [],
               "version": "current",
@@ -3060,11 +3060,11 @@
               "sidebar": "r",
               "previous": {
                 "title": "Dealing with Failures",
-                "permalink": "/docusaurus/docs/r/metaflow/failures"
+                "permalink": "/docs/r/metaflow/failures"
               },
               "next": {
                 "title": "Scheduling Metaflow Flows",
-                "permalink": "/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows"
+                "permalink": "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows"
               }
             },
             {
@@ -3075,7 +3075,7 @@
               "source": "@site/docs/r/README.md",
               "sourceDirName": "r",
               "slug": "/r/",
-              "permalink": "/docusaurus/docs/r/",
+              "permalink": "/docs/r/",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/README.md",
               "tags": [],
               "version": "current",
@@ -3086,7 +3086,7 @@
               "sidebar": "r",
               "next": {
                 "title": "Why Metaflow",
-                "permalink": "/docusaurus/docs/r/introduction/why-metaflow"
+                "permalink": "/docs/r/introduction/why-metaflow"
               }
             },
             {
@@ -3097,7 +3097,7 @@
               "source": "@site/docs/r/SUMMARY.md",
               "sourceDirName": "r",
               "slug": "/r/SUMMARY",
-              "permalink": "/docusaurus/docs/r/SUMMARY",
+              "permalink": "/docs/r/SUMMARY",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/r/SUMMARY.md",
               "tags": [],
               "version": "current",
@@ -3111,7 +3111,7 @@
               "source": "@site/docs/some_code.md",
               "sourceDirName": ".",
               "slug": "/some_code",
-              "permalink": "/docusaurus/docs/some_code",
+              "permalink": "/docs/some_code",
               "editUrl": "https://github.dev/outerbounds/docusaurus/blob/main/docs/some_code.md",
               "tags": [],
               "version": "current",
@@ -3905,7 +3905,7 @@
     "default": [
       {
         "type": "mdx",
-        "permalink": "/docusaurus/",
+        "permalink": "/",
         "source": "@site/src/pages/index.md",
         "description": "Python Docs",
         "frontMatter": {}

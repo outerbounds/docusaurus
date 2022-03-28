@@ -9,679 +9,679 @@
   },
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docusaurus/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docusaurus/docs",
+          "path": "/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "api/metaflow/client/core",
-              "path": "/docusaurus/docs/api/metaflow/client/core",
+              "path": "/docs/api/metaflow/client/core",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/client/filecache",
-              "path": "/docusaurus/docs/api/metaflow/client/filecache",
+              "path": "/docs/api/metaflow/client/filecache",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datastore/content_addressed_store",
-              "path": "/docusaurus/docs/api/metaflow/datastore/content_addressed_store",
+              "path": "/docs/api/metaflow/datastore/content_addressed_store",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datastore/datastore_storage",
-              "path": "/docusaurus/docs/api/metaflow/datastore/datastore_storage",
+              "path": "/docs/api/metaflow/datastore/datastore_storage",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datastore/flow_datastore",
-              "path": "/docusaurus/docs/api/metaflow/datastore/flow_datastore",
+              "path": "/docs/api/metaflow/datastore/flow_datastore",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datastore/inputs",
-              "path": "/docusaurus/docs/api/metaflow/datastore/inputs",
+              "path": "/docs/api/metaflow/datastore/inputs",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datastore/task_datastore",
-              "path": "/docusaurus/docs/api/metaflow/datastore/task_datastore",
+              "path": "/docs/api/metaflow/datastore/task_datastore",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datatools/s3",
-              "path": "/docusaurus/docs/api/metaflow/datatools/s3",
+              "path": "/docs/api/metaflow/datatools/s3",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/datatools/s3util",
-              "path": "/docusaurus/docs/api/metaflow/datatools/s3util",
+              "path": "/docs/api/metaflow/datatools/s3util",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/decorators",
-              "path": "/docusaurus/docs/api/metaflow/decorators",
+              "path": "/docs/api/metaflow/decorators",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/flowspec",
-              "path": "/docusaurus/docs/api/metaflow/flowspec",
+              "path": "/docs/api/metaflow/flowspec",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/includefile",
-              "path": "/docusaurus/docs/api/metaflow/includefile",
+              "path": "/docs/api/metaflow/includefile",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/index",
-              "path": "/docusaurus/docs/api/metaflow/",
+              "path": "/docs/api/metaflow/",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/metadata/metadata",
-              "path": "/docusaurus/docs/api/metaflow/metadata/",
+              "path": "/docs/api/metaflow/metadata/",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/metaflow_environment",
-              "path": "/docusaurus/docs/api/metaflow/metaflow_environment",
+              "path": "/docs/api/metaflow/metaflow_environment",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/metaflow_version",
-              "path": "/docusaurus/docs/api/metaflow/metaflow_version",
+              "path": "/docs/api/metaflow/metaflow_version",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/monitor",
-              "path": "/docusaurus/docs/api/metaflow/monitor",
+              "path": "/docs/api/metaflow/monitor",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/package",
-              "path": "/docusaurus/docs/api/metaflow/package",
+              "path": "/docs/api/metaflow/package",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/parameters",
-              "path": "/docusaurus/docs/api/metaflow/parameters",
+              "path": "/docs/api/metaflow/parameters",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/aws/aws_utils",
-              "path": "/docusaurus/docs/api/metaflow/plugins/aws/aws_utils",
+              "path": "/docs/api/metaflow/plugins/aws/aws_utils",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/aws/batch/batch_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/aws/batch/batch_decorator",
+              "path": "/docs/api/metaflow/plugins/aws/batch/batch_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/aws/eks/kubernetes",
-              "path": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes",
+              "path": "/docs/api/metaflow/plugins/aws/eks/kubernetes",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/aws/eks/kubernetes_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
+              "path": "/docs/api/metaflow/plugins/aws/eks/kubernetes_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_cli",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_cli",
+              "path": "/docs/api/metaflow/plugins/cards/card_cli",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_client",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_client",
+              "path": "/docs/api/metaflow/plugins/cards/card_client",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_datastore",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_datastore",
+              "path": "/docs/api/metaflow/plugins/cards/card_datastore",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/basic",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/basic",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/basic",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/card",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/card",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/card",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/chevron/main",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/main",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/chevron/renderer",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/renderer",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/chevron/tokenizer",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/components",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/components",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/components",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/card_modules/renderer_tools",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
+              "path": "/docs/api/metaflow/plugins/cards/card_modules/renderer_tools",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/component_serializer",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/component_serializer",
+              "path": "/docs/api/metaflow/plugins/cards/component_serializer",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/cards/exception",
-              "path": "/docusaurus/docs/api/metaflow/plugins/cards/exception",
+              "path": "/docs/api/metaflow/plugins/cards/exception",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/catch_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/catch_decorator",
+              "path": "/docs/api/metaflow/plugins/catch_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/conda/conda_flow_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/conda/conda_flow_decorator",
+              "path": "/docs/api/metaflow/plugins/conda/conda_flow_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/conda/conda_step_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/conda/conda_step_decorator",
+              "path": "/docs/api/metaflow/plugins/conda/conda_step_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/env_escape/communication/bytestream",
-              "path": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/bytestream",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/bytestream",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/env_escape/communication/channel",
-              "path": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/channel",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/channel",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/env_escape/communication/utils",
-              "path": "/docusaurus/docs/api/metaflow/plugins/env_escape/communication/utils",
+              "path": "/docs/api/metaflow/plugins/env_escape/communication/utils",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/env_escape/exception_transferer",
-              "path": "/docusaurus/docs/api/metaflow/plugins/env_escape/exception_transferer",
+              "path": "/docs/api/metaflow/plugins/env_escape/exception_transferer",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/env_escape/stub",
-              "path": "/docusaurus/docs/api/metaflow/plugins/env_escape/stub",
+              "path": "/docs/api/metaflow/plugins/env_escape/stub",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/environment_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/environment_decorator",
+              "path": "/docs/api/metaflow/plugins/environment_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/frameworks/pytorch",
-              "path": "/docusaurus/docs/api/metaflow/plugins/frameworks/pytorch",
+              "path": "/docs/api/metaflow/plugins/frameworks/pytorch",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/resources_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/resources_decorator",
+              "path": "/docs/api/metaflow/plugins/resources_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/retry_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/retry_decorator",
+              "path": "/docs/api/metaflow/plugins/retry_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/test_unbounded_foreach_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
+              "path": "/docs/api/metaflow/plugins/test_unbounded_foreach_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/plugins/timeout_decorator",
-              "path": "/docusaurus/docs/api/metaflow/plugins/timeout_decorator",
+              "path": "/docs/api/metaflow/plugins/timeout_decorator",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/runtime",
-              "path": "/docusaurus/docs/api/metaflow/runtime",
+              "path": "/docs/api/metaflow/runtime",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/sidecar",
-              "path": "/docusaurus/docs/api/metaflow/sidecar",
+              "path": "/docs/api/metaflow/sidecar",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/sidecar_worker",
-              "path": "/docusaurus/docs/api/metaflow/sidecar_worker",
+              "path": "/docs/api/metaflow/sidecar_worker",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/task",
-              "path": "/docusaurus/docs/api/metaflow/task",
+              "path": "/docs/api/metaflow/task",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/unbounded_foreach",
-              "path": "/docusaurus/docs/api/metaflow/unbounded_foreach",
+              "path": "/docs/api/metaflow/unbounded_foreach",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/util",
-              "path": "/docusaurus/docs/api/metaflow/util",
+              "path": "/docs/api/metaflow/util",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "api/metaflow/vendor",
-              "path": "/docusaurus/docs/api/metaflow/vendor",
+              "path": "/docs/api/metaflow/vendor",
               "sidebar": "apiMetaflow"
             },
             {
               "id": "flow_datastore",
-              "path": "/docusaurus/docs/flow_datastore"
+              "path": "/docs/flow_datastore"
             },
             {
               "id": "flow_datastore2",
-              "path": "/docusaurus/docs/flow_datastore2"
+              "path": "/docs/flow_datastore2"
             },
             {
               "id": "flow_datastory_mdx",
-              "path": "/docusaurus/docs/flow_datastory_mdx"
+              "path": "/docs/flow_datastory_mdx"
             },
             {
               "id": "index",
-              "path": "/docusaurus/docs/"
+              "path": "/docs/"
             },
             {
               "id": "python/getting-started/install",
-              "path": "/docusaurus/docs/python/getting-started/install",
+              "path": "/docs/python/getting-started/install",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/README",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/",
+              "path": "/docs/python/getting-started/tutorials/",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/episode00",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode00",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/episode01",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode01",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/episode02",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode02",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/episode03",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode03",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/episode04",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/episode04",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-1-the-local-experience/README",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-1-the-local-experience/",
+              "path": "/docs/python/getting-started/tutorials/season-1-the-local-experience/",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
+              "path": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode-8-autopilot",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "path": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "path": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
+              "path": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/episode07",
               "sidebar": "python"
             },
             {
               "id": "python/getting-started/tutorials/season-2-scaling-out-and-up/README",
-              "path": "/docusaurus/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "path": "/docs/python/getting-started/tutorials/season-2-scaling-out-and-up/",
               "sidebar": "python"
             },
             {
               "id": "python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
-              "path": "/docusaurus/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
+              "path": "/docs/python/going-to-production-with-metaflow/coordinating-larger-metaflow-projects",
               "sidebar": "python"
             },
             {
               "id": "python/going-to-production-with-metaflow/scheduling-metaflow-flows",
-              "path": "/docusaurus/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "path": "/docs/python/going-to-production-with-metaflow/scheduling-metaflow-flows",
               "sidebar": "python"
             },
             {
               "id": "python/index",
-              "path": "/docusaurus/docs/python/",
+              "path": "/docs/python/",
               "sidebar": "python"
             },
             {
               "id": "python/internals-of-metaflow/technical-overview",
-              "path": "/docusaurus/docs/python/internals-of-metaflow/technical-overview",
+              "path": "/docs/python/internals-of-metaflow/technical-overview",
               "sidebar": "python"
             },
             {
               "id": "python/internals-of-metaflow/testing-philosophy",
-              "path": "/docusaurus/docs/python/internals-of-metaflow/testing-philosophy",
+              "path": "/docs/python/internals-of-metaflow/testing-philosophy",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/contributing-to-metaflow",
-              "path": "/docusaurus/docs/python/introduction/contributing-to-metaflow",
+              "path": "/docs/python/introduction/contributing-to-metaflow",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/getting-in-touch",
-              "path": "/docusaurus/docs/python/introduction/getting-in-touch",
+              "path": "/docs/python/introduction/getting-in-touch",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/release-notes",
-              "path": "/docusaurus/docs/python/introduction/release-notes",
+              "path": "/docs/python/introduction/release-notes",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/roadmap",
-              "path": "/docusaurus/docs/python/introduction/roadmap",
+              "path": "/docs/python/introduction/roadmap",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/what-is-metaflow",
-              "path": "/docusaurus/docs/python/introduction/what-is-metaflow",
+              "path": "/docs/python/introduction/what-is-metaflow",
               "sidebar": "python"
             },
             {
               "id": "python/introduction/why-metaflow",
-              "path": "/docusaurus/docs/python/introduction/why-metaflow",
+              "path": "/docs/python/introduction/why-metaflow",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow-on-aws/deploy-to-aws",
-              "path": "/docusaurus/docs/python/metaflow-on-aws/deploy-to-aws",
+              "path": "/docs/python/metaflow-on-aws/deploy-to-aws",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow-on-aws/metaflow-on-aws",
-              "path": "/docusaurus/docs/python/metaflow-on-aws/",
+              "path": "/docs/python/metaflow-on-aws/",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow-on-aws/metaflow-sandbox",
-              "path": "/docusaurus/docs/python/metaflow-on-aws/metaflow-sandbox",
+              "path": "/docs/python/metaflow-on-aws/metaflow-sandbox",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/basics",
-              "path": "/docusaurus/docs/python/metaflow/basics",
+              "path": "/docs/python/metaflow/basics",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/client",
-              "path": "/docusaurus/docs/python/metaflow/client",
+              "path": "/docs/python/metaflow/client",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/data",
-              "path": "/docusaurus/docs/python/metaflow/data",
+              "path": "/docs/python/metaflow/data",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/debugging",
-              "path": "/docusaurus/docs/python/metaflow/debugging",
+              "path": "/docs/python/metaflow/debugging",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/dependencies",
-              "path": "/docusaurus/docs/python/metaflow/dependencies",
+              "path": "/docs/python/metaflow/dependencies",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/failures",
-              "path": "/docusaurus/docs/python/metaflow/failures",
+              "path": "/docs/python/metaflow/failures",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/scaling",
-              "path": "/docusaurus/docs/python/metaflow/scaling",
+              "path": "/docs/python/metaflow/scaling",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/tagging",
-              "path": "/docusaurus/docs/python/metaflow/tagging",
+              "path": "/docs/python/metaflow/tagging",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
-              "path": "/docusaurus/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
+              "path": "/docs/python/metaflow/visualizing-results/advanced-shareable-cards-with-card-templates",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
-              "path": "/docusaurus/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
+              "path": "/docs/python/metaflow/visualizing-results/easy-custom-reports-with-card-components",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
-              "path": "/docusaurus/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
+              "path": "/docs/python/metaflow/visualizing-results/effortless-task-inspection-with-default-cards",
               "sidebar": "python"
             },
             {
               "id": "python/metaflow/visualizing-results/README",
-              "path": "/docusaurus/docs/python/metaflow/visualizing-results/",
+              "path": "/docs/python/metaflow/visualizing-results/",
               "sidebar": "python"
             },
             {
               "id": "r/getting-started/development-environment",
-              "path": "/docusaurus/docs/r/getting-started/development-environment",
+              "path": "/docs/r/getting-started/development-environment",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/install",
-              "path": "/docusaurus/docs/r/getting-started/install",
+              "path": "/docs/r/getting-started/install",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/README",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/",
+              "path": "/docs/r/getting-started/tutorials/",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode00",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode00",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode01",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode01",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode02",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode02",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/episode03",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/episode03",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-1-the-local-experience/README",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-1-the-local-experience/",
+              "path": "/docs/r/getting-started/tutorials/season-1-the-local-experience/",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode04",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode05",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/episode06",
               "sidebar": "r"
             },
             {
               "id": "r/getting-started/tutorials/season-2-scaling-out-and-up/README",
-              "path": "/docusaurus/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/",
+              "path": "/docs/r/getting-started/tutorials/season-2-scaling-out-and-up/",
               "sidebar": "r"
             },
             {
               "id": "r/going-to-production-with-metaflow/scheduling-metaflow-flows",
-              "path": "/docusaurus/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
+              "path": "/docs/r/going-to-production-with-metaflow/scheduling-metaflow-flows",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/contributing-to-metaflow",
-              "path": "/docusaurus/docs/r/introduction/contributing-to-metaflow",
+              "path": "/docs/r/introduction/contributing-to-metaflow",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/getting-in-touch",
-              "path": "/docusaurus/docs/r/introduction/getting-in-touch",
+              "path": "/docs/r/introduction/getting-in-touch",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/release-notes",
-              "path": "/docusaurus/docs/r/introduction/release-notes",
+              "path": "/docs/r/introduction/release-notes",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/roadmap",
-              "path": "/docusaurus/docs/r/introduction/roadmap"
+              "path": "/docs/r/introduction/roadmap"
             },
             {
               "id": "r/introduction/what-is-metaflow",
-              "path": "/docusaurus/docs/r/introduction/what-is-metaflow",
+              "path": "/docs/r/introduction/what-is-metaflow",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/why-metaflow",
-              "path": "/docusaurus/docs/r/introduction/why-metaflow",
+              "path": "/docs/r/introduction/why-metaflow",
               "sidebar": "r"
             },
             {
               "id": "r/introduction/wip-contributing-to-metaflow",
-              "path": "/docusaurus/docs/r/introduction/wip-contributing-to-metaflow"
+              "path": "/docs/r/introduction/wip-contributing-to-metaflow"
             },
             {
               "id": "r/metaflow-on-aws/deploy-to-aws",
-              "path": "/docusaurus/docs/r/metaflow-on-aws/deploy-to-aws",
+              "path": "/docs/r/metaflow-on-aws/deploy-to-aws",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow-on-aws/metaflow-on-aws",
-              "path": "/docusaurus/docs/r/metaflow-on-aws/",
+              "path": "/docs/r/metaflow-on-aws/",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow-on-aws/metaflow-sandbox",
-              "path": "/docusaurus/docs/r/metaflow-on-aws/metaflow-sandbox",
+              "path": "/docs/r/metaflow-on-aws/metaflow-sandbox",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/basics",
-              "path": "/docusaurus/docs/r/metaflow/basics",
+              "path": "/docs/r/metaflow/basics",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/client",
-              "path": "/docusaurus/docs/r/metaflow/client",
+              "path": "/docs/r/metaflow/client",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/debugging",
-              "path": "/docusaurus/docs/r/metaflow/debugging",
+              "path": "/docs/r/metaflow/debugging",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/failures",
-              "path": "/docusaurus/docs/r/metaflow/failures",
+              "path": "/docs/r/metaflow/failures",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/scaling",
-              "path": "/docusaurus/docs/r/metaflow/scaling",
+              "path": "/docs/r/metaflow/scaling",
               "sidebar": "r"
             },
             {
               "id": "r/metaflow/tagging",
-              "path": "/docusaurus/docs/r/metaflow/tagging",
+              "path": "/docs/r/metaflow/tagging",
               "sidebar": "r"
             },
             {
               "id": "r/README",
-              "path": "/docusaurus/docs/r/",
+              "path": "/docs/r/",
               "sidebar": "r"
             },
             {
               "id": "r/SUMMARY",
-              "path": "/docusaurus/docs/r/SUMMARY"
+              "path": "/docs/r/SUMMARY"
             },
             {
               "id": "some_code",
-              "path": "/docusaurus/docs/some_code"
+              "path": "/docs/some_code"
             }
           ],
           "sidebars": {
             "python": {
               "link": {
-                "path": "/docusaurus/docs/python/",
+                "path": "/docs/python/",
                 "label": "python/index"
               }
             },
             "r": {
               "link": {
-                "path": "/docusaurus/docs/r/",
+                "path": "/docs/r/",
                 "label": "r/README"
               }
             },
             "apiMetaflow": {
               "link": {
-                "path": "/docusaurus/docs/api/metaflow/client/core",
+                "path": "/docs/api/metaflow/client/core",
                 "label": "api/metaflow/client/core"
               }
             }
