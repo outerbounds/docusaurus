@@ -22,7 +22,7 @@ export const DocSection3 = ({
         </a>
       </div>
       <p className={styles.module}>
-        import {module} from {name}
+        from {module} import {name}
       </p>
       <div className={styles.content}>
         {children.filter((child) => child.props.mdxType === "Description3")}
