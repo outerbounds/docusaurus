@@ -12,7 +12,6 @@ export const DocSection3 = ({
 }) => {
   return (
     <div>
-      <h4>{module}</h4>
       <div className={styles.titlebox}>
         <Name heading_level={heading_level}>
           <span className={styles.name}>{name}</span>
@@ -22,6 +21,9 @@ export const DocSection3 = ({
           [source]
         </a>
       </div>
+      <p className={styles.module}>
+        import {module} from {name}
+      </p>
       <div className={styles.content}>
         {children.filter((child) => child.props.mdxType === "Description3")}
         {children.filter(

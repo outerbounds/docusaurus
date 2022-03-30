@@ -34,3 +34,8 @@
 .titlebox h6 {
   margin: 0;
 }
+
+.module {
+  margin: 1rem 0 0 0;
+  color: var(--ifm-color-secondary-darkest);
+}
